@@ -1,33 +1,8 @@
 {
-  "total_in_ghl": 3,
-  "total_not_in_ghl": 5,
-  "recent_syncs": [
-    {
-      "lead_id": "lead_007",
-      "company": "Gold Coast Exotics",
-      "direction": "push",
-      "http_status": 200,
-      "timestamp": "2026-04-01T10:00:00Z",
-      "ghl_contact_id": "ghl_contact_gc007"
-    },
-    {
-      "lead_id": "lead_006",
-      "company": "Empire Exotic Rentals",
-      "direction": "push",
-      "http_status": 200,
-      "timestamp": "2026-04-02T18:00:00Z",
-      "ghl_contact_id": "ghl_contact_emp006"
-    },
-    {
-      "lead_id": "lead_002",
-      "company": "Velocity Exotics",
-      "direction": "pull",
-      "http_status": 200,
-      "timestamp": "2026-04-02T16:00:00Z",
-      "ghl_contact_id": "ghl_contact_vel001"
-    }
-  ],
-  "last_sync_at": "2026-04-03T10:00:00Z",
+  "total_in_ghl": 0,
+  "total_not_in_ghl": 113,
+  "recent_syncs": [],
+  "last_sync_at": null,
   "sync_errors": [],
-  "generated_at": "2026-04-03T17:35:35.136773+00:00"
+  "generated_at": "2026-04-03T18:35:42.545615+00:00"
 }

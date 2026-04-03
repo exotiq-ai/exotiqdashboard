@@ -1,31 +1,36 @@
 {
-  "total_leads": 8,
+  "total_leads": 113,
   "by_score": {
-    "1": 0,
-    "2": 1,
-    "3": 1,
-    "4": 3,
-    "5": 3,
-    "unscored": 0
+    "1": 4,
+    "2": 29,
+    "3": 35,
+    "4": 31,
+    "5": 12,
+    "unscored": 2
   },
   "by_market": {
-    "Miami": 3,
-    "Orlando": 1,
-    "Las Vegas": 1,
-    "New York": 1,
-    "Los Angeles": 1,
-    "Tampa": 1
+    "DC/DMV": 8,
+    "Los Angeles": 10,
+    "Las Vegas": 8,
+    "NYC": 8,
+    "Dallas/Fort Worth": 10,
+    "Phoenix/Scottsdale": 16,
+    "Miami": 28,
+    "Tampa": 3,
+    "SF Bay Area": 7,
+    "Atlanta": 8,
+    "Hollywood": 1,
+    "Fort Lauderdale": 3,
+    "NYC, NJ, Philly & DC": 2,
+    "Boca Raton": 1
   },
   "by_status": {
-    "enriched": 3,
-    "warm": 1,
-    "dm_sent": 1,
-    "discovered": 1,
-    "not_a_fit": 1,
-    "demo_scheduled": 1
+    "New": 66,
+    "Pending Approval": 9,
+    "Unknown": 38
   },
-  "ghl_synced": 3,
-  "pending_approval": 3,
-  "approved": 3,
-  "generated_at": "2026-04-03T17:35:35.135828+00:00"
+  "ghl_synced": 0,
+  "pending_approval": 29,
+  "approved": 0,
+  "generated_at": "2026-04-03T18:35:42.544845+00:00"
 }

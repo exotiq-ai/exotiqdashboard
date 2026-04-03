@@ -1,57 +1,93 @@
 {
   "funnel": {
-    "total_leads": 8,
-    "scored": 8,
-    "approved_for_outreach": 3,
-    "dm1_sent": 2,
-    "responded": 1,
-    "demo_scheduled": 1,
+    "total_leads": 113,
+    "scored": 111,
+    "approved_for_outreach": 0,
+    "dm1_sent": 16,
+    "responded": 4,
+    "demo_scheduled": 0,
     "demo_completed": 0
   },
   "conversion_rates": {
-    "lead_to_dm": 0.375,
-    "dm_to_response": 0.5,
-    "response_to_demo": 1.0
+    "lead_to_dm": 0.142,
+    "dm_to_response": 0.25,
+    "response_to_demo": 0.0
   },
   "by_market": {
-    "Miami": {
-      "total": 3,
-      "approved": 1,
-      "dm_sent": 1
+    "DC/DMV": {
+      "leads": 8,
+      "dm_sent": 0,
+      "responded": 0
     },
     "Los Angeles": {
-      "total": 1,
-      "approved": 1,
-      "dm_sent": 1
-    },
-    "New York": {
-      "total": 1,
-      "approved": 1,
-      "dm_sent": 1
-    },
-    "Orlando": {
-      "total": 1,
-      "approved": 0,
-      "dm_sent": 0
+      "leads": 10,
+      "dm_sent": 0,
+      "responded": 0
     },
     "Las Vegas": {
-      "total": 1,
-      "approved": 0,
-      "dm_sent": 0
+      "leads": 8,
+      "dm_sent": 0,
+      "responded": 0
+    },
+    "NYC": {
+      "leads": 8,
+      "dm_sent": 0,
+      "responded": 0
+    },
+    "Dallas/Fort Worth": {
+      "leads": 10,
+      "dm_sent": 0,
+      "responded": 0
+    },
+    "Phoenix/Scottsdale": {
+      "leads": 16,
+      "dm_sent": 0,
+      "responded": 0
+    },
+    "Miami": {
+      "leads": 28,
+      "dm_sent": 12,
+      "responded": 2
     },
     "Tampa": {
-      "total": 1,
-      "approved": 0,
-      "dm_sent": 0
+      "leads": 3,
+      "dm_sent": 0,
+      "responded": 1
+    },
+    "SF Bay Area": {
+      "leads": 7,
+      "dm_sent": 0,
+      "responded": 0
+    },
+    "Atlanta": {
+      "leads": 8,
+      "dm_sent": 0,
+      "responded": 0
+    },
+    "Hollywood": {
+      "leads": 1,
+      "dm_sent": 1,
+      "responded": 0
+    },
+    "Fort Lauderdale": {
+      "leads": 3,
+      "dm_sent": 2,
+      "responded": 0
+    },
+    "NYC, NJ, Philly & DC": {
+      "leads": 2,
+      "dm_sent": 0,
+      "responded": 1
+    },
+    "Boca Raton": {
+      "leads": 1,
+      "dm_sent": 1,
+      "responded": 0
     }
   },
   "velocity": {
-    "leads_added_last_7_days": 8,
-    "dms_sent_last_7_days": 2
+    "leads_added_last_7_days": 113,
+    "dms_sent_last_7_days": 6
   },
-  "avg_days_discovery_to_contact": 2,
-  "avg_days_contact_to_response": 1,
-  "avg_days_response_to_demo": 3,
-  "pipeline_trend": "improving",
-  "generated_at": "2026-04-03T17:35:35.137072+00:00"
+  "generated_at": "2026-04-03T18:35:42.546104+00:00"
 }
