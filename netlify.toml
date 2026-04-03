@@ -1,0 +1,20 @@
+# netlify.toml -- Netlify build and functions configuration
+# Dashboard and GHL webhook listener deploy together from this repo.
+
+[build]
+  publish = "public"
+  functions = "netlify/functions"
+
+[functions]
+  node_bundler = "esbuild"
+
+# Netlify serves /.netlify/functions/* automatically before checking redirects.
+# This SPA redirect catches all other routes and serves index.html.
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
+
+[dev]
+  port = 3000
+  functions = "netlify/functions"

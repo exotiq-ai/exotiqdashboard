@@ -1,0 +1,106 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg: #0A0A0F;
+  --card: #141420;
+  --border: #1E1E2E;
+  --accent: #00D4AA;
+  --text: #E8E8F0;
+  --muted: #8888A0;
+}
+
+html, body {
+  background-color: var(--bg);
+  color: var(--text);
+  font-family: 'Inter', sans-serif;
+  min-height: 100vh;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: var(--bg);
+}
+::-webkit-scrollbar-thumb {
+  background: #2a2a3e;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--accent);
+}
+
+/* Mono font for data */
+.font-data {
+  font-family: 'JetBrains Mono', monospace;
+}
+
+/* Click-to-copy feedback */
+.copy-flash {
+  animation: flash 0.3s ease;
+}
+
+@keyframes flash {
+  0% { opacity: 1; }
+  50% { opacity: 0.4; }
+  100% { opacity: 1; }
+}
+
+/* Skeleton loading */
+@keyframes shimmer {
+  0% { background-position: -200% 0; }
+  100% { background-position: 200% 0; }
+}
+
+.skeleton {
+  background: linear-gradient(90deg, #141420 25%, #1e1e2e 50%, #141420 75%);
+  background-size: 200% 100%;
+  animation: shimmer 1.5s infinite;
+  border-radius: 4px;
+}
+
+/* Score badge colors */
+.score-5 { background-color: #FFD700; color: #000; }
+.score-4 { background-color: #00D4AA; color: #000; }
+.score-3 { background-color: #3B82F6; color: #fff; }
+.score-2 { background-color: #6B7280; color: #fff; }
+.score-1 { background-color: #374151; color: #9ca3af; }
+
+/* GHL badge colors */
+.ghl-not-in { background-color: #374151; color: #9ca3af; }
+.ghl-in { background-color: #1d4ed8; color: #bfdbfe; }
+.ghl-warm { background-color: #065f46; color: #6ee7b7; }
+.ghl-gregory { background-color: #78350f; color: #fcd34d; }
+
+/* Do Not Say warning */
+.do-not-say {
+  border: 1px solid #ef4444;
+  background-color: rgba(239, 68, 68, 0.08);
+  border-radius: 6px;
+  padding: 8px 12px;
+  color: #fca5a5;
+}
+
+/* Tab active */
+.tab-active {
+  border-bottom: 2px solid var(--accent);
+  color: var(--accent);
+}
+
+/* Card hover */
+.lead-card:hover {
+  border-color: #2a2a3e;
+}
+
+/* Transition */
+.transition-all {
+  transition: all 0.2s ease;
+}

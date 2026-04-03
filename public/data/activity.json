@@ -1,1 +1,146 @@
-[]
+[
+  {
+    "id": "act_001",
+    "timestamp": "2026-04-03T10:22:00Z",
+    "type": "scoring",
+    "lead_id": "lead_001",
+    "description": "Scored Prestige Luxury Rentals: 5/5. Fleet size 43, IG followers 45K, Google 4.7/312. High confidence.",
+    "source": "scoring_skill",
+    "agent": "openclaw"
+  },
+  {
+    "id": "act_002",
+    "timestamp": "2026-04-03T10:15:00Z",
+    "type": "enrichment",
+    "lead_id": "lead_001",
+    "description": "Enrichment complete: Apollo contact match (HIGH), IG profile scraped (45K followers), Google Maps data fetched.",
+    "source": "lead_enrichment",
+    "agent": "openclaw"
+  },
+  {
+    "id": "act_003",
+    "timestamp": "2026-04-03T09:00:00Z",
+    "type": "dm_draft",
+    "lead_id": "lead_001",
+    "description": "DM draft generated for Prestige Luxury Rentals using Template B. Personalized with fleet size and IG following.",
+    "source": "dm_drafting",
+    "agent": "openclaw"
+  },
+  {
+    "id": "act_004",
+    "timestamp": "2026-04-03T08:00:00Z",
+    "type": "scoring",
+    "lead_id": "lead_004",
+    "description": "Scored Apex Exotic Fleet (Las Vegas): 5/5. Fleet 55 including Bugatti, 63K IG, 4.8/528 Google. Missing contact info.",
+    "source": "scoring_skill",
+    "agent": "openclaw"
+  },
+  {
+    "id": "act_005",
+    "timestamp": "2026-04-02T18:00:00Z",
+    "type": "ghl_push",
+    "lead_id": "lead_006",
+    "description": "Empire Exotic Rentals pushed to GHL. Contact created: ghl_contact_emp006. Stage: DM Sent.",
+    "source": "ghl_push",
+    "agent": "openclaw"
+  },
+  {
+    "id": "act_006",
+    "timestamp": "2026-04-02T17:30:00Z",
+    "type": "approved",
+    "lead_id": "lead_006",
+    "description": "DM approved for Empire Exotic Rentals (Anthony DeMarco). Approved by Gregory. Template F.",
+    "source": "dashboard",
+    "agent": "gregory"
+  },
+  {
+    "id": "act_007",
+    "timestamp": "2026-04-02T16:00:00Z",
+    "type": "ghl_sync",
+    "lead_id": "lead_002",
+    "description": "GHL status update received for Velocity Exotics: stage changed to Responded. Maria Santos replied via IG.",
+    "source": "ghl_listener",
+    "agent": "openclaw"
+  },
+  {
+    "id": "act_008",
+    "timestamp": "2026-04-02T15:00:00Z",
+    "type": "scoring",
+    "lead_id": "lead_006",
+    "description": "Scored Empire Exotic Rentals: 4/5. NYC market, 31-car fleet, CEO contact confirmed via Apollo.",
+    "source": "scoring_skill",
+    "agent": "openclaw"
+  },
+  {
+    "id": "act_009",
+    "timestamp": "2026-04-02T11:00:00Z",
+    "type": "scoring",
+    "lead_id": "lead_008",
+    "description": "Scored Gulf Coast Supercars: 3/5. 17-car fleet, Tampa market, owner-operated. Medium confidence.",
+    "source": "scoring_skill",
+    "agent": "openclaw"
+  },
+  {
+    "id": "act_010",
+    "timestamp": "2026-04-02T09:15:00Z",
+    "type": "scoring",
+    "lead_id": "lead_003",
+    "description": "Scored SunState Exotics: 4/5. Solo operator, 22 vehicles, International Drive location. High tourist volume.",
+    "source": "scoring_skill",
+    "agent": "openclaw"
+  },
+  {
+    "id": "act_011",
+    "timestamp": "2026-04-01T14:30:00Z",
+    "type": "scoring",
+    "lead_id": "lead_002",
+    "description": "Rescored Velocity Exotics: 4/5 (was 3). Updated after GHL response confirmation -- warm lead.",
+    "source": "scoring_skill",
+    "agent": "openclaw"
+  },
+  {
+    "id": "act_012",
+    "timestamp": "2026-04-01T11:00:00Z",
+    "type": "status_change",
+    "lead_id": "lead_005",
+    "description": "Luxe Drive Miami marked as Not a Fit. 5-car fleet below threshold. Score: 2.",
+    "source": "scoring_skill",
+    "agent": "openclaw"
+  },
+  {
+    "id": "act_013",
+    "timestamp": "2026-04-01T10:00:00Z",
+    "type": "ghl_push",
+    "lead_id": "lead_007",
+    "description": "Gold Coast Exotics pushed to GHL. Contact created: ghl_contact_gc007. Stage: Demo Scheduled.",
+    "source": "ghl_push",
+    "agent": "openclaw"
+  },
+  {
+    "id": "act_014",
+    "timestamp": "2026-04-01T09:30:00Z",
+    "type": "approved",
+    "lead_id": "lead_007",
+    "description": "DM approved for Gold Coast Exotics (Brianna Williams). Demo booked April 7 at 2pm PT.",
+    "source": "dashboard",
+    "agent": "gregory"
+  },
+  {
+    "id": "act_015",
+    "timestamp": "2026-03-30T09:00:00Z",
+    "type": "discovery",
+    "lead_id": "lead_002",
+    "description": "Discovered Velocity Exotics via Instagram search for Miami exotic rentals. IG: @velocityexotics, 28K followers.",
+    "source": "lead_discovery",
+    "agent": "openclaw"
+  },
+  {
+    "id": "act_016",
+    "timestamp": "2026-03-27T09:00:00Z",
+    "type": "discovery",
+    "lead_id": "lead_007",
+    "description": "Discovered Gold Coast Exotics via Google Maps search Los Angeles luxury rentals. 4.9 rating, 401 reviews.",
+    "source": "lead_discovery",
+    "agent": "openclaw"
+  }
+]
