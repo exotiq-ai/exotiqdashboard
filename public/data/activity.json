@@ -1,5 +1,23 @@
 [
   {
+    "id": 9,
+    "timestamp": "2026-04-03T23:14:45.520760+00:00",
+    "type": "migration",
+    "lead_id": "Added Otto Exotics (Chicago) from live CRM export. Score 5, demo scheduled.",
+    "description": "lead_chi_001",
+    "source": "manual",
+    "agent": "saul"
+  },
+  {
+    "id": 8,
+    "timestamp": "2026-04-03T18:35:42.547413+00:00",
+    "type": "dashboard_sync",
+    "lead_id": null,
+    "description": "Exported 113 leads and 7 activity entries to public/data",
+    "source": null,
+    "agent": "dashboard_sync"
+  },
+  {
     "id": 7,
     "timestamp": "2026-04-03T18:35:37.959153+00:00",
     "type": "xlsx_migration",

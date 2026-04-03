@@ -1,19 +1,24 @@
 {
   "funnel": {
-    "total_leads": 113,
-    "scored": 111,
+    "total_leads": 114,
+    "scored": 112,
     "approved_for_outreach": 0,
     "dm1_sent": 16,
     "responded": 4,
-    "demo_scheduled": 0,
+    "demo_scheduled": 1,
     "demo_completed": 0
   },
   "conversion_rates": {
-    "lead_to_dm": 0.142,
+    "lead_to_dm": 0.14,
     "dm_to_response": 0.25,
-    "response_to_demo": 0.0
+    "response_to_demo": 0.25
   },
   "by_market": {
+    "Chicago": {
+      "leads": 1,
+      "dm_sent": 0,
+      "responded": 0
+    },
     "DC/DMV": {
       "leads": 8,
       "dm_sent": 0,
@@ -86,8 +91,8 @@
     }
   },
   "velocity": {
-    "leads_added_last_7_days": 113,
+    "leads_added_last_7_days": 114,
     "dms_sent_last_7_days": 6
   },
-  "generated_at": "2026-04-03T18:35:42.546104+00:00"
+  "generated_at": "2026-04-03T23:14:45.563567+00:00"
 }

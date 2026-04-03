@@ -1,5 +1,66 @@
 [
   {
+    "id": "lead_chi_001",
+    "company": "Otto Exotics",
+    "contact": {
+      "first_name": "Otto",
+      "last_name": "Naser",
+      "email": "Ottoexotics@gmail.com",
+      "phone": null,
+      "linkedin": "https://www.linkedin.com/in/otto-naser-90b085136/",
+      "ig_personal": null
+    },
+    "company_data": {
+      "ig_handle": "@ottoexotics",
+      "ig_followers": null,
+      "website": "https://ottoexotics.com/",
+      "address": null,
+      "google_rating": null,
+      "google_reviews": null
+    },
+    "fleet": {
+      "size": null,
+      "size_confidence": null,
+      "vehicle_types": [],
+      "vehicle_types_source": null
+    },
+    "scoring": {
+      "score": 5,
+      "confidence": "HIGH",
+      "rationale": null,
+      "scored_at": null,
+      "previous_score": null
+    },
+    "outreach": {
+      "status": "Demo Scheduled",
+      "dm_draft": null,
+      "template_used": null,
+      "client_review": "Y",
+      "approval_status": null,
+      "dm1_sent": null,
+      "dm2_sent": null,
+      "dm3_sent": null,
+      "response_received": null,
+      "response_category": null,
+      "calendly_sent": null,
+      "demo_scheduled": 1
+    },
+    "ghl": {
+      "contact_id": null,
+      "opportunity_id": null,
+      "pipeline_stage": null,
+      "last_sync": null,
+      "in_ghl": false,
+      "tags": []
+    },
+    "market": "Chicago",
+    "lead_source": "Personal Outreach",
+    "enrichment_history": [],
+    "notes": "Demo Call April 3 at 12pm MDT. Reached via Facebook - Moda Group. Client Review: Y. Client Notes: Demo Friday April 2.",
+    "created_at": "2026-04-03T23:14:45.505487+00:00",
+    "updated_at": "2026-04-03T23:14:45.506011+00:00"
+  },
+  {
     "id": "lead_dc_001",
     "company": "My Sugar Exotics",
     "contact": {

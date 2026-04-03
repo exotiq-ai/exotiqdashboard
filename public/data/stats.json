@@ -1,14 +1,15 @@
 {
-  "total_leads": 113,
+  "total_leads": 114,
   "by_score": {
     "1": 4,
     "2": 29,
     "3": 35,
     "4": 31,
-    "5": 12,
+    "5": 13,
     "unscored": 2
   },
   "by_market": {
+    "Chicago": 1,
     "DC/DMV": 8,
     "Los Angeles": 10,
     "Las Vegas": 8,
@@ -25,6 +26,7 @@
     "Boca Raton": 1
   },
   "by_status": {
+    "Demo Scheduled": 1,
     "New": 66,
     "Pending Approval": 9,
     "Unknown": 38
@@ -32,5 +34,5 @@
   "ghl_synced": 0,
   "pending_approval": 29,
   "approved": 0,
-  "generated_at": "2026-04-03T18:35:42.544845+00:00"
+  "generated_at": "2026-04-03T23:14:45.562356+00:00"
 }
