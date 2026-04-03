@@ -1,24 +1,19 @@
 {
   "funnel": {
-    "total_leads": 114,
-    "scored": 112,
-    "approved_for_outreach": 0,
-    "dm1_sent": 16,
+    "total_leads": 122,
+    "scored": 121,
+    "approved_for_outreach": 18,
+    "dm1_sent": 19,
     "responded": 4,
     "demo_scheduled": 1,
     "demo_completed": 0
   },
   "conversion_rates": {
-    "lead_to_dm": 0.14,
-    "dm_to_response": 0.25,
+    "lead_to_dm": 0.156,
+    "dm_to_response": 0.211,
     "response_to_demo": 0.25
   },
   "by_market": {
-    "Chicago": {
-      "leads": 1,
-      "dm_sent": 0,
-      "responded": 0
-    },
     "DC/DMV": {
       "leads": 8,
       "dm_sent": 0,
@@ -35,7 +30,12 @@
       "responded": 0
     },
     "NYC": {
-      "leads": 8,
+      "leads": 10,
+      "dm_sent": 0,
+      "responded": 1
+    },
+    "Chicago": {
+      "leads": 1,
       "dm_sent": 0,
       "responded": 0
     },
@@ -50,14 +50,14 @@
       "responded": 0
     },
     "Miami": {
-      "leads": 28,
-      "dm_sent": 12,
-      "responded": 2
+      "leads": 43,
+      "dm_sent": 19,
+      "responded": 3
     },
-    "Tampa": {
-      "leads": 3,
+    "Multi-Market": {
+      "leads": 1,
       "dm_sent": 0,
-      "responded": 1
+      "responded": 0
     },
     "SF Bay Area": {
       "leads": 7,
@@ -68,31 +68,11 @@
       "leads": 8,
       "dm_sent": 0,
       "responded": 0
-    },
-    "Hollywood": {
-      "leads": 1,
-      "dm_sent": 1,
-      "responded": 0
-    },
-    "Fort Lauderdale": {
-      "leads": 3,
-      "dm_sent": 2,
-      "responded": 0
-    },
-    "NYC, NJ, Philly & DC": {
-      "leads": 2,
-      "dm_sent": 0,
-      "responded": 1
-    },
-    "Boca Raton": {
-      "leads": 1,
-      "dm_sent": 1,
-      "responded": 0
     }
   },
   "velocity": {
-    "leads_added_last_7_days": 114,
-    "dms_sent_last_7_days": 6
+    "leads_added_last_7_days": 122,
+    "dms_sent_last_7_days": 10
   },
-  "generated_at": "2026-04-03T23:14:45.563567+00:00"
+  "generated_at": "2026-04-03T23:16:34.768338+00:00"
 }

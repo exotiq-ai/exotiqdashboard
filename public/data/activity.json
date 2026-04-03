@@ -1,83 +1,11 @@
 [
   {
-    "id": 9,
-    "timestamp": "2026-04-03T23:14:45.520760+00:00",
+    "id": 1,
+    "timestamp": "2026-04-03T23:16:27.478956+00:00",
     "type": "migration",
-    "lead_id": "Added Otto Exotics (Chicago) from live CRM export. Score 5, demo scheduled.",
-    "description": "lead_chi_001",
+    "lead_id": null,
+    "description": "Master CRM migration: 122 leads across 11 markets",
     "source": "manual",
     "agent": "saul"
-  },
-  {
-    "id": 8,
-    "timestamp": "2026-04-03T18:35:42.547413+00:00",
-    "type": "dashboard_sync",
-    "lead_id": null,
-    "description": "Exported 113 leads and 7 activity entries to public/data",
-    "source": null,
-    "agent": "dashboard_sync"
-  },
-  {
-    "id": 7,
-    "timestamp": "2026-04-03T18:35:37.959153+00:00",
-    "type": "xlsx_migration",
-    "lead_id": null,
-    "description": "Migrated 113 leads from Miami_Operators_Clean_2.xlsx",
-    "source": "xlsx_migration",
-    "agent": "migrate_xlsx"
-  },
-  {
-    "id": 6,
-    "timestamp": "2026-04-03T18:35:35.778714+00:00",
-    "type": "xlsx_import_lead_source_tracker",
-    "lead_id": null,
-    "description": "{\"Lead Source Type\": \"TOTAL\", \"Total Leads Found\": \"23\", \"Leads Contacted\": \"#VALUE!\", \"Responses Received\": \"2\", \"Demos Booked\": \"#VALUE!\"}",
-    "source": "xlsx_migration",
-    "agent": "migrate_xlsx"
-  },
-  {
-    "id": 5,
-    "timestamp": "2026-04-03T18:35:35.778714+00:00",
-    "type": "xlsx_import_lead_source_tracker",
-    "lead_id": null,
-    "description": "{\"Lead Source Type\": \"Location Tag\", \"Total Leads Found\": \"0\", \"Leads Contacted\": \"#VALUE!\", \"Responses Received\": \"0\", \"Demos Booked\": \"#VALUE!\"}",
-    "source": "xlsx_migration",
-    "agent": "migrate_xlsx"
-  },
-  {
-    "id": 4,
-    "timestamp": "2026-04-03T18:35:35.778714+00:00",
-    "type": "xlsx_import_lead_source_tracker",
-    "lead_id": null,
-    "description": "{\"Lead Source Type\": \"Similar Account\", \"Total Leads Found\": \"0\", \"Leads Contacted\": \"#VALUE!\", \"Responses Received\": \"0\", \"Demos Booked\": \"#VALUE!\"}",
-    "source": "xlsx_migration",
-    "agent": "migrate_xlsx"
-  },
-  {
-    "id": 3,
-    "timestamp": "2026-04-03T18:35:35.778714+00:00",
-    "type": "xlsx_import_lead_source_tracker",
-    "lead_id": null,
-    "description": "{\"Lead Source Type\": \"Hashtag Search\", \"Total Leads Found\": \"0\", \"Leads Contacted\": \"#VALUE!\", \"Responses Received\": \"0\", \"Demos Booked\": \"#VALUE!\"}",
-    "source": "xlsx_migration",
-    "agent": "migrate_xlsx"
-  },
-  {
-    "id": 2,
-    "timestamp": "2026-04-03T18:35:35.778714+00:00",
-    "type": "xlsx_import_lead_source_tracker",
-    "lead_id": null,
-    "description": "{\"Lead Source Type\": \"Manual\", \"Total Leads Found\": \"23\", \"Leads Contacted\": \"#VALUE!\", \"Responses Received\": \"2\", \"Demos Booked\": \"#VALUE!\"}",
-    "source": "xlsx_migration",
-    "agent": "migrate_xlsx"
-  },
-  {
-    "id": 1,
-    "timestamp": "2026-04-03T17:35:35.138533+00:00",
-    "type": "dashboard_sync",
-    "lead_id": null,
-    "description": "Exported 0 leads and 0 activity entries to public/data",
-    "source": null,
-    "agent": "dashboard_sync"
   }
 ]
