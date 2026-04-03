@@ -54,13 +54,16 @@ export function formatPct(n) {
 }
 
 export function contactName(lead) {
-  const f = lead.contact_first_name || ''
-  const l = lead.contact_last_name || ''
+  // Handle both flat and nested structures
+  const contact = lead.contact || {}
+  const f = contact.first_name || lead.contact_first_name || ''
+  const l = contact.last_name || lead.contact_last_name || ''
   const full = [f, l].filter(Boolean).join(' ')
   return full || '--'
 }
 
 export function ghlStageLabel(lead) {
-  if (!lead.ghl_contact_id) return null
-  return lead.ghl_pipeline_stage || 'In GHL'
+  const ghl = lead.ghl || {}
+  if (!ghl.contact_id && !lead.ghl_contact_id) return null
+  return ghl.pipeline_stage || lead.ghl_pipeline_stage || 'In GHL'
 }

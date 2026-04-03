@@ -38,10 +38,14 @@ function ApprovalCard({ lead, onAction }) {
   const [approved, setApproved] = useState(false)
 
   const name = contactName(lead)
+  const outreach = lead.outreach || {}
+  const scoring = lead.scoring || {}
 
   const doNotSay = (() => {
-    try { return JSON.parse(lead.dm_do_not_say || '[]') } catch {
-      return lead.dm_do_not_say ? [lead.dm_do_not_say] : []
+    const raw = outreach.do_not_say
+    if (Array.isArray(raw)) return raw
+    try { return JSON.parse(raw || '[]') } catch {
+      return raw ? [raw] : []
     }
   })()
 
@@ -69,7 +73,7 @@ function ApprovalCard({ lead, onAction }) {
       <div className="border border-border rounded-lg bg-card overflow-hidden">
         {/* Header */}
         <div className="flex items-center gap-3 px-4 py-3 border-b border-border">
-          <ScoreBadge score={lead.scoring_score} />
+          <ScoreBadge score={scoring.score} />
           <div className="flex-1 min-w-0">
             <p className="text-text font-semibold text-sm truncate">{lead.company}</p>
             <p className="text-muted text-xs">{name} -- {lead.market}</p>
@@ -87,14 +91,14 @@ function ApprovalCard({ lead, onAction }) {
         {expanded && (
           <div className="p-4 space-y-4">
             {/* DO NOT SAY */}
-            {doNotSay.length > 0 && (
-              <div className="do-not-say">
+            {doNotSay.length > 0 && doNotSay.some(s => s && s.trim()) && (
+              <div className="bg-red-950/30 border border-red-900/50 rounded-lg p-3">
                 <p className="text-red-400 text-xs font-mono font-semibold flex items-center gap-1 mb-1">
                   <AlertTriangle size={12} />
                   Do Not Say
                 </p>
-                {doNotSay.map((item, i) => (
-                  <p key={i} className="text-xs">{item}</p>
+                {doNotSay.filter(s => s && s.trim()).map((item, i) => (
+                  <p key={i} className="text-xs text-red-300">{item}</p>
                 ))}
               </div>
             )}
@@ -104,14 +108,14 @@ function ApprovalCard({ lead, onAction }) {
               <div className="flex items-center justify-between mb-2">
                 <p className="text-muted text-xs font-mono uppercase tracking-wider">
                   DM Draft
-                  {lead.dm_template_used && (
-                    <span className="ml-2 text-accent">Template {lead.dm_template_used}</span>
+                  {outreach.template_used && (
+                    <span className="ml-2 text-accent">Template {outreach.template_used}</span>
                   )}
                 </p>
               </div>
               <div className="bg-bg border border-border rounded p-3">
                 <p className="text-sm text-text leading-relaxed whitespace-pre-wrap">
-                  {lead.dm_draft || <span className="text-muted italic">No DM draft</span>}
+                  {outreach.dm_draft || <span className="text-muted italic">No DM draft</span>}
                 </p>
               </div>
             </div>
@@ -161,7 +165,7 @@ function ApprovalCard({ lead, onAction }) {
 }
 
 export default function ApprovalQueue({ leads, loading, onAction }) {
-  const pending = leads.filter(l => l.dm_approval_status === 'PENDING')
+  const pending = leads.filter(l => (l.outreach?.approval_status) === 'PENDING')
 
   if (loading) {
     return (

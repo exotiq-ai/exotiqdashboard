@@ -47,7 +47,7 @@ export default function App() {
   const statuses = getUniqueStatuses(leads)
   const filteredLeads = applyFilters(leads, filters)
 
-  const pendingCount = leads.filter(l => l.dm_approval_status === 'PENDING').length
+  const pendingCount = leads.filter(l => l.outreach?.approval_status === 'PENDING').length
 
   function handleAction(action, lead) {
     console.log(`[Action] ${action}:`, lead?.id, lead?.company)

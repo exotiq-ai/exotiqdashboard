@@ -55,9 +55,9 @@ function PlaceholderButton({ label, description }) {
 }
 
 export default function ExportTab({ leads, loading }) {
-  const approvedLeads = leads.filter(l => l.dm_approval_status === 'APPROVED')
-  const score5Leads = leads.filter(l => l.scoring_score === 5)
-  const score4Plus = leads.filter(l => l.scoring_score >= 4)
+  const approvedLeads = leads.filter(l => l.outreach?.approval_status === 'APPROVED')
+  const score5Leads = leads.filter(l => l.scoring?.score === 5)
+  const score4Plus = leads.filter(l => (l.scoring?.score || 0) >= 4)
 
   return (
     <div className="p-6 max-w-2xl">

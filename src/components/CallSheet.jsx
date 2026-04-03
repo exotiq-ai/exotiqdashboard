@@ -32,17 +32,18 @@ function CopyablePhone({ phone }) {
 
 function CallCard({ lead }) {
   const name = contactName(lead)
-  const isScore5 = lead.scoring_score === 5
+  const scoring = lead.scoring || {}
+  const contact = lead.contact || {}
+  const companyData = lead.company_data || {}
+  const fleet = lead.fleet || {}
+  const outreach = lead.outreach || {}
+  const isScore5 = scoring.score === 5
 
   const doNotSay = (() => {
-    try { return JSON.parse(lead.dm_do_not_say || '[]') } catch {
-      return lead.dm_do_not_say ? [lead.dm_do_not_say] : []
-    }
-  })()
-
-  const talkingPoints = (() => {
-    try { return JSON.parse(lead.talking_points || '[]') } catch {
-      return lead.talking_points ? [lead.talking_points] : []
+    const raw = outreach.do_not_say
+    if (Array.isArray(raw)) return raw
+    try { return JSON.parse(raw || '[]') } catch {
+      return raw ? [raw] : []
     }
   })()
 
@@ -53,77 +54,85 @@ function CallCard({ lead }) {
       {/* Header */}
       <div className="flex items-center gap-3 px-4 py-3 border-b border-border">
         {isScore5 && <Star size={14} className="text-yellow-400 flex-shrink-0" />}
-        <ScoreBadge score={lead.scoring_score} />
+        <ScoreBadge score={scoring.score} />
         <div className="flex-1 min-w-0">
           <p className="text-text font-semibold text-sm">{lead.company}</p>
-          <p className="text-muted text-xs">{name} -- {lead.market}</p>
+          <p className="text-muted text-xs">{name}{contact.title ? ` -- ${contact.title}` : ''} -- {lead.market}</p>
         </div>
-        <span className="text-muted text-xs hidden sm:block">{lead.ghl_pipeline_stage || lead.status}</span>
+        <span className="text-muted text-xs hidden sm:block">{lead.ghl?.pipeline_stage || outreach.status}</span>
       </div>
 
       <div className="p-4 grid grid-cols-1 md:grid-cols-2 gap-4">
         {/* Left: contact info */}
         <div className="space-y-3">
-          {lead.contact_phone ? (
-            <CopyablePhone phone={lead.contact_phone} />
+          {contact.phone ? (
+            <CopyablePhone phone={contact.phone} />
           ) : (
             <p className="text-muted text-xs italic">No phone on file</p>
           )}
 
-          {lead.contact_email && (
-            <p className="text-muted text-xs font-mono">{lead.contact_email}</p>
+          {contact.email && (
+            <p className="text-muted text-xs font-mono">{contact.email}</p>
           )}
 
-          {lead.company_ig_handle && (
+          {companyData.ig_handle && (
             <p className="text-muted text-xs">
               <span className="text-muted">IG:</span>{' '}
-              <span className="text-text font-mono">{lead.company_ig_handle}</span>
+              <span className="text-text font-mono">{companyData.ig_handle}</span>
+              {companyData.ig_followers && (
+                <span className="text-accent ml-1">({Number(companyData.ig_followers).toLocaleString()})</span>
+              )}
             </p>
           )}
 
-          {lead.fleet_size && (
+          {fleet.size && (
             <p className="text-muted text-xs">
-              Fleet: <span className="text-text font-mono">{lead.fleet_size} vehicles</span>
+              Fleet: <span className="text-text font-mono">{fleet.size} vehicles</span>
             </p>
           )}
 
-          {lead.scoring_rationale && (
+          {scoring.rationale && (
             <div>
-              <p className="text-muted text-xs font-mono uppercase mb-1">Why call</p>
-              <p className="text-xs text-text leading-relaxed">{lead.scoring_rationale}</p>
+              <p className="text-muted text-xs font-mono uppercase mb-1">Intel</p>
+              <p className="text-xs text-text leading-relaxed max-h-24 overflow-y-auto">{scoring.rationale}</p>
             </div>
           )}
         </div>
 
-        {/* Right: talking points + do not say */}
+        {/* Right: outreach status + notes + do not say */}
         <div className="space-y-3">
-          {talkingPoints.length > 0 && (
-            <div>
-              <p className="text-muted text-xs font-mono uppercase mb-1">Talking Points</p>
-              <ul className="space-y-1">
-                {talkingPoints.map((pt, i) => (
-                  <li key={i} className="flex items-start gap-2 text-xs text-text">
-                    <span className="text-accent mt-0.5 flex-shrink-0">--</span>
-                    {pt}
-                  </li>
-                ))}
-              </ul>
+          {/* Outreach status */}
+          {(outreach.response_received || outreach.response_category) && (
+            <div className="p-2 rounded bg-green-900/20 border border-green-900/50">
+              <p className="text-green-400 text-xs font-semibold">Response: {outreach.response_category}</p>
+              {outreach.response_date && (
+                <p className="text-xs text-muted mt-0.5">Date: {outreach.response_date}</p>
+              )}
             </div>
           )}
 
-          {doNotSay.length > 0 && (
-            <div className="do-not-say">
+          {/* Notes */}
+          {lead.notes && (
+            <div>
+              <p className="text-muted text-xs font-mono uppercase mb-1">Notes</p>
+              <p className="text-xs text-text leading-relaxed">{lead.notes}</p>
+            </div>
+          )}
+
+          {/* DO NOT SAY */}
+          {doNotSay.length > 0 && doNotSay.some(s => s && s.trim()) && (
+            <div className="bg-red-950/30 border border-red-900/50 rounded-lg p-3">
               <p className="text-red-400 text-xs font-mono font-semibold flex items-center gap-1 mb-1">
                 <AlertTriangle size={12} />
                 Do Not Say
               </p>
-              {doNotSay.map((item, i) => (
-                <p key={i} className="text-xs">{item}</p>
+              {doNotSay.filter(s => s && s.trim()).map((item, i) => (
+                <p key={i} className="text-xs text-red-300">{item}</p>
               ))}
             </div>
           )}
 
-          {talkingPoints.length === 0 && doNotSay.length === 0 && (
+          {!lead.notes && doNotSay.length === 0 && !outreach.response_category && (
             <p className="text-muted text-xs italic">No talking points or restrictions on file.</p>
           )}
         </div>
@@ -133,15 +142,22 @@ function CallCard({ lead }) {
 }
 
 export default function CallSheet({ leads, loading }) {
-  const callLeads = leads.filter(l =>
-    l.scoring_score === 5 ||
-    l.status === 'warm' ||
-    l.ghl_pipeline_stage === 'Responded' ||
-    l.ghl_pipeline_stage === 'Demo Scheduled'
-  )
+  const callLeads = leads.filter(l => {
+    const score = l.scoring?.score
+    const status = l.outreach?.status
+    const respCat = l.outreach?.response_category
+    const ghlStage = l.ghl?.pipeline_stage
+    return (
+      score === 5 ||
+      status === 'Responded' ||
+      status === 'Demo Scheduled' ||
+      (respCat && respCat.toLowerCase().includes('interested')) ||
+      ghlStage === 'Responded -- Warm' ||
+      ghlStage === 'Demo Scheduled'
+    )
+  })
 
-  // Sort: score 5 first, then by score desc
-  callLeads.sort((a, b) => (b.scoring_score || 0) - (a.scoring_score || 0))
+  callLeads.sort((a, b) => (b.scoring?.score || 0) - (a.scoring?.score || 0))
 
   if (loading) {
     return (
@@ -172,7 +188,7 @@ export default function CallSheet({ leads, loading }) {
     <div className="p-4 space-y-4">
       <div className="flex items-center justify-between">
         <p className="text-muted text-xs font-mono">{callLeads.length} lead{callLeads.length !== 1 ? 's' : ''} ready for outreach</p>
-        {callLeads.some(l => l.scoring_score === 5) && (
+        {callLeads.some(l => l.scoring?.score === 5) && (
           <p className="text-yellow-400 text-xs flex items-center gap-1">
             <Star size={12} />
             Score 5 leads: Gregory handles personally
