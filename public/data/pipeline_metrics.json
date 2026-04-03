@@ -1,0 +1,22 @@
+{
+  "funnel": {
+    "total_leads": 0,
+    "scored": 0,
+    "approved_for_outreach": 0,
+    "dm1_sent": 0,
+    "responded": 0,
+    "demo_scheduled": 0,
+    "demo_completed": 0
+  },
+  "conversion_rates": {
+    "lead_to_dm": 0.0,
+    "dm_to_response": 0.0,
+    "response_to_demo": 0.0
+  },
+  "by_market": {},
+  "velocity": {
+    "leads_added_last_7_days": 0,
+    "dms_sent_last_7_days": 0
+  },
+  "generated_at": "2026-04-03T17:35:35.137072+00:00"
+}
