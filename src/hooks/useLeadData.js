@@ -100,6 +100,15 @@ export function useLeadData() {
     setLocalEdits(fresh)
   }, [lastSynced]) // Re-apply after each poll
 
+  const updateLeadStatus = useCallback((leadId, field, value) => {
+    setLeads(prev => prev.map(l =>
+      l.id === leadId
+        ? { ...l, outreach: { ...l.outreach, [field]: value } }
+        : l
+    ))
+    setLocalEdits(prev => ({ ...prev, [`${leadId}_${field}`]: { field, value, at: Date.now() } }))
+  }, [])
+
   return {
     leads,
     activity,
@@ -111,5 +120,6 @@ export function useLeadData() {
     lastSynced,
     refresh: fetchAll,
     updateLeadDm,
+    updateLeadStatus,
   }
 }

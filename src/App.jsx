@@ -42,6 +42,7 @@ export default function App() {
     lastSynced,
     refresh,
     updateLeadDm,
+    updateLeadStatus,
   } = useLeadData()
 
   const markets = getUniqueMarkets(leads)
@@ -59,11 +60,17 @@ export default function App() {
       return
     }
     if (action === 'approve') {
-      if (lead?.id) updateLeadDm(lead.id, lead?.outreach?.dm_draft, 'approve')
+      if (lead?.id) {
+        updateLeadDm(lead.id, lead?.outreach?.dm_draft, 'approve')
+        updateLeadStatus(lead.id, 'approval_status', 'APPROVED')
+      }
       return
     }
     if (action === 'reject') {
-      if (lead?.id) updateLeadDm(lead.id, lead?.outreach?.dm_draft, 'reject')
+      if (lead?.id) {
+        updateLeadDm(lead.id, lead?.outreach?.dm_draft, 'reject')
+        updateLeadStatus(lead.id, 'approval_status', 'REJECTED')
+      }
       return
     }
     console.log(`[Action] ${action}:`, lead?.id, lead?.company)

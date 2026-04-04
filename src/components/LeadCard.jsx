@@ -116,6 +116,7 @@ function ExpandedDetail({ lead, onAction }) {
 
   const isPending = outreach.approval_status === 'PENDING'
   const isApproved = outreach.approval_status === 'APPROVED'
+  const isRejected = outreach.approval_status === 'REJECTED'
   const name = contactName(lead)
 
   return (
@@ -391,6 +392,25 @@ function ExpandedDetail({ lead, onAction }) {
                       Push to GHL
                     </button>
                   )}
+                </div>
+              )}
+
+              {!editingDm && isRejected && (
+                <div className="mt-2 flex items-center gap-2 flex-wrap">
+                  <span className="text-xs text-red-400 flex items-center gap-1">
+                    <XCircle size={12} />
+                    Rejected
+                  </span>
+                  <button
+                    onClick={() => {
+                      setDmText(outreach.dm_draft || '')
+                      setEditingDm(true)
+                    }}
+                    className="flex items-center gap-1.5 px-3 py-1 rounded border border-border text-muted hover:text-text text-xs transition-all"
+                  >
+                    <Edit3 size={12} />
+                    Redraft
+                  </button>
                 </div>
               )}
             </>
