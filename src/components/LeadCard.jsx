@@ -382,13 +382,16 @@ function ExpandedDetail({ lead, onAction }) {
                     <Edit3 size={12} />
                     Edit
                   </button>
-                  {!ghl.contact_id && (
+                  {!ghl.contact_id && (contact.email || contact.phone) && (
                     <button
                       onClick={() => onAction('push_to_ghl', lead)}
                       className="px-3 py-1 rounded bg-blue-900 text-blue-300 text-xs hover:bg-blue-800 transition-all"
                     >
                       Push to GHL
                     </button>
+                  )}
+                  {!ghl.contact_id && !contact.email && !contact.phone && (
+                    <span className="text-xs text-yellow-400 italic">Needs email or phone to push</span>
                   )}
                 </div>
               )}
@@ -495,8 +498,18 @@ function ExpandedDetail({ lead, onAction }) {
           <SectionHeader label="Quick Actions" />
           <div className="flex flex-wrap gap-2">
             <button
-              onClick={() => onAction('push_to_ghl', lead)}
-              className="px-3 py-1.5 rounded border border-border text-muted hover:text-accent hover:border-accent text-xs transition-all"
+              onClick={() => {
+                if (!contact.email && !contact.phone) {
+                  alert(`Cannot push ${lead.company} to GHL: no email or phone on file.`)
+                  return
+                }
+                onAction('push_to_ghl', lead)
+              }}
+              className={`px-3 py-1.5 rounded border text-xs transition-all ${
+                !contact.email && !contact.phone
+                  ? 'border-gray-800 text-gray-600 cursor-not-allowed'
+                  : 'border-border text-muted hover:text-accent hover:border-accent'
+              }`}
             >
               Push to GHL
             </button>

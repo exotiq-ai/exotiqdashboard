@@ -101,6 +101,18 @@ exports.handler = async (event) => {
     const outreach = lead.outreach || {}
     const now = new Date().toISOString().split('T')[0]
 
+    // GHL requires at least email or phone
+    if (!contact.email && !contact.phone) {
+      return {
+        statusCode: 422,
+        headers,
+        body: JSON.stringify({
+          error: `Cannot push ${lead.company} to GHL: no email or phone on file. Add contact info first.`,
+          missing: 'email_or_phone',
+        }),
+      }
+    }
+
     // Build tags
     const market = (lead.market || 'unknown').toLowerCase().replace(/[\/\s]+/g, '-')
     const fleetSize = fleet.size || 0
