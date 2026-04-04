@@ -1,5 +1,14 @@
 [
   {
+    "id": 438,
+    "timestamp": "2026-04-04T03:28:54.870181+00:00",
+    "type": "dashboard_sync",
+    "lead_id": null,
+    "description": "Exported 122 leads and 435 activity entries to public/data",
+    "source": null,
+    "agent": "dashboard_sync"
+  },
+  {
     "id": 437,
     "timestamp": "2026-04-04T03:16:16.908897+00:00",
     "type": "ghl_push",

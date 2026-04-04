@@ -46,17 +46,17 @@ def _compute_monetary_value(fleet_size: Optional[int]) -> int:
     try:
         size = int(fleet_size)
     except (TypeError, ValueError):
-        return 79 * 12  # Starter minimum
+        return 79  # Starter minimum
 
     if size <= 0:
-        return 79 * 12  # Starter minimum
+        return 79  # Starter minimum
     if size <= 10:
-        return max(size * 29, 79) * 12
+        return max(size * 290, 79)  # $290/vehicle/year
     if size <= 25:
-        return 399 * 12
+        return 3990  # Professional annual
     if size <= 75:
-        return 899 * 12
-    return 1799 * 12  # Enterprise
+        return 8990  # Business annual
+    return 17990  # Enterprise annual
 
 
 def _build_tags(lead: dict) -> list[str]:
