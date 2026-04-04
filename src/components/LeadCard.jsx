@@ -463,12 +463,14 @@ function ExpandedDetail({ lead, onAction }) {
               )}
             </div>
             {ghl.contact_id && (
-              <button
-                className="text-xs text-blue-400 hover:text-blue-300 mt-1"
-                onClick={() => console.log('Open GHL contact:', ghl.contact_id)}
+              <a
+                href={`https://app.gohighlevel.com/v2/location/hTOVcYDLS1UfuiNzuzpT/contacts/detail/${ghl.contact_id}`}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-xs text-blue-400 hover:text-blue-300 mt-1 inline-block"
               >
                 Open in GHL →
-              </button>
+              </a>
             )}
           </div>
         </section>
