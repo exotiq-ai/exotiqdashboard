@@ -4,13 +4,14 @@ Exotiq SaaS Pricing Model
 Used to calculate GHL opportunity monetary value (annual contract value).
 Uses ANNUAL pricing (save 2 months vs monthly).
 
-Tiers:
-  Starter (1-10 vehicles):     $290/vehicle/year, minimum $79/year
-  Professional (up to 25):     $3,990/year ($22/vehicle overage)
-  Business (up to 75):         $8,990/year ($18/vehicle overage)
-  Enterprise (up to 150):      $17,990/year ($15/vehicle overage)
+Tiers (monthly, billed monthly):
+  Starter (1-10 vehicles):     $29/vehicle/month, minimum $79/month
+  Professional (up to 25):     $399/month
+  Business (up to 75):         $899/month
+  Enterprise (up to 150):      $1,799/month
 
-GHL opportunity values use annual pricing as the default assumption.
+GHL opportunity values use monthly * 12 as pipeline estimate.
+Post-conversion, update to actual contract value (monthly or annual).
 """
 
 
@@ -21,23 +22,15 @@ def calculate_annual_value(fleet_size: int | None) -> int:
     If fleet_size is None or 0, estimates conservatively at Starter minimum.
     """
     if not fleet_size or fleet_size <= 0:
-        # Unknown fleet -- assume Starter minimum
-        return 79  # $79/yr minimum
+        return 79 * 12  # Starter minimum, monthly * 12
 
     if fleet_size <= 10:
-        # Starter: $290/vehicle/year, minimum $79/year
-        return max(fleet_size * 290, 79)
-
+        return max(fleet_size * 29, 79) * 12  # $29/vehicle/month
     if fleet_size <= 25:
-        # Professional: $3,990/year
-        return 3990
-
+        return 399 * 12  # Professional
     if fleet_size <= 75:
-        # Business: $8,990/year
-        return 8990
-
-    # Enterprise: up to 150 vehicles, $17,990/year
-    return 17990
+        return 899 * 12  # Business
+    return 1799 * 12  # Enterprise
 
 
 def get_tier_name(fleet_size: int | None) -> str:

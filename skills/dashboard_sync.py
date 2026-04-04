@@ -33,16 +33,16 @@ def _compute_annual_value(fleet_size) -> int:
     try:
         size = int(fleet_size)
     except (TypeError, ValueError):
-        return 79
+        return 79 * 12
     if size <= 0:
-        return 79
+        return 79 * 12
     if size <= 10:
-        return max(size * 290, 79)
+        return max(size * 29, 79) * 12
     if size <= 25:
-        return 3990
+        return 399 * 12
     if size <= 75:
-        return 8990
-    return 17990
+        return 899 * 12
+    return 1799 * 12
 
 
 def _get_tier_name(fleet_size) -> str:
