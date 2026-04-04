@@ -36,6 +36,8 @@ function ApprovalCard({ lead, onAction }) {
   const [expanded, setExpanded] = useState(true)
   const [showGhlConfirm, setShowGhlConfirm] = useState(false)
   const [approved, setApproved] = useState(false)
+  const [editing, setEditing] = useState(false)
+  const [dmText, setDmText] = useState((lead.outreach || {}).dm_draft || '')
 
   const name = contactName(lead)
   const outreach = lead.outreach || {}
@@ -113,11 +115,53 @@ function ApprovalCard({ lead, onAction }) {
                   )}
                 </p>
               </div>
-              <div className="bg-bg border border-border rounded p-3">
-                <p className="text-sm text-text leading-relaxed whitespace-pre-wrap">
-                  {outreach.dm_draft || <span className="text-muted italic">No DM draft</span>}
-                </p>
-              </div>
+              {editing ? (
+                <div className="space-y-2">
+                  <textarea
+                    value={dmText}
+                    onChange={e => setDmText(e.target.value)}
+                    className="w-full bg-bg border border-accent/50 rounded-lg p-3 text-sm text-text leading-relaxed resize-none h-40 focus:outline-none focus:border-accent"
+                  />
+                  <div className="flex items-center justify-between">
+                    <span className={`text-xs font-mono ${
+                      (() => {
+                        const wc = dmText.trim().split(/\s+/).filter(Boolean).length
+                        if (wc > 150) return 'text-red-400'
+                        if (wc > 130) return 'text-yellow-400'
+                        return 'text-green-400'
+                      })()
+                    }`}>
+                      {dmText.trim().split(/\s+/).filter(Boolean).length} / 150 words
+                    </span>
+                    <div className="flex gap-2">
+                      <button
+                        onClick={() => {
+                          setEditing(false)
+                          onAction('save_dm', { ...lead, outreach: { ...outreach, dm_draft: dmText } })
+                        }}
+                        className="px-4 py-2 rounded bg-accent text-black text-xs font-semibold hover:bg-green-400 transition-all"
+                      >
+                        Save
+                      </button>
+                      <button
+                        onClick={() => {
+                          setEditing(false)
+                          setDmText(outreach.dm_draft || '')
+                        }}
+                        className="px-4 py-2 rounded border border-border text-muted hover:text-text text-xs transition-all"
+                      >
+                        Cancel
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              ) : (
+                <div className="bg-bg border border-border rounded p-3">
+                  <p className="text-sm text-text leading-relaxed whitespace-pre-wrap">
+                    {outreach.dm_draft || <span className="text-muted italic">No DM draft</span>}
+                  </p>
+                </div>
+              )}
             </div>
 
             {/* Actions */}
@@ -131,7 +175,10 @@ function ApprovalCard({ lead, onAction }) {
                   Approve -- Push to GHL
                 </button>
                 <button
-                  onClick={() => onAction('edit', lead)}
+                  onClick={() => {
+                    setDmText(outreach.dm_draft || '')
+                    setEditing(true)
+                  }}
                   className="flex items-center gap-1.5 px-4 py-2 rounded border border-border text-muted hover:text-text text-xs transition-all"
                 >
                   <Edit3 size={14} />
