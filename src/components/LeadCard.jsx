@@ -40,6 +40,28 @@ function EmptyField({ label }) {
   return <span className="text-xs text-gray-600 italic">No {label}</span>
 }
 
+function IgLink({ handle, suffix }) {
+  if (!handle) return null
+  // Clean the handle: strip @, strip full URLs
+  let clean = handle.trim()
+  if (clean.startsWith('http')) {
+    // Extract handle from URL
+    clean = clean.replace(/https?:\/\/(www\.)?instagram\.com\//i, '').replace(/\/$/, '')
+  }
+  clean = clean.replace(/^@/, '')
+  const display = `@${clean}`
+  const url = `https://instagram.com/${clean}`
+
+  return (
+    <a href={url} target="_blank" rel="noopener noreferrer"
+      className="flex items-center gap-1.5 text-muted hover:text-pink-400 transition-all group">
+      <Instagram size={13} />
+      <span className="text-sm font-mono text-text group-hover:text-pink-400">{display}</span>
+      {suffix && <span className="text-xs text-muted">{suffix}</span>}
+    </a>
+  )
+}
+
 function SectionHeader({ icon: Icon, label, accent }) {
   return (
     <h4 className={`text-xs font-mono uppercase tracking-wider mb-2 flex items-center gap-1.5 ${accent || 'text-muted'}`}>
@@ -103,11 +125,7 @@ function ExpandedDetail({ lead, onAction }) {
             ) : <div className="flex items-center gap-1.5"><Mail size={13} className="text-gray-700" /><EmptyField label="email" /></div>}
 
             {contact.ig_personal && (
-              <CopyButton text={contact.ig_personal}>
-                <Instagram size={13} />
-                <span className="text-sm font-mono text-text">{contact.ig_personal}</span>
-                <span className="text-xs text-muted">(personal)</span>
-              </CopyButton>
+              <IgLink handle={contact.ig_personal} suffix="(personal)" />
             )}
 
             {contact.linkedin && (
@@ -125,11 +143,8 @@ function ExpandedDetail({ lead, onAction }) {
           <div className="space-y-1.5 bg-bg/50 rounded-lg p-3 border border-border/50">
             {company.ig_handle && (
               <div className="flex items-center gap-1.5">
-                <Instagram size={13} className="text-muted" />
-                <span className="text-sm font-mono text-text">{company.ig_handle}</span>
-                {company.ig_followers && (
-                  <span className="text-xs text-accent font-mono">({Number(company.ig_followers).toLocaleString()})</span>
-                )}
+                <IgLink handle={company.ig_handle} 
+                  suffix={company.ig_followers ? `(${Number(company.ig_followers).toLocaleString()})` : null} />
               </div>
             )}
 
