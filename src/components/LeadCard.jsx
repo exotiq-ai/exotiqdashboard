@@ -229,6 +229,7 @@ function ExpandedDetail({ lead, onAction }) {
                 outreach.status === 'Contacted' ? 'bg-blue-900/50 text-blue-400' :
                 outreach.status === 'Demo Scheduled' ? 'bg-accent/20 text-accent' :
                 outreach.status === 'Error Flagged' ? 'bg-red-900/50 text-red-400' :
+                outreach.status === 'Not a Fit' ? 'bg-red-900/50 text-red-400 line-through' :
                 outreach.status === 'Pending Approval' ? 'bg-yellow-900/50 text-yellow-400' :
                 'bg-border text-muted'
               }`}>{outreach.status || 'New'}</span>
@@ -515,12 +516,23 @@ function ExpandedDetail({ lead, onAction }) {
             >
               Send to Gregory
             </button>
-            <button
-              onClick={() => onAction('not_a_fit', lead)}
-              className="px-3 py-1.5 rounded border border-red-900 text-red-400 hover:bg-red-950 text-xs transition-all"
-            >
-              Not a Fit
-            </button>
+            {outreach.status !== 'Not a Fit' ? (
+              <button
+                onClick={() => {
+                  if (window.confirm(`Mark ${lead.company} as Not a Fit? This will remove them from active pipeline.`)) {
+                    onAction('not_a_fit', lead)
+                  }
+                }}
+                className="px-3 py-1.5 rounded border border-red-900 text-red-400 hover:bg-red-950 text-xs transition-all"
+              >
+                Not a Fit
+              </button>
+            ) : (
+              <span className="px-3 py-1.5 rounded bg-red-950/50 text-red-400 text-xs flex items-center gap-1">
+                <XCircle size={12} />
+                Marked Not a Fit
+              </span>
+            )}
           </div>
         </section>
       </div>

@@ -73,6 +73,19 @@ export default function App() {
       }
       return
     }
+    if (action === 'not_a_fit') {
+      if (lead?.id) {
+        updateLeadStatus(lead.id, 'status', 'Not a Fit')
+        updateLeadStatus(lead.id, 'approval_status', 'REJECTED')
+        // Persist via Netlify Function
+        fetch('/.netlify/functions/update-dm', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ leadId: lead.id, action: 'not_a_fit' }),
+        }).catch(err => console.error('Failed to persist not_a_fit:', err))
+      }
+      return
+    }
     console.log(`[Action] ${action}:`, lead?.id, lead?.company)
   }
 
