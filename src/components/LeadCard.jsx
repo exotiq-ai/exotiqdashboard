@@ -81,12 +81,9 @@ function PricingBadge({ pricing }) {
   }
   const tier = pricing.tier.replace(' (est.)', '')
   const colors = colorMap[tier] || 'bg-gray-900 text-gray-400 border-gray-700'
-  const annual = pricing.annual_value
-    ? `$${(pricing.annual_value / 1000).toFixed(1)}K/yr`
-    : ''
   return (
     <span className={`inline-flex items-center gap-1 px-2 py-0.5 rounded border text-[10px] font-mono ${colors}`}>
-      {tier}{annual ? ` ${annual}` : ''}
+      {tier}
     </span>
   )
 }
@@ -259,7 +256,7 @@ function ExpandedDetail({ lead, onAction }) {
               </div>
             )}
 
-            {(outreach.response_received === true || outreach.response_received === 'Y') && (
+            {(outreach.response_received === true || outreach.response_received === 'Y' || outreach.response_received === 1) && (
               <div className="mt-1 p-2 rounded bg-green-900/20 border border-green-900/50">
                 <div className="flex items-center gap-2 text-xs">
                   <CheckCircle size={12} className="text-green-400" />
@@ -274,7 +271,7 @@ function ExpandedDetail({ lead, onAction }) {
               </div>
             )}
 
-            {outreach.demo_scheduled && (
+            {!!outreach.demo_scheduled && (
               <div className="mt-1 p-2 rounded bg-accent/10 border border-accent/30">
                 <div className="flex items-center gap-2 text-xs">
                   <CheckCircle size={12} className="text-accent" />
@@ -443,8 +440,8 @@ function ExpandedDetail({ lead, onAction }) {
             <SectionHeader label="Pricing Tier" />
             <div className="bg-bg/50 rounded-lg p-3 border border-border/50 flex items-center gap-2">
               <PricingBadge pricing={lead.pricing} />
-              {lead.pricing.annual_value && (
-                <span className="text-xs text-muted font-mono">
+              {lead.pricing?.annual_value > 0 && (
+                <span className="text-xs text-accent font-mono font-semibold">
                   ${lead.pricing.annual_value.toLocaleString()}/yr
                 </span>
               )}
