@@ -55,7 +55,15 @@ export default function App() {
       const newDraft = action === 'save_dm'
         ? lead?.outreach?.dm_draft
         : extra
-      if (lead?.id && newDraft !== undefined) updateLeadDm(lead.id, newDraft)
+      if (lead?.id && newDraft !== undefined) updateLeadDm(lead.id, newDraft, 'save')
+      return
+    }
+    if (action === 'approve') {
+      if (lead?.id) updateLeadDm(lead.id, lead?.outreach?.dm_draft, 'approve')
+      return
+    }
+    if (action === 'reject') {
+      if (lead?.id) updateLeadDm(lead.id, lead?.outreach?.dm_draft, 'reject')
       return
     }
     console.log(`[Action] ${action}:`, lead?.id, lead?.company)
