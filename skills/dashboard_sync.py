@@ -90,10 +90,33 @@ def _safe_divide(numerator: float, denominator: float) -> float:
 # Nested lead construction
 # ---------------------------------------------------------------------------
 
+def _compute_stale(updated_at: Any) -> tuple:
+    """
+    Return (stale: bool, days_since_activity: int).
+
+    A lead is stale if updated_at is older than 7 days.
+    """
+    if not updated_at:
+        return True, 9999
+    try:
+        # Handle both naive and aware timestamps
+        ts_str = str(updated_at).rstrip("Z")
+        if "+" in ts_str:
+            ts_str = ts_str.split("+")[0]
+        updated = datetime.fromisoformat(ts_str).replace(tzinfo=timezone.utc)
+        now = datetime.now(timezone.utc)
+        delta = now - updated
+        days = delta.days
+        return days >= 7, days
+    except (ValueError, TypeError):
+        return True, 9999
+
+
 def _build_lead_object(row: dict) -> dict:
     """
     Reconstruct the canonical nested lead JSON structure from a flat SQLite row.
     """
+    stale, days_since = _compute_stale(row.get("updated_at"))
     return {
         "id": row.get("id"),
         "company": row.get("company"),
@@ -161,6 +184,8 @@ def _build_lead_object(row: dict) -> dict:
         "notes": row.get("notes"),
         "created_at": row.get("created_at"),
         "updated_at": row.get("updated_at"),
+        "stale": stale,
+        "days_since_activity": days_since,
     }
 
 

@@ -7,6 +7,7 @@ Entry points:
 """
 
 import json
+import time
 from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any, Optional
@@ -115,21 +116,21 @@ def _build_contact_payload(lead: dict, config: dict) -> dict:
     cf = config["custom_fields"]
 
     custom_fields = [
-        {"id": cf["lead_score"],            "field_value": str(lead.get("scoring_score") or "")},
-        {"id": cf["lead_score_confidence"], "field_value": str(lead.get("scoring_confidence") or "")},
-        {"id": cf["fleet_size"],            "field_value": str(lead.get("fleet_size") or "")},
-        {"id": cf["fleet_size_confidence"], "field_value": str(lead.get("fleet_size_confidence") or "")},
-        {"id": cf["ig_handle"],             "field_value": str(lead.get("company_ig_handle") or "")},
-        {"id": cf["ig_followers"],          "field_value": str(lead.get("company_ig_followers") or "")},
-        {"id": cf["google_rating"],         "field_value": str(lead.get("company_google_rating") or "")},
-        {"id": cf["google_reviews"],        "field_value": str(lead.get("company_google_reviews") or "")},
-        {"id": cf["vehicle_types"],         "field_value": vehicle_str},
-        {"id": cf["dm_template_used"],      "field_value": str(lead.get("outreach_template_used") or "")},
-        {"id": cf["dm_draft"],              "field_value": str(lead.get("outreach_dm_draft") or "")},
-        {"id": cf["do_not_say"],            "field_value": dns_str},
-        {"id": cf["enrichment_sources"],    "field_value": str(lead.get("lead_source") or "")},
-        {"id": cf["openclaw_lead_id"],      "field_value": str(lead.get("id") or "")},
-        {"id": cf["pipeline_entry_date"],   "field_value": today},
+        {"id": cf["Lead Score"],             "field_value": str(lead.get("scoring_score") or "")},
+        {"id": cf["Score Confidence"],       "field_value": str(lead.get("scoring_confidence") or "")},
+        {"id": cf["Fleet Size"],             "field_value": str(lead.get("fleet_size") or "")},
+        {"id": cf["Fleet Size Confidence"],  "field_value": str(lead.get("fleet_size_confidence") or "")},
+        {"id": cf["IG Handle"],              "field_value": str(lead.get("company_ig_handle") or "")},
+        {"id": cf["IG Followers"],           "field_value": str(lead.get("company_ig_followers") or "")},
+        {"id": cf["Google Rating"],          "field_value": str(lead.get("company_google_rating") or "")},
+        {"id": cf["Google Reviews"],         "field_value": str(lead.get("company_google_reviews") or "")},
+        {"id": cf["Vehicle Types"],          "field_value": vehicle_str},
+        {"id": cf["DM Template Used"],       "field_value": str(lead.get("outreach_template_used") or "")},
+        {"id": cf["DM Draft"],               "field_value": str(lead.get("outreach_dm_draft") or "")},
+        {"id": cf["DO NOT SAY"],             "field_value": dns_str},
+        {"id": cf["Enrichment Sources"],     "field_value": str(lead.get("lead_source") or "")},
+        {"id": cf["OpenClaw Lead ID"],       "field_value": str(lead.get("id") or "")},
+        {"id": cf["Pipeline Entry Date"],    "field_value": today},
     ]
 
     return {
@@ -224,11 +225,11 @@ def _create_opportunity(
     """
     score = int(lead.get("scoring_score") or 3)
     stage_name = "Gregory -- Personal Outreach" if score == 5 else "DM Drafted"
-    stage_id = config["stages"].get(stage_name, "")
+    stage_id = config["pipeline"]["stages"].get(stage_name, "")
     market = lead.get("market") or ""
 
     payload = {
-        "pipelineId": config["pipeline_id"],
+        "pipelineId": config["pipeline"]["id"],
         "pipelineStageId": stage_id,
         "name": f"{lead.get('company', 'Unknown')} - {market}",
         "contactId": contact_id,
@@ -336,6 +337,9 @@ def push_lead_to_ghl(lead_id: str, config_path: str = _CONFIG_PATH) -> dict:
             lead_id, contact_id, "POST /contacts/", 201,
             payload_summary=f"Created contact for {lead.get('company')}",
         )
+
+    # 200ms pause between contact and opportunity API calls (rate limiting)
+    time.sleep(0.2)
 
     # Create opportunity
     opp_id = _create_opportunity(client, contact_id, lead, config)

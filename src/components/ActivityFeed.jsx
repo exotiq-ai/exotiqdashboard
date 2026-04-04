@@ -1,20 +1,22 @@
 import {
-  Search, Filter, Zap, Star, MessageSquare, Globe,
-  ArrowUpRight, RefreshCw, CheckCircle, XCircle, Clock
+  Search, Database, Star, MessageSquare, Send,
+  ArrowLeftRight, RefreshCw, CheckCircle, XCircle, Clock
 } from 'lucide-react'
 import { formatDateTime, formatRelative } from '../utils/formatters'
 import { useState } from 'react'
 
 const TYPE_CONFIG = {
-  discovery: { icon: Globe, color: 'text-blue-400', bg: 'bg-blue-950', label: 'Discovery' },
-  enrichment: { icon: Search, color: 'text-purple-400', bg: 'bg-purple-950', label: 'Enrichment' },
+  discovery: { icon: Search, color: 'text-blue-400', bg: 'bg-blue-950', label: 'Discovery' },
+  enrichment: { icon: Database, color: 'text-purple-400', bg: 'bg-purple-950', label: 'Enrichment' },
   scoring: { icon: Star, color: 'text-yellow-400', bg: 'bg-yellow-950', label: 'Scoring' },
   dm_draft: { icon: MessageSquare, color: 'text-accent', bg: 'bg-emerald-950', label: 'DM Draft' },
+  outreach: { icon: Send, color: 'text-pink-400', bg: 'bg-pink-950', label: 'Outreach' },
   status_change: { icon: RefreshCw, color: 'text-muted', bg: 'bg-gray-900', label: 'Status' },
-  ghl_push: { icon: ArrowUpRight, color: 'text-blue-400', bg: 'bg-blue-950', label: 'GHL Push' },
+  ghl_push: { icon: ArrowLeftRight, color: 'text-blue-400', bg: 'bg-blue-950', label: 'GHL Push' },
   ghl_sync: { icon: RefreshCw, color: 'text-sky-400', bg: 'bg-sky-950', label: 'GHL Sync' },
   approved: { icon: CheckCircle, color: 'text-accent', bg: 'bg-emerald-950', label: 'Approved' },
   rejected: { icon: XCircle, color: 'text-red-400', bg: 'bg-red-950', label: 'Rejected' },
+  dashboard_sync: { icon: RefreshCw, color: 'text-sky-400', bg: 'bg-sky-950', label: 'Sync' },
 }
 
 const TYPE_FILTERS = [

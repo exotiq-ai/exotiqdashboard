@@ -47,6 +47,14 @@ export function useLeadData() {
     return () => clearInterval(interval)
   }, [fetchAll])
 
+  const updateLeadDm = useCallback((leadId, newDraft) => {
+    setLeads(prev => prev.map(l =>
+      l.id === leadId
+        ? { ...l, outreach: { ...l.outreach, dm_draft: newDraft } }
+        : l
+    ))
+  }, [])
+
   return {
     leads,
     activity,
@@ -57,5 +65,6 @@ export function useLeadData() {
     error,
     lastSynced,
     refresh: fetchAll,
+    updateLeadDm,
   }
 }

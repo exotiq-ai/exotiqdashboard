@@ -71,7 +71,30 @@ function SectionHeader({ icon: Icon, label, accent }) {
   )
 }
 
+function PricingBadge({ pricing }) {
+  if (!pricing?.tier) return null
+  const colorMap = {
+    'Enterprise': 'bg-yellow-950 text-yellow-400 border-yellow-800',
+    'Business': 'bg-purple-950 text-purple-400 border-purple-800',
+    'Professional': 'bg-blue-950 text-blue-400 border-blue-800',
+    'Starter': 'bg-gray-900 text-gray-400 border-gray-700',
+  }
+  const tier = pricing.tier.replace(' (est.)', '')
+  const colors = colorMap[tier] || 'bg-gray-900 text-gray-400 border-gray-700'
+  const annual = pricing.annual_value
+    ? `$${(pricing.annual_value / 1000).toFixed(1)}K/yr`
+    : ''
+  return (
+    <span className={`inline-flex items-center gap-1 px-2 py-0.5 rounded border text-[10px] font-mono ${colors}`}>
+      {tier}{annual ? ` ${annual}` : ''}
+    </span>
+  )
+}
+
 function ExpandedDetail({ lead, onAction }) {
+  const [editingDm, setEditingDm] = useState(false)
+  const [dmText, setDmText] = useState((lead.outreach || {}).dm_draft || '')
+
   const contact = lead.contact || {}
   const company = lead.company_data || {}
   const fleet = lead.fleet || {}
@@ -269,11 +292,53 @@ function ExpandedDetail({ lead, onAction }) {
           <SectionHeader icon={Edit3} label={`DM Draft${outreach.template_used ? ` -- Template ${outreach.template_used}` : ''}`} />
           {outreach.dm_draft ? (
             <>
-              <div className="bg-bg/50 rounded-lg p-3 border border-border/50">
-                <p className="text-xs text-text leading-relaxed whitespace-pre-wrap">{outreach.dm_draft}</p>
-              </div>
+              {editingDm ? (
+                <div className="space-y-2">
+                  <textarea
+                    value={dmText}
+                    onChange={e => setDmText(e.target.value)}
+                    className="w-full bg-bg border border-accent/50 rounded-lg p-3 text-xs text-text leading-relaxed resize-none h-32 focus:outline-none focus:border-accent"
+                  />
+                  <div className="flex items-center justify-between">
+                    <span className={`text-xs font-mono ${
+                      (() => {
+                        const wc = dmText.trim().split(/\s+/).filter(Boolean).length
+                        if (wc > 150) return 'text-red-400'
+                        if (wc > 130) return 'text-yellow-400'
+                        return 'text-green-400'
+                      })()
+                    }`}>
+                      {dmText.trim().split(/\s+/).filter(Boolean).length} / 150 words
+                    </span>
+                    <div className="flex gap-2">
+                      <button
+                        onClick={() => {
+                          setEditingDm(false)
+                          onAction('save_dm', { ...lead, outreach: { ...lead.outreach, dm_draft: dmText } })
+                        }}
+                        className="px-3 py-1.5 rounded bg-accent text-black text-xs font-semibold hover:bg-green-400 transition-all"
+                      >
+                        Save
+                      </button>
+                      <button
+                        onClick={() => {
+                          setEditingDm(false)
+                          setDmText(outreach.dm_draft || '')
+                        }}
+                        className="px-3 py-1.5 rounded border border-border text-muted hover:text-text text-xs transition-all"
+                      >
+                        Cancel
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              ) : (
+                <div className="bg-bg/50 rounded-lg p-3 border border-border/50">
+                  <p className="text-xs text-text leading-relaxed whitespace-pre-wrap">{outreach.dm_draft}</p>
+                </div>
+              )}
 
-              {isPending && (
+              {!editingDm && isPending && (
                 <div className="flex gap-2 mt-2">
                   <button
                     onClick={() => onAction('approve', lead)}
@@ -283,7 +348,10 @@ function ExpandedDetail({ lead, onAction }) {
                     Approve
                   </button>
                   <button
-                    onClick={() => onAction('edit', lead)}
+                    onClick={() => {
+                      setDmText(outreach.dm_draft || '')
+                      setEditingDm(true)
+                    }}
                     className="flex items-center gap-1.5 px-3 py-1.5 rounded border border-border text-muted hover:text-text text-xs transition-all"
                   >
                     <Edit3 size={13} />
@@ -299,12 +367,22 @@ function ExpandedDetail({ lead, onAction }) {
                 </div>
               )}
 
-              {isApproved && (
-                <div className="mt-2 flex items-center gap-2">
+              {!editingDm && isApproved && (
+                <div className="mt-2 flex items-center gap-2 flex-wrap">
                   <span className="text-xs text-accent flex items-center gap-1">
                     <CheckCircle size={12} />
                     Approved
                   </span>
+                  <button
+                    onClick={() => {
+                      setDmText(outreach.dm_draft || '')
+                      setEditingDm(true)
+                    }}
+                    className="flex items-center gap-1.5 px-3 py-1 rounded border border-border text-muted hover:text-text text-xs transition-all"
+                  >
+                    <Edit3 size={12} />
+                    Edit
+                  </button>
                   {!ghl.contact_id && (
                     <button
                       onClick={() => onAction('push_to_ghl', lead)}
@@ -334,6 +412,21 @@ function ExpandedDetail({ lead, onAction }) {
               {doNotSay.filter(s => s && s.trim()).map((item, i) => (
                 <p key={i} className="text-xs text-red-300">{item}</p>
               ))}
+            </div>
+          </section>
+        )}
+
+        {/* Pricing Badge */}
+        {lead.pricing && (
+          <section>
+            <SectionHeader label="Pricing Tier" />
+            <div className="bg-bg/50 rounded-lg p-3 border border-border/50 flex items-center gap-2">
+              <PricingBadge pricing={lead.pricing} />
+              {lead.pricing.annual_value && (
+                <span className="text-xs text-muted font-mono">
+                  ${lead.pricing.annual_value.toLocaleString()}/yr
+                </span>
+              )}
             </div>
           </section>
         )}
@@ -421,6 +514,7 @@ export default function LeadCard({ lead, onAction }) {
   const name = contactName(lead)
   const outreach = lead.outreach || {}
   const updatedAgo = formatRelative(lead.updated_at)
+  const isStale = lead.stale === true
 
   return (
     <div
@@ -438,8 +532,11 @@ export default function LeadCard({ lead, onAction }) {
             {expanded ? <ChevronDown size={14} /> : <ChevronRight size={14} />}
           </span>
 
-          <span className="font-semibold text-text text-sm truncate min-w-0 max-w-48">
+          <span className="font-semibold text-text text-sm truncate min-w-0 max-w-48 flex items-center gap-1.5">
             {lead.company}
+            {isStale && (
+              <span className="inline-block w-2 h-2 rounded-full bg-orange-500 flex-shrink-0" title={`Stale: ${lead.days_since_activity} days since activity`} />
+            )}
           </span>
 
           <span className="text-muted text-xs truncate hidden sm:block min-w-0 max-w-32">

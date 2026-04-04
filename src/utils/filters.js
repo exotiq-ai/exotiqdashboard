@@ -132,6 +132,8 @@ export function exportToCsv(leads, filename) {
     demo_scheduled: get(l, 'outreach.demo_scheduled') ? 'Y' : '',
     ghl_stage: get(l, 'ghl.pipeline_stage'),
     ghl_in_ghl: get(l, 'ghl.in_ghl') ? 'Y' : '',
+    pricing_tier: get(l, 'pricing.tier') || '',
+    pricing_annual_value: get(l, 'pricing.annual_value') || '',
     lead_source: l.lead_source,
     enrichment_notes: get(l, 'scoring.rationale') || '',
     notes: l.notes || '',

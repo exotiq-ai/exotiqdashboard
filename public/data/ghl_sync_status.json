@@ -1,8 +1,229 @@
 {
-  "total_in_ghl": 1,
-  "total_not_in_ghl": 121,
-  "recent_syncs": [],
-  "last_sync_at": null,
+  "total_in_ghl": 17,
+  "total_not_in_ghl": 105,
+  "recent_syncs": [
+    {
+      "id": 32,
+      "timestamp": "2026-04-04T04:59:00.228452+00:00",
+      "direction": "outbound",
+      "lead_id": "lead_mia_037",
+      "ghl_contact_id": "RAZRc63bGhQwFXEG9Dju",
+      "endpoint": "POST /opportunities/",
+      "http_status": 201,
+      "payload_summary": "Created opportunity ydQ9u0AFVxCHApCQ6bQZ stage=DM Drafted",
+      "error_message": null
+    },
+    {
+      "id": 31,
+      "timestamp": "2026-04-04T04:58:59.199281+00:00",
+      "direction": "outbound",
+      "lead_id": "lead_mia_037",
+      "ghl_contact_id": "RAZRc63bGhQwFXEG9Dju",
+      "endpoint": "POST /contacts/",
+      "http_status": 201,
+      "payload_summary": "Created contact for Golden Exotic Rentals",
+      "error_message": null
+    },
+    {
+      "id": 30,
+      "timestamp": "2026-04-04T04:58:57.666152+00:00",
+      "direction": "outbound",
+      "lead_id": "lead_mia_034",
+      "ghl_contact_id": "ejXp8ztSVZ78uskO09qn",
+      "endpoint": "POST /opportunities/",
+      "http_status": 201,
+      "payload_summary": "Created opportunity 4W2kldaRFiPN8BKfmqzR stage=DM Drafted",
+      "error_message": null
+    },
+    {
+      "id": 29,
+      "timestamp": "2026-04-04T04:58:56.750276+00:00",
+      "direction": "outbound",
+      "lead_id": "lead_mia_034",
+      "ghl_contact_id": "ejXp8ztSVZ78uskO09qn",
+      "endpoint": "POST /contacts/",
+      "http_status": 201,
+      "payload_summary": "Created contact for Dade County Exotics",
+      "error_message": null
+    },
+    {
+      "id": 28,
+      "timestamp": "2026-04-04T04:58:55.628172+00:00",
+      "direction": "outbound",
+      "lead_id": "lead_mia_023",
+      "ghl_contact_id": "exjWejUtUEYTinu8i1EG",
+      "endpoint": "POST /opportunities/",
+      "http_status": 201,
+      "payload_summary": "Created opportunity lWs7gS48E9bOy5piXXvH stage=DM Drafted",
+      "error_message": null
+    },
+    {
+      "id": 27,
+      "timestamp": "2026-04-04T04:58:54.857063+00:00",
+      "direction": "outbound",
+      "lead_id": "lead_mia_023",
+      "ghl_contact_id": "exjWejUtUEYTinu8i1EG",
+      "endpoint": "POST /contacts/",
+      "http_status": 201,
+      "payload_summary": "Created contact for Miami Exotics",
+      "error_message": null
+    },
+    {
+      "id": 26,
+      "timestamp": "2026-04-04T04:58:53.574046+00:00",
+      "direction": "outbound",
+      "lead_id": "lead_mia_018",
+      "ghl_contact_id": "QaJa9Zm1KUOXyaLWJ57h",
+      "endpoint": "POST /opportunities/",
+      "http_status": 201,
+      "payload_summary": "Created opportunity T5VYDy3lDP0SPdoR70ZO stage=DM Drafted",
+      "error_message": null
+    },
+    {
+      "id": 25,
+      "timestamp": "2026-04-04T04:58:52.919186+00:00",
+      "direction": "outbound",
+      "lead_id": "lead_mia_018",
+      "ghl_contact_id": "QaJa9Zm1KUOXyaLWJ57h",
+      "endpoint": "POST /contacts/",
+      "http_status": 201,
+      "payload_summary": "Created contact for Luxx Miami",
+      "error_message": null
+    },
+    {
+      "id": 24,
+      "timestamp": "2026-04-04T04:58:51.582277+00:00",
+      "direction": "outbound",
+      "lead_id": "lead_mia_008",
+      "ghl_contact_id": "N3EqL2mYHON4o9iHLLO5",
+      "endpoint": "POST /opportunities/",
+      "http_status": 201,
+      "payload_summary": "Created opportunity u6zhzNA172XGq7F8CSaD stage=DM Drafted",
+      "error_message": null
+    },
+    {
+      "id": 23,
+      "timestamp": "2026-04-04T04:58:50.688657+00:00",
+      "direction": "outbound",
+      "lead_id": "lead_mia_008",
+      "ghl_contact_id": "N3EqL2mYHON4o9iHLLO5",
+      "endpoint": "POST /contacts/",
+      "http_status": 201,
+      "payload_summary": "Created contact for Legaci Auto Lounge",
+      "error_message": null
+    },
+    {
+      "id": 22,
+      "timestamp": "2026-04-04T04:58:49.477084+00:00",
+      "direction": "outbound",
+      "lead_id": "lead_mia_038",
+      "ghl_contact_id": "XGbCdTNBXD7WvHbD3BmN",
+      "endpoint": "POST /opportunities/",
+      "http_status": 201,
+      "payload_summary": "Created opportunity dpY71D7YyIpWlHDBCUWm stage=DM Drafted",
+      "error_message": null
+    },
+    {
+      "id": 21,
+      "timestamp": "2026-04-04T04:58:48.555238+00:00",
+      "direction": "outbound",
+      "lead_id": "lead_mia_038",
+      "ghl_contact_id": "XGbCdTNBXD7WvHbD3BmN",
+      "endpoint": "POST /contacts/",
+      "http_status": 201,
+      "payload_summary": "Created contact for VIP Miami Auto",
+      "error_message": null
+    },
+    {
+      "id": 20,
+      "timestamp": "2026-04-04T04:58:47.540165+00:00",
+      "direction": "outbound",
+      "lead_id": "lead_mia_032",
+      "ghl_contact_id": "9hViIAPRfzxFLA0YfE8f",
+      "endpoint": "POST /opportunities/",
+      "http_status": 201,
+      "payload_summary": "Created opportunity pCniLI66cK10v5tSuaPV stage=DM Drafted",
+      "error_message": null
+    },
+    {
+      "id": 19,
+      "timestamp": "2026-04-04T04:58:46.591024+00:00",
+      "direction": "outbound",
+      "lead_id": "lead_mia_032",
+      "ghl_contact_id": "9hViIAPRfzxFLA0YfE8f",
+      "endpoint": "POST /contacts/",
+      "http_status": 201,
+      "payload_summary": "Created contact for Diamond Exotic Rentals",
+      "error_message": null
+    },
+    {
+      "id": 18,
+      "timestamp": "2026-04-04T04:58:45.483683+00:00",
+      "direction": "outbound",
+      "lead_id": "lead_mia_028",
+      "ghl_contact_id": "PQ8KwsHZOWwHOe767S9t",
+      "endpoint": "POST /opportunities/",
+      "http_status": 201,
+      "payload_summary": "Created opportunity KjsWTIHKSSdb6rRa5cZE stage=DM Drafted",
+      "error_message": null
+    },
+    {
+      "id": 17,
+      "timestamp": "2026-04-04T04:58:44.460788+00:00",
+      "direction": "outbound",
+      "lead_id": "lead_mia_028",
+      "ghl_contact_id": "PQ8KwsHZOWwHOe767S9t",
+      "endpoint": "POST /contacts/",
+      "http_status": 201,
+      "payload_summary": "Created contact for Supreme Sport Rentals",
+      "error_message": null
+    },
+    {
+      "id": 16,
+      "timestamp": "2026-04-04T04:58:43.408303+00:00",
+      "direction": "outbound",
+      "lead_id": "lead_mia_025",
+      "ghl_contact_id": "0ofKEUusHbiXn3Ua7heN",
+      "endpoint": "POST /opportunities/",
+      "http_status": 201,
+      "payload_summary": "Created opportunity WCn0XxenAsZ0C0FySHAz stage=DM Drafted",
+      "error_message": null
+    },
+    {
+      "id": 15,
+      "timestamp": "2026-04-04T04:58:42.524373+00:00",
+      "direction": "outbound",
+      "lead_id": "lead_mia_025",
+      "ghl_contact_id": "0ofKEUusHbiXn3Ua7heN",
+      "endpoint": "POST /contacts/",
+      "http_status": 201,
+      "payload_summary": "Created contact for Exotic Miami Car Rental",
+      "error_message": null
+    },
+    {
+      "id": 14,
+      "timestamp": "2026-04-04T04:58:41.454773+00:00",
+      "direction": "outbound",
+      "lead_id": "lead_mia_019",
+      "ghl_contact_id": "bNiY1JUUcgAAdC7ASCdZ",
+      "endpoint": "POST /opportunities/",
+      "http_status": 201,
+      "payload_summary": "Created opportunity pz7JjhYYzTVEatmAR3Rj stage=DM Drafted",
+      "error_message": null
+    },
+    {
+      "id": 13,
+      "timestamp": "2026-04-04T04:58:40.793888+00:00",
+      "direction": "outbound",
+      "lead_id": "lead_mia_019",
+      "ghl_contact_id": "bNiY1JUUcgAAdC7ASCdZ",
+      "endpoint": "POST /contacts/",
+      "http_status": 201,
+      "payload_summary": "Created contact for Preferred Exotics",
+      "error_message": null
+    }
+  ],
+  "last_sync_at": "2026-04-04T04:59:00.228452+00:00",
   "sync_errors": [],
-  "generated_at": "2026-04-04T04:36:51.457130+00:00"
+  "generated_at": "2026-04-04T05:06:06.225711+00:00"
 }

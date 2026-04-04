@@ -1,4 +1,4 @@
-import { Search, X, ChevronDown } from 'lucide-react'
+import { Search, X, ChevronDown, ChevronUp, SlidersHorizontal } from 'lucide-react'
 import { useState } from 'react'
 
 const SCORE_OPTIONS = ['5', '4', '3', '2', '1']
@@ -71,6 +71,8 @@ function MultiSelect({ label, options, selected, onChange }) {
 }
 
 export default function FilterBar({ filters, onChange, markets, statuses }) {
+  const [open, setOpen] = useState(false)
+
   function clearAll() {
     onChange({
       markets: [],
@@ -91,7 +93,48 @@ export default function FilterBar({ filters, onChange, markets, statuses }) {
   const statusOptions = (statuses || []).map(s => ({ value: s, label: s }))
 
   return (
-    <div className="flex flex-wrap items-center gap-2 px-4 py-2 border-b border-border bg-bg">
+    <div className="border-b border-border bg-bg">
+      {/* Toggle row -- always visible on mobile */}
+      <div className="flex items-center gap-2 px-4 py-2 md:hidden">
+        <button
+          onClick={() => setOpen(o => !o)}
+          className={`flex items-center gap-1.5 px-3 py-1.5 rounded border text-xs transition-all ${
+            hasFilters ? 'border-accent text-accent' : 'border-border text-muted'
+          }`}
+        >
+          <SlidersHorizontal size={12} />
+          Filters
+          {hasFilters && <span className="bg-accent text-black rounded-full px-1.5 text-[10px] font-bold">
+            {(filters.markets.length + filters.scores.length + filters.statuses.length + (filters.search ? 1 : 0))}
+          </span>}
+          {open ? <ChevronUp size={12} /> : <ChevronDown size={12} />}
+        </button>
+        {/* Inline search always visible */}
+        <div className="relative flex-1">
+          <Search size={14} className="absolute left-2.5 top-1/2 -translate-y-1/2 text-muted" />
+          <input
+            type="text"
+            placeholder="Search..."
+            value={filters.search}
+            onChange={e => onChange({ ...filters, search: e.target.value })}
+            className="w-full pl-8 pr-3 py-1.5 bg-card border border-border rounded text-xs text-text placeholder-muted focus:outline-none focus:border-accent"
+          />
+          {filters.search && (
+            <button onClick={() => onChange({ ...filters, search: '' })}
+              className="absolute right-2.5 top-1/2 -translate-y-1/2 text-muted hover:text-text">
+              <X size={12} />
+            </button>
+          )}
+        </div>
+        {hasFilters && (
+          <button onClick={clearAll} className="flex items-center gap-1 px-2 py-1.5 rounded border border-red-900 text-red-400 text-xs">
+            <X size={12} />
+          </button>
+        )}
+      </div>
+
+      {/* Full filter bar -- desktop always visible, mobile collapsible */}
+      <div className={`${open ? 'flex' : 'hidden'} md:flex flex-wrap items-center gap-2 px-4 py-2`}>
       {/* Search */}
       <div className="relative flex-1 min-w-48 max-w-64">
         <Search size={14} className="absolute left-2.5 top-1/2 -translate-y-1/2 text-muted" />
@@ -178,6 +221,7 @@ export default function FilterBar({ filters, onChange, markets, statuses }) {
           Clear
         </button>
       )}
+      </div>
     </div>
   )
 }

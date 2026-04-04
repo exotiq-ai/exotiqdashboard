@@ -41,6 +41,7 @@ export default function App() {
     error,
     lastSynced,
     refresh,
+    updateLeadDm,
   } = useLeadData()
 
   const markets = getUniqueMarkets(leads)
@@ -49,9 +50,18 @@ export default function App() {
 
   const pendingCount = leads.filter(l => l.outreach?.approval_status === 'PENDING').length
 
-  function handleAction(action, lead) {
+  function handleAction(action, lead, extra) {
+    if (action === 'save_dm' || action === 'save_dm_edit') {
+      const newDraft = action === 'save_dm'
+        ? lead?.outreach?.dm_draft
+        : extra
+      if (lead?.id && newDraft !== undefined) updateLeadDm(lead.id, newDraft)
+      return
+    }
     console.log(`[Action] ${action}:`, lead?.id, lead?.company)
   }
+
+  const totalPipelineValue = leads.reduce((sum, l) => sum + (l.pricing?.annual_value || 0), 0)
 
   return (
     <div className="min-h-screen bg-bg text-text flex flex-col">
@@ -151,8 +161,13 @@ export default function App() {
       </main>
 
       {/* Footer */}
-      <footer className="border-t border-border px-4 py-2 flex items-center justify-between">
+      <footer className="border-t border-border px-4 py-2 flex items-center justify-between flex-wrap gap-2">
         <span className="text-muted text-xs font-mono">Exotiq AI -- Lead Intelligence Pipeline</span>
+        {totalPipelineValue > 0 && (
+          <span className="text-accent text-xs font-mono font-semibold">
+            Pipeline: ${(totalPipelineValue / 1000).toFixed(0)}K/yr
+          </span>
+        )}
         <span className="text-muted text-xs font-mono">
           {lastSynced
             ? `Last synced: ${lastSynced.toLocaleTimeString()}`

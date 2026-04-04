@@ -1,5 +1,185 @@
 [
   {
+    "id": 460,
+    "timestamp": "2026-04-04T05:05:53.681377+00:00",
+    "type": "ghl_sync",
+    "lead_id": null,
+    "description": "Health check: 17 verified in GHL / 17 SQLite | missing_in_ghl=0 missing_fields=0 healthy=True",
+    "source": null,
+    "agent": "ghl_health_check"
+  },
+  {
+    "id": 459,
+    "timestamp": "2026-04-04T05:04:36.938474+00:00",
+    "type": "ghl_sync",
+    "lead_id": null,
+    "description": "Health check: 0 GHL / 17 SQLite | missing_in_ghl=17 extra_in_ghl=0 missing_fields=0 healthy=False",
+    "source": null,
+    "agent": "ghl_health_check"
+  },
+  {
+    "id": 458,
+    "timestamp": "2026-04-04T05:04:23.701486+00:00",
+    "type": "dashboard_sync",
+    "lead_id": null,
+    "description": "Exported 122 leads and 455 activity entries to public/data",
+    "source": null,
+    "agent": "dashboard_sync"
+  },
+  {
+    "id": 457,
+    "timestamp": "2026-04-04T04:59:00.231459+00:00",
+    "type": "ghl_push",
+    "lead_id": "lead_mia_037",
+    "description": "Pushed Golden Exotic Rentals to GHL. contact=RAZRc63bGhQwFXEG9Dju opp=ydQ9u0AFVxCHApCQ6bQZ stage=DM Drafted tags=exotiq-pipeline,score-3,miami,professional tier=Professional annual=$4,788 action=created",
+    "source": null,
+    "agent": "bulk_push_v2"
+  },
+  {
+    "id": 456,
+    "timestamp": "2026-04-04T04:58:57.669349+00:00",
+    "type": "ghl_push",
+    "lead_id": "lead_mia_034",
+    "description": "Pushed Dade County Exotics to GHL. contact=ejXp8ztSVZ78uskO09qn opp=4W2kldaRFiPN8BKfmqzR stage=DM Drafted tags=exotiq-pipeline,score-3,miami,starter tier=Starter annual=$2,784 action=created",
+    "source": null,
+    "agent": "bulk_push_v2"
+  },
+  {
+    "id": 455,
+    "timestamp": "2026-04-04T04:58:55.631547+00:00",
+    "type": "ghl_push",
+    "lead_id": "lead_mia_023",
+    "description": "Pushed Miami Exotics to GHL. contact=exjWejUtUEYTinu8i1EG opp=lWs7gS48E9bOy5piXXvH stage=DM Drafted tags=exotiq-pipeline,score-3,miami,professional tier=Professional annual=$4,788 action=created",
+    "source": null,
+    "agent": "bulk_push_v2"
+  },
+  {
+    "id": 454,
+    "timestamp": "2026-04-04T04:58:53.577446+00:00",
+    "type": "ghl_push",
+    "lead_id": "lead_mia_018",
+    "description": "Pushed Luxx Miami to GHL. contact=QaJa9Zm1KUOXyaLWJ57h opp=T5VYDy3lDP0SPdoR70ZO stage=DM Drafted tags=exotiq-pipeline,score-3,miami,business tier=Business annual=$10,788 action=created",
+    "source": null,
+    "agent": "bulk_push_v2"
+  },
+  {
+    "id": 453,
+    "timestamp": "2026-04-04T04:58:51.586690+00:00",
+    "type": "ghl_push",
+    "lead_id": "lead_mia_008",
+    "description": "Pushed Legaci Auto Lounge to GHL. contact=N3EqL2mYHON4o9iHLLO5 opp=u6zhzNA172XGq7F8CSaD stage=DM Drafted tags=exotiq-pipeline,score-3,miami,starter-est tier=Starter (est.) annual=$948 action=created",
+    "source": null,
+    "agent": "bulk_push_v2"
+  },
+  {
+    "id": 452,
+    "timestamp": "2026-04-04T04:58:49.480557+00:00",
+    "type": "ghl_push",
+    "lead_id": "lead_mia_038",
+    "description": "Pushed VIP Miami Auto to GHL. contact=XGbCdTNBXD7WvHbD3BmN opp=dpY71D7YyIpWlHDBCUWm stage=DM Drafted tags=exotiq-pipeline,score-4,miami,professional tier=Professional annual=$4,788 action=created",
+    "source": null,
+    "agent": "bulk_push_v2"
+  },
+  {
+    "id": 451,
+    "timestamp": "2026-04-04T04:58:47.543344+00:00",
+    "type": "ghl_push",
+    "lead_id": "lead_mia_032",
+    "description": "Pushed Diamond Exotic Rentals to GHL. contact=9hViIAPRfzxFLA0YfE8f opp=pCniLI66cK10v5tSuaPV stage=DM Drafted tags=exotiq-pipeline,score-4,miami,professional tier=Professional annual=$4,788 action=created",
+    "source": null,
+    "agent": "bulk_push_v2"
+  },
+  {
+    "id": 450,
+    "timestamp": "2026-04-04T04:58:45.487238+00:00",
+    "type": "ghl_push",
+    "lead_id": "lead_mia_028",
+    "description": "Pushed Supreme Sport Rentals to GHL. contact=PQ8KwsHZOWwHOe767S9t opp=KjsWTIHKSSdb6rRa5cZE stage=DM Drafted tags=exotiq-pipeline,score-4,miami,professional tier=Professional annual=$4,788 action=created",
+    "source": null,
+    "agent": "bulk_push_v2"
+  },
+  {
+    "id": 449,
+    "timestamp": "2026-04-04T04:58:43.411590+00:00",
+    "type": "ghl_push",
+    "lead_id": "lead_mia_025",
+    "description": "Pushed Exotic Miami Car Rental to GHL. contact=0ofKEUusHbiXn3Ua7heN opp=WCn0XxenAsZ0C0FySHAz stage=DM Drafted tags=exotiq-pipeline,score-4,miami,professional tier=Professional annual=$4,788 action=created",
+    "source": null,
+    "agent": "bulk_push_v2"
+  },
+  {
+    "id": 448,
+    "timestamp": "2026-04-04T04:58:41.458209+00:00",
+    "type": "ghl_push",
+    "lead_id": "lead_mia_019",
+    "description": "Pushed Preferred Exotics to GHL. contact=bNiY1JUUcgAAdC7ASCdZ opp=pz7JjhYYzTVEatmAR3Rj stage=DM Drafted tags=exotiq-pipeline,score-4,miami,professional tier=Professional annual=$4,788 action=created",
+    "source": null,
+    "agent": "bulk_push_v2"
+  },
+  {
+    "id": 447,
+    "timestamp": "2026-04-04T04:58:39.557279+00:00",
+    "type": "ghl_push",
+    "lead_id": "lead_mia_013",
+    "description": "Pushed Dream Car Rentals Miami to GHL. contact=Afn15vTvsS3myQswwg1k opp=wxf4UX9EXL5ipexxyjyH stage=DM Drafted tags=exotiq-pipeline,score-4,miami,professional tier=Professional annual=$4,788 action=created",
+    "source": null,
+    "agent": "bulk_push_v2"
+  },
+  {
+    "id": 446,
+    "timestamp": "2026-04-04T04:58:37.331091+00:00",
+    "type": "ghl_push",
+    "lead_id": "lead_mia_012",
+    "description": "Pushed South Beach Exotic Rentals to GHL. contact=ztEtaJ4RD5nszZzbUjeg opp=sO1acjVziQdyYFSSzp21 stage=DM Drafted tags=exotiq-pipeline,score-4,miami,starter-est tier=Starter (est.) annual=$948 action=created",
+    "source": null,
+    "agent": "bulk_push_v2"
+  },
+  {
+    "id": 445,
+    "timestamp": "2026-04-04T04:58:35.420660+00:00",
+    "type": "ghl_push",
+    "lead_id": "lead_mia_009",
+    "description": "Pushed Mariotti Exotic Car Rentals to GHL. contact=mm9FidXA6P4A1Hdix50p opp=qaxNvkgwyG2cYsK2naVP stage=DM Drafted tags=exotiq-pipeline,score-4,miami,starter-est tier=Starter (est.) annual=$948 action=created",
+    "source": null,
+    "agent": "bulk_push_v2"
+  },
+  {
+    "id": 444,
+    "timestamp": "2026-04-04T04:58:33.214840+00:00",
+    "type": "ghl_push",
+    "lead_id": "lead_mia_016",
+    "description": "Pushed Pugachev Company to GHL. contact=ut9FWit99c76mxSmBmSY opp=MNIIajHK04JvCal2Fhcc stage=Gregory -- Personal Outreach tags=exotiq-pipeline,score-5,gregory-only,miami,professional tier=Professional annual=$4,788 action=created",
+    "source": null,
+    "agent": "bulk_push_v2"
+  },
+  {
+    "id": 443,
+    "timestamp": "2026-04-04T04:58:30.894051+00:00",
+    "type": "ghl_push",
+    "lead_id": "lead_mia_015",
+    "description": "Pushed Prestige Auto Rental Miami to GHL. contact=vTa7dcYUjfpy9581grrU opp=MbwTtjREbNUDk2hnVfHt stage=Gregory -- Personal Outreach tags=exotiq-pipeline,score-5,gregory-only,miami,business tier=Business annual=$10,788 action=created",
+    "source": null,
+    "agent": "bulk_push_v2"
+  },
+  {
+    "id": 442,
+    "timestamp": "2026-04-04T04:58:28.824481+00:00",
+    "type": "ghl_push",
+    "lead_id": "lead_mia_005",
+    "description": "Pushed Exotics By the Bay to GHL. contact=2NWG2yTquV1dsF84vSZO opp=8Tj5Vbj1RMBxmchAjRG3 stage=Gregory -- Personal Outreach tags=exotiq-pipeline,score-5,gregory-only,miami,business tier=Business annual=$10,788 action=created",
+    "source": null,
+    "agent": "bulk_push_v2"
+  },
+  {
+    "id": 441,
+    "timestamp": "2026-04-04T04:36:51.459057+00:00",
+    "type": "dashboard_sync",
+    "lead_id": null,
+    "description": "Exported 122 leads and 438 activity entries to public/data",
+    "source": null,
+    "agent": "dashboard_sync"
+  },
+  {
     "id": 440,
     "timestamp": "2026-04-04T03:40:39.293149+00:00",
     "type": "dashboard_sync",

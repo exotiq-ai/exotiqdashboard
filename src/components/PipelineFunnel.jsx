@@ -107,7 +107,7 @@ export default function PipelineFunnel({ leads, metrics, loading }) {
         <p className="text-muted text-xs mb-4">Lead progression through each pipeline stage</p>
 
         <div className="bg-card border border-border rounded-lg p-4">
-          <ResponsiveContainer width="100%" height={280}>
+          <ResponsiveContainer width="100%" height={typeof window !== 'undefined' && window.innerWidth < 640 ? 180 : 280}>
             <BarChart data={chartData} margin={{ top: 20, right: 20, bottom: 10, left: 0 }}>
               <CartesianGrid strokeDasharray="3 3" stroke="#1E1E2E" />
               <XAxis
