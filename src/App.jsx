@@ -41,8 +41,7 @@ export default function App() {
     error,
     lastSynced,
     refresh,
-    updateLeadDm,
-    updateLeadStatus,
+    updateLead,
   } = useLeadData()
 
   const markets = getUniqueMarkets(leads)
@@ -51,42 +50,67 @@ export default function App() {
 
   const pendingCount = leads.filter(l => l.outreach?.approval_status === 'PENDING').length
 
-  function handleAction(action, lead, extra) {
-    if (action === 'save_dm' || action === 'save_dm_edit') {
-      const newDraft = action === 'save_dm'
-        ? lead?.outreach?.dm_draft
-        : extra
-      if (lead?.id && newDraft !== undefined) updateLeadDm(lead.id, newDraft, 'save')
-      return
+  const [pushingToGhl, setPushingToGhl] = useState(null)
+
+  async function handleAction(action, lead, extra) {
+    if (!lead?.id) return
+
+    switch (action) {
+      case 'save_dm':
+        updateLead(lead.id, { dm_draft: lead?.outreach?.dm_draft }, 'save')
+        break
+
+      case 'save_dm_edit':
+        updateLead(lead.id, { dm_draft: extra }, 'save')
+        break
+
+      case 'approve':
+        updateLead(lead.id, { approval_status: 'APPROVED' }, 'approve')
+        break
+
+      case 'reject':
+        updateLead(lead.id, { approval_status: 'REJECTED' }, 'reject')
+        break
+
+      case 'not_a_fit':
+        updateLead(lead.id, { status: 'Not a Fit', approval_status: 'REJECTED' }, 'not_a_fit')
+        break
+
+      case 'push_to_ghl':
+        setPushingToGhl(lead.id)
+        try {
+          const res = await fetch('/.netlify/functions/push-to-ghl', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ lead }),
+          })
+          const data = await res.json()
+          if (data.success) {
+            updateLead(lead.id, {
+              status: data.stage || 'In GHL',
+            }, 'push_to_ghl')
+            alert(`${lead.company} pushed to GHL!\nStage: ${data.stage}\nValue: $${data.monetary?.toLocaleString()}/yr`)
+          } else {
+            alert(`GHL push failed: ${data.error || 'Unknown error'}`)
+          }
+        } catch (err) {
+          alert(`GHL push failed: ${err.message}`)
+        } finally {
+          setPushingToGhl(null)
+        }
+        break
+
+      case 'flag_for_call':
+        updateLead(lead.id, { status: 'Call Scheduled' }, 'flag_for_call')
+        break
+
+      case 'send_to_gregory':
+        updateLead(lead.id, { status: 'Gregory -- Personal Outreach' }, 'send_to_gregory')
+        break
+
+      default:
+        console.log(`[Action] ${action}:`, lead?.id, lead?.company)
     }
-    if (action === 'approve') {
-      if (lead?.id) {
-        updateLeadDm(lead.id, lead?.outreach?.dm_draft, 'approve')
-        updateLeadStatus(lead.id, 'approval_status', 'APPROVED')
-      }
-      return
-    }
-    if (action === 'reject') {
-      if (lead?.id) {
-        updateLeadDm(lead.id, lead?.outreach?.dm_draft, 'reject')
-        updateLeadStatus(lead.id, 'approval_status', 'REJECTED')
-      }
-      return
-    }
-    if (action === 'not_a_fit') {
-      if (lead?.id) {
-        updateLeadStatus(lead.id, 'status', 'Not a Fit')
-        updateLeadStatus(lead.id, 'approval_status', 'REJECTED')
-        // Persist via Netlify Function
-        fetch('/.netlify/functions/update-dm', {
-          method: 'POST',
-          headers: { 'Content-Type': 'application/json' },
-          body: JSON.stringify({ leadId: lead.id, action: 'not_a_fit' }),
-        }).catch(err => console.error('Failed to persist not_a_fit:', err))
-      }
-      return
-    }
-    console.log(`[Action] ${action}:`, lead?.id, lead?.company)
   }
 
   const totalPipelineValue = leads.reduce((sum, l) => sum + (l.pricing?.annual_value || 0), 0)

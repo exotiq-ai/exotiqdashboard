@@ -1,4 +1,4 @@
-import { useState, useEffect, useCallback } from 'react'
+import { useState, useEffect, useCallback, useRef } from 'react'
 
 const POLL_INTERVAL = 30000
 
@@ -18,6 +18,28 @@ export function useLeadData() {
   const [error, setError] = useState(null)
   const [lastSynced, setLastSynced] = useState(null)
 
+  // Local overrides that survive poll cycles (keyed by leadId)
+  // Each override is a partial lead object merged on top of server data
+  const localOverrides = useRef({})
+
+  function applyOverrides(serverLeads) {
+    const now = Date.now()
+    // Clean expired overrides (older than 10 minutes)
+    Object.entries(localOverrides.current).forEach(([id, entry]) => {
+      if (now - entry._ts > 600000) delete localOverrides.current[id]
+    })
+
+    return serverLeads.map(l => {
+      const override = localOverrides.current[l.id]
+      if (!override) return l
+      // Deep merge outreach overrides
+      return {
+        ...l,
+        outreach: { ...l.outreach, ...override.outreach },
+      }
+    })
+  }
+
   const fetchAll = useCallback(async () => {
     try {
       const [leadsData, activityData, statsData, ghlData, metricsData] = await Promise.all([
@@ -27,7 +49,8 @@ export function useLeadData() {
         fetchJson('/data/ghl_sync_status.json'),
         fetchJson('/data/pipeline_metrics.json'),
       ])
-      setLeads(Array.isArray(leadsData) ? leadsData : [])
+      const serverLeads = Array.isArray(leadsData) ? leadsData : []
+      setLeads(applyOverrides(serverLeads))
       setActivity(Array.isArray(activityData) ? activityData : [])
       setStats(statsData)
       setGhlStatus(ghlData)
@@ -47,66 +70,37 @@ export function useLeadData() {
     return () => clearInterval(interval)
   }, [fetchAll])
 
-  // Track local edits so poll doesn't overwrite them
-  const [localEdits, setLocalEdits] = useState({})
+  // Update a lead locally and persist to Netlify Function
+  const updateLead = useCallback(async (leadId, outreachUpdates, action) => {
+    // Store override
+    const existing = localOverrides.current[leadId]?.outreach || {}
+    localOverrides.current[leadId] = {
+      outreach: { ...existing, ...outreachUpdates },
+      _ts: Date.now(),
+    }
 
-  const updateLeadDm = useCallback(async (leadId, newDraft, action = 'save') => {
-    // Update local state immediately
+    // Update state immediately
     setLeads(prev => prev.map(l =>
       l.id === leadId
-        ? { ...l, outreach: { ...l.outreach, dm_draft: newDraft } }
+        ? { ...l, outreach: { ...l.outreach, ...outreachUpdates } }
         : l
     ))
 
-    // Track this edit so poll doesn't overwrite
-    setLocalEdits(prev => ({ ...prev, [leadId]: { dm_draft: newDraft, action, at: Date.now() } }))
-
-    // Persist via Netlify Function
+    // Persist
     try {
       await fetch('/.netlify/functions/update-dm', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ leadId, dmDraft: newDraft, action }),
+        body: JSON.stringify({
+          leadId,
+          dmDraft: outreachUpdates.dm_draft,
+          action: action || 'update',
+          updates: outreachUpdates,
+        }),
       })
     } catch (err) {
-      console.error('Failed to persist DM edit:', err)
+      console.error('Failed to persist update:', err)
     }
-  }, [])
-
-  // After each poll, re-apply local edits that are less than 5 minutes old
-  useEffect(() => {
-    if (Object.keys(localEdits).length === 0) return
-    const now = Date.now()
-    const fresh = {}
-    let needsUpdate = false
-
-    Object.entries(localEdits).forEach(([id, edit]) => {
-      if (now - edit.at < 300000) { // 5 minutes
-        fresh[id] = edit
-        needsUpdate = true
-      }
-    })
-
-    if (needsUpdate) {
-      setLeads(prev => prev.map(l => {
-        const edit = fresh[l.id]
-        if (edit) {
-          return { ...l, outreach: { ...l.outreach, dm_draft: edit.dm_draft } }
-        }
-        return l
-      }))
-    }
-
-    setLocalEdits(fresh)
-  }, [lastSynced]) // Re-apply after each poll
-
-  const updateLeadStatus = useCallback((leadId, field, value) => {
-    setLeads(prev => prev.map(l =>
-      l.id === leadId
-        ? { ...l, outreach: { ...l.outreach, [field]: value } }
-        : l
-    ))
-    setLocalEdits(prev => ({ ...prev, [`${leadId}_${field}`]: { field, value, at: Date.now() } }))
   }, [])
 
   return {
@@ -119,7 +113,6 @@ export function useLeadData() {
     error,
     lastSynced,
     refresh: fetchAll,
-    updateLeadDm,
-    updateLeadStatus,
+    updateLead,
   }
 }
