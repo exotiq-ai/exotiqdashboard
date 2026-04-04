@@ -34,17 +34,29 @@ def _load_config(config_path: str = _CONFIG_PATH) -> dict:
 
 def _compute_monetary_value(fleet_size: Optional[int]) -> int:
     """
-    Estimate annual contract value: fleet_size * $350 ADR * 365 days * 0.60 utilization.
+    Calculate annual SaaS contract value based on Exotiq pricing tiers.
 
-    Returns 0 for None or zero fleet size.
+    Starter (1-10 vehicles):  $29/vehicle/month, min $79/month
+    Professional (11-25):     $399/month
+    Business (26-75):         $899/month
+    Enterprise (76+):         $1,799/month
+
+    Returns annual value (monthly * 12). Returns Starter minimum for unknown fleet size.
     """
     try:
         size = int(fleet_size)
     except (TypeError, ValueError):
-        return 0
+        return 79 * 12  # Starter minimum
+
     if size <= 0:
-        return 0
-    return round(size * 350 * 365 * 0.6)
+        return 79 * 12  # Starter minimum
+    if size <= 10:
+        return max(size * 29, 79) * 12
+    if size <= 25:
+        return 399 * 12
+    if size <= 75:
+        return 899 * 12
+    return 1799 * 12  # Enterprise
 
 
 def _build_tags(lead: dict) -> list[str]:

@@ -5,6 +5,7 @@
     "contact": {
       "first_name": "Hussian",
       "last_name": "Alsaadi",
+      "title": "Founder",
       "email": null,
       "phone": "mysugarexotics.com",
       "linkedin": null,
@@ -37,13 +38,19 @@
       "template_used": null,
       "client_review": null,
       "approval_status": null,
+      "do_not_say": [],
       "dm1_sent": null,
       "dm2_sent": null,
       "dm3_sent": null,
       "response_received": 0,
       "response_category": null,
+      "response_date": null,
       "calendly_sent": null,
       "demo_scheduled": 0
+    },
+    "pricing": {
+      "annual_value": 4788,
+      "tier": "Professional"
     },
     "ghl": {
       "contact_id": null,
@@ -66,6 +73,7 @@
     "contact": {
       "first_name": null,
       "last_name": null,
+      "title": null,
       "email": null,
       "phone": "vemexoticrentals.com",
       "linkedin": null,
@@ -98,13 +106,19 @@
       "template_used": null,
       "client_review": null,
       "approval_status": null,
+      "do_not_say": [],
       "dm1_sent": null,
       "dm2_sent": null,
       "dm3_sent": null,
       "response_received": 0,
       "response_category": null,
+      "response_date": null,
       "calendly_sent": null,
       "demo_scheduled": 0
+    },
+    "pricing": {
+      "annual_value": 4788,
+      "tier": "Professional"
     },
     "ghl": {
       "contact_id": null,
@@ -127,6 +141,7 @@
     "contact": {
       "first_name": null,
       "last_name": null,
+      "title": null,
       "email": null,
       "phone": "laexoticcarrentalsandsales.com",
       "linkedin": null,
@@ -159,13 +174,19 @@
       "template_used": null,
       "client_review": null,
       "approval_status": null,
+      "do_not_say": [],
       "dm1_sent": null,
       "dm2_sent": null,
       "dm3_sent": null,
       "response_received": 0,
       "response_category": null,
+      "response_date": null,
       "calendly_sent": null,
       "demo_scheduled": 0
+    },
+    "pricing": {
+      "annual_value": 10788,
+      "tier": "Business"
     },
     "ghl": {
       "contact_id": null,
@@ -188,6 +209,7 @@
     "contact": {
       "first_name": null,
       "last_name": null,
+      "title": null,
       "email": null,
       "phone": "dreamexoticrentalcars.com",
       "linkedin": null,
@@ -220,13 +242,19 @@
       "template_used": null,
       "client_review": null,
       "approval_status": null,
+      "do_not_say": [],
       "dm1_sent": null,
       "dm2_sent": null,
       "dm3_sent": null,
       "response_received": 0,
       "response_category": null,
+      "response_date": null,
       "calendly_sent": null,
       "demo_scheduled": 0
+    },
+    "pricing": {
+      "annual_value": 21588,
+      "tier": "Enterprise"
     },
     "ghl": {
       "contact_id": null,
@@ -249,6 +277,7 @@
     "contact": {
       "first_name": "Houston",
       "last_name": "Crosta",
+      "title": null,
       "email": null,
       "phone": "royaltyexoticcars.com",
       "linkedin": null,
@@ -281,13 +310,19 @@
       "template_used": null,
       "client_review": null,
       "approval_status": null,
+      "do_not_say": [],
       "dm1_sent": null,
       "dm2_sent": null,
       "dm3_sent": null,
       "response_received": 0,
       "response_category": null,
+      "response_date": null,
       "calendly_sent": null,
       "demo_scheduled": 0
+    },
+    "pricing": {
+      "annual_value": 10788,
+      "tier": "Business"
     },
     "ghl": {
       "contact_id": null,
@@ -310,6 +345,7 @@
     "contact": {
       "first_name": null,
       "last_name": null,
+      "title": null,
       "email": null,
       "phone": "royaltyrentals.info",
       "linkedin": null,
@@ -342,13 +378,19 @@
       "template_used": null,
       "client_review": null,
       "approval_status": null,
+      "do_not_say": [],
       "dm1_sent": null,
       "dm2_sent": null,
       "dm3_sent": null,
       "response_received": 0,
       "response_category": null,
+      "response_date": null,
       "calendly_sent": null,
       "demo_scheduled": 0
+    },
+    "pricing": {
+      "annual_value": 4788,
+      "tier": "Professional"
     },
     "ghl": {
       "contact_id": null,
@@ -371,6 +413,7 @@
     "contact": {
       "first_name": "Otto",
       "last_name": "Naser",
+      "title": "Owner CEO",
       "email": null,
       "phone": "Ottoexotics@gmail.com",
       "linkedin": "https://www.linkedin.com/in/otto-naser-90b085136/",
@@ -403,13 +446,19 @@
       "template_used": null,
       "client_review": "Y",
       "approval_status": null,
+      "do_not_say": [],
       "dm1_sent": null,
       "dm2_sent": null,
       "dm3_sent": null,
       "response_received": 0,
       "response_category": null,
+      "response_date": null,
       "calendly_sent": null,
       "demo_scheduled": 0
+    },
+    "pricing": {
+      "annual_value": 948,
+      "tier": "Starter (est.)"
     },
     "ghl": {
       "contact_id": null,
@@ -432,6 +481,7 @@
     "contact": {
       "first_name": null,
       "last_name": null,
+      "title": null,
       "email": null,
       "phone": "blacklabelexotics.com",
       "linkedin": null,
@@ -464,13 +514,19 @@
       "template_used": null,
       "client_review": null,
       "approval_status": null,
+      "do_not_say": [],
       "dm1_sent": null,
       "dm2_sent": null,
       "dm3_sent": null,
       "response_received": 0,
       "response_category": null,
+      "response_date": null,
       "calendly_sent": null,
       "demo_scheduled": 0
+    },
+    "pricing": {
+      "annual_value": 4788,
+      "tier": "Professional"
     },
     "ghl": {
       "contact_id": null,
@@ -493,6 +549,7 @@
     "contact": {
       "first_name": null,
       "last_name": null,
+      "title": null,
       "email": null,
       "phone": "fantasyexoticrentals.com",
       "linkedin": null,
@@ -525,13 +582,19 @@
       "template_used": null,
       "client_review": null,
       "approval_status": "PENDING",
+      "do_not_say": [],
       "dm1_sent": null,
       "dm2_sent": null,
       "dm3_sent": null,
       "response_received": 0,
       "response_category": null,
+      "response_date": null,
       "calendly_sent": null,
       "demo_scheduled": 0
+    },
+    "pricing": {
+      "annual_value": 4788,
+      "tier": "Professional"
     },
     "ghl": {
       "contact_id": null,
@@ -554,6 +617,7 @@
     "contact": {
       "first_name": "Jaime Andres",
       "last_name": "Lopez",
+      "title": "Founder & COO",
       "email": null,
       "phone": null,
       "linkedin": null,
@@ -588,13 +652,19 @@
       "template_used": "B",
       "client_review": null,
       "approval_status": "PENDING",
+      "do_not_say": [],
       "dm1_sent": null,
       "dm2_sent": null,
       "dm3_sent": null,
       "response_received": 0,
       "response_category": null,
+      "response_date": null,
       "calendly_sent": null,
       "demo_scheduled": 0
+    },
+    "pricing": {
+      "annual_value": 948,
+      "tier": "Starter (est.)"
     },
     "ghl": {
       "contact_id": null,
@@ -617,6 +687,7 @@
     "contact": {
       "first_name": "Liram",
       "last_name": "Sustiel",
+      "title": "CEO / Founder",
       "email": "info@mphclub.com",
       "phone": "(305) 330-6322",
       "linkedin": null,
@@ -651,13 +722,19 @@
       "template_used": "MIA-017-MPHClub",
       "client_review": null,
       "approval_status": "PENDING",
+      "do_not_say": [],
       "dm1_sent": null,
       "dm2_sent": null,
       "dm3_sent": null,
       "response_received": 0,
       "response_category": null,
+      "response_date": null,
       "calendly_sent": null,
       "demo_scheduled": 0
+    },
+    "pricing": {
+      "annual_value": 10788,
+      "tier": "Business"
     },
     "ghl": {
       "contact_id": null,
@@ -680,6 +757,7 @@
     "contact": {
       "first_name": "Mark",
       "last_name": "Pugachev",
+      "title": null,
       "email": "rentals@pugachev.miami",
       "phone": "(786) 859-7876",
       "linkedin": null,
@@ -714,13 +792,19 @@
       "template_used": "MIA-016-PugachevComp",
       "client_review": null,
       "approval_status": "APPROVED",
+      "do_not_say": [],
       "dm1_sent": "2026-03-20 00:00:00",
       "dm2_sent": null,
       "dm3_sent": null,
       "response_received": 0,
       "response_category": null,
+      "response_date": null,
       "calendly_sent": null,
       "demo_scheduled": 0
+    },
+    "pricing": {
+      "annual_value": 4788,
+      "tier": "Professional"
     },
     "ghl": {
       "contact_id": null,
@@ -743,6 +827,7 @@
     "contact": {
       "first_name": "Gianni",
       "last_name": "Duarte",
+      "title": "Business Owner",
       "email": "info@prestigeluxuryrentals.com",
       "phone": "(305) 513-9711",
       "linkedin": null,
@@ -777,13 +862,19 @@
       "template_used": "MIA-015-PrestigeAuto",
       "client_review": null,
       "approval_status": "APPROVED",
+      "do_not_say": [],
       "dm1_sent": "2026-03-20 00:00:00",
       "dm2_sent": "Thanks for the quick reply, I\u2019d love to connect with your team. Here\u2019s my personal cell 970-343-9634\nIs there someone on your team I can follow up with directly?",
       "dm3_sent": null,
       "response_received": 0,
       "response_category": null,
+      "response_date": null,
       "calendly_sent": null,
       "demo_scheduled": 0
+    },
+    "pricing": {
+      "annual_value": 10788,
+      "tier": "Business"
     },
     "ghl": {
       "contact_id": null,
@@ -806,6 +897,7 @@
     "contact": {
       "first_name": "Kevin",
       "last_name": "Uglialoro",
+      "title": "Co-Founder/Owner",
       "email": "info@velocityexoticcars.com",
       "phone": "(813) 940-5225",
       "linkedin": null,
@@ -838,13 +930,19 @@
       "template_used": "MIA-014-VelocityExot",
       "client_review": null,
       "approval_status": null,
+      "do_not_say": [],
       "dm1_sent": null,
       "dm2_sent": null,
       "dm3_sent": null,
       "response_received": 0,
       "response_category": null,
+      "response_date": null,
       "calendly_sent": null,
       "demo_scheduled": 0
+    },
+    "pricing": {
+      "annual_value": 948,
+      "tier": "Starter (est.)"
     },
     "ghl": {
       "contact_id": null,
@@ -867,6 +965,7 @@
     "contact": {
       "first_name": "Zachary",
       "last_name": "Schneider",
+      "title": "Owner, CEO",
       "email": "info@exoticsbythebay.co",
       "phone": "+1 813-403-8213",
       "linkedin": "http://www.linkedin.com/in/zachary-schneider-1b3a7bbb",
@@ -899,13 +998,19 @@
       "template_used": null,
       "client_review": null,
       "approval_status": "APPROVED",
+      "do_not_say": [],
       "dm1_sent": "March 16th",
       "dm2_sent": null,
       "dm3_sent": null,
       "response_received": 1,
       "response_category": "Interested - Won't Confirm Call",
+      "response_date": null,
       "calendly_sent": null,
       "demo_scheduled": 0
+    },
+    "pricing": {
+      "annual_value": 10788,
+      "tier": "Business"
     },
     "ghl": {
       "contact_id": null,
@@ -928,6 +1033,7 @@
     "contact": {
       "first_name": "Joseph",
       "last_name": "Gornbein",
+      "title": "Company Owner",
       "email": null,
       "phone": "+1 813-403-8213",
       "linkedin": "http://www.linkedin.com/in/joseph-gornbein-6a204224a",
@@ -962,13 +1068,19 @@
       "template_used": null,
       "client_review": null,
       "approval_status": "PENDING",
+      "do_not_say": [],
       "dm1_sent": null,
       "dm2_sent": null,
       "dm3_sent": null,
       "response_received": 0,
       "response_category": null,
+      "response_date": null,
       "calendly_sent": null,
       "demo_scheduled": 0
+    },
+    "pricing": {
+      "annual_value": 10788,
+      "tier": "Business"
     },
     "ghl": {
       "contact_id": null,
@@ -991,6 +1103,7 @@
     "contact": {
       "first_name": null,
       "last_name": null,
+      "title": null,
       "email": null,
       "phone": "clubsportiva.com",
       "linkedin": null,
@@ -1023,13 +1136,19 @@
       "template_used": null,
       "client_review": null,
       "approval_status": null,
+      "do_not_say": [],
       "dm1_sent": null,
       "dm2_sent": null,
       "dm3_sent": null,
       "response_received": 0,
       "response_category": null,
+      "response_date": null,
       "calendly_sent": null,
       "demo_scheduled": 0
+    },
+    "pricing": {
+      "annual_value": 4788,
+      "tier": "Professional"
     },
     "ghl": {
       "contact_id": null,
@@ -1052,6 +1171,7 @@
     "contact": {
       "first_name": null,
       "last_name": null,
+      "title": null,
       "email": null,
       "phone": "falconcarrental.com",
       "linkedin": null,
@@ -1084,13 +1204,19 @@
       "template_used": null,
       "client_review": null,
       "approval_status": null,
+      "do_not_say": [],
       "dm1_sent": null,
       "dm2_sent": null,
       "dm3_sent": null,
       "response_received": 0,
       "response_category": null,
+      "response_date": null,
       "calendly_sent": null,
       "demo_scheduled": 0
+    },
+    "pricing": {
+      "annual_value": 4788,
+      "tier": "Professional"
     },
     "ghl": {
       "contact_id": null,
@@ -1113,6 +1239,7 @@
     "contact": {
       "first_name": null,
       "last_name": null,
+      "title": null,
       "email": null,
       "phone": "laexoticcarrentalsandsales.com",
       "linkedin": null,
@@ -1145,13 +1272,19 @@
       "template_used": null,
       "client_review": null,
       "approval_status": null,
+      "do_not_say": [],
       "dm1_sent": null,
       "dm2_sent": null,
       "dm3_sent": null,
       "response_received": 0,
       "response_category": null,
+      "response_date": null,
       "calendly_sent": null,
       "demo_scheduled": 0
+    },
+    "pricing": {
+      "annual_value": 4788,
+      "tier": "Professional"
     },
     "ghl": {
       "contact_id": null,
@@ -1174,6 +1307,7 @@
     "contact": {
       "first_name": null,
       "last_name": null,
+      "title": null,
       "email": null,
       "phone": "jungleexotic.com",
       "linkedin": null,
@@ -1206,13 +1340,19 @@
       "template_used": null,
       "client_review": null,
       "approval_status": null,
+      "do_not_say": [],
       "dm1_sent": null,
       "dm2_sent": null,
       "dm3_sent": null,
       "response_received": 0,
       "response_category": null,
+      "response_date": null,
       "calendly_sent": null,
       "demo_scheduled": 0
+    },
+    "pricing": {
+      "annual_value": 4788,
+      "tier": "Professional"
     },
     "ghl": {
       "contact_id": null,
@@ -1235,6 +1375,7 @@
     "contact": {
       "first_name": null,
       "last_name": null,
+      "title": null,
       "email": null,
       "phone": "777exotics.com",
       "linkedin": null,
@@ -1267,13 +1408,19 @@
       "template_used": null,
       "client_review": null,
       "approval_status": null,
+      "do_not_say": [],
       "dm1_sent": null,
       "dm2_sent": null,
       "dm3_sent": null,
       "response_received": 0,
       "response_category": null,
+      "response_date": null,
       "calendly_sent": null,
       "demo_scheduled": 0
+    },
+    "pricing": {
+      "annual_value": 4788,
+      "tier": "Professional"
     },
     "ghl": {
       "contact_id": null,
@@ -1296,6 +1443,7 @@
     "contact": {
       "first_name": null,
       "last_name": null,
+      "title": null,
       "email": null,
       "phone": "davinci-motors.com",
       "linkedin": null,
@@ -1328,13 +1476,19 @@
       "template_used": null,
       "client_review": null,
       "approval_status": null,
+      "do_not_say": [],
       "dm1_sent": null,
       "dm2_sent": null,
       "dm3_sent": null,
       "response_received": 0,
       "response_category": null,
+      "response_date": null,
       "calendly_sent": null,
       "demo_scheduled": 0
+    },
+    "pricing": {
+      "annual_value": 4788,
+      "tier": "Professional"
     },
     "ghl": {
       "contact_id": null,
@@ -1357,6 +1511,7 @@
     "contact": {
       "first_name": null,
       "last_name": null,
+      "title": null,
       "email": null,
       "phone": "777exoticslv.com",
       "linkedin": null,
@@ -1389,13 +1544,19 @@
       "template_used": null,
       "client_review": null,
       "approval_status": null,
+      "do_not_say": [],
       "dm1_sent": null,
       "dm2_sent": null,
       "dm3_sent": null,
       "response_received": 0,
       "response_category": null,
+      "response_date": null,
       "calendly_sent": null,
       "demo_scheduled": 0
+    },
+    "pricing": {
+      "annual_value": 10788,
+      "tier": "Business"
     },
     "ghl": {
       "contact_id": null,
@@ -1418,6 +1579,7 @@
     "contact": {
       "first_name": null,
       "last_name": null,
+      "title": null,
       "email": null,
       "phone": "diplomatrentals.com",
       "linkedin": null,
@@ -1450,13 +1612,19 @@
       "template_used": null,
       "client_review": null,
       "approval_status": null,
+      "do_not_say": [],
       "dm1_sent": null,
       "dm2_sent": null,
       "dm3_sent": null,
       "response_received": 0,
       "response_category": null,
+      "response_date": null,
       "calendly_sent": null,
       "demo_scheduled": 0
+    },
+    "pricing": {
+      "annual_value": 4788,
+      "tier": "Professional"
     },
     "ghl": {
       "contact_id": null,
@@ -1479,6 +1647,7 @@
     "contact": {
       "first_name": null,
       "last_name": null,
+      "title": null,
       "email": null,
       "phone": "lvcexotics.com",
       "linkedin": null,
@@ -1511,13 +1680,19 @@
       "template_used": null,
       "client_review": null,
       "approval_status": null,
+      "do_not_say": [],
       "dm1_sent": null,
       "dm2_sent": null,
       "dm3_sent": null,
       "response_received": 0,
       "response_category": null,
+      "response_date": null,
       "calendly_sent": null,
       "demo_scheduled": 0
+    },
+    "pricing": {
+      "annual_value": 4788,
+      "tier": "Professional"
     },
     "ghl": {
       "contact_id": null,
@@ -1540,6 +1715,7 @@
     "contact": {
       "first_name": null,
       "last_name": null,
+      "title": null,
       "email": null,
       "phone": "monacoexperiences.com",
       "linkedin": null,
@@ -1572,13 +1748,19 @@
       "template_used": null,
       "client_review": null,
       "approval_status": null,
+      "do_not_say": [],
       "dm1_sent": null,
       "dm2_sent": null,
       "dm3_sent": null,
       "response_received": 0,
       "response_category": null,
+      "response_date": null,
       "calendly_sent": null,
       "demo_scheduled": 0
+    },
+    "pricing": {
+      "annual_value": 4788,
+      "tier": "Professional"
     },
     "ghl": {
       "contact_id": null,
@@ -1601,6 +1783,7 @@
     "contact": {
       "first_name": null,
       "last_name": null,
+      "title": null,
       "email": null,
       "phone": "gothamdreamcars.com",
       "linkedin": null,
@@ -1633,13 +1816,19 @@
       "template_used": null,
       "client_review": null,
       "approval_status": null,
+      "do_not_say": [],
       "dm1_sent": null,
       "dm2_sent": null,
       "dm3_sent": null,
       "response_received": 0,
       "response_category": null,
+      "response_date": null,
       "calendly_sent": null,
       "demo_scheduled": 0
+    },
+    "pricing": {
+      "annual_value": 4788,
+      "tier": "Professional"
     },
     "ghl": {
       "contact_id": null,
@@ -1662,6 +1851,7 @@
     "contact": {
       "first_name": null,
       "last_name": null,
+      "title": null,
       "email": null,
       "phone": "monarqmotors.com",
       "linkedin": null,
@@ -1694,13 +1884,19 @@
       "template_used": null,
       "client_review": null,
       "approval_status": null,
+      "do_not_say": [],
       "dm1_sent": null,
       "dm2_sent": null,
       "dm3_sent": null,
       "response_received": 0,
       "response_category": null,
+      "response_date": null,
       "calendly_sent": null,
       "demo_scheduled": 0
+    },
+    "pricing": {
+      "annual_value": 4788,
+      "tier": "Professional"
     },
     "ghl": {
       "contact_id": null,
@@ -1723,6 +1919,7 @@
     "contact": {
       "first_name": null,
       "last_name": null,
+      "title": null,
       "email": null,
       "phone": "milanirentals.com",
       "linkedin": null,
@@ -1755,13 +1952,19 @@
       "template_used": null,
       "client_review": null,
       "approval_status": null,
+      "do_not_say": [],
       "dm1_sent": null,
       "dm2_sent": null,
       "dm3_sent": null,
       "response_received": 0,
       "response_category": null,
+      "response_date": null,
       "calendly_sent": null,
       "demo_scheduled": 0
+    },
+    "pricing": {
+      "annual_value": 4788,
+      "tier": "Professional"
     },
     "ghl": {
       "contact_id": null,
@@ -1784,6 +1987,7 @@
     "contact": {
       "first_name": null,
       "last_name": null,
+      "title": null,
       "email": null,
       "phone": "atlexoticrentals.com",
       "linkedin": null,
@@ -1816,13 +2020,19 @@
       "template_used": null,
       "client_review": null,
       "approval_status": null,
+      "do_not_say": [],
       "dm1_sent": null,
       "dm2_sent": null,
       "dm3_sent": null,
       "response_received": 0,
       "response_category": null,
+      "response_date": null,
       "calendly_sent": null,
       "demo_scheduled": 0
+    },
+    "pricing": {
+      "annual_value": 4788,
+      "tier": "Professional"
     },
     "ghl": {
       "contact_id": null,
@@ -1845,6 +2055,7 @@
     "contact": {
       "first_name": null,
       "last_name": null,
+      "title": null,
       "email": null,
       "phone": "dallasdreamrides.com",
       "linkedin": null,
@@ -1877,13 +2088,19 @@
       "template_used": null,
       "client_review": null,
       "approval_status": null,
+      "do_not_say": [],
       "dm1_sent": null,
       "dm2_sent": null,
       "dm3_sent": null,
       "response_received": 0,
       "response_category": null,
+      "response_date": null,
       "calendly_sent": null,
       "demo_scheduled": 0
+    },
+    "pricing": {
+      "annual_value": 4788,
+      "tier": "Professional"
     },
     "ghl": {
       "contact_id": null,
@@ -1906,6 +2123,7 @@
     "contact": {
       "first_name": null,
       "last_name": null,
+      "title": null,
       "email": null,
       "phone": "romaexoticrentals.com",
       "linkedin": null,
@@ -1938,13 +2156,19 @@
       "template_used": null,
       "client_review": null,
       "approval_status": null,
+      "do_not_say": [],
       "dm1_sent": null,
       "dm2_sent": null,
       "dm3_sent": null,
       "response_received": 0,
       "response_category": null,
+      "response_date": null,
       "calendly_sent": null,
       "demo_scheduled": 0
+    },
+    "pricing": {
+      "annual_value": 4788,
+      "tier": "Professional"
     },
     "ghl": {
       "contact_id": null,
@@ -1967,6 +2191,7 @@
     "contact": {
       "first_name": null,
       "last_name": null,
+      "title": null,
       "email": null,
       "phone": "theclassictx.com",
       "linkedin": null,
@@ -1999,13 +2224,19 @@
       "template_used": null,
       "client_review": null,
       "approval_status": null,
+      "do_not_say": [],
       "dm1_sent": null,
       "dm2_sent": null,
       "dm3_sent": null,
       "response_received": 0,
       "response_category": null,
+      "response_date": null,
       "calendly_sent": null,
       "demo_scheduled": 0
+    },
+    "pricing": {
+      "annual_value": 4788,
+      "tier": "Professional"
     },
     "ghl": {
       "contact_id": null,
@@ -2028,6 +2259,7 @@
     "contact": {
       "first_name": null,
       "last_name": null,
+      "title": null,
       "email": null,
       "phone": "pictonautogroup.com",
       "linkedin": null,
@@ -2060,13 +2292,19 @@
       "template_used": null,
       "client_review": null,
       "approval_status": null,
+      "do_not_say": [],
       "dm1_sent": null,
       "dm2_sent": null,
       "dm3_sent": null,
       "response_received": 0,
       "response_category": null,
+      "response_date": null,
       "calendly_sent": null,
       "demo_scheduled": 0
+    },
+    "pricing": {
+      "annual_value": 4788,
+      "tier": "Professional"
     },
     "ghl": {
       "contact_id": null,
@@ -2089,6 +2327,7 @@
     "contact": {
       "first_name": "Jason",
       "last_name": null,
+      "title": null,
       "email": null,
       "phone": null,
       "linkedin": null,
@@ -2121,13 +2360,19 @@
       "template_used": null,
       "client_review": null,
       "approval_status": "PENDING",
+      "do_not_say": [],
       "dm1_sent": null,
       "dm2_sent": null,
       "dm3_sent": null,
       "response_received": 0,
       "response_category": null,
+      "response_date": null,
       "calendly_sent": null,
       "demo_scheduled": 0
+    },
+    "pricing": {
+      "annual_value": 4788,
+      "tier": "Professional"
     },
     "ghl": {
       "contact_id": null,
@@ -2150,6 +2395,7 @@
     "contact": {
       "first_name": null,
       "last_name": null,
+      "title": null,
       "email": "info@premierluxuryclub.com",
       "phone": null,
       "linkedin": null,
@@ -2182,13 +2428,19 @@
       "template_used": null,
       "client_review": null,
       "approval_status": "PENDING",
+      "do_not_say": [],
       "dm1_sent": null,
       "dm2_sent": null,
       "dm3_sent": null,
       "response_received": 0,
       "response_category": null,
+      "response_date": null,
       "calendly_sent": null,
       "demo_scheduled": 0
+    },
+    "pricing": {
+      "annual_value": 4788,
+      "tier": "Professional"
     },
     "ghl": {
       "contact_id": null,
@@ -2211,6 +2463,7 @@
     "contact": {
       "first_name": null,
       "last_name": null,
+      "title": null,
       "email": null,
       "phone": "royalrentals.io",
       "linkedin": null,
@@ -2243,13 +2496,19 @@
       "template_used": null,
       "client_review": null,
       "approval_status": "PENDING",
+      "do_not_say": [],
       "dm1_sent": null,
       "dm2_sent": null,
       "dm3_sent": null,
       "response_received": 0,
       "response_category": null,
+      "response_date": null,
       "calendly_sent": null,
       "demo_scheduled": 0
+    },
+    "pricing": {
+      "annual_value": 4788,
+      "tier": "Professional"
     },
     "ghl": {
       "contact_id": null,
@@ -2272,6 +2531,7 @@
     "contact": {
       "first_name": null,
       "last_name": null,
+      "title": null,
       "email": null,
       "phone": null,
       "linkedin": null,
@@ -2306,13 +2566,19 @@
       "template_used": "B",
       "client_review": null,
       "approval_status": "PENDING",
+      "do_not_say": [],
       "dm1_sent": null,
       "dm2_sent": null,
       "dm3_sent": null,
       "response_received": 0,
       "response_category": null,
+      "response_date": null,
       "calendly_sent": null,
       "demo_scheduled": 0
+    },
+    "pricing": {
+      "annual_value": 4788,
+      "tier": "Professional"
     },
     "ghl": {
       "contact_id": null,
@@ -2335,6 +2601,7 @@
     "contact": {
       "first_name": "Hadi",
       "last_name": "Moeini",
+      "title": "CEO",
       "email": "info@luxuryinmiami.com",
       "phone": "(305) 600-4550",
       "linkedin": null,
@@ -2367,13 +2634,19 @@
       "template_used": "B",
       "client_review": null,
       "approval_status": "PENDING",
+      "do_not_say": [],
       "dm1_sent": null,
       "dm2_sent": null,
       "dm3_sent": null,
       "response_received": 0,
       "response_category": null,
+      "response_date": null,
       "calendly_sent": null,
       "demo_scheduled": 0
+    },
+    "pricing": {
+      "annual_value": 4788,
+      "tier": "Professional"
     },
     "ghl": {
       "contact_id": null,
@@ -2396,6 +2669,7 @@
     "contact": {
       "first_name": null,
       "last_name": null,
+      "title": null,
       "email": null,
       "phone": null,
       "linkedin": null,
@@ -2428,13 +2702,19 @@
       "template_used": null,
       "client_review": null,
       "approval_status": "APPROVED",
+      "do_not_say": [],
       "dm1_sent": "2026-03-20 00:00:00",
       "dm2_sent": null,
       "dm3_sent": null,
       "response_received": 0,
       "response_category": null,
+      "response_date": null,
       "calendly_sent": null,
       "demo_scheduled": 0
+    },
+    "pricing": {
+      "annual_value": 4788,
+      "tier": "Professional"
     },
     "ghl": {
       "contact_id": null,
@@ -2457,6 +2737,7 @@
     "contact": {
       "first_name": null,
       "last_name": null,
+      "title": null,
       "email": null,
       "phone": null,
       "linkedin": null,
@@ -2489,13 +2770,19 @@
       "template_used": null,
       "client_review": null,
       "approval_status": "PENDING",
+      "do_not_say": [],
       "dm1_sent": null,
       "dm2_sent": null,
       "dm3_sent": null,
       "response_received": 0,
       "response_category": null,
+      "response_date": null,
       "calendly_sent": null,
       "demo_scheduled": 0
+    },
+    "pricing": {
+      "annual_value": 4788,
+      "tier": "Professional"
     },
     "ghl": {
       "contact_id": null,
@@ -2518,6 +2805,7 @@
     "contact": {
       "first_name": null,
       "last_name": null,
+      "title": null,
       "email": null,
       "phone": null,
       "linkedin": null,
@@ -2550,13 +2838,19 @@
       "template_used": "MIA-032-DiamondExoti",
       "client_review": null,
       "approval_status": "APPROVED",
+      "do_not_say": [],
       "dm1_sent": null,
       "dm2_sent": null,
       "dm3_sent": null,
       "response_received": 0,
       "response_category": null,
+      "response_date": null,
       "calendly_sent": null,
       "demo_scheduled": 0
+    },
+    "pricing": {
+      "annual_value": 4788,
+      "tier": "Professional"
     },
     "ghl": {
       "contact_id": null,
@@ -2579,6 +2873,7 @@
     "contact": {
       "first_name": null,
       "last_name": null,
+      "title": null,
       "email": null,
       "phone": null,
       "linkedin": null,
@@ -2611,13 +2906,19 @@
       "template_used": "MIA-028-SupremeSport",
       "client_review": null,
       "approval_status": "APPROVED",
+      "do_not_say": [],
       "dm1_sent": "2026-03-20 00:00:00",
       "dm2_sent": null,
       "dm3_sent": null,
       "response_received": 0,
       "response_category": null,
+      "response_date": null,
       "calendly_sent": null,
       "demo_scheduled": 0
+    },
+    "pricing": {
+      "annual_value": 4788,
+      "tier": "Professional"
     },
     "ghl": {
       "contact_id": null,
@@ -2640,6 +2941,7 @@
     "contact": {
       "first_name": "Jay",
       "last_name": "Cuza",
+      "title": "Owner",
       "email": null,
       "phone": null,
       "linkedin": "https://www.linkedin.com/in/jasoncuza/",
@@ -2672,13 +2974,19 @@
       "template_used": null,
       "client_review": null,
       "approval_status": "APPROVED",
+      "do_not_say": [],
       "dm1_sent": null,
       "dm2_sent": null,
       "dm3_sent": null,
       "response_received": 1,
       "response_category": "Interested - Gave Phone",
+      "response_date": null,
       "calendly_sent": null,
       "demo_scheduled": 0
+    },
+    "pricing": {
+      "annual_value": 4788,
+      "tier": "Professional"
     },
     "ghl": {
       "contact_id": null,
@@ -2701,6 +3009,7 @@
     "contact": {
       "first_name": "Fredo",
       "last_name": "D'Lima",
+      "title": "Owner",
       "email": null,
       "phone": null,
       "linkedin": null,
@@ -2733,13 +3042,19 @@
       "template_used": null,
       "client_review": null,
       "approval_status": "PENDING",
+      "do_not_say": [],
       "dm1_sent": null,
       "dm2_sent": null,
       "dm3_sent": null,
       "response_received": 1,
       "response_category": "Interested - Gave Phone",
+      "response_date": null,
       "calendly_sent": null,
       "demo_scheduled": 1
+    },
+    "pricing": {
+      "annual_value": 3480,
+      "tier": "Starter"
     },
     "ghl": {
       "contact_id": null,
@@ -2762,6 +3077,7 @@
     "contact": {
       "first_name": null,
       "last_name": null,
+      "title": null,
       "email": "info@eliteclubmia.com",
       "phone": "(786) 233-0693",
       "linkedin": null,
@@ -2796,13 +3112,19 @@
       "template_used": "MIA-020-EliteClubMia",
       "client_review": null,
       "approval_status": "PENDING",
+      "do_not_say": [],
       "dm1_sent": null,
       "dm2_sent": null,
       "dm3_sent": null,
       "response_received": 0,
       "response_category": null,
+      "response_date": null,
       "calendly_sent": null,
       "demo_scheduled": 0
+    },
+    "pricing": {
+      "annual_value": 4788,
+      "tier": "Professional"
     },
     "ghl": {
       "contact_id": null,
@@ -2825,6 +3147,7 @@
     "contact": {
       "first_name": null,
       "last_name": null,
+      "title": null,
       "email": "info@preferredexotics.com",
       "phone": "(305) 209-3090",
       "linkedin": null,
@@ -2859,13 +3182,19 @@
       "template_used": "MIA-019-PreferredExo",
       "client_review": null,
       "approval_status": "APPROVED",
+      "do_not_say": [],
       "dm1_sent": "2026-03-20 00:00:00",
       "dm2_sent": null,
       "dm3_sent": null,
       "response_received": 0,
       "response_category": null,
+      "response_date": null,
       "calendly_sent": null,
       "demo_scheduled": 0
+    },
+    "pricing": {
+      "annual_value": 4788,
+      "tier": "Professional"
     },
     "ghl": {
       "contact_id": null,
@@ -2888,6 +3217,7 @@
     "contact": {
       "first_name": "Jameer",
       "last_name": "Asif",
+      "title": "Owner",
       "email": "info@dreamcarsmiami.com",
       "phone": "(786)-599-6242",
       "linkedin": null,
@@ -2920,13 +3250,19 @@
       "template_used": "MIA-011-DreamCarRent",
       "client_review": null,
       "approval_status": "APPROVED",
+      "do_not_say": [],
       "dm1_sent": "3/20/2026 & March 26 Whatsapp",
       "dm2_sent": "Hey, this is Gregory Ringler, founder of Exotiq. Looking to connect with Jameer.\n\nI came up in the exotic rental world myself before building a fleet management platform for operators. Checked out what you guys are building with the cars and yachts, seriously impressive operation.\n\nWould love to compare notes with Jameer on how he's managing everything at that scale. Could you pass along my info or point me to the best way to reach him?\n\nGregory Ringler\nExotiq AI\n970.343.9634\ngregory@exotiq.ai",
       "dm3_sent": null,
       "response_received": 0,
       "response_category": null,
+      "response_date": null,
       "calendly_sent": null,
       "demo_scheduled": 0
+    },
+    "pricing": {
+      "annual_value": 4788,
+      "tier": "Professional"
     },
     "ghl": {
       "contact_id": null,
@@ -2949,6 +3285,7 @@
     "contact": {
       "first_name": "Juan",
       "last_name": "Caballero",
+      "title": "Owner",
       "email": null,
       "phone": "+1 305-890-2051",
       "linkedin": "http://www.linkedin.com/in/southbeach-exoticrentals-b81b1a185",
@@ -2981,13 +3318,19 @@
       "template_used": null,
       "client_review": null,
       "approval_status": "APPROVED",
+      "do_not_say": [],
       "dm1_sent": "Feb 2026",
       "dm2_sent": "march 25th - to owner IG @jc_sbexoticrentals",
       "dm3_sent": null,
       "response_received": 0,
       "response_category": null,
+      "response_date": null,
       "calendly_sent": null,
       "demo_scheduled": 0
+    },
+    "pricing": {
+      "annual_value": 948,
+      "tier": "Starter (est.)"
     },
     "ghl": {
       "contact_id": null,
@@ -3010,6 +3353,7 @@
     "contact": {
       "first_name": "Gianni",
       "last_name": "Mariotti",
+      "title": "Chief Executive Officer",
       "email": "gianni@mariottiexotics.com",
       "phone": null,
       "linkedin": "http://www.linkedin.com/in/gianni-mariotti-3431911a6",
@@ -3042,13 +3386,19 @@
       "template_used": "E",
       "client_review": null,
       "approval_status": "APPROVED",
+      "do_not_say": [],
       "dm1_sent": "March 26",
       "dm2_sent": null,
       "dm3_sent": null,
       "response_received": 0,
       "response_category": null,
+      "response_date": null,
       "calendly_sent": null,
       "demo_scheduled": 0
+    },
+    "pricing": {
+      "annual_value": 948,
+      "tier": "Starter (est.)"
     },
     "ghl": {
       "contact_id": null,
@@ -3071,6 +3421,7 @@
     "contact": {
       "first_name": null,
       "last_name": null,
+      "title": null,
       "email": null,
       "phone": "cmgexotics.com",
       "linkedin": null,
@@ -3103,13 +3454,19 @@
       "template_used": null,
       "client_review": null,
       "approval_status": null,
+      "do_not_say": [],
       "dm1_sent": null,
       "dm2_sent": null,
       "dm3_sent": null,
       "response_received": 0,
       "response_category": null,
+      "response_date": null,
       "calendly_sent": null,
       "demo_scheduled": 0
+    },
+    "pricing": {
+      "annual_value": 3480,
+      "tier": "Starter"
     },
     "ghl": {
       "contact_id": null,
@@ -3132,6 +3489,7 @@
     "contact": {
       "first_name": null,
       "last_name": null,
+      "title": null,
       "email": null,
       "phone": "rs-luxury.com",
       "linkedin": null,
@@ -3164,13 +3522,19 @@
       "template_used": null,
       "client_review": null,
       "approval_status": null,
+      "do_not_say": [],
       "dm1_sent": null,
       "dm2_sent": null,
       "dm3_sent": null,
       "response_received": 0,
       "response_category": null,
+      "response_date": null,
       "calendly_sent": null,
       "demo_scheduled": 0
+    },
+    "pricing": {
+      "annual_value": 3480,
+      "tier": "Starter"
     },
     "ghl": {
       "contact_id": null,
@@ -3193,6 +3557,7 @@
     "contact": {
       "first_name": null,
       "last_name": null,
+      "title": null,
       "email": null,
       "phone": null,
       "linkedin": null,
@@ -3225,13 +3590,19 @@
       "template_used": null,
       "client_review": null,
       "approval_status": null,
+      "do_not_say": [],
       "dm1_sent": null,
       "dm2_sent": null,
       "dm3_sent": null,
       "response_received": 0,
       "response_category": null,
+      "response_date": null,
       "calendly_sent": null,
       "demo_scheduled": 0
+    },
+    "pricing": {
+      "annual_value": 3480,
+      "tier": "Starter"
     },
     "ghl": {
       "contact_id": null,
@@ -3254,6 +3625,7 @@
     "contact": {
       "first_name": null,
       "last_name": null,
+      "title": null,
       "email": null,
       "phone": "dcexoticrentals.com",
       "linkedin": null,
@@ -3286,13 +3658,19 @@
       "template_used": null,
       "client_review": null,
       "approval_status": null,
+      "do_not_say": [],
       "dm1_sent": null,
       "dm2_sent": null,
       "dm3_sent": null,
       "response_received": 0,
       "response_category": null,
+      "response_date": null,
       "calendly_sent": null,
       "demo_scheduled": 0
+    },
+    "pricing": {
+      "annual_value": 4788,
+      "tier": "Professional"
     },
     "ghl": {
       "contact_id": null,
@@ -3315,6 +3693,7 @@
     "contact": {
       "first_name": null,
       "last_name": null,
+      "title": null,
       "email": null,
       "phone": "shopotsandco.com",
       "linkedin": null,
@@ -3347,13 +3726,19 @@
       "template_used": null,
       "client_review": null,
       "approval_status": null,
+      "do_not_say": [],
       "dm1_sent": null,
       "dm2_sent": null,
       "dm3_sent": null,
       "response_received": 0,
       "response_category": null,
+      "response_date": null,
       "calendly_sent": null,
       "demo_scheduled": 0
+    },
+    "pricing": {
+      "annual_value": 3480,
+      "tier": "Starter"
     },
     "ghl": {
       "contact_id": null,
@@ -3376,6 +3761,7 @@
     "contact": {
       "first_name": null,
       "last_name": null,
+      "title": null,
       "email": "svexoticsteam@gmail.com",
       "phone": "svexotic.com",
       "linkedin": null,
@@ -3408,13 +3794,19 @@
       "template_used": null,
       "client_review": null,
       "approval_status": null,
+      "do_not_say": [],
       "dm1_sent": null,
       "dm2_sent": null,
       "dm3_sent": null,
       "response_received": 0,
       "response_category": null,
+      "response_date": null,
       "calendly_sent": null,
       "demo_scheduled": 0
+    },
+    "pricing": {
+      "annual_value": 3480,
+      "tier": "Starter"
     },
     "ghl": {
       "contact_id": null,
@@ -3437,6 +3829,7 @@
     "contact": {
       "first_name": null,
       "last_name": null,
+      "title": null,
       "email": null,
       "phone": "instantluxuryrentals.com",
       "linkedin": null,
@@ -3469,13 +3862,19 @@
       "template_used": null,
       "client_review": null,
       "approval_status": null,
+      "do_not_say": [],
       "dm1_sent": null,
       "dm2_sent": null,
       "dm3_sent": null,
       "response_received": 0,
       "response_category": null,
+      "response_date": null,
       "calendly_sent": null,
       "demo_scheduled": 0
+    },
+    "pricing": {
+      "annual_value": 21588,
+      "tier": "Enterprise"
     },
     "ghl": {
       "contact_id": null,
@@ -3498,6 +3897,7 @@
     "contact": {
       "first_name": null,
       "last_name": null,
+      "title": null,
       "email": null,
       "phone": "falconcarrental.com",
       "linkedin": null,
@@ -3530,13 +3930,19 @@
       "template_used": null,
       "client_review": null,
       "approval_status": null,
+      "do_not_say": [],
       "dm1_sent": null,
       "dm2_sent": null,
       "dm3_sent": null,
       "response_received": 0,
       "response_category": null,
+      "response_date": null,
       "calendly_sent": null,
       "demo_scheduled": 0
+    },
+    "pricing": {
+      "annual_value": 4788,
+      "tier": "Professional"
     },
     "ghl": {
       "contact_id": null,
@@ -3559,6 +3965,7 @@
     "contact": {
       "first_name": null,
       "last_name": null,
+      "title": null,
       "email": null,
       "phone": "bhcarrental.com",
       "linkedin": null,
@@ -3591,13 +3998,19 @@
       "template_used": null,
       "client_review": null,
       "approval_status": null,
+      "do_not_say": [],
       "dm1_sent": null,
       "dm2_sent": null,
       "dm3_sent": null,
       "response_received": 0,
       "response_category": null,
+      "response_date": null,
       "calendly_sent": null,
       "demo_scheduled": 0
+    },
+    "pricing": {
+      "annual_value": 4788,
+      "tier": "Professional"
     },
     "ghl": {
       "contact_id": null,
@@ -3620,6 +4033,7 @@
     "contact": {
       "first_name": null,
       "last_name": null,
+      "title": null,
       "email": null,
       "phone": "royalexoticcarrental.com",
       "linkedin": null,
@@ -3652,13 +4066,19 @@
       "template_used": null,
       "client_review": null,
       "approval_status": null,
+      "do_not_say": [],
       "dm1_sent": null,
       "dm2_sent": null,
       "dm3_sent": null,
       "response_received": 0,
       "response_category": null,
+      "response_date": null,
       "calendly_sent": null,
       "demo_scheduled": 0
+    },
+    "pricing": {
+      "annual_value": 4788,
+      "tier": "Professional"
     },
     "ghl": {
       "contact_id": null,
@@ -3681,6 +4101,7 @@
     "contact": {
       "first_name": null,
       "last_name": null,
+      "title": null,
       "email": null,
       "phone": null,
       "linkedin": null,
@@ -3713,13 +4134,19 @@
       "template_used": null,
       "client_review": null,
       "approval_status": null,
+      "do_not_say": [],
       "dm1_sent": null,
       "dm2_sent": null,
       "dm3_sent": null,
       "response_received": 0,
       "response_category": null,
+      "response_date": null,
       "calendly_sent": null,
       "demo_scheduled": 0
+    },
+    "pricing": {
+      "annual_value": 3480,
+      "tier": "Starter"
     },
     "ghl": {
       "contact_id": null,
@@ -3742,6 +4169,7 @@
     "contact": {
       "first_name": null,
       "last_name": null,
+      "title": null,
       "email": null,
       "phone": "lanierluxuryrental.com",
       "linkedin": null,
@@ -3774,13 +4202,19 @@
       "template_used": null,
       "client_review": null,
       "approval_status": null,
+      "do_not_say": [],
       "dm1_sent": null,
       "dm2_sent": null,
       "dm3_sent": null,
       "response_received": 0,
       "response_category": null,
+      "response_date": null,
       "calendly_sent": null,
       "demo_scheduled": 0
+    },
+    "pricing": {
+      "annual_value": 4788,
+      "tier": "Professional"
     },
     "ghl": {
       "contact_id": null,
@@ -3803,6 +4237,7 @@
     "contact": {
       "first_name": null,
       "last_name": null,
+      "title": null,
       "email": null,
       "phone": "broadwaysupercars.com",
       "linkedin": null,
@@ -3835,13 +4270,19 @@
       "template_used": null,
       "client_review": null,
       "approval_status": null,
+      "do_not_say": [],
       "dm1_sent": null,
       "dm2_sent": null,
       "dm3_sent": null,
       "response_received": 0,
       "response_category": null,
+      "response_date": null,
       "calendly_sent": null,
       "demo_scheduled": 0
+    },
+    "pricing": {
+      "annual_value": 3480,
+      "tier": "Starter"
     },
     "ghl": {
       "contact_id": null,
@@ -3864,6 +4305,7 @@
     "contact": {
       "first_name": null,
       "last_name": null,
+      "title": null,
       "email": null,
       "phone": null,
       "linkedin": null,
@@ -3896,13 +4338,19 @@
       "template_used": null,
       "client_review": null,
       "approval_status": null,
+      "do_not_say": [],
       "dm1_sent": null,
       "dm2_sent": null,
       "dm3_sent": null,
       "response_received": 0,
       "response_category": null,
+      "response_date": null,
       "calendly_sent": null,
       "demo_scheduled": 0
+    },
+    "pricing": {
+      "annual_value": 3480,
+      "tier": "Starter"
     },
     "ghl": {
       "contact_id": null,
@@ -3925,6 +4373,7 @@
     "contact": {
       "first_name": null,
       "last_name": null,
+      "title": null,
       "email": null,
       "phone": "mvpatl.com",
       "linkedin": null,
@@ -3957,13 +4406,19 @@
       "template_used": null,
       "client_review": null,
       "approval_status": null,
+      "do_not_say": [],
       "dm1_sent": null,
       "dm2_sent": null,
       "dm3_sent": null,
       "response_received": 0,
       "response_category": null,
+      "response_date": null,
       "calendly_sent": null,
       "demo_scheduled": 0
+    },
+    "pricing": {
+      "annual_value": 3480,
+      "tier": "Starter"
     },
     "ghl": {
       "contact_id": null,
@@ -3986,6 +4441,7 @@
     "contact": {
       "first_name": null,
       "last_name": null,
+      "title": null,
       "email": null,
       "phone": "jnjexoticrentals.com",
       "linkedin": null,
@@ -4018,13 +4474,19 @@
       "template_used": null,
       "client_review": null,
       "approval_status": null,
+      "do_not_say": [],
       "dm1_sent": null,
       "dm2_sent": null,
       "dm3_sent": null,
       "response_received": 0,
       "response_category": null,
+      "response_date": null,
       "calendly_sent": null,
       "demo_scheduled": 0
+    },
+    "pricing": {
+      "annual_value": 4788,
+      "tier": "Professional"
     },
     "ghl": {
       "contact_id": null,
@@ -4047,6 +4509,7 @@
     "contact": {
       "first_name": null,
       "last_name": null,
+      "title": null,
       "email": "Admin@foreignoxygenluxuryrentals.com",
       "phone": "foreignoxygen.com",
       "linkedin": null,
@@ -4079,13 +4542,19 @@
       "template_used": null,
       "client_review": null,
       "approval_status": null,
+      "do_not_say": [],
       "dm1_sent": null,
       "dm2_sent": null,
       "dm3_sent": null,
       "response_received": 0,
       "response_category": null,
+      "response_date": null,
       "calendly_sent": null,
       "demo_scheduled": 0
+    },
+    "pricing": {
+      "annual_value": 4788,
+      "tier": "Professional"
     },
     "ghl": {
       "contact_id": null,
@@ -4108,6 +4577,7 @@
     "contact": {
       "first_name": "Andrew",
       "last_name": "Johnsen",
+      "title": null,
       "email": null,
       "phone": "ororeserve.com",
       "linkedin": null,
@@ -4140,13 +4610,19 @@
       "template_used": null,
       "client_review": null,
       "approval_status": null,
+      "do_not_say": [],
       "dm1_sent": null,
       "dm2_sent": null,
       "dm3_sent": null,
       "response_received": 0,
       "response_category": null,
+      "response_date": null,
       "calendly_sent": null,
       "demo_scheduled": 0
+    },
+    "pricing": {
+      "annual_value": 2784,
+      "tier": "Starter"
     },
     "ghl": {
       "contact_id": null,
@@ -4169,6 +4645,7 @@
     "contact": {
       "first_name": null,
       "last_name": null,
+      "title": null,
       "email": null,
       "phone": "linktr.ee/Maverickexoticrentals",
       "linkedin": null,
@@ -4201,13 +4678,19 @@
       "template_used": null,
       "client_review": null,
       "approval_status": null,
+      "do_not_say": [],
       "dm1_sent": null,
       "dm2_sent": null,
       "dm3_sent": null,
       "response_received": 0,
       "response_category": null,
+      "response_date": null,
       "calendly_sent": null,
       "demo_scheduled": 0
+    },
+    "pricing": {
+      "annual_value": 3480,
+      "tier": "Starter"
     },
     "ghl": {
       "contact_id": null,
@@ -4230,6 +4713,7 @@
     "contact": {
       "first_name": null,
       "last_name": null,
+      "title": null,
       "email": null,
       "phone": "mtbexotics.com",
       "linkedin": null,
@@ -4262,13 +4746,19 @@
       "template_used": null,
       "client_review": null,
       "approval_status": null,
+      "do_not_say": [],
       "dm1_sent": null,
       "dm2_sent": null,
       "dm3_sent": null,
       "response_received": 0,
       "response_category": null,
+      "response_date": null,
       "calendly_sent": null,
       "demo_scheduled": 0
+    },
+    "pricing": {
+      "annual_value": 4788,
+      "tier": "Professional"
     },
     "ghl": {
       "contact_id": null,
@@ -4291,6 +4781,7 @@
     "contact": {
       "first_name": null,
       "last_name": null,
+      "title": null,
       "email": null,
       "phone": "veluxityexoticcarrental.com",
       "linkedin": null,
@@ -4323,13 +4814,19 @@
       "template_used": null,
       "client_review": null,
       "approval_status": "PENDING",
+      "do_not_say": [],
       "dm1_sent": null,
       "dm2_sent": null,
       "dm3_sent": null,
       "response_received": 0,
       "response_category": null,
+      "response_date": null,
       "calendly_sent": null,
       "demo_scheduled": 0
+    },
+    "pricing": {
+      "annual_value": 21588,
+      "tier": "Enterprise"
     },
     "ghl": {
       "contact_id": null,
@@ -4352,6 +4849,7 @@
     "contact": {
       "first_name": null,
       "last_name": null,
+      "title": null,
       "email": null,
       "phone": null,
       "linkedin": null,
@@ -4384,13 +4882,19 @@
       "template_used": null,
       "client_review": null,
       "approval_status": "PENDING",
+      "do_not_say": [],
       "dm1_sent": null,
       "dm2_sent": null,
       "dm3_sent": null,
       "response_received": 0,
       "response_category": null,
+      "response_date": null,
       "calendly_sent": null,
       "demo_scheduled": 0
+    },
+    "pricing": {
+      "annual_value": 2784,
+      "tier": "Starter"
     },
     "ghl": {
       "contact_id": null,
@@ -4413,6 +4917,7 @@
     "contact": {
       "first_name": null,
       "last_name": null,
+      "title": null,
       "email": null,
       "phone": null,
       "linkedin": null,
@@ -4445,13 +4950,19 @@
       "template_used": null,
       "client_review": null,
       "approval_status": "PENDING",
+      "do_not_say": [],
       "dm1_sent": null,
       "dm2_sent": null,
       "dm3_sent": null,
       "response_received": 0,
       "response_category": null,
+      "response_date": null,
       "calendly_sent": null,
       "demo_scheduled": 0
+    },
+    "pricing": {
+      "annual_value": 2784,
+      "tier": "Starter"
     },
     "ghl": {
       "contact_id": null,
@@ -4474,6 +4985,7 @@
     "contact": {
       "first_name": "Bryce",
       "last_name": "Fisher",
+      "title": "CEO & Owner",
       "email": "rental@fisherluxuryrental.com",
       "phone": null,
       "linkedin": null,
@@ -4506,13 +5018,19 @@
       "template_used": null,
       "client_review": null,
       "approval_status": "PENDING",
+      "do_not_say": [],
       "dm1_sent": null,
       "dm2_sent": null,
       "dm3_sent": null,
       "response_received": 0,
       "response_category": null,
+      "response_date": null,
       "calendly_sent": null,
       "demo_scheduled": 0
+    },
+    "pricing": {
+      "annual_value": 4788,
+      "tier": "Professional"
     },
     "ghl": {
       "contact_id": null,
@@ -4535,6 +5053,7 @@
     "contact": {
       "first_name": null,
       "last_name": null,
+      "title": null,
       "email": null,
       "phone": null,
       "linkedin": null,
@@ -4567,13 +5086,19 @@
       "template_used": null,
       "client_review": null,
       "approval_status": "PENDING",
+      "do_not_say": [],
       "dm1_sent": null,
       "dm2_sent": null,
       "dm3_sent": null,
       "response_received": 0,
       "response_category": null,
+      "response_date": null,
       "calendly_sent": null,
       "demo_scheduled": 0
+    },
+    "pricing": {
+      "annual_value": 4788,
+      "tier": "Professional"
     },
     "ghl": {
       "contact_id": null,
@@ -4596,6 +5121,7 @@
     "contact": {
       "first_name": null,
       "last_name": null,
+      "title": null,
       "email": null,
       "phone": null,
       "linkedin": null,
@@ -4628,13 +5154,19 @@
       "template_used": "D",
       "client_review": null,
       "approval_status": "PENDING",
+      "do_not_say": [],
       "dm1_sent": null,
       "dm2_sent": null,
       "dm3_sent": null,
       "response_received": 0,
       "response_category": null,
+      "response_date": null,
       "calendly_sent": null,
       "demo_scheduled": 0
+    },
+    "pricing": {
+      "annual_value": 2784,
+      "tier": "Starter"
     },
     "ghl": {
       "contact_id": null,
@@ -4657,6 +5189,7 @@
     "contact": {
       "first_name": null,
       "last_name": null,
+      "title": null,
       "email": null,
       "phone": null,
       "linkedin": null,
@@ -4689,13 +5222,19 @@
       "template_used": "D",
       "client_review": null,
       "approval_status": "PENDING",
+      "do_not_say": [],
       "dm1_sent": null,
       "dm2_sent": null,
       "dm3_sent": null,
       "response_received": 0,
       "response_category": null,
+      "response_date": null,
       "calendly_sent": null,
       "demo_scheduled": 0
+    },
+    "pricing": {
+      "annual_value": 3480,
+      "tier": "Starter"
     },
     "ghl": {
       "contact_id": null,
@@ -4718,6 +5257,7 @@
     "contact": {
       "first_name": null,
       "last_name": null,
+      "title": null,
       "email": null,
       "phone": null,
       "linkedin": null,
@@ -4750,13 +5290,19 @@
       "template_used": null,
       "client_review": null,
       "approval_status": "APPROVED",
+      "do_not_say": [],
       "dm1_sent": "2026-03-20 00:00:00",
       "dm2_sent": null,
       "dm3_sent": null,
       "response_received": 0,
       "response_category": null,
+      "response_date": null,
       "calendly_sent": null,
       "demo_scheduled": 0
+    },
+    "pricing": {
+      "annual_value": 4788,
+      "tier": "Professional"
     },
     "ghl": {
       "contact_id": null,
@@ -4779,6 +5325,7 @@
     "contact": {
       "first_name": null,
       "last_name": null,
+      "title": null,
       "email": null,
       "phone": null,
       "linkedin": null,
@@ -4811,13 +5358,19 @@
       "template_used": "MIA-034-DadeCountyEx",
       "client_review": null,
       "approval_status": "APPROVED",
+      "do_not_say": [],
       "dm1_sent": "2026-03-20 00:00:00",
       "dm2_sent": null,
       "dm3_sent": null,
       "response_received": 0,
       "response_category": null,
+      "response_date": null,
       "calendly_sent": null,
       "demo_scheduled": 0
+    },
+    "pricing": {
+      "annual_value": 2784,
+      "tier": "Starter"
     },
     "ghl": {
       "contact_id": null,
@@ -4840,6 +5393,7 @@
     "contact": {
       "first_name": null,
       "last_name": null,
+      "title": null,
       "email": null,
       "phone": null,
       "linkedin": null,
@@ -4872,13 +5426,19 @@
       "template_used": null,
       "client_review": null,
       "approval_status": null,
+      "do_not_say": [],
       "dm1_sent": null,
       "dm2_sent": null,
       "dm3_sent": null,
       "response_received": 0,
       "response_category": null,
+      "response_date": null,
       "calendly_sent": null,
       "demo_scheduled": 0
+    },
+    "pricing": {
+      "annual_value": 3480,
+      "tier": "Starter"
     },
     "ghl": {
       "contact_id": null,
@@ -4901,6 +5461,7 @@
     "contact": {
       "first_name": null,
       "last_name": null,
+      "title": null,
       "email": null,
       "phone": null,
       "linkedin": null,
@@ -4935,13 +5496,19 @@
       "template_used": "D",
       "client_review": null,
       "approval_status": null,
+      "do_not_say": [],
       "dm1_sent": null,
       "dm2_sent": null,
       "dm3_sent": null,
       "response_received": 0,
       "response_category": null,
+      "response_date": null,
       "calendly_sent": null,
       "demo_scheduled": 0
+    },
+    "pricing": {
+      "annual_value": 4788,
+      "tier": "Professional"
     },
     "ghl": {
       "contact_id": null,
@@ -4964,6 +5531,7 @@
     "contact": {
       "first_name": "Jose",
       "last_name": "Lopez",
+      "title": "Owner",
       "email": "info@miamiexotics.com",
       "phone": "(888) 631-5311",
       "linkedin": null,
@@ -4996,13 +5564,19 @@
       "template_used": "MIA-023-MiamiExotics",
       "client_review": null,
       "approval_status": "APPROVED",
+      "do_not_say": [],
       "dm1_sent": null,
       "dm2_sent": null,
       "dm3_sent": null,
       "response_received": 0,
       "response_category": null,
+      "response_date": null,
       "calendly_sent": null,
       "demo_scheduled": 0
+    },
+    "pricing": {
+      "annual_value": 4788,
+      "tier": "Professional"
     },
     "ghl": {
       "contact_id": null,
@@ -5025,6 +5599,7 @@
     "contact": {
       "first_name": "Gleb",
       "last_name": "Tryapitsyn",
+      "title": "Founder/CEO",
       "email": "Hello@realcar.miami",
       "phone": "(305) 306-2353",
       "linkedin": null,
@@ -5059,21 +5634,31 @@
       "template_used": "MIA-021-RealCarMiami",
       "client_review": null,
       "approval_status": "APPROVED",
+      "do_not_say": [],
       "dm1_sent": "2026-03-20 00:00:00",
       "dm2_sent": null,
       "dm3_sent": null,
       "response_received": 0,
       "response_category": null,
+      "response_date": null,
       "calendly_sent": null,
       "demo_scheduled": 0
     },
+    "pricing": {
+      "annual_value": 2784,
+      "tier": "Starter"
+    },
     "ghl": {
-      "contact_id": null,
-      "opportunity_id": null,
-      "pipeline_stage": null,
-      "last_sync": null,
-      "in_ghl": false,
-      "tags": []
+      "contact_id": "ZQ1uJg9ewaRPKE9PiHmM",
+      "opportunity_id": "BthSfzUwfJtlajhiElE5",
+      "pipeline_stage": "DM Drafted",
+      "last_sync": "2026-04-04T03:16:16.907380+00:00",
+      "in_ghl": true,
+      "tags": [
+        "exotiq-pipeline",
+        "score-3",
+        "miami"
+      ]
     },
     "market": "Miami",
     "lead_source": "Manual",
@@ -5088,6 +5673,7 @@
     "contact": {
       "first_name": "Ken -",
       "last_name": "Halim",
+      "title": null,
       "email": "luxxmiamigroup@gmail.com",
       "phone": "(305) 605-5899",
       "linkedin": null,
@@ -5122,13 +5708,19 @@
       "template_used": "MIA-018-LuxxMiami",
       "client_review": null,
       "approval_status": "APPROVED",
+      "do_not_say": [],
       "dm1_sent": "2026-03-20 00:00:00",
       "dm2_sent": null,
       "dm3_sent": null,
       "response_received": 0,
       "response_category": null,
+      "response_date": null,
       "calendly_sent": null,
       "demo_scheduled": 0
+    },
+    "pricing": {
+      "annual_value": 10788,
+      "tier": "Business"
     },
     "ghl": {
       "contact_id": null,
@@ -5151,6 +5743,7 @@
     "contact": {
       "first_name": "Jose",
       "last_name": "Tobon",
+      "title": "Chief Executive Officer",
       "email": "david@primeluxuryrentals.com",
       "phone": "+1 305-257-9326",
       "linkedin": "http://www.linkedin.com/in/jose-david-tobon-29685876",
@@ -5183,13 +5776,19 @@
       "template_used": "MIA-040-PrimeExp",
       "client_review": null,
       "approval_status": null,
+      "do_not_say": [],
       "dm1_sent": "Pre-March 2026",
       "dm2_sent": null,
       "dm3_sent": null,
       "response_received": 0,
       "response_category": null,
+      "response_date": null,
       "calendly_sent": null,
       "demo_scheduled": 0
+    },
+    "pricing": {
+      "annual_value": 948,
+      "tier": "Starter (est.)"
     },
     "ghl": {
       "contact_id": null,
@@ -5212,6 +5811,7 @@
     "contact": {
       "first_name": "Kareem",
       "last_name": "Trichet-Agenor",
+      "title": "Managing Partner",
       "email": null,
       "phone": "+1 561-573-4374",
       "linkedin": "http://www.linkedin.com/in/kareem-trichet-agenor-542720213",
@@ -5244,13 +5844,19 @@
       "template_used": "MIA-039-LegaciAuto",
       "client_review": null,
       "approval_status": "APPROVED",
+      "do_not_say": [],
       "dm1_sent": "Pre-March 2026",
       "dm2_sent": null,
       "dm3_sent": null,
       "response_received": 0,
       "response_category": null,
+      "response_date": null,
       "calendly_sent": null,
       "demo_scheduled": 0
+    },
+    "pricing": {
+      "annual_value": 948,
+      "tier": "Starter (est.)"
     },
     "ghl": {
       "contact_id": null,
@@ -5273,6 +5879,7 @@
     "contact": {
       "first_name": "Steve",
       "last_name": "D",
+      "title": "Rental and Transportation Consultant",
       "email": "steve@imaginelifestyles.com",
       "phone": "+1 866-436-3514",
       "linkedin": "http://www.linkedin.com/in/steve-d-197a114a",
@@ -5305,13 +5912,19 @@
       "template_used": null,
       "client_review": null,
       "approval_status": "PENDING",
+      "do_not_say": [],
       "dm1_sent": null,
       "dm2_sent": null,
       "dm3_sent": null,
       "response_received": 1,
       "response_category": "Auto-reply received",
+      "response_date": null,
       "calendly_sent": null,
       "demo_scheduled": 0
+    },
+    "pricing": {
+      "annual_value": 948,
+      "tier": "Starter (est.)"
     },
     "ghl": {
       "contact_id": null,
@@ -5334,6 +5947,7 @@
     "contact": {
       "first_name": "Henrique",
       "last_name": "Gandra",
+      "title": "Sales Representative",
       "email": "henrique@billionairesmiami.com",
       "phone": "+1 786-835-5111",
       "linkedin": "http://www.linkedin.com/in/henrique-gandra-3bb27b337",
@@ -5366,13 +5980,19 @@
       "template_used": "MIA-038-BMClub",
       "client_review": null,
       "approval_status": null,
+      "do_not_say": [],
       "dm1_sent": "Pre-March 2026",
       "dm2_sent": null,
       "dm3_sent": null,
       "response_received": 0,
       "response_category": null,
+      "response_date": null,
       "calendly_sent": null,
       "demo_scheduled": 0
+    },
+    "pricing": {
+      "annual_value": 948,
+      "tier": "Starter (est.)"
     },
     "ghl": {
       "contact_id": null,
@@ -5395,6 +6015,7 @@
     "contact": {
       "first_name": null,
       "last_name": null,
+      "title": null,
       "email": null,
       "phone": "drivedmv.com",
       "linkedin": null,
@@ -5427,13 +6048,19 @@
       "template_used": null,
       "client_review": null,
       "approval_status": null,
+      "do_not_say": [],
       "dm1_sent": null,
       "dm2_sent": null,
       "dm3_sent": null,
       "response_received": 0,
       "response_category": null,
+      "response_date": null,
       "calendly_sent": null,
       "demo_scheduled": 0
+    },
+    "pricing": {
+      "annual_value": 2784,
+      "tier": "Starter"
     },
     "ghl": {
       "contact_id": null,
@@ -5456,6 +6083,7 @@
     "contact": {
       "first_name": null,
       "last_name": null,
+      "title": null,
       "email": null,
       "phone": null,
       "linkedin": null,
@@ -5488,13 +6116,19 @@
       "template_used": null,
       "client_review": null,
       "approval_status": null,
+      "do_not_say": [],
       "dm1_sent": null,
       "dm2_sent": null,
       "dm3_sent": null,
       "response_received": 0,
       "response_category": null,
+      "response_date": null,
       "calendly_sent": null,
       "demo_scheduled": 0
+    },
+    "pricing": {
+      "annual_value": 2784,
+      "tier": "Starter"
     },
     "ghl": {
       "contact_id": null,
@@ -5517,6 +6151,7 @@
     "contact": {
       "first_name": null,
       "last_name": null,
+      "title": null,
       "email": null,
       "phone": "exodrive.co",
       "linkedin": null,
@@ -5549,13 +6184,19 @@
       "template_used": null,
       "client_review": null,
       "approval_status": null,
+      "do_not_say": [],
       "dm1_sent": null,
       "dm2_sent": null,
       "dm3_sent": null,
       "response_received": 0,
       "response_category": null,
+      "response_date": null,
       "calendly_sent": null,
       "demo_scheduled": 0
+    },
+    "pricing": {
+      "annual_value": 2784,
+      "tier": "Starter"
     },
     "ghl": {
       "contact_id": null,
@@ -5578,6 +6219,7 @@
     "contact": {
       "first_name": null,
       "last_name": null,
+      "title": null,
       "email": "Bayarealuxuries@gmail.com",
       "phone": "bayarealuxuries.com",
       "linkedin": null,
@@ -5610,13 +6252,19 @@
       "template_used": null,
       "client_review": null,
       "approval_status": null,
+      "do_not_say": [],
       "dm1_sent": null,
       "dm2_sent": null,
       "dm3_sent": null,
       "response_received": 0,
       "response_category": null,
+      "response_date": null,
       "calendly_sent": null,
       "demo_scheduled": 0
+    },
+    "pricing": {
+      "annual_value": 1740,
+      "tier": "Starter"
     },
     "ghl": {
       "contact_id": null,
@@ -5639,6 +6287,7 @@
     "contact": {
       "first_name": null,
       "last_name": null,
+      "title": null,
       "email": null,
       "phone": null,
       "linkedin": null,
@@ -5671,13 +6320,19 @@
       "template_used": null,
       "client_review": null,
       "approval_status": null,
+      "do_not_say": [],
       "dm1_sent": null,
       "dm2_sent": null,
       "dm3_sent": null,
       "response_received": 0,
       "response_category": null,
+      "response_date": null,
       "calendly_sent": null,
       "demo_scheduled": 0
+    },
+    "pricing": {
+      "annual_value": 4788,
+      "tier": "Professional"
     },
     "ghl": {
       "contact_id": null,
@@ -5700,6 +6355,7 @@
     "contact": {
       "first_name": null,
       "last_name": null,
+      "title": null,
       "email": null,
       "phone": "exoticcarrentaldtla.com",
       "linkedin": null,
@@ -5732,13 +6388,19 @@
       "template_used": null,
       "client_review": null,
       "approval_status": null,
+      "do_not_say": [],
       "dm1_sent": null,
       "dm2_sent": null,
       "dm3_sent": null,
       "response_received": 0,
       "response_category": null,
+      "response_date": null,
       "calendly_sent": null,
       "demo_scheduled": 0
+    },
+    "pricing": {
+      "annual_value": 3480,
+      "tier": "Starter"
     },
     "ghl": {
       "contact_id": null,
@@ -5761,6 +6423,7 @@
     "contact": {
       "first_name": null,
       "last_name": null,
+      "title": null,
       "email": null,
       "phone": null,
       "linkedin": null,
@@ -5793,13 +6456,19 @@
       "template_used": null,
       "client_review": null,
       "approval_status": null,
+      "do_not_say": [],
       "dm1_sent": null,
       "dm2_sent": null,
       "dm3_sent": null,
       "response_received": 0,
       "response_category": null,
+      "response_date": null,
       "calendly_sent": null,
       "demo_scheduled": 0
+    },
+    "pricing": {
+      "annual_value": 3480,
+      "tier": "Starter"
     },
     "ghl": {
       "contact_id": null,
@@ -5822,6 +6491,7 @@
     "contact": {
       "first_name": null,
       "last_name": null,
+      "title": null,
       "email": null,
       "phone": "apexexoticsnyc.com",
       "linkedin": null,
@@ -5854,13 +6524,19 @@
       "template_used": null,
       "client_review": null,
       "approval_status": null,
+      "do_not_say": [],
       "dm1_sent": null,
       "dm2_sent": null,
       "dm3_sent": null,
       "response_received": 0,
       "response_category": null,
+      "response_date": null,
       "calendly_sent": null,
       "demo_scheduled": 0
+    },
+    "pricing": {
+      "annual_value": 2784,
+      "tier": "Starter"
     },
     "ghl": {
       "contact_id": null,
@@ -5883,6 +6559,7 @@
     "contact": {
       "first_name": null,
       "last_name": null,
+      "title": null,
       "email": null,
       "phone": "forzamotorclub.com",
       "linkedin": null,
@@ -5915,13 +6592,19 @@
       "template_used": null,
       "client_review": null,
       "approval_status": null,
+      "do_not_say": [],
       "dm1_sent": null,
       "dm2_sent": null,
       "dm3_sent": null,
       "response_received": 0,
       "response_category": null,
+      "response_date": null,
       "calendly_sent": null,
       "demo_scheduled": 0
+    },
+    "pricing": {
+      "annual_value": 2784,
+      "tier": "Starter"
     },
     "ghl": {
       "contact_id": null,
@@ -5944,6 +6627,7 @@
     "contact": {
       "first_name": null,
       "last_name": null,
+      "title": null,
       "email": null,
       "phone": "raynexoticmotors.com",
       "linkedin": null,
@@ -5976,13 +6660,19 @@
       "template_used": null,
       "client_review": null,
       "approval_status": null,
+      "do_not_say": [],
       "dm1_sent": null,
       "dm2_sent": null,
       "dm3_sent": null,
       "response_received": 0,
       "response_category": null,
+      "response_date": null,
       "calendly_sent": null,
       "demo_scheduled": 0
+    },
+    "pricing": {
+      "annual_value": 3480,
+      "tier": "Starter"
     },
     "ghl": {
       "contact_id": null,
@@ -6005,6 +6695,7 @@
     "contact": {
       "first_name": null,
       "last_name": null,
+      "title": null,
       "email": null,
       "phone": "xoticcrentalsagency.com",
       "linkedin": null,
@@ -6037,13 +6728,19 @@
       "template_used": null,
       "client_review": null,
       "approval_status": null,
+      "do_not_say": [],
       "dm1_sent": null,
       "dm2_sent": null,
       "dm3_sent": null,
       "response_received": 0,
       "response_category": null,
+      "response_date": null,
       "calendly_sent": null,
       "demo_scheduled": 0
+    },
+    "pricing": {
+      "annual_value": 1740,
+      "tier": "Starter"
     },
     "ghl": {
       "contact_id": null,
@@ -6066,6 +6763,7 @@
     "contact": {
       "first_name": null,
       "last_name": null,
+      "title": null,
       "email": null,
       "phone": "dreamexoticsatl.com",
       "linkedin": null,
@@ -6098,13 +6796,19 @@
       "template_used": null,
       "client_review": null,
       "approval_status": null,
+      "do_not_say": [],
       "dm1_sent": null,
       "dm2_sent": null,
       "dm3_sent": null,
       "response_received": 0,
       "response_category": null,
+      "response_date": null,
       "calendly_sent": null,
       "demo_scheduled": 0
+    },
+    "pricing": {
+      "annual_value": 2784,
+      "tier": "Starter"
     },
     "ghl": {
       "contact_id": null,
@@ -6127,6 +6831,7 @@
     "contact": {
       "first_name": null,
       "last_name": null,
+      "title": null,
       "email": null,
       "phone": "eliteatlexotics.com",
       "linkedin": null,
@@ -6159,13 +6864,19 @@
       "template_used": null,
       "client_review": null,
       "approval_status": null,
+      "do_not_say": [],
       "dm1_sent": null,
       "dm2_sent": null,
       "dm3_sent": null,
       "response_received": 0,
       "response_category": null,
+      "response_date": null,
       "calendly_sent": null,
       "demo_scheduled": 0
+    },
+    "pricing": {
+      "annual_value": 2784,
+      "tier": "Starter"
     },
     "ghl": {
       "contact_id": null,
@@ -6188,6 +6899,7 @@
     "contact": {
       "first_name": null,
       "last_name": null,
+      "title": null,
       "email": null,
       "phone": "mylegacyrides.com",
       "linkedin": null,
@@ -6220,13 +6932,19 @@
       "template_used": null,
       "client_review": null,
       "approval_status": null,
+      "do_not_say": [],
       "dm1_sent": null,
       "dm2_sent": null,
       "dm3_sent": null,
       "response_received": 0,
       "response_category": null,
+      "response_date": null,
       "calendly_sent": null,
       "demo_scheduled": 0
+    },
+    "pricing": {
+      "annual_value": 2784,
+      "tier": "Starter"
     },
     "ghl": {
       "contact_id": null,
@@ -6249,6 +6967,7 @@
     "contact": {
       "first_name": null,
       "last_name": null,
+      "title": null,
       "email": null,
       "phone": "instantluxuryrentals.com",
       "linkedin": null,
@@ -6281,13 +7000,19 @@
       "template_used": null,
       "client_review": null,
       "approval_status": null,
+      "do_not_say": [],
       "dm1_sent": null,
       "dm2_sent": null,
       "dm3_sent": null,
       "response_received": 0,
       "response_category": null,
+      "response_date": null,
       "calendly_sent": null,
       "demo_scheduled": 0
+    },
+    "pricing": {
+      "annual_value": 4788,
+      "tier": "Professional"
     },
     "ghl": {
       "contact_id": null,
@@ -6310,6 +7035,7 @@
     "contact": {
       "first_name": null,
       "last_name": null,
+      "title": null,
       "email": null,
       "phone": "exoticazrental.com",
       "linkedin": null,
@@ -6342,13 +7068,19 @@
       "template_used": null,
       "client_review": null,
       "approval_status": null,
+      "do_not_say": [],
       "dm1_sent": null,
       "dm2_sent": null,
       "dm3_sent": null,
       "response_received": 0,
       "response_category": null,
+      "response_date": null,
       "calendly_sent": null,
       "demo_scheduled": 0
+    },
+    "pricing": {
+      "annual_value": 1740,
+      "tier": "Starter"
     },
     "ghl": {
       "contact_id": null,
@@ -6371,6 +7103,7 @@
     "contact": {
       "first_name": null,
       "last_name": null,
+      "title": null,
       "email": null,
       "phone": "rentxotx.com",
       "linkedin": null,
@@ -6403,13 +7136,19 @@
       "template_used": null,
       "client_review": null,
       "approval_status": null,
+      "do_not_say": [],
       "dm1_sent": null,
       "dm2_sent": null,
       "dm3_sent": null,
       "response_received": 0,
       "response_category": null,
+      "response_date": null,
       "calendly_sent": null,
       "demo_scheduled": 0
+    },
+    "pricing": {
+      "annual_value": 1740,
+      "tier": "Starter"
     },
     "ghl": {
       "contact_id": null,
@@ -6432,6 +7171,7 @@
     "contact": {
       "first_name": null,
       "last_name": null,
+      "title": null,
       "email": null,
       "phone": "eliteexoticluxuryrentals.com",
       "linkedin": null,
@@ -6464,13 +7204,19 @@
       "template_used": null,
       "client_review": null,
       "approval_status": null,
+      "do_not_say": [],
       "dm1_sent": null,
       "dm2_sent": null,
       "dm3_sent": null,
       "response_received": 0,
       "response_category": null,
+      "response_date": null,
       "calendly_sent": null,
       "demo_scheduled": 0
+    },
+    "pricing": {
+      "annual_value": 2784,
+      "tier": "Starter"
     },
     "ghl": {
       "contact_id": null,
@@ -6493,6 +7239,7 @@
     "contact": {
       "first_name": null,
       "last_name": null,
+      "title": null,
       "email": null,
       "phone": null,
       "linkedin": null,
@@ -6525,13 +7272,19 @@
       "template_used": null,
       "client_review": null,
       "approval_status": null,
+      "do_not_say": [],
       "dm1_sent": null,
       "dm2_sent": null,
       "dm3_sent": null,
       "response_received": 0,
       "response_category": null,
+      "response_date": null,
       "calendly_sent": null,
       "demo_scheduled": 0
+    },
+    "pricing": {
+      "annual_value": 1740,
+      "tier": "Starter"
     },
     "ghl": {
       "contact_id": null,
@@ -6554,6 +7307,7 @@
     "contact": {
       "first_name": null,
       "last_name": null,
+      "title": null,
       "email": null,
       "phone": null,
       "linkedin": null,
@@ -6586,13 +7340,19 @@
       "template_used": null,
       "client_review": null,
       "approval_status": null,
+      "do_not_say": [],
       "dm1_sent": null,
       "dm2_sent": null,
       "dm3_sent": null,
       "response_received": 0,
       "response_category": null,
+      "response_date": null,
       "calendly_sent": null,
       "demo_scheduled": 0
+    },
+    "pricing": {
+      "annual_value": 1044,
+      "tier": "Starter"
     },
     "ghl": {
       "contact_id": null,
@@ -6615,6 +7375,7 @@
     "contact": {
       "first_name": null,
       "last_name": null,
+      "title": null,
       "email": "info@gscargroup.com",
       "phone": "(305) 504-5454",
       "linkedin": null,
@@ -6647,13 +7408,19 @@
       "template_used": "MIA-025-GSCarGroup",
       "client_review": null,
       "approval_status": null,
+      "do_not_say": [],
       "dm1_sent": null,
       "dm2_sent": null,
       "dm3_sent": null,
       "response_received": 0,
       "response_category": null,
+      "response_date": null,
       "calendly_sent": null,
       "demo_scheduled": 0
+    },
+    "pricing": {
+      "annual_value": 3480,
+      "tier": "Starter"
     },
     "ghl": {
       "contact_id": null,
@@ -6676,6 +7443,7 @@
     "contact": {
       "first_name": "Mike",
       "last_name": null,
+      "title": null,
       "email": null,
       "phone": null,
       "linkedin": null,
@@ -6708,13 +7476,19 @@
       "template_used": null,
       "client_review": null,
       "approval_status": null,
+      "do_not_say": [],
       "dm1_sent": "Pre-March 2026",
       "dm2_sent": null,
       "dm3_sent": null,
       "response_received": 0,
       "response_category": null,
+      "response_date": null,
       "calendly_sent": null,
       "demo_scheduled": 0
+    },
+    "pricing": {
+      "annual_value": 948,
+      "tier": "Starter (est.)"
     },
     "ghl": {
       "contact_id": null,
@@ -6737,6 +7511,7 @@
     "contact": {
       "first_name": null,
       "last_name": null,
+      "title": null,
       "email": null,
       "phone": null,
       "linkedin": null,
@@ -6769,13 +7544,19 @@
       "template_used": "MIA-035-ZaloRentals",
       "client_review": null,
       "approval_status": null,
+      "do_not_say": [],
       "dm1_sent": null,
       "dm2_sent": null,
       "dm3_sent": null,
       "response_received": 0,
       "response_category": null,
+      "response_date": null,
       "calendly_sent": null,
       "demo_scheduled": 0
+    },
+    "pricing": {
+      "annual_value": 2088,
+      "tier": "Starter"
     },
     "ghl": {
       "contact_id": null,
@@ -6798,6 +7579,7 @@
     "contact": {
       "first_name": "Jameer",
       "last_name": null,
+      "title": null,
       "email": null,
       "phone": null,
       "linkedin": null,
@@ -6830,13 +7612,19 @@
       "template_used": "MIA-031-DreamCarsMIA",
       "client_review": null,
       "approval_status": null,
+      "do_not_say": [],
       "dm1_sent": null,
       "dm2_sent": null,
       "dm3_sent": null,
       "response_received": 0,
       "response_category": null,
+      "response_date": null,
       "calendly_sent": null,
       "demo_scheduled": 0
+    },
+    "pricing": {
+      "annual_value": 948,
+      "tier": "Starter (est.)"
     },
     "ghl": {
       "contact_id": null,
@@ -6859,6 +7647,7 @@
     "contact": {
       "first_name": null,
       "last_name": null,
+      "title": null,
       "email": null,
       "phone": null,
       "linkedin": null,
@@ -6891,13 +7680,19 @@
       "template_used": "MIA-027-RentVice",
       "client_review": null,
       "approval_status": null,
+      "do_not_say": [],
       "dm1_sent": null,
       "dm2_sent": null,
       "dm3_sent": null,
       "response_received": 0,
       "response_category": null,
+      "response_date": null,
       "calendly_sent": null,
       "demo_scheduled": 0
+    },
+    "pricing": {
+      "annual_value": 1740,
+      "tier": "Starter"
     },
     "ghl": {
       "contact_id": null,
@@ -6920,6 +7715,7 @@
     "contact": {
       "first_name": "Jayden",
       "last_name": "Bloom",
+      "title": null,
       "email": "info@murciluxury.com",
       "phone": "(305) 555-MURCI",
       "linkedin": null,
@@ -6954,13 +7750,19 @@
       "template_used": "MIA-039-MurciLuxury",
       "client_review": null,
       "approval_status": null,
+      "do_not_say": [],
       "dm1_sent": null,
       "dm2_sent": null,
       "dm3_sent": null,
       "response_received": 0,
       "response_category": null,
+      "response_date": null,
       "calendly_sent": null,
       "demo_scheduled": 0
+    },
+    "pricing": {
+      "annual_value": 2088,
+      "tier": "Starter"
     },
     "ghl": {
       "contact_id": null,
@@ -6983,6 +7785,7 @@
     "contact": {
       "first_name": "Robert",
       "last_name": "Rushing",
+      "title": "Founder",
       "email": null,
       "phone": "+1 850-218-5463",
       "linkedin": "http://www.linkedin.com/in/robert-rushing-a3a738137",
@@ -7015,13 +7818,19 @@
       "template_used": null,
       "client_review": null,
       "approval_status": "APPROVED",
+      "do_not_say": [],
       "dm1_sent": null,
       "dm2_sent": null,
       "dm3_sent": null,
       "response_received": 0,
       "response_category": null,
+      "response_date": null,
       "calendly_sent": null,
       "demo_scheduled": 0
+    },
+    "pricing": {
+      "annual_value": 948,
+      "tier": "Starter (est.)"
     },
     "ghl": {
       "contact_id": null,
@@ -7044,6 +7853,7 @@
     "contact": {
       "first_name": "Matthew",
       "last_name": "Fouhy",
+      "title": "Senior Sales Manager",
       "email": null,
       "phone": "+1 305-538-5055",
       "linkedin": "http://www.linkedin.com/in/matthew-fouhy-8360a13b",
@@ -7076,13 +7886,19 @@
       "template_used": null,
       "client_review": null,
       "approval_status": null,
+      "do_not_say": [],
       "dm1_sent": "Pre-March 2026",
       "dm2_sent": null,
       "dm3_sent": null,
       "response_received": 0,
       "response_category": null,
+      "response_date": null,
       "calendly_sent": null,
       "demo_scheduled": 0
+    },
+    "pricing": {
+      "annual_value": 948,
+      "tier": "Starter (est.)"
     },
     "ghl": {
       "contact_id": null,
@@ -7105,6 +7921,7 @@
     "contact": {
       "first_name": null,
       "last_name": null,
+      "title": null,
       "email": null,
       "phone": "circeexotics.com",
       "linkedin": null,
@@ -7137,13 +7954,19 @@
       "template_used": null,
       "client_review": null,
       "approval_status": null,
+      "do_not_say": [],
       "dm1_sent": null,
       "dm2_sent": null,
       "dm3_sent": null,
       "response_received": 0,
       "response_category": null,
+      "response_date": null,
       "calendly_sent": null,
       "demo_scheduled": 0
+    },
+    "pricing": {
+      "annual_value": 1044,
+      "tier": "Starter"
     },
     "ghl": {
       "contact_id": null,
@@ -7166,6 +7989,7 @@
     "contact": {
       "first_name": "Jose",
       "last_name": "Garcia",
+      "title": null,
       "email": "jose@dealerxpress.com",
       "phone": "(305) 200-4474",
       "linkedin": null,
@@ -7198,13 +8022,19 @@
       "template_used": null,
       "client_review": null,
       "approval_status": null,
+      "do_not_say": [],
       "dm1_sent": "Pre-March 2026",
       "dm2_sent": null,
       "dm3_sent": null,
       "response_received": 0,
       "response_category": null,
+      "response_date": null,
       "calendly_sent": null,
       "demo_scheduled": 0
+    },
+    "pricing": {
+      "annual_value": 948,
+      "tier": "Starter (est.)"
     },
     "ghl": {
       "contact_id": null,
@@ -7227,6 +8057,7 @@
     "contact": {
       "first_name": null,
       "last_name": null,
+      "title": null,
       "email": null,
       "phone": null,
       "linkedin": null,
@@ -7259,13 +8090,19 @@
       "template_used": null,
       "client_review": null,
       "approval_status": null,
+      "do_not_say": [],
       "dm1_sent": null,
       "dm2_sent": null,
       "dm3_sent": null,
       "response_received": 0,
       "response_category": null,
+      "response_date": null,
       "calendly_sent": null,
       "demo_scheduled": 0
+    },
+    "pricing": {
+      "annual_value": 1044,
+      "tier": "Starter"
     },
     "ghl": {
       "contact_id": null,
@@ -7288,6 +8125,7 @@
     "contact": {
       "first_name": null,
       "last_name": null,
+      "title": null,
       "email": null,
       "phone": null,
       "linkedin": null,
@@ -7320,13 +8158,19 @@
       "template_used": null,
       "client_review": null,
       "approval_status": null,
+      "do_not_say": [],
       "dm1_sent": null,
       "dm2_sent": null,
       "dm3_sent": null,
       "response_received": 0,
       "response_category": null,
+      "response_date": null,
       "calendly_sent": null,
       "demo_scheduled": 0
+    },
+    "pricing": {
+      "annual_value": 1044,
+      "tier": "Starter"
     },
     "ghl": {
       "contact_id": null,
@@ -7349,6 +8193,7 @@
     "contact": {
       "first_name": "Kaleb",
       "last_name": "Fothergill",
+      "title": "Co-Founder",
       "email": null,
       "phone": "+1 786-599-6242",
       "linkedin": "http://www.linkedin.com/in/kaleb-fothergill-848a551b8",
@@ -7381,13 +8226,19 @@
       "template_used": null,
       "client_review": null,
       "approval_status": null,
+      "do_not_say": [],
       "dm1_sent": null,
       "dm2_sent": null,
       "dm3_sent": null,
       "response_received": 0,
       "response_category": null,
+      "response_date": null,
       "calendly_sent": null,
       "demo_scheduled": 0
+    },
+    "pricing": {
+      "annual_value": 948,
+      "tier": "Starter (est.)"
     },
     "ghl": {
       "contact_id": null,
@@ -7410,6 +8261,7 @@
     "contact": {
       "first_name": "Jared",
       "last_name": "Jukel",
+      "title": "Co-Owner",
       "email": null,
       "phone": null,
       "linkedin": "https://www.linkedin.com/in/jaredjukel/",
@@ -7442,13 +8294,19 @@
       "template_used": null,
       "client_review": null,
       "approval_status": null,
+      "do_not_say": [],
       "dm1_sent": null,
       "dm2_sent": null,
       "dm3_sent": null,
       "response_received": 0,
       "response_category": null,
+      "response_date": null,
       "calendly_sent": null,
       "demo_scheduled": 0
+    },
+    "pricing": {
+      "annual_value": 948,
+      "tier": "Starter (est.)"
     },
     "ghl": {
       "contact_id": null,

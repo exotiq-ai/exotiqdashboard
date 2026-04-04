@@ -17,5 +17,26 @@
     "OpenClaw Lead ID": "6p8Xm6uR8ZlKDiyoiCOl",
     "Pipeline Entry Date": "F0lnY590j5KnUJfbuQxM"
   },
-  "pipeline": {}
+  "pipeline": {
+    "id": "FwSJkNdaae393EHWZyKq",
+    "name": "Exotiq Operator Sales",
+    "stages": {
+      "New Lead": "d3fc8958-e3d6-43d1-bfc2-597868b9d478",
+      "Gregory -- Personal Outreach": "1b61813b-8e74-43cc-a99f-5b16247b647a",
+      "DM Drafted": "a3bb9214-6292-41f9-9387-3e01f57c0a7b",
+      "DM Sent": "66fc0531-9c75-4222-adc3-c9561684302b",
+      "Follow-Up 1 Due": "75c5d440-06ad-4595-8856-1387800c1dc2",
+      "Follow-Up 2 Due": "c2b2b6b9-9085-4053-bf80-f8ebb5956fe5",
+      "Responded -- Warm": "b786e679-1493-4ca8-8833-ad45d8a1ad79",
+      "Responded -- Cold": "b9e36674-1e44-42f0-8358-fd225275c330",
+      "Call Scheduled": "9a667ee5-34c7-4751-80a3-6e17b6147f92",
+      "Demo Scheduled": "2c5bd849-2781-4cf8-9e71-673f1f9c638b",
+      "Demo Complete": "34cb4636-320a-4a0c-be10-5239f620b944",
+      "Pilot Proposed": "dee1d41e-9a63-4efc-a08c-f0aac3bbb13f",
+      "Pilot Active": "a7e20bce-7815-4573-8239-2844441896e2",
+      "Customer": "45396783-3606-45d8-9b74-0bbaf8791424",
+      "Not a Fit": "b160362a-5f51-4bb9-b1c0-65db5568c7d6",
+      "Nurture": "75651289-277d-4737-bb38-459af329900f"
+    }
+  }
 }

@@ -1,5 +1,23 @@
 [
   {
+    "id": 437,
+    "timestamp": "2026-04-04T03:16:16.908897+00:00",
+    "type": "ghl_push",
+    "lead_id": "lead_mia_021",
+    "description": "Pushed RealCar Miami to GHL. Contact: ZQ1uJg9ewaRPKE9PiHmM. Stage: DM Drafted. Value: $613,200",
+    "source": "ghl_push",
+    "agent": "saul"
+  },
+  {
+    "id": 436,
+    "timestamp": "2026-04-04T00:26:06.806605+00:00",
+    "type": "dashboard_sync",
+    "lead_id": null,
+    "description": "Exported 122 leads and 433 activity entries to public/data",
+    "source": null,
+    "agent": "dashboard_sync"
+  },
+  {
     "id": 435,
     "timestamp": "2026-04-03T23:16:27.478956+00:00",
     "type": "enrichment",

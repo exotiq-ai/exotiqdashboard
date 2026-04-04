@@ -28,6 +28,40 @@ def _now_iso() -> str:
     return datetime.now(timezone.utc).isoformat()
 
 
+def _compute_annual_value(fleet_size) -> int:
+    """Calculate annual SaaS contract value based on Exotiq pricing tiers."""
+    try:
+        size = int(fleet_size)
+    except (TypeError, ValueError):
+        return 79 * 12
+    if size <= 0:
+        return 79 * 12
+    if size <= 10:
+        return max(size * 29, 79) * 12
+    if size <= 25:
+        return 399 * 12
+    if size <= 75:
+        return 899 * 12
+    return 1799 * 12
+
+
+def _get_tier_name(fleet_size) -> str:
+    """Return the pricing tier name for a given fleet size."""
+    try:
+        size = int(fleet_size)
+    except (TypeError, ValueError):
+        return "Starter (est.)"
+    if size <= 0:
+        return "Starter (est.)"
+    if size <= 10:
+        return "Starter"
+    if size <= 25:
+        return "Professional"
+    if size <= 75:
+        return "Business"
+    return "Enterprise"
+
+
 def _parse_json_field(value: Any, fallback: Any = None) -> Any:
     """
     Safely parse a JSON string field from SQLite.
@@ -66,6 +100,7 @@ def _build_lead_object(row: dict) -> dict:
         "contact": {
             "first_name": row.get("contact_first_name"),
             "last_name": row.get("contact_last_name"),
+            "title": row.get("contact_title"),
             "email": row.get("contact_email"),
             "phone": row.get("contact_phone"),
             "linkedin": row.get("contact_linkedin"),
@@ -98,13 +133,19 @@ def _build_lead_object(row: dict) -> dict:
             "template_used": row.get("outreach_template_used"),
             "client_review": row.get("outreach_client_review"),
             "approval_status": row.get("outreach_approval_status"),
+            "do_not_say": _parse_json_field(row.get("outreach_do_not_say")),
             "dm1_sent": row.get("outreach_dm1_sent"),
             "dm2_sent": row.get("outreach_dm2_sent"),
             "dm3_sent": row.get("outreach_dm3_sent"),
             "response_received": row.get("outreach_response_received"),
             "response_category": row.get("outreach_response_category"),
+            "response_date": row.get("outreach_response_date"),
             "calendly_sent": row.get("outreach_calendly_sent"),
             "demo_scheduled": row.get("outreach_demo_scheduled"),
+        },
+        "pricing": {
+            "annual_value": _compute_annual_value(row.get("fleet_size")),
+            "tier": _get_tier_name(row.get("fleet_size")),
         },
         "ghl": {
             "contact_id": row.get("ghl_contact_id"),
