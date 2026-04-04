@@ -101,6 +101,21 @@ exports.handler = async (event) => {
     const outreach = lead.outreach || {}
     const now = new Date().toISOString().split('T')[0]
 
+    // Check if already in GHL
+    const ghl = lead.ghl || {}
+    if (ghl.contact_id || ghl.in_ghl) {
+      return {
+        statusCode: 200,
+        headers,
+        body: JSON.stringify({
+          success: true,
+          message: `${lead.company} is already in GHL`,
+          contactId: ghl.contact_id,
+          alreadyExists: true,
+        }),
+      }
+    }
+
     // GHL requires at least email or phone
     if (!contact.email && !contact.phone) {
       return {

@@ -77,6 +77,11 @@ export default function App() {
         break
 
       case 'push_to_ghl':
+        // Check if already in GHL locally
+        if (lead.ghl?.contact_id || lead.ghl?.in_ghl) {
+          alert(`${lead.company} is already in GHL. Use "Open in GHL" to view the contact.`)
+          break
+        }
         setPushingToGhl(lead.id)
         try {
           const res = await fetch('/.netlify/functions/push-to-ghl', {
@@ -85,11 +90,13 @@ export default function App() {
             body: JSON.stringify({ lead }),
           })
           const data = await res.json()
-          if (data.success) {
+          if (data.alreadyExists) {
+            alert(`${lead.company} is already in GHL.`)
+          } else if (data.success) {
             updateLead(lead.id, {
               status: data.stage || 'In GHL',
             }, 'push_to_ghl')
-            alert(`${lead.company} pushed to GHL!\nStage: ${data.stage}\nValue: $${data.monetary?.toLocaleString()}/yr`)
+            alert(`✅ ${lead.company} pushed to GHL!\nStage: ${data.stage}\nValue: $${data.monetary?.toLocaleString()}/yr`)
           } else {
             alert(`GHL push failed: ${data.error || 'Unknown error'}`)
           }
