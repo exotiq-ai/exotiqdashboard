@@ -57,6 +57,7 @@ export default function App() {
     <div className="min-h-screen bg-bg text-text flex flex-col">
       {/* Top bar */}
       <TopBar
+        leads={leads}
         stats={stats}
         ghlStatus={ghlStatus}
         lastSynced={lastSynced}
@@ -130,6 +131,7 @@ export default function App() {
         )}
         {activeTab === 'funnel' && (
           <PipelineFunnel
+            leads={leads}
             metrics={pipelineMetrics}
             loading={loading}
           />

@@ -2,9 +2,22 @@ import {
   BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip,
   Cell, ResponsiveContainer, LabelList
 } from 'recharts'
-import { TrendingUp, TrendingDown, Minus } from 'lucide-react'
 
 const FUNNEL_COLORS = ['#00D4AA', '#0ea5e9', '#8b5cf6', '#f59e0b', '#ef4444', '#10b981']
+
+function CustomTooltip({ active, payload, label }) {
+  if (!active || !payload || !payload.length) return null
+  const item = payload[0]
+  return (
+    <div className="bg-card border border-border rounded-lg px-3 py-2 shadow-xl">
+      <p className="text-text font-semibold text-sm">{label}</p>
+      <p className="text-accent font-mono text-lg">{item.value}</p>
+      {item.payload.pct != null && (
+        <p className="text-muted text-xs">{item.payload.pct}% of previous stage</p>
+      )}
+    </div>
+  )
+}
 
 function VelocityCard({ label, value, unit = 'days' }) {
   return (
@@ -18,28 +31,7 @@ function VelocityCard({ label, value, unit = 'days' }) {
   )
 }
 
-function TrendIndicator({ trend }) {
-  if (!trend) return null
-  if (trend === 'improving') return <TrendingUp size={16} className="text-green-400" />
-  if (trend === 'slowing') return <TrendingDown size={16} className="text-red-400" />
-  return <Minus size={16} className="text-muted" />
-}
-
-function CustomTooltip({ active, payload, label }) {
-  if (!active || !payload || !payload.length) return null
-  const item = payload[0]
-  return (
-    <div className="bg-card border border-border rounded-lg px-3 py-2 shadow-xl">
-      <p className="text-text font-semibold text-sm">{label}</p>
-      <p className="text-accent font-mono text-lg">{item.value}</p>
-      {item.payload.pct != null && (
-        <p className="text-muted text-xs">{item.payload.pct}% conversion</p>
-      )}
-    </div>
-  )
-}
-
-export default function PipelineFunnel({ metrics, loading }) {
+export default function PipelineFunnel({ leads, metrics, loading }) {
   if (loading) {
     return (
       <div className="p-6 space-y-6">
@@ -51,55 +43,81 @@ export default function PipelineFunnel({ metrics, loading }) {
     )
   }
 
-  const funnel = metrics?.funnel || {}
-  const conversionRates = metrics?.conversion_rates || {}
-  const velocity = metrics?.velocity || {}
-  const byMarket = metrics?.by_market || {}
+  const allLeads = leads || []
+
+  // Compute funnel from actual lead data
+  const totalLeads = allLeads.length
+  const scored = allLeads.filter(l => l.scoring?.score != null).length
+  const qualified = allLeads.filter(l => (l.scoring?.score || 0) >= 3).length
+  const withDm = allLeads.filter(l => l.outreach?.dm_draft).length
+  const approved = allLeads.filter(l => l.outreach?.approval_status === 'APPROVED').length
+  const dmSent = allLeads.filter(l => l.outreach?.dm1_sent).length
+  const responded = allLeads.filter(l => l.outreach?.response_received).length
+  const demoScheduled = allLeads.filter(l => l.outreach?.demo_scheduled).length
 
   const steps = [
-    { name: 'Total Leads', key: 'total_leads', color: FUNNEL_COLORS[0] },
-    { name: 'Scored', key: 'scored', color: FUNNEL_COLORS[1] },
-    { name: 'Approved', key: 'approved_for_outreach', color: FUNNEL_COLORS[2] },
-    { name: 'DM Sent', key: 'dm1_sent', color: FUNNEL_COLORS[3] },
-    { name: 'Responded', key: 'responded', color: FUNNEL_COLORS[4] },
-    { name: 'Demo', key: 'demo_scheduled', color: FUNNEL_COLORS[5] },
+    { name: 'Total Leads', value: totalLeads },
+    { name: 'Scored', value: scored },
+    { name: 'Qualified (3+)', value: qualified },
+    { name: 'DM Drafted', value: withDm },
+    { name: 'DM Approved', value: approved },
+    { name: 'DM Sent', value: dmSent },
+    { name: 'Responded', value: responded },
+    { name: 'Demo', value: demoScheduled },
   ]
 
   const chartData = steps.map((step, i) => {
-    const val = funnel[step.key] || 0
-    const prevVal = i > 0 ? (funnel[steps[i-1].key] || 0) : null
-    const pct = prevVal && prevVal > 0 ? Math.round((val / prevVal) * 100) : null
+    const prevVal = i > 0 ? steps[i-1].value : null
+    const pct = prevVal && prevVal > 0 ? Math.round((step.value / prevVal) * 100) : null
     return {
       name: step.name,
-      value: val,
+      value: step.value,
       pct,
-      color: step.color,
+      color: FUNNEL_COLORS[i % FUNNEL_COLORS.length],
     }
   })
 
-  const marketData = Object.entries(byMarket).map(([market, data]) => ({
-    name: market,
-    total: data.total || 0,
-    approved: data.approved || 0,
-    dm_sent: data.dm_sent || 0,
-  }))
+  // Conversion rates
+  const pct = (a, b) => b > 0 ? Math.round((a / b) * 100) : null
+  const leadToDm = pct(dmSent, totalLeads)
+  const dmToResponse = pct(responded, dmSent)
+  const responseToDemo = pct(demoScheduled, responded)
+
+  // By market breakdown
+  const marketMap = {}
+  allLeads.forEach(l => {
+    const m = l.market || 'Unknown'
+    if (!marketMap[m]) marketMap[m] = { total: 0, scored: 0, qualified: 0, dmSent: 0, responded: 0 }
+    marketMap[m].total++
+    if (l.scoring?.score != null) marketMap[m].scored++
+    if ((l.scoring?.score || 0) >= 3) marketMap[m].qualified++
+    if (l.outreach?.dm1_sent) marketMap[m].dmSent++
+    if (l.outreach?.response_received) marketMap[m].responded++
+  })
+
+  const marketData = Object.entries(marketMap)
+    .map(([name, data]) => ({ name, ...data }))
+    .sort((a, b) => b.total - a.total)
 
   return (
     <div className="p-6 space-y-8">
       {/* Funnel chart */}
       <section>
         <h3 className="text-text font-semibold text-sm mb-1">Pipeline Funnel</h3>
-        <p className="text-muted text-xs mb-4">Lead-to-customer conversion at each stage</p>
+        <p className="text-muted text-xs mb-4">Lead progression through each pipeline stage</p>
 
         <div className="bg-card border border-border rounded-lg p-4">
-          <ResponsiveContainer width="100%" height={260}>
+          <ResponsiveContainer width="100%" height={280}>
             <BarChart data={chartData} margin={{ top: 20, right: 20, bottom: 10, left: 0 }}>
               <CartesianGrid strokeDasharray="3 3" stroke="#1E1E2E" />
               <XAxis
                 dataKey="name"
-                tick={{ fill: '#8888A0', fontSize: 11 }}
+                tick={{ fill: '#8888A0', fontSize: 10 }}
                 axisLine={{ stroke: '#1E1E2E' }}
                 tickLine={false}
+                angle={-15}
+                textAnchor="end"
+                height={50}
               />
               <YAxis
                 tick={{ fill: '#8888A0', fontSize: 11, fontFamily: 'JetBrains Mono' }}
@@ -121,85 +139,62 @@ export default function PipelineFunnel({ metrics, loading }) {
           </ResponsiveContainer>
 
           {/* Conversion rates */}
-          <div className="flex flex-wrap gap-4 mt-4 pt-4 border-t border-border">
-            <div className="flex items-center gap-2">
-              <span className="text-muted text-xs">Lead to DM:</span>
-              <span className="font-mono text-accent text-sm font-semibold">
-                {conversionRates.lead_to_dm != null
-                  ? `${Math.round(conversionRates.lead_to_dm * 100)}%`
-                  : '--'}
-              </span>
+          <div className="flex flex-wrap gap-6 mt-4 pt-4 border-t border-border">
+            <div>
+              <span className="text-muted text-xs block">Lead → DM Sent</span>
+              <span className="font-mono text-accent text-lg font-bold">{leadToDm != null ? `${leadToDm}%` : '--'}</span>
             </div>
-            <div className="flex items-center gap-2">
-              <span className="text-muted text-xs">DM to Response:</span>
-              <span className="font-mono text-accent text-sm font-semibold">
-                {conversionRates.dm_to_response != null
-                  ? `${Math.round(conversionRates.dm_to_response * 100)}%`
-                  : '--'}
-              </span>
+            <div>
+              <span className="text-muted text-xs block">DM → Response</span>
+              <span className="font-mono text-accent text-lg font-bold">{dmToResponse != null ? `${dmToResponse}%` : '--'}</span>
             </div>
-            <div className="flex items-center gap-2">
-              <span className="text-muted text-xs">Response to Demo:</span>
-              <span className="font-mono text-accent text-sm font-semibold">
-                {conversionRates.response_to_demo != null
-                  ? `${Math.round(conversionRates.response_to_demo * 100)}%`
-                  : '--'}
-              </span>
+            <div>
+              <span className="text-muted text-xs block">Response → Demo</span>
+              <span className="font-mono text-accent text-lg font-bold">{responseToDemo != null ? `${responseToDemo}%` : '--'}</span>
             </div>
           </div>
         </div>
       </section>
 
-      {/* Velocity metrics */}
+      {/* Velocity */}
       <section>
-        <div className="flex items-center gap-2 mb-4">
-          <h3 className="text-text font-semibold text-sm">Velocity Metrics</h3>
-          <TrendIndicator trend={metrics?.pipeline_trend} />
-          {metrics?.pipeline_trend && (
-            <span className={`text-xs capitalize ${
-              metrics.pipeline_trend === 'improving' ? 'text-green-400' :
-              metrics.pipeline_trend === 'slowing' ? 'text-red-400' : 'text-muted'
-            }`}>
-              {metrics.pipeline_trend}
-            </span>
-          )}
-        </div>
+        <h3 className="text-text font-semibold text-sm mb-4">Pipeline Snapshot</h3>
         <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
-          <VelocityCard label="Discovery to Contact" value={metrics?.avg_days_discovery_to_contact} />
-          <VelocityCard label="Contact to Response" value={metrics?.avg_days_contact_to_response} />
-          <VelocityCard label="Response to Demo" value={metrics?.avg_days_response_to_demo} />
-          <VelocityCard label="Leads (7 days)" value={velocity.leads_added_last_7_days} unit="new" />
+          <VelocityCard label="Qualified Leads" value={qualified} unit="(S3+)" />
+          <VelocityCard label="Awaiting Approval" value={allLeads.filter(l => l.outreach?.approval_status === 'PENDING').length} unit="DMs" />
+          <VelocityCard label="Active Outreach" value={dmSent} unit="sent" />
+          <VelocityCard label="Response Rate" value={dmToResponse} unit="%" />
         </div>
       </section>
 
       {/* By market */}
-      {marketData.length > 0 && (
-        <section>
-          <h3 className="text-text font-semibold text-sm mb-4">By Market</h3>
-          <div className="bg-card border border-border rounded-lg overflow-hidden">
-            <table className="w-full text-sm">
-              <thead>
-                <tr className="border-b border-border">
-                  <th className="text-left px-4 py-2 text-muted text-xs font-mono">Market</th>
-                  <th className="text-right px-4 py-2 text-muted text-xs font-mono">Total</th>
-                  <th className="text-right px-4 py-2 text-muted text-xs font-mono">Approved</th>
-                  <th className="text-right px-4 py-2 text-muted text-xs font-mono">DM Sent</th>
+      <section>
+        <h3 className="text-text font-semibold text-sm mb-4">By Market</h3>
+        <div className="bg-card border border-border rounded-lg overflow-hidden">
+          <table className="w-full text-sm">
+            <thead>
+              <tr className="border-b border-border">
+                <th className="text-left px-4 py-2 text-muted text-xs font-mono">Market</th>
+                <th className="text-right px-4 py-2 text-muted text-xs font-mono">Total</th>
+                <th className="text-right px-4 py-2 text-muted text-xs font-mono">Qualified</th>
+                <th className="text-right px-4 py-2 text-muted text-xs font-mono">DM Sent</th>
+                <th className="text-right px-4 py-2 text-muted text-xs font-mono">Responded</th>
+              </tr>
+            </thead>
+            <tbody>
+              {marketData.map((row, i) => (
+                <tr key={row.name} className={i % 2 === 0 ? '' : 'bg-bg'}>
+                  <td className="px-4 py-2 text-text font-medium">{row.name}</td>
+                  <td className="px-4 py-2 text-right font-mono text-accent">{row.total}</td>
+                  <td className="px-4 py-2 text-right font-mono text-text">{row.qualified}</td>
+                  <td className="px-4 py-2 text-right font-mono text-text">{row.dmSent}</td>
+                  <td className="px-4 py-2 text-right font-mono text-text">{row.responded}</td>
                 </tr>
-              </thead>
-              <tbody>
-                {marketData.map((row, i) => (
-                  <tr key={row.name} className={i % 2 === 0 ? '' : 'bg-bg'}>
-                    <td className="px-4 py-2 text-text font-medium">{row.name}</td>
-                    <td className="px-4 py-2 text-right font-mono text-accent">{row.total}</td>
-                    <td className="px-4 py-2 text-right font-mono text-text">{row.approved}</td>
-                    <td className="px-4 py-2 text-right font-mono text-text">{row.dm_sent}</td>
-                  </tr>
-                ))}
-              </tbody>
-            </table>
-          </div>
-        </section>
-      )}
+              ))}
+            </tbody>
+          </table>
+        </div>
+      </section>
     </div>
   )
 }

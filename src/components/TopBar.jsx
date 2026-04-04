@@ -1,5 +1,5 @@
 import { RefreshCw, AlertCircle, Zap } from 'lucide-react'
-import { formatRelative, formatDateTime } from '../utils/formatters'
+import { formatRelative } from '../utils/formatters'
 
 function StatPill({ label, value, accent }) {
   return (
@@ -12,25 +12,29 @@ function StatPill({ label, value, accent }) {
   )
 }
 
-function GhlHealthDot({ status }) {
-  const synced = status?.total_in_ghl ?? 0
-  const errors = status?.sync_errors?.length ?? 0
+function ScoreMini({ score, count, colorClass }) {
+  return (
+    <div className={`flex items-center gap-1 px-2 py-1 rounded text-xs font-mono font-bold ${colorClass}`}>
+      S{score} <span className="font-normal">{count}</span>
+    </div>
+  )
+}
 
-  let color = 'bg-green-400'
-  if (errors > 0) color = 'bg-red-400'
-  else if (synced === 0) color = 'bg-yellow-400'
-
+function GhlHealthDot({ ghlSynced, totalLeads }) {
+  let color = 'bg-yellow-400'
+  if (ghlSynced > 0) color = 'bg-green-400'
   return <span className={`inline-block w-2 h-2 rounded-full ${color}`} />
 }
 
-export default function TopBar({ stats, ghlStatus, lastSynced, onRefresh, loading }) {
-  const byScore = stats?.by_score || {}
-  const totalLeads = stats?.total_leads ?? 0
-  const pendingApproval = stats?.pending_approval ?? 0
-  const ghlSynced = stats?.ghl_synced ?? 0
-  const totalInGhl = ghlStatus?.total_in_ghl ?? 0
-  const syncErrors = ghlStatus?.sync_errors?.length ?? 0
-  const lastWebhook = ghlStatus?.last_sync_at
+export default function TopBar({ leads, stats, ghlStatus, lastSynced, onRefresh, loading }) {
+  // Compute stats from leads array directly for accuracy
+  const allLeads = leads || []
+  const totalLeads = allLeads.length
+  const scoreCount = (s) => allLeads.filter(l => l.scoring?.score === s).length
+  const pendingApproval = allLeads.filter(l => l.outreach?.approval_status === 'PENDING').length
+  const demosScheduled = allLeads.filter(l => l.outreach?.demo_scheduled).length
+  const responded = allLeads.filter(l => l.outreach?.response_received).length
+  const ghlSynced = allLeads.filter(l => l.ghl?.in_ghl).length
 
   return (
     <header className="sticky top-0 z-30 bg-bg border-b border-border">
@@ -44,37 +48,27 @@ export default function TopBar({ stats, ghlStatus, lastSynced, onRefresh, loadin
 
         {/* Stats pills */}
         <div className="flex flex-wrap items-center gap-2 flex-1">
-          <StatPill label="Total" value={totalLeads} />
-          <StatPill label="S5" value={byScore[5] ?? 0} accent />
-          <StatPill label="S4" value={byScore[4] ?? 0} />
-          <StatPill label="S3" value={byScore[3] ?? 0} />
+          <StatPill label="Leads" value={totalLeads} />
+
+          {/* Score mini badges */}
+          <div className="flex items-center gap-1">
+            <ScoreMini score={5} count={scoreCount(5)} colorClass="score-5" />
+            <ScoreMini score={4} count={scoreCount(4)} colorClass="score-4" />
+            <ScoreMini score={3} count={scoreCount(3)} colorClass="score-3" />
+          </div>
+
           <StatPill label="Pending" value={pendingApproval} accent={pendingApproval > 0} />
+          {responded > 0 && <StatPill label="Responses" value={responded} accent />}
+          {demosScheduled > 0 && <StatPill label="Demos" value={demosScheduled} accent />}
 
           {/* GHL indicator */}
           <div className="flex items-center gap-2 px-3 py-1.5 rounded bg-card border border-border">
-            <GhlHealthDot status={ghlStatus} />
+            <GhlHealthDot ghlSynced={ghlSynced} totalLeads={totalLeads} />
             <span className="text-muted text-xs">GHL</span>
             <span className="font-mono text-sm text-text">
               {ghlSynced}/{totalLeads}
             </span>
-            <span className="text-muted text-xs">synced</span>
-            {syncErrors > 0 && (
-              <button
-                className="flex items-center gap-1 text-red-400 text-xs hover:text-red-300"
-                title="View sync errors"
-                onClick={() => console.log('Sync errors:', ghlStatus?.sync_errors)}
-              >
-                <AlertCircle size={12} />
-                {syncErrors} err
-              </button>
-            )}
           </div>
-
-          {lastWebhook && (
-            <span className="text-muted text-xs font-mono hidden lg:block">
-              last webhook: {formatRelative(lastWebhook)}
-            </span>
-          )}
         </div>
 
         {/* Right: sync time + refresh */}
