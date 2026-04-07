@@ -1,66 +1,21 @@
 {
   "funnel": {
-    "total_leads": 220,
-    "scored": 122,
-    "approved_for_outreach": 0,
+    "total_leads": 122,
+    "scored": 121,
+    "approved_for_outreach": 18,
     "dm1_sent": 19,
     "responded": 4,
-    "demo_scheduled": 0,
+    "demo_scheduled": 1,
     "demo_completed": 0
   },
   "conversion_rates": {
-    "lead_to_dm": 0.086,
+    "lead_to_dm": 0.156,
     "dm_to_response": 0.211,
-    "response_to_demo": 0.0
+    "response_to_demo": 0.25
   },
   "by_market": {
-    "Phoenix/Scottsdale": {
-      "leads": 16,
-      "dm_sent": 0,
-      "responded": 0
-    },
-    "Miami": {
-      "leads": 115,
-      "dm_sent": 14,
-      "responded": 2
-    },
-    "Tampa, LA, OC": {
-      "leads": 1,
-      "dm_sent": 0,
-      "responded": 0
-    },
-    "Hollywood": {
-      "leads": 3,
-      "dm_sent": 1,
-      "responded": 0
-    },
-    "Tampa": {
-      "leads": 6,
-      "dm_sent": 1,
-      "responded": 1
-    },
     "DC/DMV": {
       "leads": 8,
-      "dm_sent": 0,
-      "responded": 0
-    },
-    "Fort Lauderdale": {
-      "leads": 5,
-      "dm_sent": 2,
-      "responded": 0
-    },
-    "Boca Raton": {
-      "leads": 1,
-      "dm_sent": 1,
-      "responded": 0
-    },
-    "NYC, NJ, Philly & DC": {
-      "leads": 2,
-      "dm_sent": 0,
-      "responded": 1
-    },
-    "SF Bay Area": {
-      "leads": 7,
       "dm_sent": 0,
       "responded": 0
     },
@@ -75,12 +30,12 @@
       "responded": 0
     },
     "NYC": {
-      "leads": 8,
+      "leads": 10,
       "dm_sent": 0,
-      "responded": 0
+      "responded": 1
     },
-    "Atlanta": {
-      "leads": 8,
+    "Chicago": {
+      "leads": 1,
       "dm_sent": 0,
       "responded": 0
     },
@@ -89,25 +44,35 @@
       "dm_sent": 0,
       "responded": 0
     },
-    "Chicago": {
+    "Phoenix/Scottsdale": {
+      "leads": 16,
+      "dm_sent": 0,
+      "responded": 0
+    },
+    "Miami": {
+      "leads": 43,
+      "dm_sent": 19,
+      "responded": 3
+    },
+    "Multi-Market": {
       "leads": 1,
       "dm_sent": 0,
       "responded": 0
     },
-    "Multi-Market": {
-      "leads": 2,
+    "SF Bay Area": {
+      "leads": 7,
       "dm_sent": 0,
       "responded": 0
     },
-    "Call Notes": {
-      "leads": 9,
+    "Atlanta": {
+      "leads": 8,
       "dm_sent": 0,
       "responded": 0
     }
   },
   "velocity": {
-    "leads_added_last_7_days": 220,
+    "leads_added_last_7_days": 122,
     "dms_sent_last_7_days": 10
   },
-  "generated_at": "2026-04-07T05:22:08.616180+00:00"
+  "generated_at": "2026-04-04T05:06:06.226465+00:00"
 }
