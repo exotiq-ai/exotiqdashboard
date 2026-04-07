@@ -72,6 +72,10 @@ export default function App() {
         updateLead(lead.id, { approval_status: 'REJECTED' }, 'reject')
         break
 
+      case 'hold':
+        updateLead(lead.id, { status: 'On Hold', approval_status: 'ON_HOLD' }, 'hold')
+        break
+
       case 'not_a_fit':
         updateLead(lead.id, { status: 'Not a Fit', approval_status: 'REJECTED' }, 'not_a_fit')
         break

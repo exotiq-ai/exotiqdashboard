@@ -227,6 +227,7 @@ function ExpandedDetail({ lead, onAction }) {
                 outreach.status === 'Demo Scheduled' ? 'bg-accent/20 text-accent' :
                 outreach.status === 'Error Flagged' ? 'bg-red-900/50 text-red-400' :
                 outreach.status === 'Not a Fit' ? 'bg-red-900/50 text-red-400 line-through' :
+                outreach.status === 'On Hold' ? 'bg-yellow-900/50 text-yellow-400' :
                 outreach.status === 'Pending Approval' ? 'bg-yellow-900/50 text-yellow-400' :
                 'bg-border text-muted'
               }`}>{outreach.status || 'New'}</span>

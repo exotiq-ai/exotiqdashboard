@@ -23,10 +23,11 @@
   },
   "by_status": {
     "New": 75,
-    "Pending Approval": 13,
-    "Hold - Check Notes": 5,
-    "Contacted": 15,
-    "Responded": 5,
+    "Needs V3 Redraft": 6,
+    "Pending Approval": 11,
+    "Hold - Check Notes": 3,
+    "Contacted": 14,
+    "Responded": 4,
     "Error Flagged": 5,
     "Demo Scheduled": 1,
     "Draft Ready": 1,
@@ -35,5 +36,5 @@
   "ghl_synced": 0,
   "pending_approval": 20,
   "approved": 18,
-  "generated_at": "2026-04-07T12:33:41.429242+00:00"
+  "generated_at": "2026-04-07T15:00:54.180343+00:00"
 }

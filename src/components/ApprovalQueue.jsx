@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import { CheckCircle, XCircle, Edit3, ChevronUp, AlertTriangle } from 'lucide-react'
+import { CheckCircle, XCircle, Edit3, ChevronUp, AlertTriangle, PauseCircle } from 'lucide-react'
 import ScoreBadge from './ScoreBadge'
 import GhlBadge from './GhlBadge'
 import { formatRelative, contactName, formatPhone } from '../utils/formatters'
@@ -183,6 +183,13 @@ function ApprovalCard({ lead, onAction }) {
                 >
                   <Edit3 size={14} />
                   Edit DM
+                </button>
+                <button
+                  onClick={() => onAction('hold', lead)}
+                  className="flex items-center gap-1.5 px-4 py-2 rounded border border-border text-muted hover:text-yellow-400 hover:border-yellow-700 text-xs transition-all"
+                >
+                  <PauseCircle size={14} />
+                  Hold
                 </button>
                 <button
                   onClick={() => onAction('reject', lead)}
