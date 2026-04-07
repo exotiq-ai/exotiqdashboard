@@ -1,39 +1,49 @@
 {
-  "total_leads": 122,
+  "total_leads": 220,
   "by_score": {
-    "1": 5,
-    "2": 28,
-    "3": 38,
-    "4": 34,
-    "5": 16,
-    "unscored": 1
+    "1": 2,
+    "2": 6,
+    "3": 95,
+    "4": 10,
+    "5": 9,
+    "unscored": 98
   },
   "by_market": {
+    "Phoenix/Scottsdale": 16,
+    "Miami": 115,
+    "Tampa, LA, OC": 1,
+    "Hollywood": 3,
+    "Tampa": 6,
     "DC/DMV": 8,
+    "Fort Lauderdale": 5,
+    "Boca Raton": 1,
+    "NYC, NJ, Philly & DC": 2,
+    "SF Bay Area": 7,
     "Los Angeles": 10,
     "Las Vegas": 8,
-    "NYC": 10,
-    "Chicago": 1,
+    "NYC": 8,
+    "Atlanta": 8,
     "Dallas/Fort Worth": 10,
-    "Phoenix/Scottsdale": 16,
-    "Miami": 43,
-    "Multi-Market": 1,
-    "SF Bay Area": 7,
-    "Atlanta": 8
+    "Chicago": 1,
+    "Multi-Market": 2,
+    "Call Notes": 9
   },
   "by_status": {
-    "New": 75,
     "Pending Approval": 13,
     "Hold - Check Notes": 5,
-    "Contacted": 15,
-    "Responded": 5,
     "Error Flagged": 5,
+    "Contacted": 20,
+    "Responded": 9,
+    "New": 74,
     "Demo Scheduled": 1,
     "Draft Ready": 1,
-    "DM Sent": 2
+    "DM Sent": 2,
+    "Unknown": 60,
+    "Draft": 29,
+    "Sent": 1
   },
-  "ghl_synced": 17,
-  "pending_approval": 20,
-  "approved": 18,
-  "generated_at": "2026-04-04T05:06:06.224947+00:00"
+  "ghl_synced": 0,
+  "pending_approval": 41,
+  "approved": 0,
+  "generated_at": "2026-04-07T05:22:08.614763+00:00"
 }
