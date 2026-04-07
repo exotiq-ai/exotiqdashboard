@@ -5,13 +5,13 @@
     "approved_for_outreach": 18,
     "dm1_sent": 19,
     "responded": 4,
-    "demo_scheduled": 1,
+    "demo_scheduled": 0,
     "demo_completed": 0
   },
   "conversion_rates": {
     "lead_to_dm": 0.156,
     "dm_to_response": 0.211,
-    "response_to_demo": 0.25
+    "response_to_demo": 0.0
   },
   "by_market": {
     "DC/DMV": {
@@ -74,5 +74,5 @@
     "leads_added_last_7_days": 122,
     "dms_sent_last_7_days": 10
   },
-  "generated_at": "2026-04-04T05:06:06.226465+00:00"
+  "generated_at": "2026-04-07T12:33:41.430321+00:00"
 }
