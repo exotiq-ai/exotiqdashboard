@@ -1,18 +1,18 @@
 {
-  "total_leads": 122,
+  "total_leads": 123,
   "by_score": {
     "1": 5,
     "2": 28,
     "3": 38,
     "4": 34,
-    "5": 16,
+    "5": 17,
     "unscored": 1
   },
   "by_market": {
+    "NYC": 11,
     "DC/DMV": 8,
     "Los Angeles": 10,
     "Las Vegas": 8,
-    "NYC": 10,
     "Chicago": 1,
     "Dallas/Fort Worth": 10,
     "Phoenix/Scottsdale": 16,
@@ -22,11 +22,11 @@
     "Atlanta": 8
   },
   "by_status": {
+    "Contacted": 15,
     "New": 75,
     "Needs V3 Redraft": 6,
     "Pending Approval": 11,
     "Hold - Check Notes": 3,
-    "Contacted": 14,
     "Responded": 4,
     "Error Flagged": 5,
     "Demo Scheduled": 1,
@@ -35,6 +35,6 @@
   },
   "ghl_synced": 0,
   "pending_approval": 20,
-  "approved": 18,
-  "generated_at": "2026-04-07T15:00:54.180343+00:00"
+  "approved": 19,
+  "generated_at": "2026-04-08T16:27:16.019101+00:00"
 }

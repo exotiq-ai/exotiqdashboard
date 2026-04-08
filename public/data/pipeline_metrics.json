@@ -1,19 +1,24 @@
 {
   "funnel": {
-    "total_leads": 122,
-    "scored": 121,
-    "approved_for_outreach": 18,
-    "dm1_sent": 19,
+    "total_leads": 123,
+    "scored": 122,
+    "approved_for_outreach": 19,
+    "dm1_sent": 20,
     "responded": 4,
     "demo_scheduled": 0,
     "demo_completed": 0
   },
   "conversion_rates": {
-    "lead_to_dm": 0.156,
-    "dm_to_response": 0.211,
+    "lead_to_dm": 0.163,
+    "dm_to_response": 0.2,
     "response_to_demo": 0.0
   },
   "by_market": {
+    "NYC": {
+      "leads": 11,
+      "dm_sent": 1,
+      "responded": 1
+    },
     "DC/DMV": {
       "leads": 8,
       "dm_sent": 0,
@@ -28,11 +33,6 @@
       "leads": 8,
       "dm_sent": 0,
       "responded": 0
-    },
-    "NYC": {
-      "leads": 10,
-      "dm_sent": 0,
-      "responded": 1
     },
     "Chicago": {
       "leads": 1,
@@ -71,8 +71,8 @@
     }
   },
   "velocity": {
-    "leads_added_last_7_days": 122,
-    "dms_sent_last_7_days": 10
+    "leads_added_last_7_days": 123,
+    "dms_sent_last_7_days": 11
   },
-  "generated_at": "2026-04-07T15:00:54.181521+00:00"
+  "generated_at": "2026-04-08T16:27:16.020702+00:00"
 }

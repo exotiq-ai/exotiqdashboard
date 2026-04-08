@@ -1,5 +1,75 @@
 [
   {
+    "id": "lead_nyc_009",
+    "company": "Gotham Dream Cars",
+    "contact": {
+      "first_name": "Rob",
+      "last_name": "Ferretti",
+      "title": "Co-Founder & COO",
+      "email": "rob@gothamdreamcars.com",
+      "phone": "+1 (877) 246-8426",
+      "linkedin": null,
+      "ig_personal": null
+    },
+    "company_data": {
+      "ig_handle": null,
+      "ig_followers": null,
+      "website": "https://www.gothamdreamcars.com",
+      "address": "New York, NY",
+      "google_rating": null,
+      "google_reviews": null
+    },
+    "fleet": {
+      "size": null,
+      "size_confidence": null,
+      "vehicle_types": [],
+      "vehicle_types_source": null
+    },
+    "scoring": {
+      "score": 5,
+      "confidence": "HIGH",
+      "rationale": "Co-founded 2003 with Noah. Own every car in fleet, full commercial insurance. Rob has 1M+ social media followers. Two decades in business. Transparent pricing. Legit operation. Website: gothamdreamcars.com. Email: rob@gothamdreamcars.com. Phone: (877) 246-8426.",
+      "scored_at": "2026-04-08T16:27:15.970720+00:00",
+      "previous_score": null
+    },
+    "outreach": {
+      "status": "Contacted",
+      "dm_draft": "Hey Rob, I just got off the phone with Jay at Denver exotic rentals. Jay's one of our favorite clients on the Exotiq Command Center.\n\nI'd love to jump on a quick call, introduce myself and learn how you're managing your fleet these days.\n\nLet me know what time that works best for you thanks.",
+      "template_used": "Custom",
+      "client_review": "Y",
+      "approval_status": "APPROVED",
+      "do_not_say": [],
+      "dm1_sent": "2026-04-08",
+      "dm2_sent": null,
+      "dm3_sent": null,
+      "response_received": 0,
+      "response_category": null,
+      "response_date": null,
+      "calendly_sent": null,
+      "demo_scheduled": null
+    },
+    "pricing": {
+      "annual_value": 948,
+      "tier": "Starter (est.)"
+    },
+    "ghl": {
+      "contact_id": null,
+      "opportunity_id": null,
+      "pipeline_stage": null,
+      "last_sync": null,
+      "in_ghl": false,
+      "tags": []
+    },
+    "market": "NYC",
+    "lead_source": "Gregory Direct",
+    "enrichment_history": [],
+    "notes": "Gregory sent DM April 8. Hot lead. 20+ year operation, owns entire fleet, 1M+ social followers. Rob is Co-Founder and COO. Follow up this afternoon if no reply.",
+    "created_at": "2026-04-08T16:27:15.970720+00:00",
+    "updated_at": "2026-04-08T16:27:15.970720+00:00",
+    "stale": false,
+    "days_since_activity": 0
+  },
+  {
     "id": "lead_dcv_001",
     "company": "My Sugar Exotics",
     "contact": {
@@ -67,7 +137,7 @@
     "created_at": "2026-04-07T12:33:41.074494+00:00",
     "updated_at": "2026-04-07T12:33:41.074494+00:00",
     "stale": false,
-    "days_since_activity": 0
+    "days_since_activity": 1
   },
   {
     "id": "lead_lax_002",
@@ -137,7 +207,7 @@
     "created_at": "2026-04-07T12:33:41.074494+00:00",
     "updated_at": "2026-04-07T12:33:41.074494+00:00",
     "stale": false,
-    "days_since_activity": 0
+    "days_since_activity": 1
   },
   {
     "id": "lead_lax_001",
@@ -207,7 +277,7 @@
     "created_at": "2026-04-07T12:33:41.074494+00:00",
     "updated_at": "2026-04-07T12:33:41.074494+00:00",
     "stale": false,
-    "days_since_activity": 0
+    "days_since_activity": 1
   },
   {
     "id": "lead_lvs_002",
@@ -277,7 +347,7 @@
     "created_at": "2026-04-07T12:33:41.074494+00:00",
     "updated_at": "2026-04-07T12:33:41.074494+00:00",
     "stale": false,
-    "days_since_activity": 0
+    "days_since_activity": 1
   },
   {
     "id": "lead_lvs_001",
@@ -347,7 +417,7 @@
     "created_at": "2026-04-07T12:33:41.074494+00:00",
     "updated_at": "2026-04-07T12:33:41.074494+00:00",
     "stale": false,
-    "days_since_activity": 0
+    "days_since_activity": 1
   },
   {
     "id": "lead_nyc_001",
@@ -417,7 +487,7 @@
     "created_at": "2026-04-07T12:33:41.074494+00:00",
     "updated_at": "2026-04-07T12:33:41.074494+00:00",
     "stale": false,
-    "days_since_activity": 0
+    "days_since_activity": 1
   },
   {
     "id": "lead_chi_001",
@@ -487,7 +557,7 @@
     "created_at": "2026-04-07T12:33:41.074494+00:00",
     "updated_at": "2026-04-07T12:33:41.074494+00:00",
     "stale": false,
-    "days_since_activity": 0
+    "days_since_activity": 1
   },
   {
     "id": "lead_dfw_001",
@@ -557,7 +627,7 @@
     "created_at": "2026-04-07T12:33:41.074494+00:00",
     "updated_at": "2026-04-07T12:33:41.074494+00:00",
     "stale": false,
-    "days_since_activity": 0
+    "days_since_activity": 1
   },
   {
     "id": "lead_phx_004",
@@ -627,7 +697,7 @@
     "created_at": "2026-04-07T12:33:41.074494+00:00",
     "updated_at": "2026-04-07T12:33:41.074494+00:00",
     "stale": false,
-    "days_since_activity": 0
+    "days_since_activity": 1
   },
   {
     "id": "lead_mia_046",
@@ -697,7 +767,7 @@
     "created_at": "2026-04-07T12:33:41.074494+00:00",
     "updated_at": "2026-04-07T12:33:41.074494+00:00",
     "stale": false,
-    "days_since_activity": 0
+    "days_since_activity": 1
   },
   {
     "id": "lead_mia_017",
@@ -767,7 +837,7 @@
     "created_at": "2026-04-07T12:33:41.074494+00:00",
     "updated_at": "2026-04-07T12:33:41.074494+00:00",
     "stale": false,
-    "days_since_activity": 0
+    "days_since_activity": 1
   },
   {
     "id": "lead_mia_016",
@@ -837,7 +907,7 @@
     "created_at": "2026-04-07T12:33:41.074494+00:00",
     "updated_at": "2026-04-07T12:33:41.074494+00:00",
     "stale": false,
-    "days_since_activity": 0
+    "days_since_activity": 1
   },
   {
     "id": "lead_mia_015",
@@ -907,7 +977,7 @@
     "created_at": "2026-04-07T12:33:41.074494+00:00",
     "updated_at": "2026-04-07T12:33:41.074494+00:00",
     "stale": false,
-    "days_since_activity": 0
+    "days_since_activity": 1
   },
   {
     "id": "lead_mia_014",
@@ -977,7 +1047,7 @@
     "created_at": "2026-04-07T12:33:41.074494+00:00",
     "updated_at": "2026-04-07T12:33:41.074494+00:00",
     "stale": false,
-    "days_since_activity": 0
+    "days_since_activity": 1
   },
   {
     "id": "lead_mia_005",
@@ -1047,7 +1117,7 @@
     "created_at": "2026-04-07T12:33:41.074494+00:00",
     "updated_at": "2026-04-07T12:33:41.074494+00:00",
     "stale": false,
-    "days_since_activity": 0
+    "days_since_activity": 1
   },
   {
     "id": "lead_mia_004",
@@ -1117,7 +1187,7 @@
     "created_at": "2026-04-07T12:33:41.074494+00:00",
     "updated_at": "2026-04-07T12:33:41.074494+00:00",
     "stale": false,
-    "days_since_activity": 0
+    "days_since_activity": 1
   },
   {
     "id": "lead_sfb_001",
@@ -1187,7 +1257,7 @@
     "created_at": "2026-04-07T12:33:41.074494+00:00",
     "updated_at": "2026-04-07T12:33:41.074494+00:00",
     "stale": false,
-    "days_since_activity": 0
+    "days_since_activity": 1
   },
   {
     "id": "lead_lax_009",
@@ -1257,7 +1327,7 @@
     "created_at": "2026-04-07T12:33:41.074494+00:00",
     "updated_at": "2026-04-07T12:33:41.074494+00:00",
     "stale": false,
-    "days_since_activity": 0
+    "days_since_activity": 1
   },
   {
     "id": "lead_lax_007",
@@ -1327,7 +1397,7 @@
     "created_at": "2026-04-07T12:33:41.074494+00:00",
     "updated_at": "2026-04-07T12:33:41.074494+00:00",
     "stale": false,
-    "days_since_activity": 0
+    "days_since_activity": 1
   },
   {
     "id": "lead_lax_005",
@@ -1397,7 +1467,7 @@
     "created_at": "2026-04-07T12:33:41.074494+00:00",
     "updated_at": "2026-04-07T12:33:41.074494+00:00",
     "stale": false,
-    "days_since_activity": 0
+    "days_since_activity": 1
   },
   {
     "id": "lead_lax_004",
@@ -1467,7 +1537,7 @@
     "created_at": "2026-04-07T12:33:41.074494+00:00",
     "updated_at": "2026-04-07T12:33:41.074494+00:00",
     "stale": false,
-    "days_since_activity": 0
+    "days_since_activity": 1
   },
   {
     "id": "lead_lax_003",
@@ -1537,7 +1607,7 @@
     "created_at": "2026-04-07T12:33:41.074494+00:00",
     "updated_at": "2026-04-07T12:33:41.074494+00:00",
     "stale": false,
-    "days_since_activity": 0
+    "days_since_activity": 1
   },
   {
     "id": "lead_lvs_005",
@@ -1607,7 +1677,7 @@
     "created_at": "2026-04-07T12:33:41.074494+00:00",
     "updated_at": "2026-04-07T12:33:41.074494+00:00",
     "stale": false,
-    "days_since_activity": 0
+    "days_since_activity": 1
   },
   {
     "id": "lead_lvs_004",
@@ -1677,7 +1747,7 @@
     "created_at": "2026-04-07T12:33:41.074494+00:00",
     "updated_at": "2026-04-07T12:33:41.074494+00:00",
     "stale": false,
-    "days_since_activity": 0
+    "days_since_activity": 1
   },
   {
     "id": "lead_lvs_003",
@@ -1747,7 +1817,7 @@
     "created_at": "2026-04-07T12:33:41.074494+00:00",
     "updated_at": "2026-04-07T12:33:41.074494+00:00",
     "stale": false,
-    "days_since_activity": 0
+    "days_since_activity": 1
   },
   {
     "id": "lead_nyc_006",
@@ -1817,7 +1887,7 @@
     "created_at": "2026-04-07T12:33:41.074494+00:00",
     "updated_at": "2026-04-07T12:33:41.074494+00:00",
     "stale": false,
-    "days_since_activity": 0
+    "days_since_activity": 1
   },
   {
     "id": "lead_nyc_003",
@@ -1887,7 +1957,7 @@
     "created_at": "2026-04-07T12:33:41.074494+00:00",
     "updated_at": "2026-04-07T12:33:41.074494+00:00",
     "stale": false,
-    "days_since_activity": 0
+    "days_since_activity": 1
   },
   {
     "id": "lead_nyc_002",
@@ -1957,7 +2027,7 @@
     "created_at": "2026-04-07T12:33:41.074494+00:00",
     "updated_at": "2026-04-07T12:33:41.074494+00:00",
     "stale": false,
-    "days_since_activity": 0
+    "days_since_activity": 1
   },
   {
     "id": "lead_atl_002",
@@ -2027,7 +2097,7 @@
     "created_at": "2026-04-07T12:33:41.074494+00:00",
     "updated_at": "2026-04-07T12:33:41.074494+00:00",
     "stale": false,
-    "days_since_activity": 0
+    "days_since_activity": 1
   },
   {
     "id": "lead_atl_001",
@@ -2097,7 +2167,7 @@
     "created_at": "2026-04-07T12:33:41.074494+00:00",
     "updated_at": "2026-04-07T12:33:41.074494+00:00",
     "stale": false,
-    "days_since_activity": 0
+    "days_since_activity": 1
   },
   {
     "id": "lead_dfw_005",
@@ -2167,7 +2237,7 @@
     "created_at": "2026-04-07T12:33:41.074494+00:00",
     "updated_at": "2026-04-07T12:33:41.074494+00:00",
     "stale": false,
-    "days_since_activity": 0
+    "days_since_activity": 1
   },
   {
     "id": "lead_dfw_004",
@@ -2237,7 +2307,7 @@
     "created_at": "2026-04-07T12:33:41.074494+00:00",
     "updated_at": "2026-04-07T12:33:41.074494+00:00",
     "stale": false,
-    "days_since_activity": 0
+    "days_since_activity": 1
   },
   {
     "id": "lead_dfw_003",
@@ -2307,7 +2377,7 @@
     "created_at": "2026-04-07T12:33:41.074494+00:00",
     "updated_at": "2026-04-07T12:33:41.074494+00:00",
     "stale": false,
-    "days_since_activity": 0
+    "days_since_activity": 1
   },
   {
     "id": "lead_dfw_002",
@@ -2377,7 +2447,7 @@
     "created_at": "2026-04-07T12:33:41.074494+00:00",
     "updated_at": "2026-04-07T12:33:41.074494+00:00",
     "stale": false,
-    "days_since_activity": 0
+    "days_since_activity": 1
   },
   {
     "id": "lead_phx_007",
@@ -2447,7 +2517,7 @@
     "created_at": "2026-04-07T12:33:41.074494+00:00",
     "updated_at": "2026-04-07T12:33:41.074494+00:00",
     "stale": false,
-    "days_since_activity": 0
+    "days_since_activity": 1
   },
   {
     "id": "lead_phx_006",
@@ -2517,7 +2587,7 @@
     "created_at": "2026-04-07T12:33:41.074494+00:00",
     "updated_at": "2026-04-07T12:33:41.074494+00:00",
     "stale": false,
-    "days_since_activity": 0
+    "days_since_activity": 1
   },
   {
     "id": "lead_phx_005",
@@ -2587,7 +2657,7 @@
     "created_at": "2026-04-07T12:33:41.074494+00:00",
     "updated_at": "2026-04-07T12:33:41.074494+00:00",
     "stale": false,
-    "days_since_activity": 0
+    "days_since_activity": 1
   },
   {
     "id": "lead_mia_043",
@@ -2657,7 +2727,7 @@
     "created_at": "2026-04-07T12:33:41.074494+00:00",
     "updated_at": "2026-04-07T12:33:41.074494+00:00",
     "stale": false,
-    "days_since_activity": 0
+    "days_since_activity": 1
   },
   {
     "id": "lead_mia_039",
@@ -2727,7 +2797,7 @@
     "created_at": "2026-04-07T12:33:41.074494+00:00",
     "updated_at": "2026-04-07T12:33:41.074494+00:00",
     "stale": false,
-    "days_since_activity": 0
+    "days_since_activity": 1
   },
   {
     "id": "lead_mia_038",
@@ -2797,7 +2867,7 @@
     "created_at": "2026-04-07T12:33:41.074494+00:00",
     "updated_at": "2026-04-07T12:33:41.074494+00:00",
     "stale": false,
-    "days_since_activity": 0
+    "days_since_activity": 1
   },
   {
     "id": "lead_mia_036",
@@ -2867,7 +2937,7 @@
     "created_at": "2026-04-07T12:33:41.074494+00:00",
     "updated_at": "2026-04-07T12:33:41.074494+00:00",
     "stale": false,
-    "days_since_activity": 0
+    "days_since_activity": 1
   },
   {
     "id": "lead_mia_032",
@@ -2937,7 +3007,7 @@
     "created_at": "2026-04-07T12:33:41.074494+00:00",
     "updated_at": "2026-04-07T12:33:41.074494+00:00",
     "stale": false,
-    "days_since_activity": 0
+    "days_since_activity": 1
   },
   {
     "id": "lead_mia_028",
@@ -3007,7 +3077,7 @@
     "created_at": "2026-04-07T12:33:41.074494+00:00",
     "updated_at": "2026-04-07T12:33:41.074494+00:00",
     "stale": false,
-    "days_since_activity": 0
+    "days_since_activity": 1
   },
   {
     "id": "lead_mia_025",
@@ -3077,7 +3147,7 @@
     "created_at": "2026-04-07T12:33:41.074494+00:00",
     "updated_at": "2026-04-07T12:33:41.074494+00:00",
     "stale": false,
-    "days_since_activity": 0
+    "days_since_activity": 1
   },
   {
     "id": "lead_mia_024",
@@ -3147,7 +3217,7 @@
     "created_at": "2026-04-07T12:33:41.074494+00:00",
     "updated_at": "2026-04-07T12:33:41.074494+00:00",
     "stale": false,
-    "days_since_activity": 0
+    "days_since_activity": 1
   },
   {
     "id": "lead_mia_020",
@@ -3217,7 +3287,7 @@
     "created_at": "2026-04-07T12:33:41.074494+00:00",
     "updated_at": "2026-04-07T12:33:41.074494+00:00",
     "stale": false,
-    "days_since_activity": 0
+    "days_since_activity": 1
   },
   {
     "id": "lead_mia_019",
@@ -3287,7 +3357,7 @@
     "created_at": "2026-04-07T12:33:41.074494+00:00",
     "updated_at": "2026-04-07T12:33:41.074494+00:00",
     "stale": false,
-    "days_since_activity": 0
+    "days_since_activity": 1
   },
   {
     "id": "lead_mia_013",
@@ -3357,7 +3427,7 @@
     "created_at": "2026-04-07T12:33:41.074494+00:00",
     "updated_at": "2026-04-07T12:33:41.074494+00:00",
     "stale": false,
-    "days_since_activity": 0
+    "days_since_activity": 1
   },
   {
     "id": "lead_mia_012",
@@ -3427,7 +3497,7 @@
     "created_at": "2026-04-07T12:33:41.074494+00:00",
     "updated_at": "2026-04-07T12:33:41.074494+00:00",
     "stale": false,
-    "days_since_activity": 0
+    "days_since_activity": 1
   },
   {
     "id": "lead_mia_009",
@@ -3497,7 +3567,7 @@
     "created_at": "2026-04-07T12:33:41.074494+00:00",
     "updated_at": "2026-04-07T12:33:41.074494+00:00",
     "stale": false,
-    "days_since_activity": 0
+    "days_since_activity": 1
   },
   {
     "id": "lead_dcv_005",
@@ -3567,7 +3637,7 @@
     "created_at": "2026-04-07T12:33:41.074494+00:00",
     "updated_at": "2026-04-07T12:33:41.074494+00:00",
     "stale": false,
-    "days_since_activity": 0
+    "days_since_activity": 1
   },
   {
     "id": "lead_dcv_004",
@@ -3637,7 +3707,7 @@
     "created_at": "2026-04-07T12:33:41.074494+00:00",
     "updated_at": "2026-04-07T12:33:41.074494+00:00",
     "stale": false,
-    "days_since_activity": 0
+    "days_since_activity": 1
   },
   {
     "id": "lead_dcv_003",
@@ -3707,7 +3777,7 @@
     "created_at": "2026-04-07T12:33:41.074494+00:00",
     "updated_at": "2026-04-07T12:33:41.074494+00:00",
     "stale": false,
-    "days_since_activity": 0
+    "days_since_activity": 1
   },
   {
     "id": "lead_dcv_002",
@@ -3777,7 +3847,7 @@
     "created_at": "2026-04-07T12:33:41.074494+00:00",
     "updated_at": "2026-04-07T12:33:41.074494+00:00",
     "stale": false,
-    "days_since_activity": 0
+    "days_since_activity": 1
   },
   {
     "id": "lead_sfb_006",
@@ -3847,7 +3917,7 @@
     "created_at": "2026-04-07T12:33:41.074494+00:00",
     "updated_at": "2026-04-07T12:33:41.074494+00:00",
     "stale": false,
-    "days_since_activity": 0
+    "days_since_activity": 1
   },
   {
     "id": "lead_sfb_004",
@@ -3917,7 +3987,7 @@
     "created_at": "2026-04-07T12:33:41.074494+00:00",
     "updated_at": "2026-04-07T12:33:41.074494+00:00",
     "stale": false,
-    "days_since_activity": 0
+    "days_since_activity": 1
   },
   {
     "id": "lead_sfb_003",
@@ -3987,7 +4057,7 @@
     "created_at": "2026-04-07T12:33:41.074494+00:00",
     "updated_at": "2026-04-07T12:33:41.074494+00:00",
     "stale": false,
-    "days_since_activity": 0
+    "days_since_activity": 1
   },
   {
     "id": "lead_sfb_002",
@@ -4057,7 +4127,7 @@
     "created_at": "2026-04-07T12:33:41.074494+00:00",
     "updated_at": "2026-04-07T12:33:41.074494+00:00",
     "stale": false,
-    "days_since_activity": 0
+    "days_since_activity": 1
   },
   {
     "id": "lead_lax_008",
@@ -4127,7 +4197,7 @@
     "created_at": "2026-04-07T12:33:41.074494+00:00",
     "updated_at": "2026-04-07T12:33:41.074494+00:00",
     "stale": false,
-    "days_since_activity": 0
+    "days_since_activity": 1
   },
   {
     "id": "lead_lax_006",
@@ -4197,7 +4267,7 @@
     "created_at": "2026-04-07T12:33:41.074494+00:00",
     "updated_at": "2026-04-07T12:33:41.074494+00:00",
     "stale": false,
-    "days_since_activity": 0
+    "days_since_activity": 1
   },
   {
     "id": "lead_lvs_007",
@@ -4267,7 +4337,7 @@
     "created_at": "2026-04-07T12:33:41.074494+00:00",
     "updated_at": "2026-04-07T12:33:41.074494+00:00",
     "stale": false,
-    "days_since_activity": 0
+    "days_since_activity": 1
   },
   {
     "id": "lead_lvs_006",
@@ -4337,7 +4407,7 @@
     "created_at": "2026-04-07T12:33:41.074494+00:00",
     "updated_at": "2026-04-07T12:33:41.074494+00:00",
     "stale": false,
-    "days_since_activity": 0
+    "days_since_activity": 1
   },
   {
     "id": "lead_nyc_005",
@@ -4407,7 +4477,7 @@
     "created_at": "2026-04-07T12:33:41.074494+00:00",
     "updated_at": "2026-04-07T12:33:41.074494+00:00",
     "stale": false,
-    "days_since_activity": 0
+    "days_since_activity": 1
   },
   {
     "id": "lead_nyc_004",
@@ -4477,7 +4547,7 @@
     "created_at": "2026-04-07T12:33:41.074494+00:00",
     "updated_at": "2026-04-07T12:33:41.074494+00:00",
     "stale": false,
-    "days_since_activity": 0
+    "days_since_activity": 1
   },
   {
     "id": "lead_atl_004",
@@ -4547,7 +4617,7 @@
     "created_at": "2026-04-07T12:33:41.074494+00:00",
     "updated_at": "2026-04-07T12:33:41.074494+00:00",
     "stale": false,
-    "days_since_activity": 0
+    "days_since_activity": 1
   },
   {
     "id": "lead_atl_003",
@@ -4617,7 +4687,7 @@
     "created_at": "2026-04-07T12:33:41.074494+00:00",
     "updated_at": "2026-04-07T12:33:41.074494+00:00",
     "stale": false,
-    "days_since_activity": 0
+    "days_since_activity": 1
   },
   {
     "id": "lead_dfw_009",
@@ -4687,7 +4757,7 @@
     "created_at": "2026-04-07T12:33:41.074494+00:00",
     "updated_at": "2026-04-07T12:33:41.074494+00:00",
     "stale": false,
-    "days_since_activity": 0
+    "days_since_activity": 1
   },
   {
     "id": "lead_dfw_008",
@@ -4757,7 +4827,7 @@
     "created_at": "2026-04-07T12:33:41.074494+00:00",
     "updated_at": "2026-04-07T12:33:41.074494+00:00",
     "stale": false,
-    "days_since_activity": 0
+    "days_since_activity": 1
   },
   {
     "id": "lead_dfw_007",
@@ -4827,7 +4897,7 @@
     "created_at": "2026-04-07T12:33:41.074494+00:00",
     "updated_at": "2026-04-07T12:33:41.074494+00:00",
     "stale": false,
-    "days_since_activity": 0
+    "days_since_activity": 1
   },
   {
     "id": "lead_dfw_006",
@@ -4897,7 +4967,7 @@
     "created_at": "2026-04-07T12:33:41.074494+00:00",
     "updated_at": "2026-04-07T12:33:41.074494+00:00",
     "stale": false,
-    "days_since_activity": 0
+    "days_since_activity": 1
   },
   {
     "id": "lead_phx_015",
@@ -4967,7 +5037,7 @@
     "created_at": "2026-04-07T12:33:41.074494+00:00",
     "updated_at": "2026-04-07T12:33:41.074494+00:00",
     "stale": false,
-    "days_since_activity": 0
+    "days_since_activity": 1
   },
   {
     "id": "lead_phx_010",
@@ -5037,7 +5107,7 @@
     "created_at": "2026-04-07T12:33:41.074494+00:00",
     "updated_at": "2026-04-07T12:33:41.074494+00:00",
     "stale": false,
-    "days_since_activity": 0
+    "days_since_activity": 1
   },
   {
     "id": "lead_phx_009",
@@ -5107,7 +5177,7 @@
     "created_at": "2026-04-07T12:33:41.074494+00:00",
     "updated_at": "2026-04-07T12:33:41.074494+00:00",
     "stale": false,
-    "days_since_activity": 0
+    "days_since_activity": 1
   },
   {
     "id": "lead_phx_008",
@@ -5177,7 +5247,7 @@
     "created_at": "2026-04-07T12:33:41.074494+00:00",
     "updated_at": "2026-04-07T12:33:41.074494+00:00",
     "stale": false,
-    "days_since_activity": 0
+    "days_since_activity": 1
   },
   {
     "id": "lead_phx_001",
@@ -5247,7 +5317,7 @@
     "created_at": "2026-04-07T12:33:41.074494+00:00",
     "updated_at": "2026-04-07T12:33:41.074494+00:00",
     "stale": false,
-    "days_since_activity": 0
+    "days_since_activity": 1
   },
   {
     "id": "lead_mia_045",
@@ -5317,7 +5387,7 @@
     "created_at": "2026-04-07T12:33:41.074494+00:00",
     "updated_at": "2026-04-07T12:33:41.074494+00:00",
     "stale": false,
-    "days_since_activity": 0
+    "days_since_activity": 1
   },
   {
     "id": "lead_mia_044",
@@ -5387,7 +5457,7 @@
     "created_at": "2026-04-07T12:33:41.074494+00:00",
     "updated_at": "2026-04-07T12:33:41.074494+00:00",
     "stale": false,
-    "days_since_activity": 0
+    "days_since_activity": 1
   },
   {
     "id": "lead_mia_037",
@@ -5457,7 +5527,7 @@
     "created_at": "2026-04-07T12:33:41.074494+00:00",
     "updated_at": "2026-04-07T12:33:41.074494+00:00",
     "stale": false,
-    "days_since_activity": 0
+    "days_since_activity": 1
   },
   {
     "id": "lead_mia_034",
@@ -5527,7 +5597,7 @@
     "created_at": "2026-04-07T12:33:41.074494+00:00",
     "updated_at": "2026-04-07T12:33:41.074494+00:00",
     "stale": false,
-    "days_since_activity": 0
+    "days_since_activity": 1
   },
   {
     "id": "lead_mia_033",
@@ -5597,7 +5667,7 @@
     "created_at": "2026-04-07T12:33:41.074494+00:00",
     "updated_at": "2026-04-07T12:33:41.074494+00:00",
     "stale": false,
-    "days_since_activity": 0
+    "days_since_activity": 1
   },
   {
     "id": "lead_mia_026",
@@ -5667,7 +5737,7 @@
     "created_at": "2026-04-07T12:33:41.074494+00:00",
     "updated_at": "2026-04-07T12:33:41.074494+00:00",
     "stale": false,
-    "days_since_activity": 0
+    "days_since_activity": 1
   },
   {
     "id": "lead_mia_023",
@@ -5737,7 +5807,7 @@
     "created_at": "2026-04-07T12:33:41.074494+00:00",
     "updated_at": "2026-04-07T12:33:41.074494+00:00",
     "stale": false,
-    "days_since_activity": 0
+    "days_since_activity": 1
   },
   {
     "id": "lead_mia_021",
@@ -5807,7 +5877,7 @@
     "created_at": "2026-04-07T12:33:41.074494+00:00",
     "updated_at": "2026-04-07T12:33:41.074494+00:00",
     "stale": false,
-    "days_since_activity": 0
+    "days_since_activity": 1
   },
   {
     "id": "lead_mia_018",
@@ -5877,7 +5947,7 @@
     "created_at": "2026-04-07T12:33:41.074494+00:00",
     "updated_at": "2026-04-07T12:33:41.074494+00:00",
     "stale": false,
-    "days_since_activity": 0
+    "days_since_activity": 1
   },
   {
     "id": "lead_mia_010",
@@ -5947,7 +6017,7 @@
     "created_at": "2026-04-07T12:33:41.074494+00:00",
     "updated_at": "2026-04-07T12:33:41.074494+00:00",
     "stale": false,
-    "days_since_activity": 0
+    "days_since_activity": 1
   },
   {
     "id": "lead_mia_008",
@@ -6017,7 +6087,7 @@
     "created_at": "2026-04-07T12:33:41.074494+00:00",
     "updated_at": "2026-04-07T12:33:41.074494+00:00",
     "stale": false,
-    "days_since_activity": 0
+    "days_since_activity": 1
   },
   {
     "id": "lead_mia_006",
@@ -6087,7 +6157,7 @@
     "created_at": "2026-04-07T12:33:41.074494+00:00",
     "updated_at": "2026-04-07T12:33:41.074494+00:00",
     "stale": false,
-    "days_since_activity": 0
+    "days_since_activity": 1
   },
   {
     "id": "lead_mia_001",
@@ -6157,7 +6227,7 @@
     "created_at": "2026-04-07T12:33:41.074494+00:00",
     "updated_at": "2026-04-07T12:33:41.074494+00:00",
     "stale": false,
-    "days_since_activity": 0
+    "days_since_activity": 1
   },
   {
     "id": "lead_dcv_008",
@@ -6227,7 +6297,7 @@
     "created_at": "2026-04-07T12:33:41.074494+00:00",
     "updated_at": "2026-04-07T12:33:41.074494+00:00",
     "stale": false,
-    "days_since_activity": 0
+    "days_since_activity": 1
   },
   {
     "id": "lead_dcv_007",
@@ -6297,7 +6367,7 @@
     "created_at": "2026-04-07T12:33:41.074494+00:00",
     "updated_at": "2026-04-07T12:33:41.074494+00:00",
     "stale": false,
-    "days_since_activity": 0
+    "days_since_activity": 1
   },
   {
     "id": "lead_dcv_006",
@@ -6367,7 +6437,7 @@
     "created_at": "2026-04-07T12:33:41.074494+00:00",
     "updated_at": "2026-04-07T12:33:41.074494+00:00",
     "stale": false,
-    "days_since_activity": 0
+    "days_since_activity": 1
   },
   {
     "id": "lead_sfb_007",
@@ -6437,7 +6507,7 @@
     "created_at": "2026-04-07T12:33:41.074494+00:00",
     "updated_at": "2026-04-07T12:33:41.074494+00:00",
     "stale": false,
-    "days_since_activity": 0
+    "days_since_activity": 1
   },
   {
     "id": "lead_sfb_005",
@@ -6507,7 +6577,7 @@
     "created_at": "2026-04-07T12:33:41.074494+00:00",
     "updated_at": "2026-04-07T12:33:41.074494+00:00",
     "stale": false,
-    "days_since_activity": 0
+    "days_since_activity": 1
   },
   {
     "id": "lead_lax_010",
@@ -6577,7 +6647,7 @@
     "created_at": "2026-04-07T12:33:41.074494+00:00",
     "updated_at": "2026-04-07T12:33:41.074494+00:00",
     "stale": false,
-    "days_since_activity": 0
+    "days_since_activity": 1
   },
   {
     "id": "lead_lvs_008",
@@ -6647,7 +6717,7 @@
     "created_at": "2026-04-07T12:33:41.074494+00:00",
     "updated_at": "2026-04-07T12:33:41.074494+00:00",
     "stale": false,
-    "days_since_activity": 0
+    "days_since_activity": 1
   },
   {
     "id": "lead_nyc_008",
@@ -6717,7 +6787,7 @@
     "created_at": "2026-04-07T12:33:41.074494+00:00",
     "updated_at": "2026-04-07T12:33:41.074494+00:00",
     "stale": false,
-    "days_since_activity": 0
+    "days_since_activity": 1
   },
   {
     "id": "lead_nyc_007",
@@ -6787,7 +6857,7 @@
     "created_at": "2026-04-07T12:33:41.074494+00:00",
     "updated_at": "2026-04-07T12:33:41.074494+00:00",
     "stale": false,
-    "days_since_activity": 0
+    "days_since_activity": 1
   },
   {
     "id": "lead_atl_008",
@@ -6857,7 +6927,7 @@
     "created_at": "2026-04-07T12:33:41.074494+00:00",
     "updated_at": "2026-04-07T12:33:41.074494+00:00",
     "stale": false,
-    "days_since_activity": 0
+    "days_since_activity": 1
   },
   {
     "id": "lead_atl_007",
@@ -6927,7 +6997,7 @@
     "created_at": "2026-04-07T12:33:41.074494+00:00",
     "updated_at": "2026-04-07T12:33:41.074494+00:00",
     "stale": false,
-    "days_since_activity": 0
+    "days_since_activity": 1
   },
   {
     "id": "lead_atl_006",
@@ -6997,7 +7067,7 @@
     "created_at": "2026-04-07T12:33:41.074494+00:00",
     "updated_at": "2026-04-07T12:33:41.074494+00:00",
     "stale": false,
-    "days_since_activity": 0
+    "days_since_activity": 1
   },
   {
     "id": "lead_atl_005",
@@ -7067,7 +7137,7 @@
     "created_at": "2026-04-07T12:33:41.074494+00:00",
     "updated_at": "2026-04-07T12:33:41.074494+00:00",
     "stale": false,
-    "days_since_activity": 0
+    "days_since_activity": 1
   },
   {
     "id": "lead_dfw_010",
@@ -7137,7 +7207,7 @@
     "created_at": "2026-04-07T12:33:41.074494+00:00",
     "updated_at": "2026-04-07T12:33:41.074494+00:00",
     "stale": false,
-    "days_since_activity": 0
+    "days_since_activity": 1
   },
   {
     "id": "lead_phx_016",
@@ -7207,7 +7277,7 @@
     "created_at": "2026-04-07T12:33:41.074494+00:00",
     "updated_at": "2026-04-07T12:33:41.074494+00:00",
     "stale": false,
-    "days_since_activity": 0
+    "days_since_activity": 1
   },
   {
     "id": "lead_phx_013",
@@ -7277,7 +7347,7 @@
     "created_at": "2026-04-07T12:33:41.074494+00:00",
     "updated_at": "2026-04-07T12:33:41.074494+00:00",
     "stale": false,
-    "days_since_activity": 0
+    "days_since_activity": 1
   },
   {
     "id": "lead_phx_012",
@@ -7347,7 +7417,7 @@
     "created_at": "2026-04-07T12:33:41.074494+00:00",
     "updated_at": "2026-04-07T12:33:41.074494+00:00",
     "stale": false,
-    "days_since_activity": 0
+    "days_since_activity": 1
   },
   {
     "id": "lead_phx_011",
@@ -7417,7 +7487,7 @@
     "created_at": "2026-04-07T12:33:41.074494+00:00",
     "updated_at": "2026-04-07T12:33:41.074494+00:00",
     "stale": false,
-    "days_since_activity": 0
+    "days_since_activity": 1
   },
   {
     "id": "lead_phx_003",
@@ -7487,7 +7557,7 @@
     "created_at": "2026-04-07T12:33:41.074494+00:00",
     "updated_at": "2026-04-07T12:33:41.074494+00:00",
     "stale": false,
-    "days_since_activity": 0
+    "days_since_activity": 1
   },
   {
     "id": "lead_phx_002",
@@ -7557,7 +7627,7 @@
     "created_at": "2026-04-07T12:33:41.074494+00:00",
     "updated_at": "2026-04-07T12:33:41.074494+00:00",
     "stale": false,
-    "days_since_activity": 0
+    "days_since_activity": 1
   },
   {
     "id": "lead_mia_042",
@@ -7627,7 +7697,7 @@
     "created_at": "2026-04-07T12:33:41.074494+00:00",
     "updated_at": "2026-04-07T12:33:41.074494+00:00",
     "stale": false,
-    "days_since_activity": 0
+    "days_since_activity": 1
   },
   {
     "id": "lead_mia_041",
@@ -7697,7 +7767,7 @@
     "created_at": "2026-04-07T12:33:41.074494+00:00",
     "updated_at": "2026-04-07T12:33:41.074494+00:00",
     "stale": false,
-    "days_since_activity": 0
+    "days_since_activity": 1
   },
   {
     "id": "lead_mia_035",
@@ -7767,7 +7837,7 @@
     "created_at": "2026-04-07T12:33:41.074494+00:00",
     "updated_at": "2026-04-07T12:33:41.074494+00:00",
     "stale": false,
-    "days_since_activity": 0
+    "days_since_activity": 1
   },
   {
     "id": "lead_mia_031",
@@ -7837,7 +7907,7 @@
     "created_at": "2026-04-07T12:33:41.074494+00:00",
     "updated_at": "2026-04-07T12:33:41.074494+00:00",
     "stale": false,
-    "days_since_activity": 0
+    "days_since_activity": 1
   },
   {
     "id": "lead_mia_027",
@@ -7907,7 +7977,7 @@
     "created_at": "2026-04-07T12:33:41.074494+00:00",
     "updated_at": "2026-04-07T12:33:41.074494+00:00",
     "stale": false,
-    "days_since_activity": 0
+    "days_since_activity": 1
   },
   {
     "id": "lead_mia_022",
@@ -7977,7 +8047,7 @@
     "created_at": "2026-04-07T12:33:41.074494+00:00",
     "updated_at": "2026-04-07T12:33:41.074494+00:00",
     "stale": false,
-    "days_since_activity": 0
+    "days_since_activity": 1
   },
   {
     "id": "lead_mia_011",
@@ -8047,7 +8117,7 @@
     "created_at": "2026-04-07T12:33:41.074494+00:00",
     "updated_at": "2026-04-07T12:33:41.074494+00:00",
     "stale": false,
-    "days_since_activity": 0
+    "days_since_activity": 1
   },
   {
     "id": "lead_mia_002",
@@ -8117,7 +8187,7 @@
     "created_at": "2026-04-07T12:33:41.074494+00:00",
     "updated_at": "2026-04-07T12:33:41.074494+00:00",
     "stale": false,
-    "days_since_activity": 0
+    "days_since_activity": 1
   },
   {
     "id": "lead_phx_014",
@@ -8187,7 +8257,7 @@
     "created_at": "2026-04-07T12:33:41.074494+00:00",
     "updated_at": "2026-04-07T12:33:41.074494+00:00",
     "stale": false,
-    "days_since_activity": 0
+    "days_since_activity": 1
   },
   {
     "id": "lead_mia_040",
@@ -8257,7 +8327,7 @@
     "created_at": "2026-04-07T12:33:41.074494+00:00",
     "updated_at": "2026-04-07T12:33:41.074494+00:00",
     "stale": false,
-    "days_since_activity": 0
+    "days_since_activity": 1
   },
   {
     "id": "lead_mia_030",
@@ -8327,7 +8397,7 @@
     "created_at": "2026-04-07T12:33:41.074494+00:00",
     "updated_at": "2026-04-07T12:33:41.074494+00:00",
     "stale": false,
-    "days_since_activity": 0
+    "days_since_activity": 1
   },
   {
     "id": "lead_mia_029",
@@ -8397,7 +8467,7 @@
     "created_at": "2026-04-07T12:33:41.074494+00:00",
     "updated_at": "2026-04-07T12:33:41.074494+00:00",
     "stale": false,
-    "days_since_activity": 0
+    "days_since_activity": 1
   },
   {
     "id": "lead_mia_003",
@@ -8467,7 +8537,7 @@
     "created_at": "2026-04-07T12:33:41.074494+00:00",
     "updated_at": "2026-04-07T12:33:41.074494+00:00",
     "stale": false,
-    "days_since_activity": 0
+    "days_since_activity": 1
   },
   {
     "id": "lead_mia_007",
@@ -8537,6 +8607,6 @@
     "created_at": "2026-04-07T12:33:41.074494+00:00",
     "updated_at": "2026-04-07T12:33:41.074494+00:00",
     "stale": false,
-    "days_since_activity": 0
+    "days_since_activity": 1
   }
 ]
