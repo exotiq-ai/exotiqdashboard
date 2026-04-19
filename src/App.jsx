@@ -7,12 +7,14 @@ import CallSheet from './components/CallSheet'
 import PipelineFunnel from './components/PipelineFunnel'
 import ActivityFeed from './components/ActivityFeed'
 import ExportTab from './components/ExportTab'
+import SequencesTab from './components/SequencesTab'
 import { useLeadData } from './hooks/useLeadData'
 import { applyFilters, getUniqueMarkets, getUniqueStatuses } from './utils/filters'
 
 const TABS = [
   { id: 'leads', label: 'All Leads' },
   { id: 'approval', label: 'Approval Queue' },
+  { id: 'sequences', label: 'Sequences' },
   { id: 'callsheet', label: 'Call Sheet' },
   { id: 'funnel', label: 'Pipeline Funnel' },
   { id: 'activity', label: 'Activity Feed' },
@@ -42,6 +44,9 @@ export default function App() {
     lastSynced,
     refresh,
     updateLead,
+    sequences,
+    outreachQueue,
+    leadSequences,
   } = useLeadData()
 
   const markets = getUniqueMarkets(leads)
@@ -194,6 +199,14 @@ export default function App() {
             leads={leads}
             loading={loading}
             onAction={handleAction}
+          />
+        )}
+        {activeTab === 'sequences' && (
+          <SequencesTab
+            sequences={sequences}
+            queue={outreachQueue}
+            enrollments={leadSequences}
+            loading={loading}
           />
         )}
         {activeTab === 'callsheet' && (

@@ -1,0 +1,162 @@
+[
+  {
+    "id": "seq_f1_miami",
+    "name": "F1 Miami Event",
+    "description": "Late April Miami event play. 3 touches focused on F1 GP proximity.",
+    "trigger_type": "manual",
+    "trigger_value": "market:Miami,event:F1",
+    "active": 1,
+    "created_at": "2026-04-19T02:32:59.501297+00:00",
+    "updated_at": "2026-04-19T02:32:59.501297+00:00",
+    "steps": [
+      {
+        "id": 9,
+        "sequence_id": "seq_f1_miami",
+        "step_order": 1,
+        "delay_days": 0,
+        "channel": "ig_dm",
+        "template_id": null,
+        "template_override": "Hey {first_name}, Gregory here from Exotiq. F1 Miami is coming up. Your fleet at {company} is going to be slammed. Quick question, are you adjusting pricing in real time for the weekend or setting rates in advance?",
+        "skip_if_responded": 1,
+        "notes": null
+      },
+      {
+        "id": 10,
+        "sequence_id": "seq_f1_miami",
+        "step_order": 2,
+        "delay_days": 3,
+        "channel": "email",
+        "template_id": null,
+        "template_override": "{first_name},\n\nF1 Miami is one of the best weeks of the year for exotic operators in Miami. It's also the week most operators leave the most money on the table.\n\nThree ways operators typically underprice during events:\n1. Locking in rates a month out\n2. Not adjusting per day (Thursday isn't Saturday)\n3. Missing the uplift on premium inventory\n\nExotiq's pricing engine handles all three automatically. Jay in Denver saw his event-week revenue jump the first time he ran it.\n\nWant a quick look before F1? 15 minutes.\n\nGregory",
+        "skip_if_responded": 1,
+        "notes": null
+      },
+      {
+        "id": 11,
+        "sequence_id": "seq_f1_miami",
+        "step_order": 3,
+        "delay_days": 7,
+        "channel": "ig_dm",
+        "template_id": null,
+        "template_override": "Hey {first_name}, F1 is next week. Last chance if you want your pricing dialed in before the weekend. 15 minutes with me and we can get it set up. Worth it?",
+        "skip_if_responded": 1,
+        "notes": null
+      }
+    ],
+    "active_enrollments": 0
+  },
+  {
+    "id": "seq_new_operator_14",
+    "name": "New Operator 14-Day",
+    "description": "Default sequence for Score 3-4 leads. 5 touches across IG, email, and SMS over 14 days.",
+    "trigger_type": "manual",
+    "trigger_value": "score:3-4",
+    "active": 1,
+    "created_at": "2026-04-19T02:32:59.501297+00:00",
+    "updated_at": "2026-04-19T02:32:59.501297+00:00",
+    "steps": [
+      {
+        "id": 1,
+        "sequence_id": "seq_new_operator_14",
+        "step_order": 1,
+        "delay_days": 0,
+        "channel": "ig_dm",
+        "template_id": "tpl_ig_dm_peer_d",
+        "template_override": null,
+        "skip_if_responded": 1,
+        "notes": null
+      },
+      {
+        "id": 2,
+        "sequence_id": "seq_new_operator_14",
+        "step_order": 2,
+        "delay_days": 3,
+        "channel": "email",
+        "template_id": "tpl_email_jay_case",
+        "template_override": null,
+        "skip_if_responded": 1,
+        "notes": null
+      },
+      {
+        "id": 3,
+        "sequence_id": "seq_new_operator_14",
+        "step_order": 3,
+        "delay_days": 7,
+        "channel": "ig_dm",
+        "template_id": "tpl_ig_dm_visual_e",
+        "template_override": null,
+        "skip_if_responded": 1,
+        "notes": null
+      },
+      {
+        "id": 4,
+        "sequence_id": "seq_new_operator_14",
+        "step_order": 4,
+        "delay_days": 10,
+        "channel": "email",
+        "template_id": "tpl_email_proof_picks_up",
+        "template_override": null,
+        "skip_if_responded": 1,
+        "notes": null
+      },
+      {
+        "id": 5,
+        "sequence_id": "seq_new_operator_14",
+        "step_order": 5,
+        "delay_days": 14,
+        "channel": "sms",
+        "template_id": "tpl_sms_close",
+        "template_override": null,
+        "skip_if_responded": 1,
+        "notes": null
+      }
+    ],
+    "active_enrollments": 0
+  },
+  {
+    "id": "seq_score5_personal",
+    "name": "Score 5 Personal",
+    "description": "For Score 5 leads. Gregory-led with email backup.",
+    "trigger_type": "manual",
+    "trigger_value": "score:5",
+    "active": 1,
+    "created_at": "2026-04-19T02:32:59.501297+00:00",
+    "updated_at": "2026-04-19T02:32:59.501297+00:00",
+    "steps": [
+      {
+        "id": 6,
+        "sequence_id": "seq_score5_personal",
+        "step_order": 1,
+        "delay_days": 0,
+        "channel": "ig_dm",
+        "template_id": "tpl_ig_dm_fomo_b",
+        "template_override": null,
+        "skip_if_responded": 1,
+        "notes": null
+      },
+      {
+        "id": 7,
+        "sequence_id": "seq_score5_personal",
+        "step_order": 2,
+        "delay_days": 3,
+        "channel": "phone",
+        "template_id": null,
+        "template_override": "TASK: Gregory call {company} / {first_name}. Phone: {phone}. Talk track: Jay/Denver proof, 15-min demo ask.",
+        "skip_if_responded": 1,
+        "notes": "This is a Gregory task, not an auto-send. Shows up in queue to remind Gregory to call."
+      },
+      {
+        "id": 8,
+        "sequence_id": "seq_score5_personal",
+        "step_order": 3,
+        "delay_days": 7,
+        "channel": "email",
+        "template_id": "tpl_email_proof_picks_up",
+        "template_override": null,
+        "skip_if_responded": 1,
+        "notes": null
+      }
+    ],
+    "active_enrollments": 0
+  }
+]

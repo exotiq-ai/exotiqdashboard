@@ -71,8 +71,8 @@
     }
   },
   "velocity": {
-    "leads_added_last_7_days": 123,
-    "dms_sent_last_7_days": 11
+    "leads_added_last_7_days": 0,
+    "dms_sent_last_7_days": 10
   },
-  "generated_at": "2026-04-08T16:27:16.020702+00:00"
+  "generated_at": "2026-04-19T02:33:21.795038+00:00"
 }

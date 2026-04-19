@@ -66,8 +66,8 @@
     "notes": "Gregory sent DM April 8. Hot lead. 20+ year operation, owns entire fleet, 1M+ social followers. Rob is Co-Founder and COO. Follow up this afternoon if no reply.",
     "created_at": "2026-04-08T16:27:15.970720+00:00",
     "updated_at": "2026-04-08T16:27:15.970720+00:00",
-    "stale": false,
-    "days_since_activity": 0
+    "stale": true,
+    "days_since_activity": 10
   },
   {
     "id": "lead_dcv_001",
@@ -136,8 +136,8 @@
     "notes": "TOP TARGET. 56K followers. Founder identified (Hussian Alsaadi). Nationwide delivery. Young founder story.",
     "created_at": "2026-04-07T12:33:41.074494+00:00",
     "updated_at": "2026-04-07T12:33:41.074494+00:00",
-    "stale": false,
-    "days_since_activity": 1
+    "stale": true,
+    "days_since_activity": 11
   },
   {
     "id": "lead_lax_002",
@@ -206,8 +206,8 @@
     "notes": "TOP TARGET. 132K, verified. Celebrity clientele. Serves all LA.",
     "created_at": "2026-04-07T12:33:41.074494+00:00",
     "updated_at": "2026-04-07T12:33:41.074494+00:00",
-    "stale": false,
-    "days_since_activity": 1
+    "stale": true,
+    "days_since_activity": 11
   },
   {
     "id": "lead_lax_001",
@@ -276,8 +276,8 @@
     "notes": "TOP TARGET. 226K followers. Massive market presence.",
     "created_at": "2026-04-07T12:33:41.074494+00:00",
     "updated_at": "2026-04-07T12:33:41.074494+00:00",
-    "stale": false,
-    "days_since_activity": 1
+    "stale": true,
+    "days_since_activity": 11
   },
   {
     "id": "lead_lvs_002",
@@ -346,8 +346,8 @@
     "notes": "Claims largest fleet in America (100+ vehicles). No-deposit model. Near the Strip.",
     "created_at": "2026-04-07T12:33:41.074494+00:00",
     "updated_at": "2026-04-07T12:33:41.074494+00:00",
-    "stale": false,
-    "days_since_activity": 1
+    "stale": true,
+    "days_since_activity": 11
   },
   {
     "id": "lead_lvs_001",
@@ -416,8 +416,8 @@
     "notes": "TOP TARGET. 357K followers. Hypercar specialist. Owner Houston Crosta identified. Market-defining operation.",
     "created_at": "2026-04-07T12:33:41.074494+00:00",
     "updated_at": "2026-04-07T12:33:41.074494+00:00",
-    "stale": false,
-    "days_since_activity": 1
+    "stale": true,
+    "days_since_activity": 11
   },
   {
     "id": "lead_nyc_001",
@@ -486,8 +486,8 @@
     "notes": "TOP TARGET. 120K followers. Massively diversified (cars, sprinters, planes, helicopters). Event specialist.",
     "created_at": "2026-04-07T12:33:41.074494+00:00",
     "updated_at": "2026-04-07T12:33:41.074494+00:00",
-    "stale": false,
-    "days_since_activity": 1
+    "stale": true,
+    "days_since_activity": 11
   },
   {
     "id": "lead_chi_001",
@@ -556,8 +556,8 @@
     "notes": "Demo Call April 3 at 12pm mdt | Demo Friday April 2",
     "created_at": "2026-04-07T12:33:41.074494+00:00",
     "updated_at": "2026-04-07T12:33:41.074494+00:00",
-    "stale": false,
-    "days_since_activity": 1
+    "stale": true,
+    "days_since_activity": 11
   },
   {
     "id": "lead_dfw_001",
@@ -626,8 +626,8 @@
     "notes": "TOP TARGET. Market leader in Dallas. Massive IG presence, verified, highest Google reviews. Note: different from @blacklabelrental in Miami.",
     "created_at": "2026-04-07T12:33:41.074494+00:00",
     "updated_at": "2026-04-07T12:33:41.074494+00:00",
-    "stale": false,
-    "days_since_activity": 1
+    "stale": true,
+    "days_since_activity": 11
   },
   {
     "id": "lead_phx_004",
@@ -696,8 +696,8 @@
     "notes": "TOP TARGET. Multi-location operator across Scottsdale, Miami, Hawaii. Large IG following. Cross-market complexity = perfect Exotiq use case. Could also be approached from Miami angle. | V2 DM: Template B",
     "created_at": "2026-04-07T12:33:41.074494+00:00",
     "updated_at": "2026-04-07T12:33:41.074494+00:00",
-    "stale": false,
-    "days_since_activity": 1
+    "stale": true,
+    "days_since_activity": 11
   },
   {
     "id": "lead_mia_046",
@@ -766,8 +766,8 @@
     "notes": "Website: alphaexoticsrental.com | Owner also runs @alphaprodetail (detailing) and @alphaoilgroup (oil business). Multi-business entrepreneur. Gregory provided lead directly with owner handle.",
     "created_at": "2026-04-07T12:33:41.074494+00:00",
     "updated_at": "2026-04-07T12:33:41.074494+00:00",
-    "stale": false,
-    "days_since_activity": 1
+    "stale": true,
+    "days_since_activity": 11
   },
   {
     "id": "lead_mia_017",
@@ -836,8 +836,8 @@
     "notes": "Website: https://mphclub.com/ | Address: 201 S Biscayne Blvd, Miami, FL 33131 | Fixed: company name was missing, identified via email info@mphclub.com | Apollo enriched: Liram Sustiel confirmed as CEO. LinkedIn: linkedin.com/company/mph-club",
     "created_at": "2026-04-07T12:33:41.074494+00:00",
     "updated_at": "2026-04-07T12:33:41.074494+00:00",
-    "stale": false,
-    "days_since_activity": 1
+    "stale": true,
+    "days_since_activity": 11
   },
   {
     "id": "lead_mia_016",
@@ -906,8 +906,8 @@
     "notes": "Website: https://pugachev.miami/ | Address: 7804 Hispanola Ave, Miami Beach, FL 33139",
     "created_at": "2026-04-07T12:33:41.074494+00:00",
     "updated_at": "2026-04-07T12:33:41.074494+00:00",
-    "stale": false,
-    "days_since_activity": 1
+    "stale": true,
+    "days_since_activity": 11
   },
   {
     "id": "lead_mia_015",
@@ -976,8 +976,8 @@
     "notes": "Gregory called prestige spoke with Patrick, left a message for their operations director to give him a call. Gregory will follow with them middle of next week if we don't hear back sooner. | Reply received: directing to call (305) 513-9711 or email. DM2 sent with personal cell. Gregory called, spoke with Patrick, left message for ops director. Will follow up mid-next week if no callback.",
     "created_at": "2026-04-07T12:33:41.074494+00:00",
     "updated_at": "2026-04-07T12:33:41.074494+00:00",
-    "stale": false,
-    "days_since_activity": 1
+    "stale": true,
+    "days_since_activity": 11
   },
   {
     "id": "lead_mia_014",
@@ -1046,8 +1046,8 @@
     "notes": "Website: https://velocityexoticcars.com/ | Address: Tampa | Multi Location",
     "created_at": "2026-04-07T12:33:41.074494+00:00",
     "updated_at": "2026-04-07T12:33:41.074494+00:00",
-    "stale": false,
-    "days_since_activity": 1
+    "stale": true,
+    "days_since_activity": 11
   },
   {
     "id": "lead_mia_005",
@@ -1116,8 +1116,8 @@
     "notes": "| Zachary said YES to call but won't confirm time. Gregory considering calling on IG. | demo monday! | March 27th - Phone call. Zachary said YES but won't confirm time. Gregory considering calling on IG.",
     "created_at": "2026-04-07T12:33:41.074494+00:00",
     "updated_at": "2026-04-07T12:33:41.074494+00:00",
-    "stale": false,
-    "days_since_activity": 1
+    "stale": true,
+    "days_since_activity": 11
   },
   {
     "id": "lead_mia_004",
@@ -1186,8 +1186,8 @@
     "notes": "March 27th - Phone call. Zachary said YES but won't confirm time. Gregory considering calling on IG.",
     "created_at": "2026-04-07T12:33:41.074494+00:00",
     "updated_at": "2026-04-07T12:33:41.074494+00:00",
-    "stale": false,
-    "days_since_activity": 1
+    "stale": true,
+    "days_since_activity": 11
   },
   {
     "id": "lead_sfb_001",
@@ -1256,8 +1256,8 @@
     "notes": "DIFFERENT MODEL: Membership club + car collection access. Silicon Valley. Concierge, storage, events. Premium B2B.",
     "created_at": "2026-04-07T12:33:41.074494+00:00",
     "updated_at": "2026-04-07T12:33:41.074494+00:00",
-    "stale": false,
-    "days_since_activity": 1
+    "stale": true,
+    "days_since_activity": 11
   },
   {
     "id": "lead_lax_009",
@@ -1326,8 +1326,8 @@
     "notes": "Beverly Hills flagship. MULTI-MARKET: BH + Miami + expanding internationally. 23.7K followers.",
     "created_at": "2026-04-07T12:33:41.074494+00:00",
     "updated_at": "2026-04-07T12:33:41.074494+00:00",
-    "stale": false,
-    "days_since_activity": 1
+    "stale": true,
+    "days_since_activity": 11
   },
   {
     "id": "lead_lax_007",
@@ -1396,8 +1396,8 @@
     "notes": "116K followers. Video production support differentiator.",
     "created_at": "2026-04-07T12:33:41.074494+00:00",
     "updated_at": "2026-04-07T12:33:41.074494+00:00",
-    "stale": false,
-    "days_since_activity": 1
+    "stale": true,
+    "days_since_activity": 11
   },
   {
     "id": "lead_lax_005",
@@ -1466,8 +1466,8 @@
     "notes": "Verified. Young demographic focus (18+). Custom builds. OC+LA.",
     "created_at": "2026-04-07T12:33:41.074494+00:00",
     "updated_at": "2026-04-07T12:33:41.074494+00:00",
-    "stale": false,
-    "days_since_activity": 1
+    "stale": true,
+    "days_since_activity": 11
   },
   {
     "id": "lead_lax_004",
@@ -1536,8 +1536,8 @@
     "notes": "DUAL MARKET: LA + Vegas. Production/film industry specialist. 10+ years.",
     "created_at": "2026-04-07T12:33:41.074494+00:00",
     "updated_at": "2026-04-07T12:33:41.074494+00:00",
-    "stale": false,
-    "days_since_activity": 1
+    "stale": true,
+    "days_since_activity": 11
   },
   {
     "id": "lead_lax_003",
@@ -1606,8 +1606,8 @@
     "notes": "60K followers. Curbside delivery model. Strong phone presence.",
     "created_at": "2026-04-07T12:33:41.074494+00:00",
     "updated_at": "2026-04-07T12:33:41.074494+00:00",
-    "stale": false,
-    "days_since_activity": 1
+    "stale": true,
+    "days_since_activity": 11
   },
   {
     "id": "lead_lvs_005",
@@ -1676,8 +1676,8 @@
     "notes": "Dual market: Vegas + LA. Perfect review score. Classic car niche. 10+ years.",
     "created_at": "2026-04-07T12:33:41.074494+00:00",
     "updated_at": "2026-04-07T12:33:41.074494+00:00",
-    "stale": false,
-    "days_since_activity": 1
+    "stale": true,
+    "days_since_activity": 11
   },
   {
     "id": "lead_lvs_004",
@@ -1746,8 +1746,8 @@
     "notes": "Daily deals model. Volume-focused operation.",
     "created_at": "2026-04-07T12:33:41.074494+00:00",
     "updated_at": "2026-04-07T12:33:41.074494+00:00",
-    "stale": false,
-    "days_since_activity": 1
+    "stale": true,
+    "days_since_activity": 11
   },
   {
     "id": "lead_lvs_003",
@@ -1816,8 +1816,8 @@
     "notes": "Self-proclaimed #1. Strong local presence. Phone available.",
     "created_at": "2026-04-07T12:33:41.074494+00:00",
     "updated_at": "2026-04-07T12:33:41.074494+00:00",
-    "stale": false,
-    "days_since_activity": 1
+    "stale": true,
+    "days_since_activity": 11
   },
   {
     "id": "lead_nyc_006",
@@ -1886,8 +1886,8 @@
     "notes": "4-CITY operator. Weddings + events specialist. Vintage car niche. Cross-market complexity.",
     "created_at": "2026-04-07T12:33:41.074494+00:00",
     "updated_at": "2026-04-07T12:33:41.074494+00:00",
-    "stale": false,
-    "days_since_activity": 1
+    "stale": true,
+    "days_since_activity": 11
   },
   {
     "id": "lead_nyc_003",
@@ -1956,8 +1956,8 @@
     "notes": "Self-proclaimed #1. Strong brand. Phone available. NYC+NJ coverage.",
     "created_at": "2026-04-07T12:33:41.074494+00:00",
     "updated_at": "2026-04-07T12:33:41.074494+00:00",
-    "stale": false,
-    "days_since_activity": 1
+    "stale": true,
+    "days_since_activity": 11
   },
   {
     "id": "lead_nyc_002",
@@ -2026,8 +2026,8 @@
     "notes": "DUAL MARKET: NYC + Florida. Membership model = recurring revenue. Premium 'rare cars' positioning.",
     "created_at": "2026-04-07T12:33:41.074494+00:00",
     "updated_at": "2026-04-07T12:33:41.074494+00:00",
-    "stale": false,
-    "days_since_activity": 1
+    "stale": true,
+    "days_since_activity": 11
   },
   {
     "id": "lead_atl_002",
@@ -2096,8 +2096,8 @@
     "notes": "Multi-state delivery reach (5 states). Video production angle. Two airport locations.",
     "created_at": "2026-04-07T12:33:41.074494+00:00",
     "updated_at": "2026-04-07T12:33:41.074494+00:00",
-    "stale": false,
-    "days_since_activity": 1
+    "stale": true,
+    "days_since_activity": 11
   },
   {
     "id": "lead_atl_001",
@@ -2166,8 +2166,8 @@
     "notes": "TOP TARGET. Market leader in Atlanta. 24/7 operations, diverse fleet incl vintage. Black-owned business.",
     "created_at": "2026-04-07T12:33:41.074494+00:00",
     "updated_at": "2026-04-07T12:33:41.074494+00:00",
-    "stale": false,
-    "days_since_activity": 1
+    "stale": true,
+    "days_since_activity": 11
   },
   {
     "id": "lead_dfw_005",
@@ -2236,8 +2236,8 @@
     "notes": "Strong fleet variety. Active phone line.",
     "created_at": "2026-04-07T12:33:41.074494+00:00",
     "updated_at": "2026-04-07T12:33:41.074494+00:00",
-    "stale": false,
-    "days_since_activity": 1
+    "stale": true,
+    "days_since_activity": 11
   },
   {
     "id": "lead_dfw_004",
@@ -2306,8 +2306,8 @@
     "notes": "24 years in business. Longest-operating exotic rental in Dallas. Institutional knowledge.",
     "created_at": "2026-04-07T12:33:41.074494+00:00",
     "updated_at": "2026-04-07T12:33:41.074494+00:00",
-    "stale": false,
-    "days_since_activity": 1
+    "stale": true,
+    "days_since_activity": 11
   },
   {
     "id": "lead_dfw_003",
@@ -2376,8 +2376,8 @@
     "notes": "Diversified: rentals + chauffeur + customization shop. Multi-service operation.",
     "created_at": "2026-04-07T12:33:41.074494+00:00",
     "updated_at": "2026-04-07T12:33:41.074494+00:00",
-    "stale": false,
-    "days_since_activity": 1
+    "stale": true,
+    "days_since_activity": 11
   },
   {
     "id": "lead_dfw_002",
@@ -2446,8 +2446,8 @@
     "notes": "Strong target. Verified, premium positioning.",
     "created_at": "2026-04-07T12:33:41.074494+00:00",
     "updated_at": "2026-04-07T12:33:41.074494+00:00",
-    "stale": false,
-    "days_since_activity": 1
+    "stale": true,
+    "days_since_activity": 11
   },
   {
     "id": "lead_phx_007",
@@ -2516,8 +2516,8 @@
     "notes": "HIGH VALUE. Multi-city operator expanding to Miami + SLC. Owner Jason. 25+ vehicle fleet with custom builds. Multi-location fleet management is the exact Exotiq pitch. | V2 DM: Template B",
     "created_at": "2026-04-07T12:33:41.074494+00:00",
     "updated_at": "2026-04-07T12:33:41.074494+00:00",
-    "stale": false,
-    "days_since_activity": 1
+    "stale": true,
+    "days_since_activity": 11
   },
   {
     "id": "lead_phx_006",
@@ -2586,8 +2586,8 @@
     "notes": "Strong target. Verified account, professional operation, wide fleet, established in Scottsdale. Good response candidate for peer-to-peer outreach. | V2 DM: Template D",
     "created_at": "2026-04-07T12:33:41.074494+00:00",
     "updated_at": "2026-04-07T12:33:41.074494+00:00",
-    "stale": false,
-    "days_since_activity": 1
+    "stale": true,
+    "days_since_activity": 11
   },
   {
     "id": "lead_phx_005",
@@ -2656,8 +2656,8 @@
     "notes": "High-value target. Large following, 'management company' positioning suggests fleet management for multiple owners. Enterprise solution angle. | V2 DM: Template D",
     "created_at": "2026-04-07T12:33:41.074494+00:00",
     "updated_at": "2026-04-07T12:33:41.074494+00:00",
-    "stale": false,
-    "days_since_activity": 1
+    "stale": true,
+    "days_since_activity": 11
   },
   {
     "id": "lead_mia_043",
@@ -2726,8 +2726,8 @@
     "notes": "New lead from Gregory's IG review. | V2 DM: Template B | LOCAL ONLY - not in GSheet as of 3/23",
     "created_at": "2026-04-07T12:33:41.074494+00:00",
     "updated_at": "2026-04-07T12:33:41.074494+00:00",
-    "stale": false,
-    "days_since_activity": 1
+    "stale": true,
+    "days_since_activity": 11
   },
   {
     "id": "lead_mia_039",
@@ -2796,8 +2796,8 @@
     "notes": "Website: https://luxuryinmiami.com/ | Address: 150 SE 2nd Ave Suite 1204, Miami, FL 33131 | V2 DM: Template B | LOCAL ONLY - not in GSheet as of 3/23",
     "created_at": "2026-04-07T12:33:41.074494+00:00",
     "updated_at": "2026-04-07T12:33:41.074494+00:00",
-    "stale": false,
-    "days_since_activity": 1
+    "stale": true,
+    "days_since_activity": 11
   },
   {
     "id": "lead_mia_038",
@@ -2866,8 +2866,8 @@
     "notes": "New lead from Gregory's IG review. | V2 DM: Template D",
     "created_at": "2026-04-07T12:33:41.074494+00:00",
     "updated_at": "2026-04-07T12:33:41.074494+00:00",
-    "stale": false,
-    "days_since_activity": 1
+    "stale": true,
+    "days_since_activity": 11
   },
   {
     "id": "lead_mia_036",
@@ -2936,8 +2936,8 @@
     "notes": "New lead from Gregory's IG review. | V2 DM: Template E | Not a rental fleet - Dealership",
     "created_at": "2026-04-07T12:33:41.074494+00:00",
     "updated_at": "2026-04-07T12:33:41.074494+00:00",
-    "stale": false,
-    "days_since_activity": 1
+    "stale": true,
+    "days_since_activity": 11
   },
   {
     "id": "lead_mia_032",
@@ -3006,8 +3006,8 @@
     "notes": "New lead from Gregory's IG review. | V2 DM: Template B",
     "created_at": "2026-04-07T12:33:41.074494+00:00",
     "updated_at": "2026-04-07T12:33:41.074494+00:00",
-    "stale": false,
-    "days_since_activity": 1
+    "stale": true,
+    "days_since_activity": 11
   },
   {
     "id": "lead_mia_028",
@@ -3076,8 +3076,8 @@
     "notes": "New lead from Gregory's IG review. | V2 DM: Template B",
     "created_at": "2026-04-07T12:33:41.074494+00:00",
     "updated_at": "2026-04-07T12:33:41.074494+00:00",
-    "stale": false,
-    "days_since_activity": 1
+    "stale": true,
+    "days_since_activity": 11
   },
   {
     "id": "lead_mia_025",
@@ -3146,8 +3146,8 @@
     "notes": "HOT LEAD. Phone: 786-202-2892. CALL TOMORROW MORNING. | V2 DM: Template B",
     "created_at": "2026-04-07T12:33:41.074494+00:00",
     "updated_at": "2026-04-07T12:33:41.074494+00:00",
-    "stale": false,
-    "days_since_activity": 1
+    "stale": true,
+    "days_since_activity": 11
   },
   {
     "id": "lead_mia_024",
@@ -3216,8 +3216,8 @@
     "notes": "CALL 3/17 6PM EDT: Company is \"Saucy Rentals\". TOOLS: Spreadsheets, deposits, Notes app. ALL MANUAL. STAFFING: Solo + GF/partner on office. Needs runner for washes. FREDO HANDLES: IG/WhatsApp leads, qualifying, insurance, BG checks, fleet mgmt, bookings, CRM. MARKETING: Has team, Fredo does content + posts, content must be approved. Call cut short (tow truck at lot). Said he'd call back. NEXT: Sent DM w/ website + phone. Follow-up call 3/18, push for demo. Phone: 786-241-6668. | 3/18: Gregory spoke with Fredo again. LIVE DEMO BOOKED 3:00 PM MT today.",
     "created_at": "2026-04-07T12:33:41.074494+00:00",
     "updated_at": "2026-04-07T12:33:41.074494+00:00",
-    "stale": false,
-    "days_since_activity": 1
+    "stale": true,
+    "days_since_activity": 11
   },
   {
     "id": "lead_mia_020",
@@ -3286,8 +3286,8 @@
     "notes": "Website: https://eliteclubmia.com/ | Address: 5700 NW 27th Ave, Miami, FL 33137",
     "created_at": "2026-04-07T12:33:41.074494+00:00",
     "updated_at": "2026-04-07T12:33:41.074494+00:00",
-    "stale": false,
-    "days_since_activity": 1
+    "stale": true,
+    "days_since_activity": 11
   },
   {
     "id": "lead_mia_019",
@@ -3356,8 +3356,8 @@
     "notes": "Website: https://preferredexotics.com/ | Address: 233 11th Street, Miami Beach, FL 33139",
     "created_at": "2026-04-07T12:33:41.074494+00:00",
     "updated_at": "2026-04-07T12:33:41.074494+00:00",
-    "stale": false,
-    "days_since_activity": 1
+    "stale": true,
+    "days_since_activity": 11
   },
   {
     "id": "lead_mia_013",
@@ -3426,8 +3426,8 @@
     "notes": "Website: https://dreamcarsmiami.com/ | Address: 2118 N Ocean Dr Hollywood FL 33019 | POTENTIAL DUPLICATE of DreamYachts Miami. Same phone number. Needs Gregory review. | Auto-reply received: directing to (786) 599-6242. DM2 sent requesting to connect with Jameer directly.",
     "created_at": "2026-04-07T12:33:41.074494+00:00",
     "updated_at": "2026-04-07T12:33:41.074494+00:00",
-    "stale": false,
-    "days_since_activity": 1
+    "stale": true,
+    "days_since_activity": 11
   },
   {
     "id": "lead_mia_012",
@@ -3496,8 +3496,8 @@
     "notes": "Placeholder name removed. Owner name needs research. LinkedIn shows 'Southbeach Exoticrentals' which is a scraped business name, not a person. | DM2 sent March 25 to owner IG @jc_sbexoticrentals",
     "created_at": "2026-04-07T12:33:41.074494+00:00",
     "updated_at": "2026-04-07T12:33:41.074494+00:00",
-    "stale": false,
-    "days_since_activity": 1
+    "stale": true,
+    "days_since_activity": 11
   },
   {
     "id": "lead_mia_009",
@@ -3566,8 +3566,8 @@
     "notes": "",
     "created_at": "2026-04-07T12:33:41.074494+00:00",
     "updated_at": "2026-04-07T12:33:41.074494+00:00",
-    "stale": false,
-    "days_since_activity": 1
+    "stale": true,
+    "days_since_activity": 11
   },
   {
     "id": "lead_dcv_005",
@@ -3636,8 +3636,8 @@
     "notes": "Verified. Membership model. 'Curators' positioning. Premium clientele.",
     "created_at": "2026-04-07T12:33:41.074494+00:00",
     "updated_at": "2026-04-07T12:33:41.074494+00:00",
-    "stale": false,
-    "days_since_activity": 1
+    "stale": true,
+    "days_since_activity": 11
   },
   {
     "id": "lead_dcv_004",
@@ -3706,8 +3706,8 @@
     "notes": "Verified. Unique niche: funerals + events. Sprinter vans.",
     "created_at": "2026-04-07T12:33:41.074494+00:00",
     "updated_at": "2026-04-07T12:33:41.074494+00:00",
-    "stale": false,
-    "days_since_activity": 1
+    "stale": true,
+    "days_since_activity": 11
   },
   {
     "id": "lead_dcv_003",
@@ -3776,8 +3776,8 @@
     "notes": "Owners identified on IG. Fairfax VA base. Also on Turo.",
     "created_at": "2026-04-07T12:33:41.074494+00:00",
     "updated_at": "2026-04-07T12:33:41.074494+00:00",
-    "stale": false,
-    "days_since_activity": 1
+    "stale": true,
+    "days_since_activity": 11
   },
   {
     "id": "lead_dcv_002",
@@ -3846,8 +3846,8 @@
     "notes": "DMV + New England. Multi-region. Low posting = growth opportunity.",
     "created_at": "2026-04-07T12:33:41.074494+00:00",
     "updated_at": "2026-04-07T12:33:41.074494+00:00",
-    "stale": false,
-    "days_since_activity": 1
+    "stale": true,
+    "days_since_activity": 11
   },
   {
     "id": "lead_sfb_006",
@@ -3916,8 +3916,8 @@
     "notes": "Collector car sales/community. Identified founders. Different model but adjacent.",
     "created_at": "2026-04-07T12:33:41.074494+00:00",
     "updated_at": "2026-04-07T12:33:41.074494+00:00",
-    "stale": false,
-    "days_since_activity": 1
+    "stale": true,
+    "days_since_activity": 11
   },
   {
     "id": "lead_sfb_004",
@@ -3986,8 +3986,8 @@
     "notes": "Classic/vintage specialist. Wedding + corporate events. Silicon Valley tech crowd.",
     "created_at": "2026-04-07T12:33:41.074494+00:00",
     "updated_at": "2026-04-07T12:33:41.074494+00:00",
-    "stale": false,
-    "days_since_activity": 1
+    "stale": true,
+    "days_since_activity": 11
   },
   {
     "id": "lead_sfb_003",
@@ -4056,8 +4056,8 @@
     "notes": "National platform. Free delivery model.",
     "created_at": "2026-04-07T12:33:41.074494+00:00",
     "updated_at": "2026-04-07T12:33:41.074494+00:00",
-    "stale": false,
-    "days_since_activity": 1
+    "stale": true,
+    "days_since_activity": 11
   },
   {
     "id": "lead_sfb_002",
@@ -4126,8 +4126,8 @@
     "notes": "LA-based, expanding to SF. Already in pipeline under LA tab too.",
     "created_at": "2026-04-07T12:33:41.074494+00:00",
     "updated_at": "2026-04-07T12:33:41.074494+00:00",
-    "stale": false,
-    "days_since_activity": 1
+    "stale": true,
+    "days_since_activity": 11
   },
   {
     "id": "lead_lax_008",
@@ -4196,8 +4196,8 @@
     "notes": "30-year legacy operation. Beverly Hills. Institution in the market.",
     "created_at": "2026-04-07T12:33:41.074494+00:00",
     "updated_at": "2026-04-07T12:33:41.074494+00:00",
-    "stale": false,
-    "days_since_activity": 1
+    "stale": true,
+    "days_since_activity": 11
   },
   {
     "id": "lead_lax_006",
@@ -4266,8 +4266,8 @@
     "notes": "La Cienega Blvd location. Lifestyle positioning.",
     "created_at": "2026-04-07T12:33:41.074494+00:00",
     "updated_at": "2026-04-07T12:33:41.074494+00:00",
-    "stale": false,
-    "days_since_activity": 1
+    "stale": true,
+    "days_since_activity": 11
   },
   {
     "id": "lead_lvs_007",
@@ -4336,8 +4336,8 @@
     "notes": "Lifestyle/influencer positioning.",
     "created_at": "2026-04-07T12:33:41.074494+00:00",
     "updated_at": "2026-04-07T12:33:41.074494+00:00",
-    "stale": false,
-    "days_since_activity": 1
+    "stale": true,
+    "days_since_activity": 11
   },
   {
     "id": "lead_lvs_006",
@@ -4406,8 +4406,8 @@
     "notes": "Quality-first positioning.",
     "created_at": "2026-04-07T12:33:41.074494+00:00",
     "updated_at": "2026-04-07T12:33:41.074494+00:00",
-    "stale": false,
-    "days_since_activity": 1
+    "stale": true,
+    "days_since_activity": 11
   },
   {
     "id": "lead_nyc_005",
@@ -4476,8 +4476,8 @@
     "notes": "Downtown NYC location. Experience-focused.",
     "created_at": "2026-04-07T12:33:41.074494+00:00",
     "updated_at": "2026-04-07T12:33:41.074494+00:00",
-    "stale": false,
-    "days_since_activity": 1
+    "stale": true,
+    "days_since_activity": 11
   },
   {
     "id": "lead_nyc_004",
@@ -4546,8 +4546,8 @@
     "notes": "Multi-service: cars, aircraft, boats, bodyguard. Unique offering.",
     "created_at": "2026-04-07T12:33:41.074494+00:00",
     "updated_at": "2026-04-07T12:33:41.074494+00:00",
-    "stale": false,
-    "days_since_activity": 1
+    "stale": true,
+    "days_since_activity": 11
   },
   {
     "id": "lead_atl_004",
@@ -4616,8 +4616,8 @@
     "notes": "Multi-city operator (ATL/Miami/LA/Paris). Lifestyle brand. Cross-market complexity = Exotiq pitch.",
     "created_at": "2026-04-07T12:33:41.074494+00:00",
     "updated_at": "2026-04-07T12:33:41.074494+00:00",
-    "stale": false,
-    "days_since_activity": 1
+    "stale": true,
+    "days_since_activity": 11
   },
   {
     "id": "lead_atl_003",
@@ -4686,8 +4686,8 @@
     "notes": "Buckhead location. Premium positioning. Good growth trajectory.",
     "created_at": "2026-04-07T12:33:41.074494+00:00",
     "updated_at": "2026-04-07T12:33:41.074494+00:00",
-    "stale": false,
-    "days_since_activity": 1
+    "stale": true,
+    "days_since_activity": 11
   },
   {
     "id": "lead_dfw_009",
@@ -4756,8 +4756,8 @@
     "notes": "Email available. DFW suburb coverage.",
     "created_at": "2026-04-07T12:33:41.074494+00:00",
     "updated_at": "2026-04-07T12:33:41.074494+00:00",
-    "stale": false,
-    "days_since_activity": 1
+    "stale": true,
+    "days_since_activity": 11
   },
   {
     "id": "lead_dfw_008",
@@ -4826,8 +4826,8 @@
     "notes": "Owners identified: Andrew Johnsen & Nick Valenta. Ultra-premium positioning.",
     "created_at": "2026-04-07T12:33:41.074494+00:00",
     "updated_at": "2026-04-07T12:33:41.074494+00:00",
-    "stale": false,
-    "days_since_activity": 1
+    "stale": true,
+    "days_since_activity": 11
   },
   {
     "id": "lead_dfw_007",
@@ -4896,8 +4896,8 @@
     "notes": "Growth-oriented operator. Competitive positioning.",
     "created_at": "2026-04-07T12:33:41.074494+00:00",
     "updated_at": "2026-04-07T12:33:41.074494+00:00",
-    "stale": false,
-    "days_since_activity": 1
+    "stale": true,
+    "days_since_activity": 11
   },
   {
     "id": "lead_dfw_006",
@@ -4966,8 +4966,8 @@
     "notes": "High post count, active. Tesla Cybertruck differentiator.",
     "created_at": "2026-04-07T12:33:41.074494+00:00",
     "updated_at": "2026-04-07T12:33:41.074494+00:00",
-    "stale": false,
-    "days_since_activity": 1
+    "stale": true,
+    "days_since_activity": 11
   },
   {
     "id": "lead_phx_015",
@@ -5036,8 +5036,8 @@
     "notes": "DIFFERENT PLAY: This is a marketplace/aggregator, not a single operator. 125+ cars across their network. Could be a partnership angle rather than standard operator pitch. B2B platform integration opportunity. | V2 DM: Template E",
     "created_at": "2026-04-07T12:33:41.074494+00:00",
     "updated_at": "2026-04-07T12:33:41.074494+00:00",
-    "stale": false,
-    "days_since_activity": 1
+    "stale": true,
+    "days_since_activity": 11
   },
   {
     "id": "lead_phx_010",
@@ -5106,8 +5106,8 @@
     "notes": "Solid local operator with consistent content. Phone available for direct outreach. | V2 DM: Template D",
     "created_at": "2026-04-07T12:33:41.074494+00:00",
     "updated_at": "2026-04-07T12:33:41.074494+00:00",
-    "stale": false,
-    "days_since_activity": 1
+    "stale": true,
+    "days_since_activity": 11
   },
   {
     "id": "lead_phx_009",
@@ -5176,8 +5176,8 @@
     "notes": "Premium positioning. White Glove Service model. Scottsdale exclusive. Professional operation with good IG engagement. | V2 DM: Template D",
     "created_at": "2026-04-07T12:33:41.074494+00:00",
     "updated_at": "2026-04-07T12:33:41.074494+00:00",
-    "stale": false,
-    "days_since_activity": 1
+    "stale": true,
+    "days_since_activity": 11
   },
   {
     "id": "lead_phx_008",
@@ -5246,8 +5246,8 @@
     "notes": "Owner confirmed via Apollo. Multi-state operator (AZ/OR/WA). 16 vehicles, clear fleet. Good mid-market target. Pricing $199-$1,499/day. | V2 DM: Template D",
     "created_at": "2026-04-07T12:33:41.074494+00:00",
     "updated_at": "2026-04-07T12:33:41.074494+00:00",
-    "stale": false,
-    "days_since_activity": 1
+    "stale": true,
+    "days_since_activity": 11
   },
   {
     "id": "lead_phx_001",
@@ -5316,8 +5316,8 @@
     "notes": "New lead from Gregory's IG review. First Phoenix/Scottsdale lead. Gregory has more leads to share for this market. | V2 DM: Template D",
     "created_at": "2026-04-07T12:33:41.074494+00:00",
     "updated_at": "2026-04-07T12:33:41.074494+00:00",
-    "stale": false,
-    "days_since_activity": 1
+    "stale": true,
+    "days_since_activity": 11
   },
   {
     "id": "lead_mia_045",
@@ -5386,8 +5386,8 @@
     "notes": "New lead from Gregory's IG review. | V2 DM: Template B | LOCAL ONLY - not in GSheet as of 3/23",
     "created_at": "2026-04-07T12:33:41.074494+00:00",
     "updated_at": "2026-04-07T12:33:41.074494+00:00",
-    "stale": false,
-    "days_since_activity": 1
+    "stale": true,
+    "days_since_activity": 11
   },
   {
     "id": "lead_mia_044",
@@ -5456,8 +5456,8 @@
     "notes": "New lead from Gregory's IG review. | LOCAL ONLY - not in GSheet as of 3/23 | 3/23: IG @thecollection.miami_ still 404. Cannot draft DM until valid handle found.",
     "created_at": "2026-04-07T12:33:41.074494+00:00",
     "updated_at": "2026-04-07T12:33:41.074494+00:00",
-    "stale": false,
-    "days_since_activity": 1
+    "stale": true,
+    "days_since_activity": 11
   },
   {
     "id": "lead_mia_037",
@@ -5526,8 +5526,8 @@
     "notes": "New lead from Gregory's IG review. | V2 DM: Template D",
     "created_at": "2026-04-07T12:33:41.074494+00:00",
     "updated_at": "2026-04-07T12:33:41.074494+00:00",
-    "stale": false,
-    "days_since_activity": 1
+    "stale": true,
+    "days_since_activity": 11
   },
   {
     "id": "lead_mia_034",
@@ -5596,8 +5596,8 @@
     "notes": "New lead from Gregory's IG review. | V2 DM: Template D",
     "created_at": "2026-04-07T12:33:41.074494+00:00",
     "updated_at": "2026-04-07T12:33:41.074494+00:00",
-    "stale": false,
-    "days_since_activity": 1
+    "stale": true,
+    "days_since_activity": 11
   },
   {
     "id": "lead_mia_033",
@@ -5666,8 +5666,8 @@
     "notes": "TEAM ERROR: Got a copy/paste email from Gregory's team without reading DM history. Need to clean up relationship. Do NOT re-contact until Gregory reviews.",
     "created_at": "2026-04-07T12:33:41.074494+00:00",
     "updated_at": "2026-04-07T12:33:41.074494+00:00",
-    "stale": false,
-    "days_since_activity": 1
+    "stale": true,
+    "days_since_activity": 11
   },
   {
     "id": "lead_mia_026",
@@ -5736,8 +5736,8 @@
     "notes": "New lead from Gregory's IG review. Different from Miami Exotics (@miami__exotics). | V2 DM: Template D",
     "created_at": "2026-04-07T12:33:41.074494+00:00",
     "updated_at": "2026-04-07T12:33:41.074494+00:00",
-    "stale": false,
-    "days_since_activity": 1
+    "stale": true,
+    "days_since_activity": 11
   },
   {
     "id": "lead_mia_023",
@@ -5806,8 +5806,8 @@
     "notes": "Website: https://miami-exotics.com/ | Address: 1500 NW 36th St, Miami, FL 33142 | V2 DM: Template D",
     "created_at": "2026-04-07T12:33:41.074494+00:00",
     "updated_at": "2026-04-07T12:33:41.074494+00:00",
-    "stale": false,
-    "days_since_activity": 1
+    "stale": true,
+    "days_since_activity": 11
   },
   {
     "id": "lead_mia_021",
@@ -5876,8 +5876,8 @@
     "notes": "Website: https://realcar.miami/ | Address: 1000 5th Street, Miami Beach, FL 33139 | V2 DM: Template D",
     "created_at": "2026-04-07T12:33:41.074494+00:00",
     "updated_at": "2026-04-07T12:33:41.074494+00:00",
-    "stale": false,
-    "days_since_activity": 1
+    "stale": true,
+    "days_since_activity": 11
   },
   {
     "id": "lead_mia_018",
@@ -5946,8 +5946,8 @@
     "notes": "Website: https://luxx.miami/ | Address: 1100 Brickell Bay Dr, Miami, FL 33131 | V2 DM: Template D",
     "created_at": "2026-04-07T12:33:41.074494+00:00",
     "updated_at": "2026-04-07T12:33:41.074494+00:00",
-    "stale": false,
-    "days_since_activity": 1
+    "stale": true,
+    "days_since_activity": 11
   },
   {
     "id": "lead_mia_010",
@@ -6016,8 +6016,8 @@
     "notes": "",
     "created_at": "2026-04-07T12:33:41.074494+00:00",
     "updated_at": "2026-04-07T12:33:41.074494+00:00",
-    "stale": false,
-    "days_since_activity": 1
+    "stale": true,
+    "days_since_activity": 11
   },
   {
     "id": "lead_mia_008",
@@ -6086,8 +6086,8 @@
     "notes": "",
     "created_at": "2026-04-07T12:33:41.074494+00:00",
     "updated_at": "2026-04-07T12:33:41.074494+00:00",
-    "stale": false,
-    "days_since_activity": 1
+    "stale": true,
+    "days_since_activity": 11
   },
   {
     "id": "lead_mia_006",
@@ -6156,8 +6156,8 @@
     "notes": "| MISSED: Gregory got auto-reply but didn't follow up. PUT BACK ON ACTIVE LIST for re-engagement. | V2 DM: Re-engagement | Move Lead to DC",
     "created_at": "2026-04-07T12:33:41.074494+00:00",
     "updated_at": "2026-04-07T12:33:41.074494+00:00",
-    "stale": false,
-    "days_since_activity": 1
+    "stale": true,
+    "days_since_activity": 11
   },
   {
     "id": "lead_mia_001",
@@ -6226,8 +6226,8 @@
     "notes": "| Gregory has referral/name drop connection. Previously DMed.",
     "created_at": "2026-04-07T12:33:41.074494+00:00",
     "updated_at": "2026-04-07T12:33:41.074494+00:00",
-    "stale": false,
-    "days_since_activity": 1
+    "stale": true,
+    "days_since_activity": 11
   },
   {
     "id": "lead_dcv_008",
@@ -6296,8 +6296,8 @@
     "notes": "18+ age requirement (broader). Entertainment/production angle.",
     "created_at": "2026-04-07T12:33:41.074494+00:00",
     "updated_at": "2026-04-07T12:33:41.074494+00:00",
-    "stale": false,
-    "days_since_activity": 1
+    "stale": true,
+    "days_since_activity": 11
   },
   {
     "id": "lead_dcv_007",
@@ -6366,8 +6366,8 @@
     "notes": "CEO identified on IG. Prom market specialist. Phone available.",
     "created_at": "2026-04-07T12:33:41.074494+00:00",
     "updated_at": "2026-04-07T12:33:41.074494+00:00",
-    "stale": false,
-    "days_since_activity": 1
+    "stale": true,
+    "days_since_activity": 11
   },
   {
     "id": "lead_dcv_006",
@@ -6436,8 +6436,8 @@
     "notes": "Near Dulles airport. Full contact info available.",
     "created_at": "2026-04-07T12:33:41.074494+00:00",
     "updated_at": "2026-04-07T12:33:41.074494+00:00",
-    "stale": false,
-    "days_since_activity": 1
+    "stale": true,
+    "days_since_activity": 11
   },
   {
     "id": "lead_sfb_007",
@@ -6506,8 +6506,8 @@
     "notes": "Emerging local player. Email and phone available.",
     "created_at": "2026-04-07T12:33:41.074494+00:00",
     "updated_at": "2026-04-07T12:33:41.074494+00:00",
-    "stale": false,
-    "days_since_activity": 1
+    "stale": true,
+    "days_since_activity": 11
   },
   {
     "id": "lead_sfb_005",
@@ -6576,8 +6576,8 @@
     "notes": "Photographer/content creator angle. No deposit model.",
     "created_at": "2026-04-07T12:33:41.074494+00:00",
     "updated_at": "2026-04-07T12:33:41.074494+00:00",
-    "stale": false,
-    "days_since_activity": 1
+    "stale": true,
+    "days_since_activity": 11
   },
   {
     "id": "lead_lax_010",
@@ -6646,8 +6646,8 @@
     "notes": "Downtown LA. Airport pick-up/drop-off.",
     "created_at": "2026-04-07T12:33:41.074494+00:00",
     "updated_at": "2026-04-07T12:33:41.074494+00:00",
-    "stale": false,
-    "days_since_activity": 1
+    "stale": true,
+    "days_since_activity": 11
   },
   {
     "id": "lead_lvs_008",
@@ -6716,8 +6716,8 @@
     "notes": "Flexible rental terms. B2B/corporate angle.",
     "created_at": "2026-04-07T12:33:41.074494+00:00",
     "updated_at": "2026-04-07T12:33:41.074494+00:00",
-    "stale": false,
-    "days_since_activity": 1
+    "stale": true,
+    "days_since_activity": 11
   },
   {
     "id": "lead_nyc_008",
@@ -6786,8 +6786,8 @@
     "notes": "Tri-state coverage. Early stage.",
     "created_at": "2026-04-07T12:33:41.074494+00:00",
     "updated_at": "2026-04-07T12:33:41.074494+00:00",
-    "stale": false,
-    "days_since_activity": 1
+    "stale": true,
+    "days_since_activity": 11
   },
   {
     "id": "lead_nyc_007",
@@ -6856,8 +6856,8 @@
     "notes": "Community-focused. Small but engaged.",
     "created_at": "2026-04-07T12:33:41.074494+00:00",
     "updated_at": "2026-04-07T12:33:41.074494+00:00",
-    "stale": false,
-    "days_since_activity": 1
+    "stale": true,
+    "days_since_activity": 11
   },
   {
     "id": "lead_atl_008",
@@ -6926,8 +6926,8 @@
     "notes": "No Instagram. Web/phone outreach only. Buckhead luxury positioning.",
     "created_at": "2026-04-07T12:33:41.074494+00:00",
     "updated_at": "2026-04-07T12:33:41.074494+00:00",
-    "stale": false,
-    "days_since_activity": 1
+    "stale": true,
+    "days_since_activity": 11
   },
   {
     "id": "lead_atl_007",
@@ -6996,8 +6996,8 @@
     "notes": "Lenox Rd Buckhead address. Lifestyle brand positioning.",
     "created_at": "2026-04-07T12:33:41.074494+00:00",
     "updated_at": "2026-04-07T12:33:41.074494+00:00",
-    "stale": false,
-    "days_since_activity": 1
+    "stale": true,
+    "days_since_activity": 11
   },
   {
     "id": "lead_atl_006",
@@ -7066,8 +7066,8 @@
     "notes": "Midtown location near Atlantic Station.",
     "created_at": "2026-04-07T12:33:41.074494+00:00",
     "updated_at": "2026-04-07T12:33:41.074494+00:00",
-    "stale": false,
-    "days_since_activity": 1
+    "stale": true,
+    "days_since_activity": 11
   },
   {
     "id": "lead_atl_005",
@@ -7136,8 +7136,8 @@
     "notes": "SMS booking model. Growing.",
     "created_at": "2026-04-07T12:33:41.074494+00:00",
     "updated_at": "2026-04-07T12:33:41.074494+00:00",
-    "stale": false,
-    "days_since_activity": 1
+    "stale": true,
+    "days_since_activity": 11
   },
   {
     "id": "lead_dfw_010",
@@ -7206,8 +7206,8 @@
     "notes": "All-inclusive model. Growing.",
     "created_at": "2026-04-07T12:33:41.074494+00:00",
     "updated_at": "2026-04-07T12:33:41.074494+00:00",
-    "stale": false,
-    "days_since_activity": 1
+    "stale": true,
+    "days_since_activity": 11
   },
   {
     "id": "lead_phx_016",
@@ -7276,8 +7276,8 @@
     "notes": "Florida-based operation serving AZ market remotely. Multi-state logistics complexity. Could approach from either Miami or Phoenix angle.",
     "created_at": "2026-04-07T12:33:41.074494+00:00",
     "updated_at": "2026-04-07T12:33:41.074494+00:00",
-    "stale": false,
-    "days_since_activity": 1
+    "stale": true,
+    "days_since_activity": 11
   },
   {
     "id": "lead_phx_013",
@@ -7346,8 +7346,8 @@
     "notes": "Regional operator covering Phoenix/Mesa. Small but has online booking infrastructure.",
     "created_at": "2026-04-07T12:33:41.074494+00:00",
     "updated_at": "2026-04-07T12:33:41.074494+00:00",
-    "stale": false,
-    "days_since_activity": 1
+    "stale": true,
+    "days_since_activity": 11
   },
   {
     "id": "lead_phx_012",
@@ -7416,8 +7416,8 @@
     "notes": "Small operator focused on service quality and convenience. Growing.",
     "created_at": "2026-04-07T12:33:41.074494+00:00",
     "updated_at": "2026-04-07T12:33:41.074494+00:00",
-    "stale": false,
-    "days_since_activity": 1
+    "stale": true,
+    "days_since_activity": 11
   },
   {
     "id": "lead_phx_011",
@@ -7486,8 +7486,8 @@
     "notes": "Multi-service (cars + party buses). Explicitly says NO IG DMs. Use website or phone for outreach.",
     "created_at": "2026-04-07T12:33:41.074494+00:00",
     "updated_at": "2026-04-07T12:33:41.074494+00:00",
-    "stale": false,
-    "days_since_activity": 1
+    "stale": true,
+    "days_since_activity": 11
   },
   {
     "id": "lead_phx_003",
@@ -7556,8 +7556,8 @@
     "notes": "Moved from Miami tab. Arizona per IG bio.",
     "created_at": "2026-04-07T12:33:41.074494+00:00",
     "updated_at": "2026-04-07T12:33:41.074494+00:00",
-    "stale": false,
-    "days_since_activity": 1
+    "stale": true,
+    "days_since_activity": 11
   },
   {
     "id": "lead_phx_002",
@@ -7626,8 +7626,8 @@
     "notes": "Moved from Miami tab. Phoenix Metro Area per IG bio.",
     "created_at": "2026-04-07T12:33:41.074494+00:00",
     "updated_at": "2026-04-07T12:33:41.074494+00:00",
-    "stale": false,
-    "days_since_activity": 1
+    "stale": true,
+    "days_since_activity": 11
   },
   {
     "id": "lead_mia_042",
@@ -7696,8 +7696,8 @@
     "notes": "Website: gscargroup.com | Address: Miami, FL | V2 DM: Template B | LOCAL ONLY - not in GSheet as of 3/23",
     "created_at": "2026-04-07T12:33:41.074494+00:00",
     "updated_at": "2026-04-07T12:33:41.074494+00:00",
-    "stale": false,
-    "days_since_activity": 1
+    "stale": true,
+    "days_since_activity": 11
   },
   {
     "id": "lead_mia_041",
@@ -7766,8 +7766,8 @@
     "notes": "| LOCAL ONLY - not in GSheet as of 3/23",
     "created_at": "2026-04-07T12:33:41.074494+00:00",
     "updated_at": "2026-04-07T12:33:41.074494+00:00",
-    "stale": false,
-    "days_since_activity": 1
+    "stale": true,
+    "days_since_activity": 11
   },
   {
     "id": "lead_mia_035",
@@ -7836,8 +7836,8 @@
     "notes": "New lead from Gregory's IG review.",
     "created_at": "2026-04-07T12:33:41.074494+00:00",
     "updated_at": "2026-04-07T12:33:41.074494+00:00",
-    "stale": false,
-    "days_since_activity": 1
+    "stale": true,
+    "days_since_activity": 11
   },
   {
     "id": "lead_mia_031",
@@ -7906,8 +7906,8 @@
     "notes": "New lead from Gregory's IG review. Personal IG: @jameer.c63. Needs dedup check vs Dream Car Rentals Miami.",
     "created_at": "2026-04-07T12:33:41.074494+00:00",
     "updated_at": "2026-04-07T12:33:41.074494+00:00",
-    "stale": false,
-    "days_since_activity": 1
+    "stale": true,
+    "days_since_activity": 11
   },
   {
     "id": "lead_mia_027",
@@ -7976,8 +7976,8 @@
     "notes": "New lead from Gregory's IG review.",
     "created_at": "2026-04-07T12:33:41.074494+00:00",
     "updated_at": "2026-04-07T12:33:41.074494+00:00",
-    "stale": false,
-    "days_since_activity": 1
+    "stale": true,
+    "days_since_activity": 11
   },
   {
     "id": "lead_mia_022",
@@ -8046,8 +8046,8 @@
     "notes": "Website: https://www.murciluxury.com/ | Address: Miami, FL | Apollo: LinkedIn linkedin.com/company/murciluxury. Phone: (786) 526-9401",
     "created_at": "2026-04-07T12:33:41.074494+00:00",
     "updated_at": "2026-04-07T12:33:41.074494+00:00",
-    "stale": false,
-    "days_since_activity": 1
+    "stale": true,
+    "days_since_activity": 11
   },
   {
     "id": "lead_mia_011",
@@ -8116,8 +8116,8 @@
     "notes": "",
     "created_at": "2026-04-07T12:33:41.074494+00:00",
     "updated_at": "2026-04-07T12:33:41.074494+00:00",
-    "stale": false,
-    "days_since_activity": 1
+    "stale": true,
+    "days_since_activity": 11
   },
   {
     "id": "lead_mia_002",
@@ -8186,8 +8186,8 @@
     "notes": "Flag - bad reviews - :-(",
     "created_at": "2026-04-07T12:33:41.074494+00:00",
     "updated_at": "2026-04-07T12:33:41.074494+00:00",
-    "stale": false,
-    "days_since_activity": 1
+    "stale": true,
+    "days_since_activity": 11
   },
   {
     "id": "lead_phx_014",
@@ -8256,8 +8256,8 @@
     "notes": "Brand new operator. Too early for outreach but worth monitoring.",
     "created_at": "2026-04-07T12:33:41.074494+00:00",
     "updated_at": "2026-04-07T12:33:41.074494+00:00",
-    "stale": false,
-    "days_since_activity": 1
+    "stale": true,
+    "days_since_activity": 11
   },
   {
     "id": "lead_mia_040",
@@ -8326,8 +8326,8 @@
     "notes": "Website: dealerxpressfl.com | Was DMed early but replied asking to email. Different vertical (dealer, not exotic rental). Keep warm. | LOCAL ONLY - not in GSheet as of 3/23",
     "created_at": "2026-04-07T12:33:41.074494+00:00",
     "updated_at": "2026-04-07T12:33:41.074494+00:00",
-    "stale": false,
-    "days_since_activity": 1
+    "stale": true,
+    "days_since_activity": 11
   },
   {
     "id": "lead_mia_030",
@@ -8396,8 +8396,8 @@
     "notes": "New lead from Gregory's IG review. Different from Elite Club Miami.",
     "created_at": "2026-04-07T12:33:41.074494+00:00",
     "updated_at": "2026-04-07T12:33:41.074494+00:00",
-    "stale": false,
-    "days_since_activity": 1
+    "stale": true,
+    "days_since_activity": 11
   },
   {
     "id": "lead_mia_029",
@@ -8466,8 +8466,8 @@
     "notes": "New lead from Gregory's IG review.",
     "created_at": "2026-04-07T12:33:41.074494+00:00",
     "updated_at": "2026-04-07T12:33:41.074494+00:00",
-    "stale": false,
-    "days_since_activity": 1
+    "stale": true,
+    "days_since_activity": 11
   },
   {
     "id": "lead_mia_003",
@@ -8536,8 +8536,8 @@
     "notes": "",
     "created_at": "2026-04-07T12:33:41.074494+00:00",
     "updated_at": "2026-04-07T12:33:41.074494+00:00",
-    "stale": false,
-    "days_since_activity": 1
+    "stale": true,
+    "days_since_activity": 11
   },
   {
     "id": "lead_mia_007",
@@ -8606,7 +8606,7 @@
     "notes": "Move Lead to DC",
     "created_at": "2026-04-07T12:33:41.074494+00:00",
     "updated_at": "2026-04-07T12:33:41.074494+00:00",
-    "stale": false,
-    "days_since_activity": 1
+    "stale": true,
+    "days_since_activity": 11
   }
 ]

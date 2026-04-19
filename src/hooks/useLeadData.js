@@ -14,6 +14,9 @@ export function useLeadData() {
   const [stats, setStats] = useState(null)
   const [ghlStatus, setGhlStatus] = useState(null)
   const [pipelineMetrics, setPipelineMetrics] = useState(null)
+  const [sequences, setSequences] = useState([])
+  const [outreachQueue, setOutreachQueue] = useState([])
+  const [leadSequences, setLeadSequences] = useState([])
   const [loading, setLoading] = useState(true)
   const [error, setError] = useState(null)
   const [lastSynced, setLastSynced] = useState(null)
@@ -42,12 +45,15 @@ export function useLeadData() {
 
   const fetchAll = useCallback(async () => {
     try {
-      const [leadsData, activityData, statsData, ghlData, metricsData] = await Promise.all([
+      const [leadsData, activityData, statsData, ghlData, metricsData, seqData, queueData, enrollData] = await Promise.all([
         fetchJson('/data/leads.json'),
         fetchJson('/data/activity.json'),
         fetchJson('/data/stats.json'),
         fetchJson('/data/ghl_sync_status.json'),
         fetchJson('/data/pipeline_metrics.json'),
+        fetchJson('/data/sequences.json').catch(() => []),
+        fetchJson('/data/outreach_queue.json').catch(() => []),
+        fetchJson('/data/lead_sequences.json').catch(() => []),
       ])
       const serverLeads = Array.isArray(leadsData) ? leadsData : []
       setLeads(applyOverrides(serverLeads))
@@ -55,6 +61,9 @@ export function useLeadData() {
       setStats(statsData)
       setGhlStatus(ghlData)
       setPipelineMetrics(metricsData)
+      setSequences(Array.isArray(seqData) ? seqData : [])
+      setOutreachQueue(Array.isArray(queueData) ? queueData : [])
+      setLeadSequences(Array.isArray(enrollData) ? enrollData : [])
       setError(null)
       setLastSynced(new Date())
     } catch (err) {
@@ -114,5 +123,8 @@ export function useLeadData() {
     lastSynced,
     refresh: fetchAll,
     updateLead,
+    sequences,
+    outreachQueue,
+    leadSequences,
   }
 }
