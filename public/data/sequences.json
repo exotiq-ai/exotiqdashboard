@@ -111,7 +111,7 @@
         "notes": null
       }
     ],
-    "active_enrollments": 0
+    "active_enrollments": 1
   },
   {
     "id": "seq_score5_personal",
@@ -157,6 +157,6 @@
         "notes": null
       }
     ],
-    "active_enrollments": 0
+    "active_enrollments": 1
   }
 ]

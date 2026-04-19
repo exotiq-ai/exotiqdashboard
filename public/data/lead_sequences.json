@@ -1,1 +1,28 @@
-[]
+[
+  {
+    "id": 1,
+    "lead_id": "lead_nyc_009",
+    "sequence_id": "seq_score5_personal",
+    "started_at": "2026-04-19T02:42:16.701955+00:00",
+    "current_step": 1,
+    "status": "active",
+    "next_touch_due": "2026-04-22T02:42:16.701955+00:00",
+    "stopped_reason": null,
+    "updated_at": "2026-04-19T02:42:16.721837+00:00",
+    "company": "Gotham Dream Cars",
+    "sequence_name": "Score 5 Personal"
+  },
+  {
+    "id": 2,
+    "lead_id": "lead_mia_008",
+    "sequence_id": "seq_new_operator_14",
+    "started_at": "2026-04-19T02:42:16.713224+00:00",
+    "current_step": 1,
+    "status": "active",
+    "next_touch_due": "2026-04-22T02:42:16.713224+00:00",
+    "stopped_reason": null,
+    "updated_at": "2026-04-19T02:42:16.722042+00:00",
+    "company": "Legaci Auto Lounge",
+    "sequence_name": "New Operator 14-Day"
+  }
+]
