@@ -8,6 +8,7 @@ import PipelineFunnel from './components/PipelineFunnel'
 import ActivityFeed from './components/ActivityFeed'
 import ExportTab from './components/ExportTab'
 import SequencesTab from './components/SequencesTab'
+import TrainingTab from './components/TrainingTab'
 import { useLeadData } from './hooks/useLeadData'
 import { applyFilters, getUniqueMarkets, getUniqueStatuses } from './utils/filters'
 
@@ -19,6 +20,7 @@ const TABS = [
   { id: 'funnel', label: 'Pipeline Funnel' },
   { id: 'activity', label: 'Activity Feed' },
   { id: 'export', label: 'Export' },
+  { id: 'training', label: 'Training' },
 ]
 
 const DEFAULT_FILTERS = {
@@ -233,6 +235,9 @@ export default function App() {
             leads={filteredLeads}
             loading={loading}
           />
+        )}
+        {activeTab === 'training' && (
+          <TrainingTab />
         )}
       </main>
 
