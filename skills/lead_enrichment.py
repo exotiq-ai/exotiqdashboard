@@ -12,7 +12,7 @@ import warnings
 from datetime import datetime, timezone
 from typing import Any, Optional
 
-from skills.db_utils import get_lead, log_activity, update_lead
+from skills.db_utils import get_lead, log_activity, update_lead, get_db
 
 logger = logging.getLogger(__name__)
 
@@ -37,28 +37,95 @@ VALID_CONFIDENCES = frozenset({"CONFIRMED", "ESTIMATED", "INFERRED"})
 # ---------------------------------------------------------------------------
 
 
-def _apollo_lookup(company: str, contact_name: str) -> EnrichmentResult:
-    """
-    Look up company and person data from Apollo.io.
+import os
+import requests
+from dotenv import load_dotenv
 
-    Real implementation: POST to https://api.apollo.io/v1/people/search
-    Required env var: APOLLO_API_KEY
-    Expected response format: {
-        "people": [{"first_name": str, "last_name": str, "title": str,
-                    "email": str, "phone_numbers": [...], "linkedin_url": str}],
-        "organizations": [{"name": str, "website_url": str, "phone": str}]
+# Load environment variables from .env file at project root
+dotenv_path = os.path.join(os.path.dirname(__file__), '..', '.env')
+load_dotenv(dotenv_path=dotenv_path)
+
+APOLLO_API_KEY = os.getenv("APOLLO_API_KEY")
+
+def _apollo_lookup(company: str, contact_name: Optional[str] = None, domain: Optional[str] = None) -> EnrichmentResult:
+    """
+    Look up person data at a company from Apollo.io using the match API.
+    """
+    if not APOLLO_API_KEY:
+        warnings.warn("APOLLO_API_KEY not found. Skipping Apollo enrichment.")
+        return {}
+
+    headers = {
+        'Content-Type': 'application/json',
+        'Cache-Control': 'no-cache',
+        'X-Api-Key': APOLLO_API_KEY
     }
-    Returns dict of field_name -> (value, source, confidence) tuples.
-    Stub returns empty dict.
+    url = "https://api.apollo.io/v1/people/match"
+    
+    # The match API requires person name details and company info.
+    params = {
+        "organization_name": company,
+    }
+    if domain:
+        params["organization_domain"] = domain
+    
+    # Split contact name into first and last for the API
+    if contact_name:
+        parts = contact_name.split()
+        if len(parts) > 1:
+            params["first_name"] = parts[0]
+            params["last_name"] = " ".join(parts[1:])
+        else:
+            params["first_name"] = parts[0]
 
-    Args:
-        company: The company name to look up.
-        contact_name: The contact's full name to look up.
+    # If we have no name, we can't use this endpoint effectively.
+    # In the future, we could use the /v1/organizations/enrich endpoint first,
+    # then search for people there. For now, we require a name hint.
+    if "first_name" not in params:
+        return {}
 
-    Returns:
-        Mapping of field name to (value, source_label, confidence_label).
-    """
-    return {}
+    try:
+        response = requests.post(url, headers=headers, json=params)
+        
+        # Apollo returns 404 if no match, which is expected.
+        if response.status_code == 404:
+            logger.info(f"Apollo returned 404 (No Match) for {contact_name} at {company}")
+            return {}
+            
+        response.raise_for_status()
+        data = response.json()
+
+        person = data.get('person')
+        if not person:
+            return {}
+
+        result: EnrichmentResult = {}
+        
+        # Map Apollo fields to our DB schema columns with provenance
+        if person.get('name'):
+            first_name, last_name = person['name'].split(' ', 1) if ' ' in person['name'] else (person['name'], '')
+            result['contact_first_name'] = (first_name, 'apollo', 'CONFIRMED')
+            result['contact_last_name'] = (last_name, 'apollo', 'CONFIRMED')
+        if person.get('title'):
+            result['contact_title'] = (person['title'], 'apollo', 'CONFIRMED')
+        if person.get('email'):
+            result['contact_email'] = (person['email'], 'apollo', 'CONFIRMED')
+        if person.get('linkedin_url'):
+            result['contact_linkedin'] = (person['linkedin_url'], 'apollo', 'CONFIRMED')
+        
+        phone_number = person.get('sanitized_phone')
+        if not phone_number and person.get('phone_numbers'):
+             phone_number = person['phone_numbers'][0].get('sanitized_number')
+
+        if phone_number:
+            result['contact_phone'] = (phone_number, 'apollo', 'CONFIRMED')
+
+        return result
+
+    except requests.exceptions.RequestException as e:
+        logger.error(f"Apollo API request failed for {company}: {e}")
+        return {}
+
 
 
 def _web_search_enrichment(company: str, market: str) -> EnrichmentResult:
@@ -265,6 +332,20 @@ def enrich_lead(lead_id: str) -> dict[str, Any]:
             merged_update[f"{field}_source"] = source_label
             merged_update[f"{field}_confidence"] = confidence_label
 
+    # Dynamically build the final update dict, only including columns that
+    # actually exist in the leads table to prevent schema errors.
+    conn = get_db()
+    try:
+        cursor = conn.execute("PRAGMA table_info(leads)")
+        existing_columns = {row["name"] for row in cursor.fetchall()}
+    finally:
+        conn.close()
+
+    final_update: dict[str, Any] = {}
+    for key, value in merged_update.items():
+        if key in existing_columns:
+            final_update[key] = value
+
     # ------------------------------------------------------------------
     # 5. Append to enrichment_history
     # ------------------------------------------------------------------
@@ -291,13 +372,13 @@ def enrich_lead(lead_id: str) -> dict[str, Any]:
         new_entries.append(entry)
 
     enrichment_history.extend(new_entries)
-    merged_update["enrichment_history"] = json.dumps(enrichment_history)
+    final_update["enrichment_history"] = json.dumps(enrichment_history)
 
     # ------------------------------------------------------------------
     # 6. Persist update
     # ------------------------------------------------------------------
-    if merged_update:
-        update_lead(lead_id, merged_update)
+    if final_update:
+        update_lead(lead_id, final_update)
 
     # ------------------------------------------------------------------
     # 7. Log to activity_log

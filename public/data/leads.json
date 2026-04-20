@@ -67,7 +67,7 @@
     "created_at": "2026-04-08T16:27:15.970720+00:00",
     "updated_at": "2026-04-08T16:27:15.970720+00:00",
     "stale": true,
-    "days_since_activity": 10
+    "days_since_activity": 11
   },
   {
     "id": "lead_dcv_001",
@@ -137,7 +137,7 @@
     "created_at": "2026-04-07T12:33:41.074494+00:00",
     "updated_at": "2026-04-07T12:33:41.074494+00:00",
     "stale": true,
-    "days_since_activity": 11
+    "days_since_activity": 13
   },
   {
     "id": "lead_lax_002",
@@ -207,7 +207,7 @@
     "created_at": "2026-04-07T12:33:41.074494+00:00",
     "updated_at": "2026-04-07T12:33:41.074494+00:00",
     "stale": true,
-    "days_since_activity": 11
+    "days_since_activity": 13
   },
   {
     "id": "lead_lax_001",
@@ -277,7 +277,7 @@
     "created_at": "2026-04-07T12:33:41.074494+00:00",
     "updated_at": "2026-04-07T12:33:41.074494+00:00",
     "stale": true,
-    "days_since_activity": 11
+    "days_since_activity": 13
   },
   {
     "id": "lead_lvs_002",
@@ -347,7 +347,7 @@
     "created_at": "2026-04-07T12:33:41.074494+00:00",
     "updated_at": "2026-04-07T12:33:41.074494+00:00",
     "stale": true,
-    "days_since_activity": 11
+    "days_since_activity": 13
   },
   {
     "id": "lead_lvs_001",
@@ -383,7 +383,7 @@
       "previous_score": null
     },
     "outreach": {
-      "status": "New",
+      "status": "Not a Fit",
       "dm_draft": null,
       "template_used": null,
       "client_review": null,
@@ -413,11 +413,11 @@
     "market": "Las Vegas",
     "lead_source": "Manual",
     "enrichment_history": [],
-    "notes": "TOP TARGET. 357K followers. Hypercar specialist. Owner Houston Crosta identified. Market-defining operation.",
+    "notes": "TOP TARGET. 357K followers. Hypercar specialist. Owner Houston Crosta identified. Market-defining operation.\n2026-04-19 (Gregory): Marked as Not a Fit, business is closed.",
     "created_at": "2026-04-07T12:33:41.074494+00:00",
-    "updated_at": "2026-04-07T12:33:41.074494+00:00",
-    "stale": true,
-    "days_since_activity": 11
+    "updated_at": "2026-04-19T15:44:51.972555+00:00",
+    "stale": false,
+    "days_since_activity": 0
   },
   {
     "id": "lead_nyc_001",
@@ -487,7 +487,7 @@
     "created_at": "2026-04-07T12:33:41.074494+00:00",
     "updated_at": "2026-04-07T12:33:41.074494+00:00",
     "stale": true,
-    "days_since_activity": 11
+    "days_since_activity": 13
   },
   {
     "id": "lead_chi_001",
@@ -557,7 +557,7 @@
     "created_at": "2026-04-07T12:33:41.074494+00:00",
     "updated_at": "2026-04-07T12:33:41.074494+00:00",
     "stale": true,
-    "days_since_activity": 11
+    "days_since_activity": 13
   },
   {
     "id": "lead_dfw_001",
@@ -627,7 +627,7 @@
     "created_at": "2026-04-07T12:33:41.074494+00:00",
     "updated_at": "2026-04-07T12:33:41.074494+00:00",
     "stale": true,
-    "days_since_activity": 11
+    "days_since_activity": 13
   },
   {
     "id": "lead_phx_004",
@@ -697,7 +697,7 @@
     "created_at": "2026-04-07T12:33:41.074494+00:00",
     "updated_at": "2026-04-07T12:33:41.074494+00:00",
     "stale": true,
-    "days_since_activity": 11
+    "days_since_activity": 13
   },
   {
     "id": "lead_mia_046",
@@ -767,7 +767,7 @@
     "created_at": "2026-04-07T12:33:41.074494+00:00",
     "updated_at": "2026-04-07T12:33:41.074494+00:00",
     "stale": true,
-    "days_since_activity": 11
+    "days_since_activity": 13
   },
   {
     "id": "lead_mia_017",
@@ -832,12 +832,31 @@
     },
     "market": "Miami",
     "lead_source": "Manual",
-    "enrichment_history": [],
+    "enrichment_history": [
+      {
+        "action": "apollo_lookup",
+        "timestamp": "2026-04-19T13:47:12.475572+00:00",
+        "fields_updated": [],
+        "source": "apollo"
+      },
+      {
+        "action": "web_search",
+        "timestamp": "2026-04-19T13:47:12.475587+00:00",
+        "fields_updated": [],
+        "source": "website"
+      },
+      {
+        "action": "ig_profile_check",
+        "timestamp": "2026-04-19T13:47:12.475590+00:00",
+        "fields_updated": [],
+        "source": "ig_profile"
+      }
+    ],
     "notes": "Website: https://mphclub.com/ | Address: 201 S Biscayne Blvd, Miami, FL 33131 | Fixed: company name was missing, identified via email info@mphclub.com | Apollo enriched: Liram Sustiel confirmed as CEO. LinkedIn: linkedin.com/company/mph-club",
     "created_at": "2026-04-07T12:33:41.074494+00:00",
-    "updated_at": "2026-04-07T12:33:41.074494+00:00",
-    "stale": true,
-    "days_since_activity": 11
+    "updated_at": "2026-04-19T13:47:12.475615+00:00",
+    "stale": false,
+    "days_since_activity": 1
   },
   {
     "id": "lead_mia_016",
@@ -902,12 +921,31 @@
     },
     "market": "Miami",
     "lead_source": "Manual",
-    "enrichment_history": [],
+    "enrichment_history": [
+      {
+        "action": "apollo_lookup",
+        "timestamp": "2026-04-19T13:47:10.673934+00:00",
+        "fields_updated": [],
+        "source": "apollo"
+      },
+      {
+        "action": "web_search",
+        "timestamp": "2026-04-19T13:47:10.673950+00:00",
+        "fields_updated": [],
+        "source": "website"
+      },
+      {
+        "action": "ig_profile_check",
+        "timestamp": "2026-04-19T13:47:10.673953+00:00",
+        "fields_updated": [],
+        "source": "ig_profile"
+      }
+    ],
     "notes": "Website: https://pugachev.miami/ | Address: 7804 Hispanola Ave, Miami Beach, FL 33139",
     "created_at": "2026-04-07T12:33:41.074494+00:00",
-    "updated_at": "2026-04-07T12:33:41.074494+00:00",
-    "stale": true,
-    "days_since_activity": 11
+    "updated_at": "2026-04-19T13:47:10.673979+00:00",
+    "stale": false,
+    "days_since_activity": 1
   },
   {
     "id": "lead_mia_015",
@@ -972,12 +1010,31 @@
     },
     "market": "Miami",
     "lead_source": "Manual",
-    "enrichment_history": [],
+    "enrichment_history": [
+      {
+        "action": "apollo_lookup",
+        "timestamp": "2026-04-19T13:47:08.890982+00:00",
+        "fields_updated": [],
+        "source": "apollo"
+      },
+      {
+        "action": "web_search",
+        "timestamp": "2026-04-19T13:47:08.890998+00:00",
+        "fields_updated": [],
+        "source": "website"
+      },
+      {
+        "action": "ig_profile_check",
+        "timestamp": "2026-04-19T13:47:08.891001+00:00",
+        "fields_updated": [],
+        "source": "ig_profile"
+      }
+    ],
     "notes": "Gregory called prestige spoke with Patrick, left a message for their operations director to give him a call. Gregory will follow with them middle of next week if we don't hear back sooner. | Reply received: directing to call (305) 513-9711 or email. DM2 sent with personal cell. Gregory called, spoke with Patrick, left message for ops director. Will follow up mid-next week if no callback.",
     "created_at": "2026-04-07T12:33:41.074494+00:00",
-    "updated_at": "2026-04-07T12:33:41.074494+00:00",
-    "stale": true,
-    "days_since_activity": 11
+    "updated_at": "2026-04-19T13:47:08.891026+00:00",
+    "stale": false,
+    "days_since_activity": 1
   },
   {
     "id": "lead_mia_014",
@@ -1042,12 +1099,31 @@
     },
     "market": "Multi-Market",
     "lead_source": "Manual",
-    "enrichment_history": [],
+    "enrichment_history": [
+      {
+        "action": "apollo_lookup",
+        "timestamp": "2026-04-19T13:47:06.971043+00:00",
+        "fields_updated": [],
+        "source": "apollo"
+      },
+      {
+        "action": "web_search",
+        "timestamp": "2026-04-19T13:47:06.971068+00:00",
+        "fields_updated": [],
+        "source": "website"
+      },
+      {
+        "action": "ig_profile_check",
+        "timestamp": "2026-04-19T13:47:06.971071+00:00",
+        "fields_updated": [],
+        "source": "ig_profile"
+      }
+    ],
     "notes": "Website: https://velocityexoticcars.com/ | Address: Tampa | Multi Location",
     "created_at": "2026-04-07T12:33:41.074494+00:00",
-    "updated_at": "2026-04-07T12:33:41.074494+00:00",
-    "stale": true,
-    "days_since_activity": 11
+    "updated_at": "2026-04-19T13:47:06.971096+00:00",
+    "stale": false,
+    "days_since_activity": 1
   },
   {
     "id": "lead_mia_005",
@@ -1112,12 +1188,31 @@
     },
     "market": "Miami",
     "lead_source": "Manual",
-    "enrichment_history": [],
+    "enrichment_history": [
+      {
+        "action": "apollo_lookup",
+        "timestamp": "2026-04-19T13:46:42.182285+00:00",
+        "fields_updated": [],
+        "source": "apollo"
+      },
+      {
+        "action": "web_search",
+        "timestamp": "2026-04-19T13:46:42.182300+00:00",
+        "fields_updated": [],
+        "source": "website"
+      },
+      {
+        "action": "ig_profile_check",
+        "timestamp": "2026-04-19T13:46:42.182304+00:00",
+        "fields_updated": [],
+        "source": "ig_profile"
+      }
+    ],
     "notes": "| Zachary said YES to call but won't confirm time. Gregory considering calling on IG. | demo monday! | March 27th - Phone call. Zachary said YES but won't confirm time. Gregory considering calling on IG.",
     "created_at": "2026-04-07T12:33:41.074494+00:00",
-    "updated_at": "2026-04-07T12:33:41.074494+00:00",
-    "stale": true,
-    "days_since_activity": 11
+    "updated_at": "2026-04-19T13:46:42.182333+00:00",
+    "stale": false,
+    "days_since_activity": 1
   },
   {
     "id": "lead_mia_004",
@@ -1182,12 +1277,31 @@
     },
     "market": "Miami",
     "lead_source": "Manual",
-    "enrichment_history": [],
+    "enrichment_history": [
+      {
+        "action": "apollo_lookup",
+        "timestamp": "2026-04-19T13:46:40.540378+00:00",
+        "fields_updated": [],
+        "source": "apollo"
+      },
+      {
+        "action": "web_search",
+        "timestamp": "2026-04-19T13:46:40.540394+00:00",
+        "fields_updated": [],
+        "source": "website"
+      },
+      {
+        "action": "ig_profile_check",
+        "timestamp": "2026-04-19T13:46:40.540397+00:00",
+        "fields_updated": [],
+        "source": "ig_profile"
+      }
+    ],
     "notes": "March 27th - Phone call. Zachary said YES but won't confirm time. Gregory considering calling on IG.",
     "created_at": "2026-04-07T12:33:41.074494+00:00",
-    "updated_at": "2026-04-07T12:33:41.074494+00:00",
-    "stale": true,
-    "days_since_activity": 11
+    "updated_at": "2026-04-19T13:46:40.540426+00:00",
+    "stale": false,
+    "days_since_activity": 1
   },
   {
     "id": "lead_sfb_001",
@@ -1257,7 +1371,7 @@
     "created_at": "2026-04-07T12:33:41.074494+00:00",
     "updated_at": "2026-04-07T12:33:41.074494+00:00",
     "stale": true,
-    "days_since_activity": 11
+    "days_since_activity": 13
   },
   {
     "id": "lead_lax_009",
@@ -1327,7 +1441,7 @@
     "created_at": "2026-04-07T12:33:41.074494+00:00",
     "updated_at": "2026-04-07T12:33:41.074494+00:00",
     "stale": true,
-    "days_since_activity": 11
+    "days_since_activity": 13
   },
   {
     "id": "lead_lax_007",
@@ -1397,7 +1511,7 @@
     "created_at": "2026-04-07T12:33:41.074494+00:00",
     "updated_at": "2026-04-07T12:33:41.074494+00:00",
     "stale": true,
-    "days_since_activity": 11
+    "days_since_activity": 13
   },
   {
     "id": "lead_lax_005",
@@ -1467,7 +1581,7 @@
     "created_at": "2026-04-07T12:33:41.074494+00:00",
     "updated_at": "2026-04-07T12:33:41.074494+00:00",
     "stale": true,
-    "days_since_activity": 11
+    "days_since_activity": 13
   },
   {
     "id": "lead_lax_004",
@@ -1537,7 +1651,7 @@
     "created_at": "2026-04-07T12:33:41.074494+00:00",
     "updated_at": "2026-04-07T12:33:41.074494+00:00",
     "stale": true,
-    "days_since_activity": 11
+    "days_since_activity": 13
   },
   {
     "id": "lead_lax_003",
@@ -1607,7 +1721,7 @@
     "created_at": "2026-04-07T12:33:41.074494+00:00",
     "updated_at": "2026-04-07T12:33:41.074494+00:00",
     "stale": true,
-    "days_since_activity": 11
+    "days_since_activity": 13
   },
   {
     "id": "lead_lvs_005",
@@ -1677,7 +1791,7 @@
     "created_at": "2026-04-07T12:33:41.074494+00:00",
     "updated_at": "2026-04-07T12:33:41.074494+00:00",
     "stale": true,
-    "days_since_activity": 11
+    "days_since_activity": 13
   },
   {
     "id": "lead_lvs_004",
@@ -1747,7 +1861,7 @@
     "created_at": "2026-04-07T12:33:41.074494+00:00",
     "updated_at": "2026-04-07T12:33:41.074494+00:00",
     "stale": true,
-    "days_since_activity": 11
+    "days_since_activity": 13
   },
   {
     "id": "lead_lvs_003",
@@ -1817,7 +1931,7 @@
     "created_at": "2026-04-07T12:33:41.074494+00:00",
     "updated_at": "2026-04-07T12:33:41.074494+00:00",
     "stale": true,
-    "days_since_activity": 11
+    "days_since_activity": 13
   },
   {
     "id": "lead_nyc_006",
@@ -1887,7 +2001,7 @@
     "created_at": "2026-04-07T12:33:41.074494+00:00",
     "updated_at": "2026-04-07T12:33:41.074494+00:00",
     "stale": true,
-    "days_since_activity": 11
+    "days_since_activity": 13
   },
   {
     "id": "lead_nyc_003",
@@ -1957,7 +2071,7 @@
     "created_at": "2026-04-07T12:33:41.074494+00:00",
     "updated_at": "2026-04-07T12:33:41.074494+00:00",
     "stale": true,
-    "days_since_activity": 11
+    "days_since_activity": 13
   },
   {
     "id": "lead_nyc_002",
@@ -2027,7 +2141,7 @@
     "created_at": "2026-04-07T12:33:41.074494+00:00",
     "updated_at": "2026-04-07T12:33:41.074494+00:00",
     "stale": true,
-    "days_since_activity": 11
+    "days_since_activity": 13
   },
   {
     "id": "lead_atl_002",
@@ -2097,7 +2211,7 @@
     "created_at": "2026-04-07T12:33:41.074494+00:00",
     "updated_at": "2026-04-07T12:33:41.074494+00:00",
     "stale": true,
-    "days_since_activity": 11
+    "days_since_activity": 13
   },
   {
     "id": "lead_atl_001",
@@ -2167,7 +2281,7 @@
     "created_at": "2026-04-07T12:33:41.074494+00:00",
     "updated_at": "2026-04-07T12:33:41.074494+00:00",
     "stale": true,
-    "days_since_activity": 11
+    "days_since_activity": 13
   },
   {
     "id": "lead_dfw_005",
@@ -2237,7 +2351,7 @@
     "created_at": "2026-04-07T12:33:41.074494+00:00",
     "updated_at": "2026-04-07T12:33:41.074494+00:00",
     "stale": true,
-    "days_since_activity": 11
+    "days_since_activity": 13
   },
   {
     "id": "lead_dfw_004",
@@ -2307,7 +2421,7 @@
     "created_at": "2026-04-07T12:33:41.074494+00:00",
     "updated_at": "2026-04-07T12:33:41.074494+00:00",
     "stale": true,
-    "days_since_activity": 11
+    "days_since_activity": 13
   },
   {
     "id": "lead_dfw_003",
@@ -2377,7 +2491,7 @@
     "created_at": "2026-04-07T12:33:41.074494+00:00",
     "updated_at": "2026-04-07T12:33:41.074494+00:00",
     "stale": true,
-    "days_since_activity": 11
+    "days_since_activity": 13
   },
   {
     "id": "lead_dfw_002",
@@ -2447,7 +2561,7 @@
     "created_at": "2026-04-07T12:33:41.074494+00:00",
     "updated_at": "2026-04-07T12:33:41.074494+00:00",
     "stale": true,
-    "days_since_activity": 11
+    "days_since_activity": 13
   },
   {
     "id": "lead_phx_007",
@@ -2517,7 +2631,7 @@
     "created_at": "2026-04-07T12:33:41.074494+00:00",
     "updated_at": "2026-04-07T12:33:41.074494+00:00",
     "stale": true,
-    "days_since_activity": 11
+    "days_since_activity": 13
   },
   {
     "id": "lead_phx_006",
@@ -2587,7 +2701,7 @@
     "created_at": "2026-04-07T12:33:41.074494+00:00",
     "updated_at": "2026-04-07T12:33:41.074494+00:00",
     "stale": true,
-    "days_since_activity": 11
+    "days_since_activity": 13
   },
   {
     "id": "lead_phx_005",
@@ -2657,7 +2771,7 @@
     "created_at": "2026-04-07T12:33:41.074494+00:00",
     "updated_at": "2026-04-07T12:33:41.074494+00:00",
     "stale": true,
-    "days_since_activity": 11
+    "days_since_activity": 13
   },
   {
     "id": "lead_mia_043",
@@ -2727,7 +2841,7 @@
     "created_at": "2026-04-07T12:33:41.074494+00:00",
     "updated_at": "2026-04-07T12:33:41.074494+00:00",
     "stale": true,
-    "days_since_activity": 11
+    "days_since_activity": 13
   },
   {
     "id": "lead_mia_039",
@@ -2797,7 +2911,7 @@
     "created_at": "2026-04-07T12:33:41.074494+00:00",
     "updated_at": "2026-04-07T12:33:41.074494+00:00",
     "stale": true,
-    "days_since_activity": 11
+    "days_since_activity": 13
   },
   {
     "id": "lead_mia_038",
@@ -2867,7 +2981,7 @@
     "created_at": "2026-04-07T12:33:41.074494+00:00",
     "updated_at": "2026-04-07T12:33:41.074494+00:00",
     "stale": true,
-    "days_since_activity": 11
+    "days_since_activity": 13
   },
   {
     "id": "lead_mia_036",
@@ -2937,16 +3051,16 @@
     "created_at": "2026-04-07T12:33:41.074494+00:00",
     "updated_at": "2026-04-07T12:33:41.074494+00:00",
     "stale": true,
-    "days_since_activity": 11
+    "days_since_activity": 13
   },
   {
     "id": "lead_mia_032",
     "company": "Diamond Exotic Rentals",
     "contact": {
-      "first_name": null,
-      "last_name": null,
+      "first_name": "George",
+      "last_name": "Diamond",
       "title": null,
-      "email": null,
+      "email": "george@diamondexoticrentals.com",
       "phone": null,
       "linkedin": null,
       "ig_personal": null
@@ -3002,12 +3116,35 @@
     },
     "market": "Miami",
     "lead_source": "Manual",
-    "enrichment_history": [],
+    "enrichment_history": [
+      {
+        "action": "apollo_lookup",
+        "timestamp": "2026-04-19T15:48:22.699602+00:00",
+        "fields_updated": [
+          "contact_first_name",
+          "contact_last_name",
+          "contact_email"
+        ],
+        "source": "apollo"
+      },
+      {
+        "action": "web_search",
+        "timestamp": "2026-04-19T15:48:22.699618+00:00",
+        "fields_updated": [],
+        "source": "website"
+      },
+      {
+        "action": "ig_profile_check",
+        "timestamp": "2026-04-19T15:48:22.699621+00:00",
+        "fields_updated": [],
+        "source": "ig_profile"
+      }
+    ],
     "notes": "New lead from Gregory's IG review. | V2 DM: Template B",
     "created_at": "2026-04-07T12:33:41.074494+00:00",
-    "updated_at": "2026-04-07T12:33:41.074494+00:00",
-    "stale": true,
-    "days_since_activity": 11
+    "updated_at": "2026-04-19T15:48:22.699648+00:00",
+    "stale": false,
+    "days_since_activity": 0
   },
   {
     "id": "lead_mia_028",
@@ -3072,12 +3209,49 @@
     },
     "market": "Miami",
     "lead_source": "Manual",
-    "enrichment_history": [],
+    "enrichment_history": [
+      {
+        "action": "apollo_lookup",
+        "timestamp": "2026-04-19T13:47:30.615097+00:00",
+        "fields_updated": [],
+        "source": "apollo"
+      },
+      {
+        "action": "web_search",
+        "timestamp": "2026-04-19T13:47:30.615112+00:00",
+        "fields_updated": [],
+        "source": "website"
+      },
+      {
+        "action": "ig_profile_check",
+        "timestamp": "2026-04-19T13:47:30.615115+00:00",
+        "fields_updated": [],
+        "source": "ig_profile"
+      },
+      {
+        "action": "apollo_lookup",
+        "timestamp": "2026-04-19T13:47:31.874699+00:00",
+        "fields_updated": [],
+        "source": "apollo"
+      },
+      {
+        "action": "web_search",
+        "timestamp": "2026-04-19T13:47:31.874714+00:00",
+        "fields_updated": [],
+        "source": "website"
+      },
+      {
+        "action": "ig_profile_check",
+        "timestamp": "2026-04-19T13:47:31.874717+00:00",
+        "fields_updated": [],
+        "source": "ig_profile"
+      }
+    ],
     "notes": "New lead from Gregory's IG review. | V2 DM: Template B",
     "created_at": "2026-04-07T12:33:41.074494+00:00",
-    "updated_at": "2026-04-07T12:33:41.074494+00:00",
-    "stale": true,
-    "days_since_activity": 11
+    "updated_at": "2026-04-19T13:47:31.874750+00:00",
+    "stale": false,
+    "days_since_activity": 1
   },
   {
     "id": "lead_mia_025",
@@ -3142,12 +3316,31 @@
     },
     "market": "Miami",
     "lead_source": "Manual",
-    "enrichment_history": [],
+    "enrichment_history": [
+      {
+        "action": "apollo_lookup",
+        "timestamp": "2026-04-19T13:47:26.817319+00:00",
+        "fields_updated": [],
+        "source": "apollo"
+      },
+      {
+        "action": "web_search",
+        "timestamp": "2026-04-19T13:47:26.817334+00:00",
+        "fields_updated": [],
+        "source": "website"
+      },
+      {
+        "action": "ig_profile_check",
+        "timestamp": "2026-04-19T13:47:26.817337+00:00",
+        "fields_updated": [],
+        "source": "ig_profile"
+      }
+    ],
     "notes": "HOT LEAD. Phone: 786-202-2892. CALL TOMORROW MORNING. | V2 DM: Template B",
     "created_at": "2026-04-07T12:33:41.074494+00:00",
-    "updated_at": "2026-04-07T12:33:41.074494+00:00",
-    "stale": true,
-    "days_since_activity": 11
+    "updated_at": "2026-04-19T13:47:26.817362+00:00",
+    "stale": false,
+    "days_since_activity": 1
   },
   {
     "id": "lead_mia_024",
@@ -3212,12 +3405,31 @@
     },
     "market": "Miami",
     "lead_source": "Manual",
-    "enrichment_history": [],
+    "enrichment_history": [
+      {
+        "action": "apollo_lookup",
+        "timestamp": "2026-04-19T13:47:25.034094+00:00",
+        "fields_updated": [],
+        "source": "apollo"
+      },
+      {
+        "action": "web_search",
+        "timestamp": "2026-04-19T13:47:25.034111+00:00",
+        "fields_updated": [],
+        "source": "website"
+      },
+      {
+        "action": "ig_profile_check",
+        "timestamp": "2026-04-19T13:47:25.034114+00:00",
+        "fields_updated": [],
+        "source": "ig_profile"
+      }
+    ],
     "notes": "CALL 3/17 6PM EDT: Company is \"Saucy Rentals\". TOOLS: Spreadsheets, deposits, Notes app. ALL MANUAL. STAFFING: Solo + GF/partner on office. Needs runner for washes. FREDO HANDLES: IG/WhatsApp leads, qualifying, insurance, BG checks, fleet mgmt, bookings, CRM. MARKETING: Has team, Fredo does content + posts, content must be approved. Call cut short (tow truck at lot). Said he'd call back. NEXT: Sent DM w/ website + phone. Follow-up call 3/18, push for demo. Phone: 786-241-6668. | 3/18: Gregory spoke with Fredo again. LIVE DEMO BOOKED 3:00 PM MT today.",
     "created_at": "2026-04-07T12:33:41.074494+00:00",
-    "updated_at": "2026-04-07T12:33:41.074494+00:00",
-    "stale": true,
-    "days_since_activity": 11
+    "updated_at": "2026-04-19T13:47:25.034140+00:00",
+    "stale": false,
+    "days_since_activity": 1
   },
   {
     "id": "lead_mia_020",
@@ -3282,12 +3494,31 @@
     },
     "market": "Miami",
     "lead_source": "Manual",
-    "enrichment_history": [],
+    "enrichment_history": [
+      {
+        "action": "apollo_lookup",
+        "timestamp": "2026-04-19T13:47:17.832407+00:00",
+        "fields_updated": [],
+        "source": "apollo"
+      },
+      {
+        "action": "web_search",
+        "timestamp": "2026-04-19T13:47:17.832422+00:00",
+        "fields_updated": [],
+        "source": "website"
+      },
+      {
+        "action": "ig_profile_check",
+        "timestamp": "2026-04-19T13:47:17.832425+00:00",
+        "fields_updated": [],
+        "source": "ig_profile"
+      }
+    ],
     "notes": "Website: https://eliteclubmia.com/ | Address: 5700 NW 27th Ave, Miami, FL 33137",
     "created_at": "2026-04-07T12:33:41.074494+00:00",
-    "updated_at": "2026-04-07T12:33:41.074494+00:00",
-    "stale": true,
-    "days_since_activity": 11
+    "updated_at": "2026-04-19T13:47:17.832450+00:00",
+    "stale": false,
+    "days_since_activity": 1
   },
   {
     "id": "lead_mia_019",
@@ -3352,12 +3583,31 @@
     },
     "market": "Miami",
     "lead_source": "Manual",
-    "enrichment_history": [],
+    "enrichment_history": [
+      {
+        "action": "apollo_lookup",
+        "timestamp": "2026-04-19T13:47:15.930797+00:00",
+        "fields_updated": [],
+        "source": "apollo"
+      },
+      {
+        "action": "web_search",
+        "timestamp": "2026-04-19T13:47:15.930812+00:00",
+        "fields_updated": [],
+        "source": "website"
+      },
+      {
+        "action": "ig_profile_check",
+        "timestamp": "2026-04-19T13:47:15.930815+00:00",
+        "fields_updated": [],
+        "source": "ig_profile"
+      }
+    ],
     "notes": "Website: https://preferredexotics.com/ | Address: 233 11th Street, Miami Beach, FL 33139",
     "created_at": "2026-04-07T12:33:41.074494+00:00",
-    "updated_at": "2026-04-07T12:33:41.074494+00:00",
-    "stale": true,
-    "days_since_activity": 11
+    "updated_at": "2026-04-19T13:47:15.930841+00:00",
+    "stale": false,
+    "days_since_activity": 1
   },
   {
     "id": "lead_mia_013",
@@ -3422,12 +3672,31 @@
     },
     "market": "Miami",
     "lead_source": "Manual",
-    "enrichment_history": [],
+    "enrichment_history": [
+      {
+        "action": "apollo_lookup",
+        "timestamp": "2026-04-19T13:47:03.673427+00:00",
+        "fields_updated": [],
+        "source": "apollo"
+      },
+      {
+        "action": "web_search",
+        "timestamp": "2026-04-19T13:47:03.673443+00:00",
+        "fields_updated": [],
+        "source": "website"
+      },
+      {
+        "action": "ig_profile_check",
+        "timestamp": "2026-04-19T13:47:03.673446+00:00",
+        "fields_updated": [],
+        "source": "ig_profile"
+      }
+    ],
     "notes": "Website: https://dreamcarsmiami.com/ | Address: 2118 N Ocean Dr Hollywood FL 33019 | POTENTIAL DUPLICATE of DreamYachts Miami. Same phone number. Needs Gregory review. | Auto-reply received: directing to (786) 599-6242. DM2 sent requesting to connect with Jameer directly.",
     "created_at": "2026-04-07T12:33:41.074494+00:00",
-    "updated_at": "2026-04-07T12:33:41.074494+00:00",
-    "stale": true,
-    "days_since_activity": 11
+    "updated_at": "2026-04-19T13:47:03.673476+00:00",
+    "stale": false,
+    "days_since_activity": 1
   },
   {
     "id": "lead_mia_012",
@@ -3492,12 +3761,31 @@
     },
     "market": "Miami",
     "lead_source": "Manual",
-    "enrichment_history": [],
+    "enrichment_history": [
+      {
+        "action": "apollo_lookup",
+        "timestamp": "2026-04-19T13:47:02.025645+00:00",
+        "fields_updated": [],
+        "source": "apollo"
+      },
+      {
+        "action": "web_search",
+        "timestamp": "2026-04-19T13:47:02.025661+00:00",
+        "fields_updated": [],
+        "source": "website"
+      },
+      {
+        "action": "ig_profile_check",
+        "timestamp": "2026-04-19T13:47:02.025664+00:00",
+        "fields_updated": [],
+        "source": "ig_profile"
+      }
+    ],
     "notes": "Placeholder name removed. Owner name needs research. LinkedIn shows 'Southbeach Exoticrentals' which is a scraped business name, not a person. | DM2 sent March 25 to owner IG @jc_sbexoticrentals",
     "created_at": "2026-04-07T12:33:41.074494+00:00",
-    "updated_at": "2026-04-07T12:33:41.074494+00:00",
-    "stale": true,
-    "days_since_activity": 11
+    "updated_at": "2026-04-19T13:47:02.025700+00:00",
+    "stale": false,
+    "days_since_activity": 1
   },
   {
     "id": "lead_mia_009",
@@ -3562,12 +3850,31 @@
     },
     "market": "Miami",
     "lead_source": "Manual",
-    "enrichment_history": [],
+    "enrichment_history": [
+      {
+        "action": "apollo_lookup",
+        "timestamp": "2026-04-19T13:46:48.713673+00:00",
+        "fields_updated": [],
+        "source": "apollo"
+      },
+      {
+        "action": "web_search",
+        "timestamp": "2026-04-19T13:46:48.713688+00:00",
+        "fields_updated": [],
+        "source": "website"
+      },
+      {
+        "action": "ig_profile_check",
+        "timestamp": "2026-04-19T13:46:48.713691+00:00",
+        "fields_updated": [],
+        "source": "ig_profile"
+      }
+    ],
     "notes": "",
     "created_at": "2026-04-07T12:33:41.074494+00:00",
-    "updated_at": "2026-04-07T12:33:41.074494+00:00",
-    "stale": true,
-    "days_since_activity": 11
+    "updated_at": "2026-04-19T13:46:48.713720+00:00",
+    "stale": false,
+    "days_since_activity": 1
   },
   {
     "id": "lead_dcv_005",
@@ -3637,7 +3944,7 @@
     "created_at": "2026-04-07T12:33:41.074494+00:00",
     "updated_at": "2026-04-07T12:33:41.074494+00:00",
     "stale": true,
-    "days_since_activity": 11
+    "days_since_activity": 13
   },
   {
     "id": "lead_dcv_004",
@@ -3707,7 +4014,7 @@
     "created_at": "2026-04-07T12:33:41.074494+00:00",
     "updated_at": "2026-04-07T12:33:41.074494+00:00",
     "stale": true,
-    "days_since_activity": 11
+    "days_since_activity": 13
   },
   {
     "id": "lead_dcv_003",
@@ -3777,7 +4084,7 @@
     "created_at": "2026-04-07T12:33:41.074494+00:00",
     "updated_at": "2026-04-07T12:33:41.074494+00:00",
     "stale": true,
-    "days_since_activity": 11
+    "days_since_activity": 13
   },
   {
     "id": "lead_dcv_002",
@@ -3847,7 +4154,7 @@
     "created_at": "2026-04-07T12:33:41.074494+00:00",
     "updated_at": "2026-04-07T12:33:41.074494+00:00",
     "stale": true,
-    "days_since_activity": 11
+    "days_since_activity": 13
   },
   {
     "id": "lead_sfb_006",
@@ -3917,7 +4224,7 @@
     "created_at": "2026-04-07T12:33:41.074494+00:00",
     "updated_at": "2026-04-07T12:33:41.074494+00:00",
     "stale": true,
-    "days_since_activity": 11
+    "days_since_activity": 13
   },
   {
     "id": "lead_sfb_004",
@@ -3987,7 +4294,7 @@
     "created_at": "2026-04-07T12:33:41.074494+00:00",
     "updated_at": "2026-04-07T12:33:41.074494+00:00",
     "stale": true,
-    "days_since_activity": 11
+    "days_since_activity": 13
   },
   {
     "id": "lead_sfb_003",
@@ -4057,7 +4364,7 @@
     "created_at": "2026-04-07T12:33:41.074494+00:00",
     "updated_at": "2026-04-07T12:33:41.074494+00:00",
     "stale": true,
-    "days_since_activity": 11
+    "days_since_activity": 13
   },
   {
     "id": "lead_sfb_002",
@@ -4127,7 +4434,7 @@
     "created_at": "2026-04-07T12:33:41.074494+00:00",
     "updated_at": "2026-04-07T12:33:41.074494+00:00",
     "stale": true,
-    "days_since_activity": 11
+    "days_since_activity": 13
   },
   {
     "id": "lead_lax_008",
@@ -4197,7 +4504,7 @@
     "created_at": "2026-04-07T12:33:41.074494+00:00",
     "updated_at": "2026-04-07T12:33:41.074494+00:00",
     "stale": true,
-    "days_since_activity": 11
+    "days_since_activity": 13
   },
   {
     "id": "lead_lax_006",
@@ -4267,7 +4574,7 @@
     "created_at": "2026-04-07T12:33:41.074494+00:00",
     "updated_at": "2026-04-07T12:33:41.074494+00:00",
     "stale": true,
-    "days_since_activity": 11
+    "days_since_activity": 13
   },
   {
     "id": "lead_lvs_007",
@@ -4337,7 +4644,7 @@
     "created_at": "2026-04-07T12:33:41.074494+00:00",
     "updated_at": "2026-04-07T12:33:41.074494+00:00",
     "stale": true,
-    "days_since_activity": 11
+    "days_since_activity": 13
   },
   {
     "id": "lead_lvs_006",
@@ -4407,7 +4714,7 @@
     "created_at": "2026-04-07T12:33:41.074494+00:00",
     "updated_at": "2026-04-07T12:33:41.074494+00:00",
     "stale": true,
-    "days_since_activity": 11
+    "days_since_activity": 13
   },
   {
     "id": "lead_nyc_005",
@@ -4477,7 +4784,7 @@
     "created_at": "2026-04-07T12:33:41.074494+00:00",
     "updated_at": "2026-04-07T12:33:41.074494+00:00",
     "stale": true,
-    "days_since_activity": 11
+    "days_since_activity": 13
   },
   {
     "id": "lead_nyc_004",
@@ -4547,7 +4854,7 @@
     "created_at": "2026-04-07T12:33:41.074494+00:00",
     "updated_at": "2026-04-07T12:33:41.074494+00:00",
     "stale": true,
-    "days_since_activity": 11
+    "days_since_activity": 13
   },
   {
     "id": "lead_atl_004",
@@ -4617,7 +4924,7 @@
     "created_at": "2026-04-07T12:33:41.074494+00:00",
     "updated_at": "2026-04-07T12:33:41.074494+00:00",
     "stale": true,
-    "days_since_activity": 11
+    "days_since_activity": 13
   },
   {
     "id": "lead_atl_003",
@@ -4687,7 +4994,7 @@
     "created_at": "2026-04-07T12:33:41.074494+00:00",
     "updated_at": "2026-04-07T12:33:41.074494+00:00",
     "stale": true,
-    "days_since_activity": 11
+    "days_since_activity": 13
   },
   {
     "id": "lead_dfw_009",
@@ -4757,7 +5064,7 @@
     "created_at": "2026-04-07T12:33:41.074494+00:00",
     "updated_at": "2026-04-07T12:33:41.074494+00:00",
     "stale": true,
-    "days_since_activity": 11
+    "days_since_activity": 13
   },
   {
     "id": "lead_dfw_008",
@@ -4827,7 +5134,7 @@
     "created_at": "2026-04-07T12:33:41.074494+00:00",
     "updated_at": "2026-04-07T12:33:41.074494+00:00",
     "stale": true,
-    "days_since_activity": 11
+    "days_since_activity": 13
   },
   {
     "id": "lead_dfw_007",
@@ -4897,7 +5204,7 @@
     "created_at": "2026-04-07T12:33:41.074494+00:00",
     "updated_at": "2026-04-07T12:33:41.074494+00:00",
     "stale": true,
-    "days_since_activity": 11
+    "days_since_activity": 13
   },
   {
     "id": "lead_dfw_006",
@@ -4967,7 +5274,7 @@
     "created_at": "2026-04-07T12:33:41.074494+00:00",
     "updated_at": "2026-04-07T12:33:41.074494+00:00",
     "stale": true,
-    "days_since_activity": 11
+    "days_since_activity": 13
   },
   {
     "id": "lead_phx_015",
@@ -5037,7 +5344,7 @@
     "created_at": "2026-04-07T12:33:41.074494+00:00",
     "updated_at": "2026-04-07T12:33:41.074494+00:00",
     "stale": true,
-    "days_since_activity": 11
+    "days_since_activity": 13
   },
   {
     "id": "lead_phx_010",
@@ -5107,7 +5414,7 @@
     "created_at": "2026-04-07T12:33:41.074494+00:00",
     "updated_at": "2026-04-07T12:33:41.074494+00:00",
     "stale": true,
-    "days_since_activity": 11
+    "days_since_activity": 13
   },
   {
     "id": "lead_phx_009",
@@ -5177,7 +5484,7 @@
     "created_at": "2026-04-07T12:33:41.074494+00:00",
     "updated_at": "2026-04-07T12:33:41.074494+00:00",
     "stale": true,
-    "days_since_activity": 11
+    "days_since_activity": 13
   },
   {
     "id": "lead_phx_008",
@@ -5247,7 +5554,7 @@
     "created_at": "2026-04-07T12:33:41.074494+00:00",
     "updated_at": "2026-04-07T12:33:41.074494+00:00",
     "stale": true,
-    "days_since_activity": 11
+    "days_since_activity": 13
   },
   {
     "id": "lead_phx_001",
@@ -5317,7 +5624,7 @@
     "created_at": "2026-04-07T12:33:41.074494+00:00",
     "updated_at": "2026-04-07T12:33:41.074494+00:00",
     "stale": true,
-    "days_since_activity": 11
+    "days_since_activity": 13
   },
   {
     "id": "lead_mia_045",
@@ -5387,7 +5694,7 @@
     "created_at": "2026-04-07T12:33:41.074494+00:00",
     "updated_at": "2026-04-07T12:33:41.074494+00:00",
     "stale": true,
-    "days_since_activity": 11
+    "days_since_activity": 13
   },
   {
     "id": "lead_mia_044",
@@ -5457,7 +5764,7 @@
     "created_at": "2026-04-07T12:33:41.074494+00:00",
     "updated_at": "2026-04-07T12:33:41.074494+00:00",
     "stale": true,
-    "days_since_activity": 11
+    "days_since_activity": 13
   },
   {
     "id": "lead_mia_037",
@@ -5527,7 +5834,7 @@
     "created_at": "2026-04-07T12:33:41.074494+00:00",
     "updated_at": "2026-04-07T12:33:41.074494+00:00",
     "stale": true,
-    "days_since_activity": 11
+    "days_since_activity": 13
   },
   {
     "id": "lead_mia_034",
@@ -5597,7 +5904,7 @@
     "created_at": "2026-04-07T12:33:41.074494+00:00",
     "updated_at": "2026-04-07T12:33:41.074494+00:00",
     "stale": true,
-    "days_since_activity": 11
+    "days_since_activity": 13
   },
   {
     "id": "lead_mia_033",
@@ -5667,7 +5974,7 @@
     "created_at": "2026-04-07T12:33:41.074494+00:00",
     "updated_at": "2026-04-07T12:33:41.074494+00:00",
     "stale": true,
-    "days_since_activity": 11
+    "days_since_activity": 13
   },
   {
     "id": "lead_mia_026",
@@ -5732,12 +6039,49 @@
     },
     "market": "Miami",
     "lead_source": "Manual",
-    "enrichment_history": [],
+    "enrichment_history": [
+      {
+        "action": "apollo_lookup",
+        "timestamp": "2026-04-19T13:47:27.333280+00:00",
+        "fields_updated": [],
+        "source": "apollo"
+      },
+      {
+        "action": "web_search",
+        "timestamp": "2026-04-19T13:47:27.333498+00:00",
+        "fields_updated": [],
+        "source": "website"
+      },
+      {
+        "action": "ig_profile_check",
+        "timestamp": "2026-04-19T13:47:27.333502+00:00",
+        "fields_updated": [],
+        "source": "ig_profile"
+      },
+      {
+        "action": "apollo_lookup",
+        "timestamp": "2026-04-19T13:47:28.606656+00:00",
+        "fields_updated": [],
+        "source": "apollo"
+      },
+      {
+        "action": "web_search",
+        "timestamp": "2026-04-19T13:47:28.606671+00:00",
+        "fields_updated": [],
+        "source": "website"
+      },
+      {
+        "action": "ig_profile_check",
+        "timestamp": "2026-04-19T13:47:28.606674+00:00",
+        "fields_updated": [],
+        "source": "ig_profile"
+      }
+    ],
     "notes": "New lead from Gregory's IG review. Different from Miami Exotics (@miami__exotics). | V2 DM: Template D",
     "created_at": "2026-04-07T12:33:41.074494+00:00",
-    "updated_at": "2026-04-07T12:33:41.074494+00:00",
-    "stale": true,
-    "days_since_activity": 11
+    "updated_at": "2026-04-19T13:47:28.606705+00:00",
+    "stale": false,
+    "days_since_activity": 1
   },
   {
     "id": "lead_mia_023",
@@ -5802,12 +6146,31 @@
     },
     "market": "Miami",
     "lead_source": "Manual",
-    "enrichment_history": [],
+    "enrichment_history": [
+      {
+        "action": "apollo_lookup",
+        "timestamp": "2026-04-19T13:47:23.204255+00:00",
+        "fields_updated": [],
+        "source": "apollo"
+      },
+      {
+        "action": "web_search",
+        "timestamp": "2026-04-19T13:47:23.204270+00:00",
+        "fields_updated": [],
+        "source": "website"
+      },
+      {
+        "action": "ig_profile_check",
+        "timestamp": "2026-04-19T13:47:23.204273+00:00",
+        "fields_updated": [],
+        "source": "ig_profile"
+      }
+    ],
     "notes": "Website: https://miami-exotics.com/ | Address: 1500 NW 36th St, Miami, FL 33142 | V2 DM: Template D",
     "created_at": "2026-04-07T12:33:41.074494+00:00",
-    "updated_at": "2026-04-07T12:33:41.074494+00:00",
-    "stale": true,
-    "days_since_activity": 11
+    "updated_at": "2026-04-19T13:47:23.204298+00:00",
+    "stale": false,
+    "days_since_activity": 1
   },
   {
     "id": "lead_mia_021",
@@ -5872,12 +6235,31 @@
     },
     "market": "Miami",
     "lead_source": "Manual",
-    "enrichment_history": [],
+    "enrichment_history": [
+      {
+        "action": "apollo_lookup",
+        "timestamp": "2026-04-19T13:47:19.620380+00:00",
+        "fields_updated": [],
+        "source": "apollo"
+      },
+      {
+        "action": "web_search",
+        "timestamp": "2026-04-19T13:47:19.620396+00:00",
+        "fields_updated": [],
+        "source": "website"
+      },
+      {
+        "action": "ig_profile_check",
+        "timestamp": "2026-04-19T13:47:19.620399+00:00",
+        "fields_updated": [],
+        "source": "ig_profile"
+      }
+    ],
     "notes": "Website: https://realcar.miami/ | Address: 1000 5th Street, Miami Beach, FL 33139 | V2 DM: Template D",
     "created_at": "2026-04-07T12:33:41.074494+00:00",
-    "updated_at": "2026-04-07T12:33:41.074494+00:00",
-    "stale": true,
-    "days_since_activity": 11
+    "updated_at": "2026-04-19T13:47:19.620424+00:00",
+    "stale": false,
+    "days_since_activity": 1
   },
   {
     "id": "lead_mia_018",
@@ -5942,12 +6324,31 @@
     },
     "market": "Miami",
     "lead_source": "Manual",
-    "enrichment_history": [],
+    "enrichment_history": [
+      {
+        "action": "apollo_lookup",
+        "timestamp": "2026-04-19T13:47:14.288313+00:00",
+        "fields_updated": [],
+        "source": "apollo"
+      },
+      {
+        "action": "web_search",
+        "timestamp": "2026-04-19T13:47:14.288328+00:00",
+        "fields_updated": [],
+        "source": "website"
+      },
+      {
+        "action": "ig_profile_check",
+        "timestamp": "2026-04-19T13:47:14.288331+00:00",
+        "fields_updated": [],
+        "source": "ig_profile"
+      }
+    ],
     "notes": "Website: https://luxx.miami/ | Address: 1100 Brickell Bay Dr, Miami, FL 33131 | V2 DM: Template D",
     "created_at": "2026-04-07T12:33:41.074494+00:00",
-    "updated_at": "2026-04-07T12:33:41.074494+00:00",
-    "stale": true,
-    "days_since_activity": 11
+    "updated_at": "2026-04-19T13:47:14.288357+00:00",
+    "stale": false,
+    "days_since_activity": 1
   },
   {
     "id": "lead_mia_010",
@@ -6012,12 +6413,31 @@
     },
     "market": "Miami",
     "lead_source": "Manual",
-    "enrichment_history": [],
+    "enrichment_history": [
+      {
+        "action": "apollo_lookup",
+        "timestamp": "2026-04-19T13:46:50.351045+00:00",
+        "fields_updated": [],
+        "source": "apollo"
+      },
+      {
+        "action": "web_search",
+        "timestamp": "2026-04-19T13:46:50.351060+00:00",
+        "fields_updated": [],
+        "source": "website"
+      },
+      {
+        "action": "ig_profile_check",
+        "timestamp": "2026-04-19T13:46:50.351063+00:00",
+        "fields_updated": [],
+        "source": "ig_profile"
+      }
+    ],
     "notes": "",
     "created_at": "2026-04-07T12:33:41.074494+00:00",
-    "updated_at": "2026-04-07T12:33:41.074494+00:00",
-    "stale": true,
-    "days_since_activity": 11
+    "updated_at": "2026-04-19T13:46:50.351092+00:00",
+    "stale": false,
+    "days_since_activity": 1
   },
   {
     "id": "lead_mia_008",
@@ -6082,12 +6502,31 @@
     },
     "market": "Miami",
     "lead_source": "Manual",
-    "enrichment_history": [],
+    "enrichment_history": [
+      {
+        "action": "apollo_lookup",
+        "timestamp": "2026-04-19T13:46:47.073177+00:00",
+        "fields_updated": [],
+        "source": "apollo"
+      },
+      {
+        "action": "web_search",
+        "timestamp": "2026-04-19T13:46:47.073193+00:00",
+        "fields_updated": [],
+        "source": "website"
+      },
+      {
+        "action": "ig_profile_check",
+        "timestamp": "2026-04-19T13:46:47.073196+00:00",
+        "fields_updated": [],
+        "source": "ig_profile"
+      }
+    ],
     "notes": "",
     "created_at": "2026-04-07T12:33:41.074494+00:00",
-    "updated_at": "2026-04-07T12:33:41.074494+00:00",
-    "stale": true,
-    "days_since_activity": 11
+    "updated_at": "2026-04-19T13:46:47.073223+00:00",
+    "stale": false,
+    "days_since_activity": 1
   },
   {
     "id": "lead_mia_006",
@@ -6152,12 +6591,31 @@
     },
     "market": "NYC",
     "lead_source": "Manual",
-    "enrichment_history": [],
+    "enrichment_history": [
+      {
+        "action": "apollo_lookup",
+        "timestamp": "2026-04-19T13:46:43.826260+00:00",
+        "fields_updated": [],
+        "source": "apollo"
+      },
+      {
+        "action": "web_search",
+        "timestamp": "2026-04-19T13:46:43.826275+00:00",
+        "fields_updated": [],
+        "source": "website"
+      },
+      {
+        "action": "ig_profile_check",
+        "timestamp": "2026-04-19T13:46:43.826278+00:00",
+        "fields_updated": [],
+        "source": "ig_profile"
+      }
+    ],
     "notes": "| MISSED: Gregory got auto-reply but didn't follow up. PUT BACK ON ACTIVE LIST for re-engagement. | V2 DM: Re-engagement | Move Lead to DC",
     "created_at": "2026-04-07T12:33:41.074494+00:00",
-    "updated_at": "2026-04-07T12:33:41.074494+00:00",
-    "stale": true,
-    "days_since_activity": 11
+    "updated_at": "2026-04-19T13:46:43.826308+00:00",
+    "stale": false,
+    "days_since_activity": 1
   },
   {
     "id": "lead_mia_001",
@@ -6222,12 +6680,31 @@
     },
     "market": "Miami",
     "lead_source": "Manual",
-    "enrichment_history": [],
+    "enrichment_history": [
+      {
+        "action": "apollo_lookup",
+        "timestamp": "2026-04-19T13:46:35.609621+00:00",
+        "fields_updated": [],
+        "source": "apollo"
+      },
+      {
+        "action": "web_search",
+        "timestamp": "2026-04-19T13:46:35.609925+00:00",
+        "fields_updated": [],
+        "source": "website"
+      },
+      {
+        "action": "ig_profile_check",
+        "timestamp": "2026-04-19T13:46:35.609933+00:00",
+        "fields_updated": [],
+        "source": "ig_profile"
+      }
+    ],
     "notes": "| Gregory has referral/name drop connection. Previously DMed.",
     "created_at": "2026-04-07T12:33:41.074494+00:00",
-    "updated_at": "2026-04-07T12:33:41.074494+00:00",
-    "stale": true,
-    "days_since_activity": 11
+    "updated_at": "2026-04-19T13:46:35.609989+00:00",
+    "stale": false,
+    "days_since_activity": 1
   },
   {
     "id": "lead_dcv_008",
@@ -6297,7 +6774,7 @@
     "created_at": "2026-04-07T12:33:41.074494+00:00",
     "updated_at": "2026-04-07T12:33:41.074494+00:00",
     "stale": true,
-    "days_since_activity": 11
+    "days_since_activity": 13
   },
   {
     "id": "lead_dcv_007",
@@ -6367,7 +6844,7 @@
     "created_at": "2026-04-07T12:33:41.074494+00:00",
     "updated_at": "2026-04-07T12:33:41.074494+00:00",
     "stale": true,
-    "days_since_activity": 11
+    "days_since_activity": 13
   },
   {
     "id": "lead_dcv_006",
@@ -6437,7 +6914,7 @@
     "created_at": "2026-04-07T12:33:41.074494+00:00",
     "updated_at": "2026-04-07T12:33:41.074494+00:00",
     "stale": true,
-    "days_since_activity": 11
+    "days_since_activity": 13
   },
   {
     "id": "lead_sfb_007",
@@ -6507,7 +6984,7 @@
     "created_at": "2026-04-07T12:33:41.074494+00:00",
     "updated_at": "2026-04-07T12:33:41.074494+00:00",
     "stale": true,
-    "days_since_activity": 11
+    "days_since_activity": 13
   },
   {
     "id": "lead_sfb_005",
@@ -6577,7 +7054,7 @@
     "created_at": "2026-04-07T12:33:41.074494+00:00",
     "updated_at": "2026-04-07T12:33:41.074494+00:00",
     "stale": true,
-    "days_since_activity": 11
+    "days_since_activity": 13
   },
   {
     "id": "lead_lax_010",
@@ -6647,7 +7124,7 @@
     "created_at": "2026-04-07T12:33:41.074494+00:00",
     "updated_at": "2026-04-07T12:33:41.074494+00:00",
     "stale": true,
-    "days_since_activity": 11
+    "days_since_activity": 13
   },
   {
     "id": "lead_lvs_008",
@@ -6717,7 +7194,7 @@
     "created_at": "2026-04-07T12:33:41.074494+00:00",
     "updated_at": "2026-04-07T12:33:41.074494+00:00",
     "stale": true,
-    "days_since_activity": 11
+    "days_since_activity": 13
   },
   {
     "id": "lead_nyc_008",
@@ -6787,7 +7264,7 @@
     "created_at": "2026-04-07T12:33:41.074494+00:00",
     "updated_at": "2026-04-07T12:33:41.074494+00:00",
     "stale": true,
-    "days_since_activity": 11
+    "days_since_activity": 13
   },
   {
     "id": "lead_nyc_007",
@@ -6857,7 +7334,7 @@
     "created_at": "2026-04-07T12:33:41.074494+00:00",
     "updated_at": "2026-04-07T12:33:41.074494+00:00",
     "stale": true,
-    "days_since_activity": 11
+    "days_since_activity": 13
   },
   {
     "id": "lead_atl_008",
@@ -6927,7 +7404,7 @@
     "created_at": "2026-04-07T12:33:41.074494+00:00",
     "updated_at": "2026-04-07T12:33:41.074494+00:00",
     "stale": true,
-    "days_since_activity": 11
+    "days_since_activity": 13
   },
   {
     "id": "lead_atl_007",
@@ -6997,7 +7474,7 @@
     "created_at": "2026-04-07T12:33:41.074494+00:00",
     "updated_at": "2026-04-07T12:33:41.074494+00:00",
     "stale": true,
-    "days_since_activity": 11
+    "days_since_activity": 13
   },
   {
     "id": "lead_atl_006",
@@ -7067,7 +7544,7 @@
     "created_at": "2026-04-07T12:33:41.074494+00:00",
     "updated_at": "2026-04-07T12:33:41.074494+00:00",
     "stale": true,
-    "days_since_activity": 11
+    "days_since_activity": 13
   },
   {
     "id": "lead_atl_005",
@@ -7137,7 +7614,7 @@
     "created_at": "2026-04-07T12:33:41.074494+00:00",
     "updated_at": "2026-04-07T12:33:41.074494+00:00",
     "stale": true,
-    "days_since_activity": 11
+    "days_since_activity": 13
   },
   {
     "id": "lead_dfw_010",
@@ -7207,7 +7684,7 @@
     "created_at": "2026-04-07T12:33:41.074494+00:00",
     "updated_at": "2026-04-07T12:33:41.074494+00:00",
     "stale": true,
-    "days_since_activity": 11
+    "days_since_activity": 13
   },
   {
     "id": "lead_phx_016",
@@ -7277,7 +7754,7 @@
     "created_at": "2026-04-07T12:33:41.074494+00:00",
     "updated_at": "2026-04-07T12:33:41.074494+00:00",
     "stale": true,
-    "days_since_activity": 11
+    "days_since_activity": 13
   },
   {
     "id": "lead_phx_013",
@@ -7347,7 +7824,7 @@
     "created_at": "2026-04-07T12:33:41.074494+00:00",
     "updated_at": "2026-04-07T12:33:41.074494+00:00",
     "stale": true,
-    "days_since_activity": 11
+    "days_since_activity": 13
   },
   {
     "id": "lead_phx_012",
@@ -7417,7 +7894,7 @@
     "created_at": "2026-04-07T12:33:41.074494+00:00",
     "updated_at": "2026-04-07T12:33:41.074494+00:00",
     "stale": true,
-    "days_since_activity": 11
+    "days_since_activity": 13
   },
   {
     "id": "lead_phx_011",
@@ -7487,7 +7964,7 @@
     "created_at": "2026-04-07T12:33:41.074494+00:00",
     "updated_at": "2026-04-07T12:33:41.074494+00:00",
     "stale": true,
-    "days_since_activity": 11
+    "days_since_activity": 13
   },
   {
     "id": "lead_phx_003",
@@ -7557,7 +8034,7 @@
     "created_at": "2026-04-07T12:33:41.074494+00:00",
     "updated_at": "2026-04-07T12:33:41.074494+00:00",
     "stale": true,
-    "days_since_activity": 11
+    "days_since_activity": 13
   },
   {
     "id": "lead_phx_002",
@@ -7627,7 +8104,7 @@
     "created_at": "2026-04-07T12:33:41.074494+00:00",
     "updated_at": "2026-04-07T12:33:41.074494+00:00",
     "stale": true,
-    "days_since_activity": 11
+    "days_since_activity": 13
   },
   {
     "id": "lead_mia_042",
@@ -7697,7 +8174,7 @@
     "created_at": "2026-04-07T12:33:41.074494+00:00",
     "updated_at": "2026-04-07T12:33:41.074494+00:00",
     "stale": true,
-    "days_since_activity": 11
+    "days_since_activity": 13
   },
   {
     "id": "lead_mia_041",
@@ -7767,7 +8244,7 @@
     "created_at": "2026-04-07T12:33:41.074494+00:00",
     "updated_at": "2026-04-07T12:33:41.074494+00:00",
     "stale": true,
-    "days_since_activity": 11
+    "days_since_activity": 13
   },
   {
     "id": "lead_mia_035",
@@ -7837,7 +8314,7 @@
     "created_at": "2026-04-07T12:33:41.074494+00:00",
     "updated_at": "2026-04-07T12:33:41.074494+00:00",
     "stale": true,
-    "days_since_activity": 11
+    "days_since_activity": 13
   },
   {
     "id": "lead_mia_031",
@@ -7907,7 +8384,7 @@
     "created_at": "2026-04-07T12:33:41.074494+00:00",
     "updated_at": "2026-04-07T12:33:41.074494+00:00",
     "stale": true,
-    "days_since_activity": 11
+    "days_since_activity": 13
   },
   {
     "id": "lead_mia_027",
@@ -7972,12 +8449,49 @@
     },
     "market": "Miami",
     "lead_source": "Manual",
-    "enrichment_history": [],
+    "enrichment_history": [
+      {
+        "action": "apollo_lookup",
+        "timestamp": "2026-04-19T13:47:28.971639+00:00",
+        "fields_updated": [],
+        "source": "apollo"
+      },
+      {
+        "action": "web_search",
+        "timestamp": "2026-04-19T13:47:28.971654+00:00",
+        "fields_updated": [],
+        "source": "website"
+      },
+      {
+        "action": "ig_profile_check",
+        "timestamp": "2026-04-19T13:47:28.971657+00:00",
+        "fields_updated": [],
+        "source": "ig_profile"
+      },
+      {
+        "action": "apollo_lookup",
+        "timestamp": "2026-04-19T13:47:30.243021+00:00",
+        "fields_updated": [],
+        "source": "apollo"
+      },
+      {
+        "action": "web_search",
+        "timestamp": "2026-04-19T13:47:30.243036+00:00",
+        "fields_updated": [],
+        "source": "website"
+      },
+      {
+        "action": "ig_profile_check",
+        "timestamp": "2026-04-19T13:47:30.243039+00:00",
+        "fields_updated": [],
+        "source": "ig_profile"
+      }
+    ],
     "notes": "New lead from Gregory's IG review.",
     "created_at": "2026-04-07T12:33:41.074494+00:00",
-    "updated_at": "2026-04-07T12:33:41.074494+00:00",
-    "stale": true,
-    "days_since_activity": 11
+    "updated_at": "2026-04-19T13:47:30.243068+00:00",
+    "stale": false,
+    "days_since_activity": 1
   },
   {
     "id": "lead_mia_022",
@@ -8042,12 +8556,31 @@
     },
     "market": "Miami",
     "lead_source": "Manual",
-    "enrichment_history": [],
+    "enrichment_history": [
+      {
+        "action": "apollo_lookup",
+        "timestamp": "2026-04-19T13:47:21.424846+00:00",
+        "fields_updated": [],
+        "source": "apollo"
+      },
+      {
+        "action": "web_search",
+        "timestamp": "2026-04-19T13:47:21.424862+00:00",
+        "fields_updated": [],
+        "source": "website"
+      },
+      {
+        "action": "ig_profile_check",
+        "timestamp": "2026-04-19T13:47:21.424865+00:00",
+        "fields_updated": [],
+        "source": "ig_profile"
+      }
+    ],
     "notes": "Website: https://www.murciluxury.com/ | Address: Miami, FL | Apollo: LinkedIn linkedin.com/company/murciluxury. Phone: (786) 526-9401",
     "created_at": "2026-04-07T12:33:41.074494+00:00",
-    "updated_at": "2026-04-07T12:33:41.074494+00:00",
-    "stale": true,
-    "days_since_activity": 11
+    "updated_at": "2026-04-19T13:47:21.424891+00:00",
+    "stale": false,
+    "days_since_activity": 1
   },
   {
     "id": "lead_mia_011",
@@ -8112,23 +8645,42 @@
     },
     "market": "Miami",
     "lead_source": "Manual",
-    "enrichment_history": [],
+    "enrichment_history": [
+      {
+        "action": "apollo_lookup",
+        "timestamp": "2026-04-19T13:47:00.378757+00:00",
+        "fields_updated": [],
+        "source": "apollo"
+      },
+      {
+        "action": "web_search",
+        "timestamp": "2026-04-19T13:47:00.379075+00:00",
+        "fields_updated": [],
+        "source": "website"
+      },
+      {
+        "action": "ig_profile_check",
+        "timestamp": "2026-04-19T13:47:00.379079+00:00",
+        "fields_updated": [],
+        "source": "ig_profile"
+      }
+    ],
     "notes": "",
     "created_at": "2026-04-07T12:33:41.074494+00:00",
-    "updated_at": "2026-04-07T12:33:41.074494+00:00",
-    "stale": true,
-    "days_since_activity": 11
+    "updated_at": "2026-04-19T13:47:00.379119+00:00",
+    "stale": false,
+    "days_since_activity": 1
   },
   {
     "id": "lead_mia_002",
     "company": "Carefree Lifestyle",
     "contact": {
-      "first_name": "Matthew",
-      "last_name": "Fouhy",
-      "title": "Senior Sales Manager",
-      "email": null,
+      "first_name": "Gary",
+      "last_name": "Marotta",
+      "title": "Partner",
+      "email": "gary@carefreelifestyle.com",
       "phone": "+1 305-538-5055",
-      "linkedin": "http://www.linkedin.com/in/matthew-fouhy-8360a13b",
+      "linkedin": "http://www.linkedin.com/in/gary-marotta-41038b18",
       "ig_personal": "@mattfouhy"
     },
     "company_data": {
@@ -8182,12 +8734,55 @@
     },
     "market": "Miami",
     "lead_source": "Manual",
-    "enrichment_history": [],
+    "enrichment_history": [
+      {
+        "action": "apollo_lookup",
+        "timestamp": "2026-04-19T13:46:37.255294+00:00",
+        "fields_updated": [],
+        "source": "apollo"
+      },
+      {
+        "action": "web_search",
+        "timestamp": "2026-04-19T13:46:37.255310+00:00",
+        "fields_updated": [],
+        "source": "website"
+      },
+      {
+        "action": "ig_profile_check",
+        "timestamp": "2026-04-19T13:46:37.255313+00:00",
+        "fields_updated": [],
+        "source": "ig_profile"
+      },
+      {
+        "action": "apollo_lookup",
+        "timestamp": "2026-04-19T15:49:01.002194+00:00",
+        "fields_updated": [
+          "contact_first_name",
+          "contact_last_name",
+          "contact_title",
+          "contact_email",
+          "contact_linkedin"
+        ],
+        "source": "apollo"
+      },
+      {
+        "action": "web_search",
+        "timestamp": "2026-04-19T15:49:01.002211+00:00",
+        "fields_updated": [],
+        "source": "website"
+      },
+      {
+        "action": "ig_profile_check",
+        "timestamp": "2026-04-19T15:49:01.002215+00:00",
+        "fields_updated": [],
+        "source": "ig_profile"
+      }
+    ],
     "notes": "Flag - bad reviews - :-(",
     "created_at": "2026-04-07T12:33:41.074494+00:00",
-    "updated_at": "2026-04-07T12:33:41.074494+00:00",
-    "stale": true,
-    "days_since_activity": 11
+    "updated_at": "2026-04-19T15:49:01.002254+00:00",
+    "stale": false,
+    "days_since_activity": 0
   },
   {
     "id": "lead_phx_014",
@@ -8257,7 +8852,7 @@
     "created_at": "2026-04-07T12:33:41.074494+00:00",
     "updated_at": "2026-04-07T12:33:41.074494+00:00",
     "stale": true,
-    "days_since_activity": 11
+    "days_since_activity": 13
   },
   {
     "id": "lead_mia_040",
@@ -8327,7 +8922,7 @@
     "created_at": "2026-04-07T12:33:41.074494+00:00",
     "updated_at": "2026-04-07T12:33:41.074494+00:00",
     "stale": true,
-    "days_since_activity": 11
+    "days_since_activity": 13
   },
   {
     "id": "lead_mia_030",
@@ -8397,7 +8992,7 @@
     "created_at": "2026-04-07T12:33:41.074494+00:00",
     "updated_at": "2026-04-07T12:33:41.074494+00:00",
     "stale": true,
-    "days_since_activity": 11
+    "days_since_activity": 13
   },
   {
     "id": "lead_mia_029",
@@ -8467,14 +9062,14 @@
     "created_at": "2026-04-07T12:33:41.074494+00:00",
     "updated_at": "2026-04-07T12:33:41.074494+00:00",
     "stale": true,
-    "days_since_activity": 11
+    "days_since_activity": 13
   },
   {
     "id": "lead_mia_003",
     "company": "DreamYachts Miami",
     "contact": {
-      "first_name": "Kaleb",
-      "last_name": "Fothergill",
+      "first_name": "Michael",
+      "last_name": "Dellinger",
       "title": "Co-Founder",
       "email": null,
       "phone": "+1 786-599-6242",
@@ -8532,12 +9127,3313 @@
     },
     "market": "Miami",
     "lead_source": "Manual",
-    "enrichment_history": [],
+    "enrichment_history": [
+      {
+        "action": "apollo_lookup",
+        "timestamp": "2026-04-19T13:46:38.890445+00:00",
+        "fields_updated": [],
+        "source": "apollo"
+      },
+      {
+        "action": "web_search",
+        "timestamp": "2026-04-19T13:46:38.890461+00:00",
+        "fields_updated": [],
+        "source": "website"
+      },
+      {
+        "action": "ig_profile_check",
+        "timestamp": "2026-04-19T13:46:38.890464+00:00",
+        "fields_updated": [],
+        "source": "ig_profile"
+      },
+      {
+        "action": "apollo_lookup",
+        "timestamp": "2026-04-19T15:43:09.224505+00:00",
+        "fields_updated": [],
+        "source": "apollo"
+      },
+      {
+        "action": "web_search",
+        "timestamp": "2026-04-19T15:43:09.224518+00:00",
+        "fields_updated": [],
+        "source": "website"
+      },
+      {
+        "action": "ig_profile_check",
+        "timestamp": "2026-04-19T15:43:09.224521+00:00",
+        "fields_updated": [],
+        "source": "ig_profile"
+      },
+      {
+        "action": "apollo_lookup",
+        "timestamp": "2026-04-19T15:43:28.535005+00:00",
+        "fields_updated": [
+          "contact_first_name",
+          "contact_last_name"
+        ],
+        "source": "apollo"
+      },
+      {
+        "action": "web_search",
+        "timestamp": "2026-04-19T15:43:28.535021+00:00",
+        "fields_updated": [],
+        "source": "website"
+      },
+      {
+        "action": "ig_profile_check",
+        "timestamp": "2026-04-19T15:43:28.535024+00:00",
+        "fields_updated": [],
+        "source": "ig_profile"
+      }
+    ],
     "notes": "",
     "created_at": "2026-04-07T12:33:41.074494+00:00",
-    "updated_at": "2026-04-07T12:33:41.074494+00:00",
-    "stale": true,
-    "days_since_activity": 11
+    "updated_at": "2026-04-19T15:43:28.535058+00:00",
+    "stale": false,
+    "days_since_activity": 0
+  },
+  {
+    "id": "lead_jax_005",
+    "company": "Dummy Result for supercar rental Jacksonville",
+    "contact": {
+      "first_name": null,
+      "last_name": null,
+      "title": null,
+      "email": null,
+      "phone": null,
+      "linkedin": null,
+      "ig_personal": null
+    },
+    "company_data": {
+      "ig_handle": null,
+      "ig_followers": null,
+      "website": "https://dummy-supercar-rental-Jacksonville.com",
+      "address": null,
+      "google_rating": null,
+      "google_reviews": null
+    },
+    "fleet": {
+      "size": null,
+      "size_confidence": null,
+      "vehicle_types": [],
+      "vehicle_types_source": null
+    },
+    "scoring": {
+      "score": null,
+      "confidence": null,
+      "rationale": null,
+      "scored_at": null,
+      "previous_score": null
+    },
+    "outreach": {
+      "status": "New",
+      "dm_draft": null,
+      "template_used": null,
+      "client_review": null,
+      "approval_status": null,
+      "do_not_say": [],
+      "dm1_sent": null,
+      "dm2_sent": null,
+      "dm3_sent": null,
+      "response_received": null,
+      "response_category": null,
+      "response_date": null,
+      "calendly_sent": null,
+      "demo_scheduled": null
+    },
+    "pricing": {
+      "annual_value": 948,
+      "tier": "Starter (est.)"
+    },
+    "ghl": {
+      "contact_id": null,
+      "opportunity_id": null,
+      "pipeline_stage": null,
+      "last_sync": null,
+      "in_ghl": false,
+      "tags": []
+    },
+    "market": "Jacksonville",
+    "lead_source": "discovery_agent_v1",
+    "enrichment_history": [],
+    "notes": null,
+    "created_at": "2026-04-20T04:45:49.251949+00:00",
+    "updated_at": "2026-04-20T04:45:49.251949+00:00",
+    "stale": false,
+    "days_since_activity": 0
+  },
+  {
+    "id": "lead_jax_004",
+    "company": "Dummy Result for ferrari rental Jacksonville",
+    "contact": {
+      "first_name": null,
+      "last_name": null,
+      "title": null,
+      "email": null,
+      "phone": null,
+      "linkedin": null,
+      "ig_personal": null
+    },
+    "company_data": {
+      "ig_handle": null,
+      "ig_followers": null,
+      "website": "https://dummy-ferrari-rental-Jacksonville.com",
+      "address": null,
+      "google_rating": null,
+      "google_reviews": null
+    },
+    "fleet": {
+      "size": null,
+      "size_confidence": null,
+      "vehicle_types": [],
+      "vehicle_types_source": null
+    },
+    "scoring": {
+      "score": null,
+      "confidence": null,
+      "rationale": null,
+      "scored_at": null,
+      "previous_score": null
+    },
+    "outreach": {
+      "status": "New",
+      "dm_draft": null,
+      "template_used": null,
+      "client_review": null,
+      "approval_status": null,
+      "do_not_say": [],
+      "dm1_sent": null,
+      "dm2_sent": null,
+      "dm3_sent": null,
+      "response_received": null,
+      "response_category": null,
+      "response_date": null,
+      "calendly_sent": null,
+      "demo_scheduled": null
+    },
+    "pricing": {
+      "annual_value": 948,
+      "tier": "Starter (est.)"
+    },
+    "ghl": {
+      "contact_id": null,
+      "opportunity_id": null,
+      "pipeline_stage": null,
+      "last_sync": null,
+      "in_ghl": false,
+      "tags": []
+    },
+    "market": "Jacksonville",
+    "lead_source": "discovery_agent_v1",
+    "enrichment_history": [],
+    "notes": null,
+    "created_at": "2026-04-20T04:45:49.251946+00:00",
+    "updated_at": "2026-04-20T04:45:49.251946+00:00",
+    "stale": false,
+    "days_since_activity": 0
+  },
+  {
+    "id": "lead_jax_003",
+    "company": "Dummy Result for lamborghini rental Jacksonville",
+    "contact": {
+      "first_name": null,
+      "last_name": null,
+      "title": null,
+      "email": null,
+      "phone": null,
+      "linkedin": null,
+      "ig_personal": null
+    },
+    "company_data": {
+      "ig_handle": null,
+      "ig_followers": null,
+      "website": "https://dummy-lamborghini-rental-Jacksonville.com",
+      "address": null,
+      "google_rating": null,
+      "google_reviews": null
+    },
+    "fleet": {
+      "size": null,
+      "size_confidence": null,
+      "vehicle_types": [],
+      "vehicle_types_source": null
+    },
+    "scoring": {
+      "score": null,
+      "confidence": null,
+      "rationale": null,
+      "scored_at": null,
+      "previous_score": null
+    },
+    "outreach": {
+      "status": "New",
+      "dm_draft": null,
+      "template_used": null,
+      "client_review": null,
+      "approval_status": null,
+      "do_not_say": [],
+      "dm1_sent": null,
+      "dm2_sent": null,
+      "dm3_sent": null,
+      "response_received": null,
+      "response_category": null,
+      "response_date": null,
+      "calendly_sent": null,
+      "demo_scheduled": null
+    },
+    "pricing": {
+      "annual_value": 948,
+      "tier": "Starter (est.)"
+    },
+    "ghl": {
+      "contact_id": null,
+      "opportunity_id": null,
+      "pipeline_stage": null,
+      "last_sync": null,
+      "in_ghl": false,
+      "tags": []
+    },
+    "market": "Jacksonville",
+    "lead_source": "discovery_agent_v1",
+    "enrichment_history": [],
+    "notes": null,
+    "created_at": "2026-04-20T04:45:49.251943+00:00",
+    "updated_at": "2026-04-20T04:45:49.251943+00:00",
+    "stale": false,
+    "days_since_activity": 0
+  },
+  {
+    "id": "lead_jax_002",
+    "company": "Dummy Result for luxury car rental Jacksonville",
+    "contact": {
+      "first_name": null,
+      "last_name": null,
+      "title": null,
+      "email": null,
+      "phone": null,
+      "linkedin": null,
+      "ig_personal": null
+    },
+    "company_data": {
+      "ig_handle": null,
+      "ig_followers": null,
+      "website": "https://dummy-luxury-car-rental-Jacksonville.com",
+      "address": null,
+      "google_rating": null,
+      "google_reviews": null
+    },
+    "fleet": {
+      "size": null,
+      "size_confidence": null,
+      "vehicle_types": [],
+      "vehicle_types_source": null
+    },
+    "scoring": {
+      "score": null,
+      "confidence": null,
+      "rationale": null,
+      "scored_at": null,
+      "previous_score": null
+    },
+    "outreach": {
+      "status": "New",
+      "dm_draft": null,
+      "template_used": null,
+      "client_review": null,
+      "approval_status": null,
+      "do_not_say": [],
+      "dm1_sent": null,
+      "dm2_sent": null,
+      "dm3_sent": null,
+      "response_received": null,
+      "response_category": null,
+      "response_date": null,
+      "calendly_sent": null,
+      "demo_scheduled": null
+    },
+    "pricing": {
+      "annual_value": 948,
+      "tier": "Starter (est.)"
+    },
+    "ghl": {
+      "contact_id": null,
+      "opportunity_id": null,
+      "pipeline_stage": null,
+      "last_sync": null,
+      "in_ghl": false,
+      "tags": []
+    },
+    "market": "Jacksonville",
+    "lead_source": "discovery_agent_v1",
+    "enrichment_history": [],
+    "notes": null,
+    "created_at": "2026-04-20T04:45:49.251934+00:00",
+    "updated_at": "2026-04-20T04:45:49.251934+00:00",
+    "stale": false,
+    "days_since_activity": 0
+  },
+  {
+    "id": "lead_jax_001",
+    "company": "Dummy Result for exotic car rental Jacksonville",
+    "contact": {
+      "first_name": null,
+      "last_name": null,
+      "title": null,
+      "email": null,
+      "phone": null,
+      "linkedin": null,
+      "ig_personal": null
+    },
+    "company_data": {
+      "ig_handle": null,
+      "ig_followers": null,
+      "website": "https://dummy-exotic-car-rental-Jacksonville.com",
+      "address": null,
+      "google_rating": null,
+      "google_reviews": null
+    },
+    "fleet": {
+      "size": null,
+      "size_confidence": null,
+      "vehicle_types": [],
+      "vehicle_types_source": null
+    },
+    "scoring": {
+      "score": null,
+      "confidence": null,
+      "rationale": null,
+      "scored_at": null,
+      "previous_score": null
+    },
+    "outreach": {
+      "status": "New",
+      "dm_draft": null,
+      "template_used": null,
+      "client_review": null,
+      "approval_status": null,
+      "do_not_say": [],
+      "dm1_sent": null,
+      "dm2_sent": null,
+      "dm3_sent": null,
+      "response_received": null,
+      "response_category": null,
+      "response_date": null,
+      "calendly_sent": null,
+      "demo_scheduled": null
+    },
+    "pricing": {
+      "annual_value": 948,
+      "tier": "Starter (est.)"
+    },
+    "ghl": {
+      "contact_id": null,
+      "opportunity_id": null,
+      "pipeline_stage": null,
+      "last_sync": null,
+      "in_ghl": false,
+      "tags": []
+    },
+    "market": "Jacksonville",
+    "lead_source": "discovery_agent_v1",
+    "enrichment_history": [],
+    "notes": null,
+    "created_at": "2026-04-20T04:45:49.251928+00:00",
+    "updated_at": "2026-04-20T04:45:49.251928+00:00",
+    "stale": false,
+    "days_since_activity": 0
+  },
+  {
+    "id": "lead_sjc_005",
+    "company": "Dummy Result for supercar rental San Jose",
+    "contact": {
+      "first_name": null,
+      "last_name": null,
+      "title": null,
+      "email": null,
+      "phone": null,
+      "linkedin": null,
+      "ig_personal": null
+    },
+    "company_data": {
+      "ig_handle": null,
+      "ig_followers": null,
+      "website": "https://dummy-supercar-rental-San-Jose.com",
+      "address": null,
+      "google_rating": null,
+      "google_reviews": null
+    },
+    "fleet": {
+      "size": null,
+      "size_confidence": null,
+      "vehicle_types": [],
+      "vehicle_types_source": null
+    },
+    "scoring": {
+      "score": null,
+      "confidence": null,
+      "rationale": null,
+      "scored_at": null,
+      "previous_score": null
+    },
+    "outreach": {
+      "status": "New",
+      "dm_draft": null,
+      "template_used": null,
+      "client_review": null,
+      "approval_status": null,
+      "do_not_say": [],
+      "dm1_sent": null,
+      "dm2_sent": null,
+      "dm3_sent": null,
+      "response_received": null,
+      "response_category": null,
+      "response_date": null,
+      "calendly_sent": null,
+      "demo_scheduled": null
+    },
+    "pricing": {
+      "annual_value": 948,
+      "tier": "Starter (est.)"
+    },
+    "ghl": {
+      "contact_id": null,
+      "opportunity_id": null,
+      "pipeline_stage": null,
+      "last_sync": null,
+      "in_ghl": false,
+      "tags": []
+    },
+    "market": "San Jose",
+    "lead_source": "discovery_agent_v1",
+    "enrichment_history": [],
+    "notes": null,
+    "created_at": "2026-04-20T04:45:49.251925+00:00",
+    "updated_at": "2026-04-20T04:45:49.251925+00:00",
+    "stale": false,
+    "days_since_activity": 0
+  },
+  {
+    "id": "lead_sjc_004",
+    "company": "Dummy Result for ferrari rental San Jose",
+    "contact": {
+      "first_name": null,
+      "last_name": null,
+      "title": null,
+      "email": null,
+      "phone": null,
+      "linkedin": null,
+      "ig_personal": null
+    },
+    "company_data": {
+      "ig_handle": null,
+      "ig_followers": null,
+      "website": "https://dummy-ferrari-rental-San-Jose.com",
+      "address": null,
+      "google_rating": null,
+      "google_reviews": null
+    },
+    "fleet": {
+      "size": null,
+      "size_confidence": null,
+      "vehicle_types": [],
+      "vehicle_types_source": null
+    },
+    "scoring": {
+      "score": null,
+      "confidence": null,
+      "rationale": null,
+      "scored_at": null,
+      "previous_score": null
+    },
+    "outreach": {
+      "status": "New",
+      "dm_draft": null,
+      "template_used": null,
+      "client_review": null,
+      "approval_status": null,
+      "do_not_say": [],
+      "dm1_sent": null,
+      "dm2_sent": null,
+      "dm3_sent": null,
+      "response_received": null,
+      "response_category": null,
+      "response_date": null,
+      "calendly_sent": null,
+      "demo_scheduled": null
+    },
+    "pricing": {
+      "annual_value": 948,
+      "tier": "Starter (est.)"
+    },
+    "ghl": {
+      "contact_id": null,
+      "opportunity_id": null,
+      "pipeline_stage": null,
+      "last_sync": null,
+      "in_ghl": false,
+      "tags": []
+    },
+    "market": "San Jose",
+    "lead_source": "discovery_agent_v1",
+    "enrichment_history": [],
+    "notes": null,
+    "created_at": "2026-04-20T04:45:49.251922+00:00",
+    "updated_at": "2026-04-20T04:45:49.251922+00:00",
+    "stale": false,
+    "days_since_activity": 0
+  },
+  {
+    "id": "lead_sjc_003",
+    "company": "Dummy Result for lamborghini rental San Jose",
+    "contact": {
+      "first_name": null,
+      "last_name": null,
+      "title": null,
+      "email": null,
+      "phone": null,
+      "linkedin": null,
+      "ig_personal": null
+    },
+    "company_data": {
+      "ig_handle": null,
+      "ig_followers": null,
+      "website": "https://dummy-lamborghini-rental-San-Jose.com",
+      "address": null,
+      "google_rating": null,
+      "google_reviews": null
+    },
+    "fleet": {
+      "size": null,
+      "size_confidence": null,
+      "vehicle_types": [],
+      "vehicle_types_source": null
+    },
+    "scoring": {
+      "score": null,
+      "confidence": null,
+      "rationale": null,
+      "scored_at": null,
+      "previous_score": null
+    },
+    "outreach": {
+      "status": "New",
+      "dm_draft": null,
+      "template_used": null,
+      "client_review": null,
+      "approval_status": null,
+      "do_not_say": [],
+      "dm1_sent": null,
+      "dm2_sent": null,
+      "dm3_sent": null,
+      "response_received": null,
+      "response_category": null,
+      "response_date": null,
+      "calendly_sent": null,
+      "demo_scheduled": null
+    },
+    "pricing": {
+      "annual_value": 948,
+      "tier": "Starter (est.)"
+    },
+    "ghl": {
+      "contact_id": null,
+      "opportunity_id": null,
+      "pipeline_stage": null,
+      "last_sync": null,
+      "in_ghl": false,
+      "tags": []
+    },
+    "market": "San Jose",
+    "lead_source": "discovery_agent_v1",
+    "enrichment_history": [],
+    "notes": null,
+    "created_at": "2026-04-20T04:45:49.251919+00:00",
+    "updated_at": "2026-04-20T04:45:49.251919+00:00",
+    "stale": false,
+    "days_since_activity": 0
+  },
+  {
+    "id": "lead_sjc_002",
+    "company": "Dummy Result for luxury car rental San Jose",
+    "contact": {
+      "first_name": null,
+      "last_name": null,
+      "title": null,
+      "email": null,
+      "phone": null,
+      "linkedin": null,
+      "ig_personal": null
+    },
+    "company_data": {
+      "ig_handle": null,
+      "ig_followers": null,
+      "website": "https://dummy-luxury-car-rental-San-Jose.com",
+      "address": null,
+      "google_rating": null,
+      "google_reviews": null
+    },
+    "fleet": {
+      "size": null,
+      "size_confidence": null,
+      "vehicle_types": [],
+      "vehicle_types_source": null
+    },
+    "scoring": {
+      "score": null,
+      "confidence": null,
+      "rationale": null,
+      "scored_at": null,
+      "previous_score": null
+    },
+    "outreach": {
+      "status": "New",
+      "dm_draft": null,
+      "template_used": null,
+      "client_review": null,
+      "approval_status": null,
+      "do_not_say": [],
+      "dm1_sent": null,
+      "dm2_sent": null,
+      "dm3_sent": null,
+      "response_received": null,
+      "response_category": null,
+      "response_date": null,
+      "calendly_sent": null,
+      "demo_scheduled": null
+    },
+    "pricing": {
+      "annual_value": 948,
+      "tier": "Starter (est.)"
+    },
+    "ghl": {
+      "contact_id": null,
+      "opportunity_id": null,
+      "pipeline_stage": null,
+      "last_sync": null,
+      "in_ghl": false,
+      "tags": []
+    },
+    "market": "San Jose",
+    "lead_source": "discovery_agent_v1",
+    "enrichment_history": [],
+    "notes": null,
+    "created_at": "2026-04-20T04:45:49.251916+00:00",
+    "updated_at": "2026-04-20T04:45:49.251916+00:00",
+    "stale": false,
+    "days_since_activity": 0
+  },
+  {
+    "id": "lead_sjc_001",
+    "company": "Dummy Result for exotic car rental San Jose",
+    "contact": {
+      "first_name": null,
+      "last_name": null,
+      "title": null,
+      "email": null,
+      "phone": null,
+      "linkedin": null,
+      "ig_personal": null
+    },
+    "company_data": {
+      "ig_handle": null,
+      "ig_followers": null,
+      "website": "https://dummy-exotic-car-rental-San-Jose.com",
+      "address": null,
+      "google_rating": null,
+      "google_reviews": null
+    },
+    "fleet": {
+      "size": null,
+      "size_confidence": null,
+      "vehicle_types": [],
+      "vehicle_types_source": null
+    },
+    "scoring": {
+      "score": null,
+      "confidence": null,
+      "rationale": null,
+      "scored_at": null,
+      "previous_score": null
+    },
+    "outreach": {
+      "status": "New",
+      "dm_draft": null,
+      "template_used": null,
+      "client_review": null,
+      "approval_status": null,
+      "do_not_say": [],
+      "dm1_sent": null,
+      "dm2_sent": null,
+      "dm3_sent": null,
+      "response_received": null,
+      "response_category": null,
+      "response_date": null,
+      "calendly_sent": null,
+      "demo_scheduled": null
+    },
+    "pricing": {
+      "annual_value": 948,
+      "tier": "Starter (est.)"
+    },
+    "ghl": {
+      "contact_id": null,
+      "opportunity_id": null,
+      "pipeline_stage": null,
+      "last_sync": null,
+      "in_ghl": false,
+      "tags": []
+    },
+    "market": "San Jose",
+    "lead_source": "discovery_agent_v1",
+    "enrichment_history": [],
+    "notes": null,
+    "created_at": "2026-04-20T04:45:49.251913+00:00",
+    "updated_at": "2026-04-20T04:45:49.251913+00:00",
+    "stale": false,
+    "days_since_activity": 0
+  },
+  {
+    "id": "lead_aus_005",
+    "company": "Dummy Result for supercar rental Austin",
+    "contact": {
+      "first_name": null,
+      "last_name": null,
+      "title": null,
+      "email": null,
+      "phone": null,
+      "linkedin": null,
+      "ig_personal": null
+    },
+    "company_data": {
+      "ig_handle": null,
+      "ig_followers": null,
+      "website": "https://dummy-supercar-rental-Austin.com",
+      "address": null,
+      "google_rating": null,
+      "google_reviews": null
+    },
+    "fleet": {
+      "size": null,
+      "size_confidence": null,
+      "vehicle_types": [],
+      "vehicle_types_source": null
+    },
+    "scoring": {
+      "score": null,
+      "confidence": null,
+      "rationale": null,
+      "scored_at": null,
+      "previous_score": null
+    },
+    "outreach": {
+      "status": "New",
+      "dm_draft": null,
+      "template_used": null,
+      "client_review": null,
+      "approval_status": null,
+      "do_not_say": [],
+      "dm1_sent": null,
+      "dm2_sent": null,
+      "dm3_sent": null,
+      "response_received": null,
+      "response_category": null,
+      "response_date": null,
+      "calendly_sent": null,
+      "demo_scheduled": null
+    },
+    "pricing": {
+      "annual_value": 948,
+      "tier": "Starter (est.)"
+    },
+    "ghl": {
+      "contact_id": null,
+      "opportunity_id": null,
+      "pipeline_stage": null,
+      "last_sync": null,
+      "in_ghl": false,
+      "tags": []
+    },
+    "market": "Austin",
+    "lead_source": "discovery_agent_v1",
+    "enrichment_history": [],
+    "notes": null,
+    "created_at": "2026-04-20T04:45:49.251909+00:00",
+    "updated_at": "2026-04-20T04:45:49.251909+00:00",
+    "stale": false,
+    "days_since_activity": 0
+  },
+  {
+    "id": "lead_aus_004",
+    "company": "Dummy Result for ferrari rental Austin",
+    "contact": {
+      "first_name": null,
+      "last_name": null,
+      "title": null,
+      "email": null,
+      "phone": null,
+      "linkedin": null,
+      "ig_personal": null
+    },
+    "company_data": {
+      "ig_handle": null,
+      "ig_followers": null,
+      "website": "https://dummy-ferrari-rental-Austin.com",
+      "address": null,
+      "google_rating": null,
+      "google_reviews": null
+    },
+    "fleet": {
+      "size": null,
+      "size_confidence": null,
+      "vehicle_types": [],
+      "vehicle_types_source": null
+    },
+    "scoring": {
+      "score": null,
+      "confidence": null,
+      "rationale": null,
+      "scored_at": null,
+      "previous_score": null
+    },
+    "outreach": {
+      "status": "New",
+      "dm_draft": null,
+      "template_used": null,
+      "client_review": null,
+      "approval_status": null,
+      "do_not_say": [],
+      "dm1_sent": null,
+      "dm2_sent": null,
+      "dm3_sent": null,
+      "response_received": null,
+      "response_category": null,
+      "response_date": null,
+      "calendly_sent": null,
+      "demo_scheduled": null
+    },
+    "pricing": {
+      "annual_value": 948,
+      "tier": "Starter (est.)"
+    },
+    "ghl": {
+      "contact_id": null,
+      "opportunity_id": null,
+      "pipeline_stage": null,
+      "last_sync": null,
+      "in_ghl": false,
+      "tags": []
+    },
+    "market": "Austin",
+    "lead_source": "discovery_agent_v1",
+    "enrichment_history": [],
+    "notes": null,
+    "created_at": "2026-04-20T04:45:49.251906+00:00",
+    "updated_at": "2026-04-20T04:45:49.251906+00:00",
+    "stale": false,
+    "days_since_activity": 0
+  },
+  {
+    "id": "lead_aus_003",
+    "company": "Dummy Result for lamborghini rental Austin",
+    "contact": {
+      "first_name": null,
+      "last_name": null,
+      "title": null,
+      "email": null,
+      "phone": null,
+      "linkedin": null,
+      "ig_personal": null
+    },
+    "company_data": {
+      "ig_handle": null,
+      "ig_followers": null,
+      "website": "https://dummy-lamborghini-rental-Austin.com",
+      "address": null,
+      "google_rating": null,
+      "google_reviews": null
+    },
+    "fleet": {
+      "size": null,
+      "size_confidence": null,
+      "vehicle_types": [],
+      "vehicle_types_source": null
+    },
+    "scoring": {
+      "score": null,
+      "confidence": null,
+      "rationale": null,
+      "scored_at": null,
+      "previous_score": null
+    },
+    "outreach": {
+      "status": "New",
+      "dm_draft": null,
+      "template_used": null,
+      "client_review": null,
+      "approval_status": null,
+      "do_not_say": [],
+      "dm1_sent": null,
+      "dm2_sent": null,
+      "dm3_sent": null,
+      "response_received": null,
+      "response_category": null,
+      "response_date": null,
+      "calendly_sent": null,
+      "demo_scheduled": null
+    },
+    "pricing": {
+      "annual_value": 948,
+      "tier": "Starter (est.)"
+    },
+    "ghl": {
+      "contact_id": null,
+      "opportunity_id": null,
+      "pipeline_stage": null,
+      "last_sync": null,
+      "in_ghl": false,
+      "tags": []
+    },
+    "market": "Austin",
+    "lead_source": "discovery_agent_v1",
+    "enrichment_history": [],
+    "notes": null,
+    "created_at": "2026-04-20T04:45:49.251903+00:00",
+    "updated_at": "2026-04-20T04:45:49.251903+00:00",
+    "stale": false,
+    "days_since_activity": 0
+  },
+  {
+    "id": "lead_aus_002",
+    "company": "Dummy Result for luxury car rental Austin",
+    "contact": {
+      "first_name": null,
+      "last_name": null,
+      "title": null,
+      "email": null,
+      "phone": null,
+      "linkedin": null,
+      "ig_personal": null
+    },
+    "company_data": {
+      "ig_handle": null,
+      "ig_followers": null,
+      "website": "https://dummy-luxury-car-rental-Austin.com",
+      "address": null,
+      "google_rating": null,
+      "google_reviews": null
+    },
+    "fleet": {
+      "size": null,
+      "size_confidence": null,
+      "vehicle_types": [],
+      "vehicle_types_source": null
+    },
+    "scoring": {
+      "score": null,
+      "confidence": null,
+      "rationale": null,
+      "scored_at": null,
+      "previous_score": null
+    },
+    "outreach": {
+      "status": "New",
+      "dm_draft": null,
+      "template_used": null,
+      "client_review": null,
+      "approval_status": null,
+      "do_not_say": [],
+      "dm1_sent": null,
+      "dm2_sent": null,
+      "dm3_sent": null,
+      "response_received": null,
+      "response_category": null,
+      "response_date": null,
+      "calendly_sent": null,
+      "demo_scheduled": null
+    },
+    "pricing": {
+      "annual_value": 948,
+      "tier": "Starter (est.)"
+    },
+    "ghl": {
+      "contact_id": null,
+      "opportunity_id": null,
+      "pipeline_stage": null,
+      "last_sync": null,
+      "in_ghl": false,
+      "tags": []
+    },
+    "market": "Austin",
+    "lead_source": "discovery_agent_v1",
+    "enrichment_history": [],
+    "notes": null,
+    "created_at": "2026-04-20T04:45:49.251899+00:00",
+    "updated_at": "2026-04-20T04:45:49.251899+00:00",
+    "stale": false,
+    "days_since_activity": 0
+  },
+  {
+    "id": "lead_aus_001",
+    "company": "Dummy Result for exotic car rental Austin",
+    "contact": {
+      "first_name": null,
+      "last_name": null,
+      "title": null,
+      "email": null,
+      "phone": null,
+      "linkedin": null,
+      "ig_personal": null
+    },
+    "company_data": {
+      "ig_handle": null,
+      "ig_followers": null,
+      "website": "https://dummy-exotic-car-rental-Austin.com",
+      "address": null,
+      "google_rating": null,
+      "google_reviews": null
+    },
+    "fleet": {
+      "size": null,
+      "size_confidence": null,
+      "vehicle_types": [],
+      "vehicle_types_source": null
+    },
+    "scoring": {
+      "score": null,
+      "confidence": null,
+      "rationale": null,
+      "scored_at": null,
+      "previous_score": null
+    },
+    "outreach": {
+      "status": "New",
+      "dm_draft": null,
+      "template_used": null,
+      "client_review": null,
+      "approval_status": null,
+      "do_not_say": [],
+      "dm1_sent": null,
+      "dm2_sent": null,
+      "dm3_sent": null,
+      "response_received": null,
+      "response_category": null,
+      "response_date": null,
+      "calendly_sent": null,
+      "demo_scheduled": null
+    },
+    "pricing": {
+      "annual_value": 948,
+      "tier": "Starter (est.)"
+    },
+    "ghl": {
+      "contact_id": null,
+      "opportunity_id": null,
+      "pipeline_stage": null,
+      "last_sync": null,
+      "in_ghl": false,
+      "tags": []
+    },
+    "market": "Austin",
+    "lead_source": "discovery_agent_v1",
+    "enrichment_history": [],
+    "notes": null,
+    "created_at": "2026-04-20T04:45:49.251896+00:00",
+    "updated_at": "2026-04-20T04:45:49.251896+00:00",
+    "stale": false,
+    "days_since_activity": 0
+  },
+  {
+    "id": "lead_sat_005",
+    "company": "Dummy Result for supercar rental San Antonio",
+    "contact": {
+      "first_name": null,
+      "last_name": null,
+      "title": null,
+      "email": null,
+      "phone": null,
+      "linkedin": null,
+      "ig_personal": null
+    },
+    "company_data": {
+      "ig_handle": null,
+      "ig_followers": null,
+      "website": "https://dummy-supercar-rental-San-Antonio.com",
+      "address": null,
+      "google_rating": null,
+      "google_reviews": null
+    },
+    "fleet": {
+      "size": null,
+      "size_confidence": null,
+      "vehicle_types": [],
+      "vehicle_types_source": null
+    },
+    "scoring": {
+      "score": null,
+      "confidence": null,
+      "rationale": null,
+      "scored_at": null,
+      "previous_score": null
+    },
+    "outreach": {
+      "status": "New",
+      "dm_draft": null,
+      "template_used": null,
+      "client_review": null,
+      "approval_status": null,
+      "do_not_say": [],
+      "dm1_sent": null,
+      "dm2_sent": null,
+      "dm3_sent": null,
+      "response_received": null,
+      "response_category": null,
+      "response_date": null,
+      "calendly_sent": null,
+      "demo_scheduled": null
+    },
+    "pricing": {
+      "annual_value": 948,
+      "tier": "Starter (est.)"
+    },
+    "ghl": {
+      "contact_id": null,
+      "opportunity_id": null,
+      "pipeline_stage": null,
+      "last_sync": null,
+      "in_ghl": false,
+      "tags": []
+    },
+    "market": "San Antonio",
+    "lead_source": "discovery_agent_v1",
+    "enrichment_history": [],
+    "notes": null,
+    "created_at": "2026-04-20T04:45:49.251893+00:00",
+    "updated_at": "2026-04-20T04:45:49.251893+00:00",
+    "stale": false,
+    "days_since_activity": 0
+  },
+  {
+    "id": "lead_sat_004",
+    "company": "Dummy Result for ferrari rental San Antonio",
+    "contact": {
+      "first_name": null,
+      "last_name": null,
+      "title": null,
+      "email": null,
+      "phone": null,
+      "linkedin": null,
+      "ig_personal": null
+    },
+    "company_data": {
+      "ig_handle": null,
+      "ig_followers": null,
+      "website": "https://dummy-ferrari-rental-San-Antonio.com",
+      "address": null,
+      "google_rating": null,
+      "google_reviews": null
+    },
+    "fleet": {
+      "size": null,
+      "size_confidence": null,
+      "vehicle_types": [],
+      "vehicle_types_source": null
+    },
+    "scoring": {
+      "score": null,
+      "confidence": null,
+      "rationale": null,
+      "scored_at": null,
+      "previous_score": null
+    },
+    "outreach": {
+      "status": "New",
+      "dm_draft": null,
+      "template_used": null,
+      "client_review": null,
+      "approval_status": null,
+      "do_not_say": [],
+      "dm1_sent": null,
+      "dm2_sent": null,
+      "dm3_sent": null,
+      "response_received": null,
+      "response_category": null,
+      "response_date": null,
+      "calendly_sent": null,
+      "demo_scheduled": null
+    },
+    "pricing": {
+      "annual_value": 948,
+      "tier": "Starter (est.)"
+    },
+    "ghl": {
+      "contact_id": null,
+      "opportunity_id": null,
+      "pipeline_stage": null,
+      "last_sync": null,
+      "in_ghl": false,
+      "tags": []
+    },
+    "market": "San Antonio",
+    "lead_source": "discovery_agent_v1",
+    "enrichment_history": [],
+    "notes": null,
+    "created_at": "2026-04-20T04:45:49.251888+00:00",
+    "updated_at": "2026-04-20T04:45:49.251888+00:00",
+    "stale": false,
+    "days_since_activity": 0
+  },
+  {
+    "id": "lead_sat_003",
+    "company": "Dummy Result for lamborghini rental San Antonio",
+    "contact": {
+      "first_name": null,
+      "last_name": null,
+      "title": null,
+      "email": null,
+      "phone": null,
+      "linkedin": null,
+      "ig_personal": null
+    },
+    "company_data": {
+      "ig_handle": null,
+      "ig_followers": null,
+      "website": "https://dummy-lamborghini-rental-San-Antonio.com",
+      "address": null,
+      "google_rating": null,
+      "google_reviews": null
+    },
+    "fleet": {
+      "size": null,
+      "size_confidence": null,
+      "vehicle_types": [],
+      "vehicle_types_source": null
+    },
+    "scoring": {
+      "score": null,
+      "confidence": null,
+      "rationale": null,
+      "scored_at": null,
+      "previous_score": null
+    },
+    "outreach": {
+      "status": "New",
+      "dm_draft": null,
+      "template_used": null,
+      "client_review": null,
+      "approval_status": null,
+      "do_not_say": [],
+      "dm1_sent": null,
+      "dm2_sent": null,
+      "dm3_sent": null,
+      "response_received": null,
+      "response_category": null,
+      "response_date": null,
+      "calendly_sent": null,
+      "demo_scheduled": null
+    },
+    "pricing": {
+      "annual_value": 948,
+      "tier": "Starter (est.)"
+    },
+    "ghl": {
+      "contact_id": null,
+      "opportunity_id": null,
+      "pipeline_stage": null,
+      "last_sync": null,
+      "in_ghl": false,
+      "tags": []
+    },
+    "market": "San Antonio",
+    "lead_source": "discovery_agent_v1",
+    "enrichment_history": [],
+    "notes": null,
+    "created_at": "2026-04-20T04:45:49.251885+00:00",
+    "updated_at": "2026-04-20T04:45:49.251885+00:00",
+    "stale": false,
+    "days_since_activity": 0
+  },
+  {
+    "id": "lead_sat_002",
+    "company": "Dummy Result for luxury car rental San Antonio",
+    "contact": {
+      "first_name": null,
+      "last_name": null,
+      "title": null,
+      "email": null,
+      "phone": null,
+      "linkedin": null,
+      "ig_personal": null
+    },
+    "company_data": {
+      "ig_handle": null,
+      "ig_followers": null,
+      "website": "https://dummy-luxury-car-rental-San-Antonio.com",
+      "address": null,
+      "google_rating": null,
+      "google_reviews": null
+    },
+    "fleet": {
+      "size": null,
+      "size_confidence": null,
+      "vehicle_types": [],
+      "vehicle_types_source": null
+    },
+    "scoring": {
+      "score": null,
+      "confidence": null,
+      "rationale": null,
+      "scored_at": null,
+      "previous_score": null
+    },
+    "outreach": {
+      "status": "New",
+      "dm_draft": null,
+      "template_used": null,
+      "client_review": null,
+      "approval_status": null,
+      "do_not_say": [],
+      "dm1_sent": null,
+      "dm2_sent": null,
+      "dm3_sent": null,
+      "response_received": null,
+      "response_category": null,
+      "response_date": null,
+      "calendly_sent": null,
+      "demo_scheduled": null
+    },
+    "pricing": {
+      "annual_value": 948,
+      "tier": "Starter (est.)"
+    },
+    "ghl": {
+      "contact_id": null,
+      "opportunity_id": null,
+      "pipeline_stage": null,
+      "last_sync": null,
+      "in_ghl": false,
+      "tags": []
+    },
+    "market": "San Antonio",
+    "lead_source": "discovery_agent_v1",
+    "enrichment_history": [],
+    "notes": null,
+    "created_at": "2026-04-20T04:45:49.251881+00:00",
+    "updated_at": "2026-04-20T04:45:49.251881+00:00",
+    "stale": false,
+    "days_since_activity": 0
+  },
+  {
+    "id": "lead_sat_001",
+    "company": "Dummy Result for exotic car rental San Antonio",
+    "contact": {
+      "first_name": null,
+      "last_name": null,
+      "title": null,
+      "email": null,
+      "phone": null,
+      "linkedin": null,
+      "ig_personal": null
+    },
+    "company_data": {
+      "ig_handle": null,
+      "ig_followers": null,
+      "website": "https://dummy-exotic-car-rental-San-Antonio.com",
+      "address": null,
+      "google_rating": null,
+      "google_reviews": null
+    },
+    "fleet": {
+      "size": null,
+      "size_confidence": null,
+      "vehicle_types": [],
+      "vehicle_types_source": null
+    },
+    "scoring": {
+      "score": null,
+      "confidence": null,
+      "rationale": null,
+      "scored_at": null,
+      "previous_score": null
+    },
+    "outreach": {
+      "status": "New",
+      "dm_draft": null,
+      "template_used": null,
+      "client_review": null,
+      "approval_status": null,
+      "do_not_say": [],
+      "dm1_sent": null,
+      "dm2_sent": null,
+      "dm3_sent": null,
+      "response_received": null,
+      "response_category": null,
+      "response_date": null,
+      "calendly_sent": null,
+      "demo_scheduled": null
+    },
+    "pricing": {
+      "annual_value": 948,
+      "tier": "Starter (est.)"
+    },
+    "ghl": {
+      "contact_id": null,
+      "opportunity_id": null,
+      "pipeline_stage": null,
+      "last_sync": null,
+      "in_ghl": false,
+      "tags": []
+    },
+    "market": "San Antonio",
+    "lead_source": "discovery_agent_v1",
+    "enrichment_history": [],
+    "notes": null,
+    "created_at": "2026-04-20T04:45:49.251876+00:00",
+    "updated_at": "2026-04-20T04:45:49.251876+00:00",
+    "stale": false,
+    "days_since_activity": 0
+  },
+  {
+    "id": "lead_san_005",
+    "company": "Dummy Result for supercar rental San Diego",
+    "contact": {
+      "first_name": null,
+      "last_name": null,
+      "title": null,
+      "email": null,
+      "phone": null,
+      "linkedin": null,
+      "ig_personal": null
+    },
+    "company_data": {
+      "ig_handle": null,
+      "ig_followers": null,
+      "website": "https://dummy-supercar-rental-San-Diego.com",
+      "address": null,
+      "google_rating": null,
+      "google_reviews": null
+    },
+    "fleet": {
+      "size": null,
+      "size_confidence": null,
+      "vehicle_types": [],
+      "vehicle_types_source": null
+    },
+    "scoring": {
+      "score": null,
+      "confidence": null,
+      "rationale": null,
+      "scored_at": null,
+      "previous_score": null
+    },
+    "outreach": {
+      "status": "New",
+      "dm_draft": null,
+      "template_used": null,
+      "client_review": null,
+      "approval_status": null,
+      "do_not_say": [],
+      "dm1_sent": null,
+      "dm2_sent": null,
+      "dm3_sent": null,
+      "response_received": null,
+      "response_category": null,
+      "response_date": null,
+      "calendly_sent": null,
+      "demo_scheduled": null
+    },
+    "pricing": {
+      "annual_value": 948,
+      "tier": "Starter (est.)"
+    },
+    "ghl": {
+      "contact_id": null,
+      "opportunity_id": null,
+      "pipeline_stage": null,
+      "last_sync": null,
+      "in_ghl": false,
+      "tags": []
+    },
+    "market": "San Diego",
+    "lead_source": "discovery_agent_v1",
+    "enrichment_history": [],
+    "notes": null,
+    "created_at": "2026-04-20T04:45:49.251871+00:00",
+    "updated_at": "2026-04-20T04:45:49.251871+00:00",
+    "stale": false,
+    "days_since_activity": 0
+  },
+  {
+    "id": "lead_san_004",
+    "company": "Dummy Result for ferrari rental San Diego",
+    "contact": {
+      "first_name": null,
+      "last_name": null,
+      "title": null,
+      "email": null,
+      "phone": null,
+      "linkedin": null,
+      "ig_personal": null
+    },
+    "company_data": {
+      "ig_handle": null,
+      "ig_followers": null,
+      "website": "https://dummy-ferrari-rental-San-Diego.com",
+      "address": null,
+      "google_rating": null,
+      "google_reviews": null
+    },
+    "fleet": {
+      "size": null,
+      "size_confidence": null,
+      "vehicle_types": [],
+      "vehicle_types_source": null
+    },
+    "scoring": {
+      "score": null,
+      "confidence": null,
+      "rationale": null,
+      "scored_at": null,
+      "previous_score": null
+    },
+    "outreach": {
+      "status": "New",
+      "dm_draft": null,
+      "template_used": null,
+      "client_review": null,
+      "approval_status": null,
+      "do_not_say": [],
+      "dm1_sent": null,
+      "dm2_sent": null,
+      "dm3_sent": null,
+      "response_received": null,
+      "response_category": null,
+      "response_date": null,
+      "calendly_sent": null,
+      "demo_scheduled": null
+    },
+    "pricing": {
+      "annual_value": 948,
+      "tier": "Starter (est.)"
+    },
+    "ghl": {
+      "contact_id": null,
+      "opportunity_id": null,
+      "pipeline_stage": null,
+      "last_sync": null,
+      "in_ghl": false,
+      "tags": []
+    },
+    "market": "San Diego",
+    "lead_source": "discovery_agent_v1",
+    "enrichment_history": [],
+    "notes": null,
+    "created_at": "2026-04-20T04:45:49.251868+00:00",
+    "updated_at": "2026-04-20T04:45:49.251868+00:00",
+    "stale": false,
+    "days_since_activity": 0
+  },
+  {
+    "id": "lead_san_003",
+    "company": "Dummy Result for lamborghini rental San Diego",
+    "contact": {
+      "first_name": null,
+      "last_name": null,
+      "title": null,
+      "email": null,
+      "phone": null,
+      "linkedin": null,
+      "ig_personal": null
+    },
+    "company_data": {
+      "ig_handle": null,
+      "ig_followers": null,
+      "website": "https://dummy-lamborghini-rental-San-Diego.com",
+      "address": null,
+      "google_rating": null,
+      "google_reviews": null
+    },
+    "fleet": {
+      "size": null,
+      "size_confidence": null,
+      "vehicle_types": [],
+      "vehicle_types_source": null
+    },
+    "scoring": {
+      "score": null,
+      "confidence": null,
+      "rationale": null,
+      "scored_at": null,
+      "previous_score": null
+    },
+    "outreach": {
+      "status": "New",
+      "dm_draft": null,
+      "template_used": null,
+      "client_review": null,
+      "approval_status": null,
+      "do_not_say": [],
+      "dm1_sent": null,
+      "dm2_sent": null,
+      "dm3_sent": null,
+      "response_received": null,
+      "response_category": null,
+      "response_date": null,
+      "calendly_sent": null,
+      "demo_scheduled": null
+    },
+    "pricing": {
+      "annual_value": 948,
+      "tier": "Starter (est.)"
+    },
+    "ghl": {
+      "contact_id": null,
+      "opportunity_id": null,
+      "pipeline_stage": null,
+      "last_sync": null,
+      "in_ghl": false,
+      "tags": []
+    },
+    "market": "San Diego",
+    "lead_source": "discovery_agent_v1",
+    "enrichment_history": [],
+    "notes": null,
+    "created_at": "2026-04-20T04:45:49.251865+00:00",
+    "updated_at": "2026-04-20T04:45:49.251865+00:00",
+    "stale": false,
+    "days_since_activity": 0
+  },
+  {
+    "id": "lead_san_002",
+    "company": "Dummy Result for luxury car rental San Diego",
+    "contact": {
+      "first_name": null,
+      "last_name": null,
+      "title": null,
+      "email": null,
+      "phone": null,
+      "linkedin": null,
+      "ig_personal": null
+    },
+    "company_data": {
+      "ig_handle": null,
+      "ig_followers": null,
+      "website": "https://dummy-luxury-car-rental-San-Diego.com",
+      "address": null,
+      "google_rating": null,
+      "google_reviews": null
+    },
+    "fleet": {
+      "size": null,
+      "size_confidence": null,
+      "vehicle_types": [],
+      "vehicle_types_source": null
+    },
+    "scoring": {
+      "score": null,
+      "confidence": null,
+      "rationale": null,
+      "scored_at": null,
+      "previous_score": null
+    },
+    "outreach": {
+      "status": "New",
+      "dm_draft": null,
+      "template_used": null,
+      "client_review": null,
+      "approval_status": null,
+      "do_not_say": [],
+      "dm1_sent": null,
+      "dm2_sent": null,
+      "dm3_sent": null,
+      "response_received": null,
+      "response_category": null,
+      "response_date": null,
+      "calendly_sent": null,
+      "demo_scheduled": null
+    },
+    "pricing": {
+      "annual_value": 948,
+      "tier": "Starter (est.)"
+    },
+    "ghl": {
+      "contact_id": null,
+      "opportunity_id": null,
+      "pipeline_stage": null,
+      "last_sync": null,
+      "in_ghl": false,
+      "tags": []
+    },
+    "market": "San Diego",
+    "lead_source": "discovery_agent_v1",
+    "enrichment_history": [],
+    "notes": null,
+    "created_at": "2026-04-20T04:45:49.251862+00:00",
+    "updated_at": "2026-04-20T04:45:49.251862+00:00",
+    "stale": false,
+    "days_since_activity": 0
+  },
+  {
+    "id": "lead_san_001",
+    "company": "Dummy Result for exotic car rental San Diego",
+    "contact": {
+      "first_name": null,
+      "last_name": null,
+      "title": null,
+      "email": null,
+      "phone": null,
+      "linkedin": null,
+      "ig_personal": null
+    },
+    "company_data": {
+      "ig_handle": null,
+      "ig_followers": null,
+      "website": "https://dummy-exotic-car-rental-San-Diego.com",
+      "address": null,
+      "google_rating": null,
+      "google_reviews": null
+    },
+    "fleet": {
+      "size": null,
+      "size_confidence": null,
+      "vehicle_types": [],
+      "vehicle_types_source": null
+    },
+    "scoring": {
+      "score": null,
+      "confidence": null,
+      "rationale": null,
+      "scored_at": null,
+      "previous_score": null
+    },
+    "outreach": {
+      "status": "New",
+      "dm_draft": null,
+      "template_used": null,
+      "client_review": null,
+      "approval_status": null,
+      "do_not_say": [],
+      "dm1_sent": null,
+      "dm2_sent": null,
+      "dm3_sent": null,
+      "response_received": null,
+      "response_category": null,
+      "response_date": null,
+      "calendly_sent": null,
+      "demo_scheduled": null
+    },
+    "pricing": {
+      "annual_value": 948,
+      "tier": "Starter (est.)"
+    },
+    "ghl": {
+      "contact_id": null,
+      "opportunity_id": null,
+      "pipeline_stage": null,
+      "last_sync": null,
+      "in_ghl": false,
+      "tags": []
+    },
+    "market": "San Diego",
+    "lead_source": "discovery_agent_v1",
+    "enrichment_history": [],
+    "notes": null,
+    "created_at": "2026-04-20T04:45:49.251859+00:00",
+    "updated_at": "2026-04-20T04:45:49.251859+00:00",
+    "stale": false,
+    "days_since_activity": 0
+  },
+  {
+    "id": "lead_phl_005",
+    "company": "Dummy Result for supercar rental Philadelphia",
+    "contact": {
+      "first_name": null,
+      "last_name": null,
+      "title": null,
+      "email": null,
+      "phone": null,
+      "linkedin": null,
+      "ig_personal": null
+    },
+    "company_data": {
+      "ig_handle": null,
+      "ig_followers": null,
+      "website": "https://dummy-supercar-rental-Philadelphia.com",
+      "address": null,
+      "google_rating": null,
+      "google_reviews": null
+    },
+    "fleet": {
+      "size": null,
+      "size_confidence": null,
+      "vehicle_types": [],
+      "vehicle_types_source": null
+    },
+    "scoring": {
+      "score": null,
+      "confidence": null,
+      "rationale": null,
+      "scored_at": null,
+      "previous_score": null
+    },
+    "outreach": {
+      "status": "New",
+      "dm_draft": null,
+      "template_used": null,
+      "client_review": null,
+      "approval_status": null,
+      "do_not_say": [],
+      "dm1_sent": null,
+      "dm2_sent": null,
+      "dm3_sent": null,
+      "response_received": null,
+      "response_category": null,
+      "response_date": null,
+      "calendly_sent": null,
+      "demo_scheduled": null
+    },
+    "pricing": {
+      "annual_value": 948,
+      "tier": "Starter (est.)"
+    },
+    "ghl": {
+      "contact_id": null,
+      "opportunity_id": null,
+      "pipeline_stage": null,
+      "last_sync": null,
+      "in_ghl": false,
+      "tags": []
+    },
+    "market": "Philadelphia",
+    "lead_source": "discovery_agent_v1",
+    "enrichment_history": [],
+    "notes": null,
+    "created_at": "2026-04-20T04:45:49.251855+00:00",
+    "updated_at": "2026-04-20T04:45:49.251855+00:00",
+    "stale": false,
+    "days_since_activity": 0
+  },
+  {
+    "id": "lead_phl_004",
+    "company": "Dummy Result for ferrari rental Philadelphia",
+    "contact": {
+      "first_name": null,
+      "last_name": null,
+      "title": null,
+      "email": null,
+      "phone": null,
+      "linkedin": null,
+      "ig_personal": null
+    },
+    "company_data": {
+      "ig_handle": null,
+      "ig_followers": null,
+      "website": "https://dummy-ferrari-rental-Philadelphia.com",
+      "address": null,
+      "google_rating": null,
+      "google_reviews": null
+    },
+    "fleet": {
+      "size": null,
+      "size_confidence": null,
+      "vehicle_types": [],
+      "vehicle_types_source": null
+    },
+    "scoring": {
+      "score": null,
+      "confidence": null,
+      "rationale": null,
+      "scored_at": null,
+      "previous_score": null
+    },
+    "outreach": {
+      "status": "New",
+      "dm_draft": null,
+      "template_used": null,
+      "client_review": null,
+      "approval_status": null,
+      "do_not_say": [],
+      "dm1_sent": null,
+      "dm2_sent": null,
+      "dm3_sent": null,
+      "response_received": null,
+      "response_category": null,
+      "response_date": null,
+      "calendly_sent": null,
+      "demo_scheduled": null
+    },
+    "pricing": {
+      "annual_value": 948,
+      "tier": "Starter (est.)"
+    },
+    "ghl": {
+      "contact_id": null,
+      "opportunity_id": null,
+      "pipeline_stage": null,
+      "last_sync": null,
+      "in_ghl": false,
+      "tags": []
+    },
+    "market": "Philadelphia",
+    "lead_source": "discovery_agent_v1",
+    "enrichment_history": [],
+    "notes": null,
+    "created_at": "2026-04-20T04:45:49.251852+00:00",
+    "updated_at": "2026-04-20T04:45:49.251852+00:00",
+    "stale": false,
+    "days_since_activity": 0
+  },
+  {
+    "id": "lead_phl_003",
+    "company": "Dummy Result for lamborghini rental Philadelphia",
+    "contact": {
+      "first_name": null,
+      "last_name": null,
+      "title": null,
+      "email": null,
+      "phone": null,
+      "linkedin": null,
+      "ig_personal": null
+    },
+    "company_data": {
+      "ig_handle": null,
+      "ig_followers": null,
+      "website": "https://dummy-lamborghini-rental-Philadelphia.com",
+      "address": null,
+      "google_rating": null,
+      "google_reviews": null
+    },
+    "fleet": {
+      "size": null,
+      "size_confidence": null,
+      "vehicle_types": [],
+      "vehicle_types_source": null
+    },
+    "scoring": {
+      "score": null,
+      "confidence": null,
+      "rationale": null,
+      "scored_at": null,
+      "previous_score": null
+    },
+    "outreach": {
+      "status": "New",
+      "dm_draft": null,
+      "template_used": null,
+      "client_review": null,
+      "approval_status": null,
+      "do_not_say": [],
+      "dm1_sent": null,
+      "dm2_sent": null,
+      "dm3_sent": null,
+      "response_received": null,
+      "response_category": null,
+      "response_date": null,
+      "calendly_sent": null,
+      "demo_scheduled": null
+    },
+    "pricing": {
+      "annual_value": 948,
+      "tier": "Starter (est.)"
+    },
+    "ghl": {
+      "contact_id": null,
+      "opportunity_id": null,
+      "pipeline_stage": null,
+      "last_sync": null,
+      "in_ghl": false,
+      "tags": []
+    },
+    "market": "Philadelphia",
+    "lead_source": "discovery_agent_v1",
+    "enrichment_history": [],
+    "notes": null,
+    "created_at": "2026-04-20T04:45:49.251849+00:00",
+    "updated_at": "2026-04-20T04:45:49.251849+00:00",
+    "stale": false,
+    "days_since_activity": 0
+  },
+  {
+    "id": "lead_phl_002",
+    "company": "Dummy Result for luxury car rental Philadelphia",
+    "contact": {
+      "first_name": null,
+      "last_name": null,
+      "title": null,
+      "email": null,
+      "phone": null,
+      "linkedin": null,
+      "ig_personal": null
+    },
+    "company_data": {
+      "ig_handle": null,
+      "ig_followers": null,
+      "website": "https://dummy-luxury-car-rental-Philadelphia.com",
+      "address": null,
+      "google_rating": null,
+      "google_reviews": null
+    },
+    "fleet": {
+      "size": null,
+      "size_confidence": null,
+      "vehicle_types": [],
+      "vehicle_types_source": null
+    },
+    "scoring": {
+      "score": null,
+      "confidence": null,
+      "rationale": null,
+      "scored_at": null,
+      "previous_score": null
+    },
+    "outreach": {
+      "status": "New",
+      "dm_draft": null,
+      "template_used": null,
+      "client_review": null,
+      "approval_status": null,
+      "do_not_say": [],
+      "dm1_sent": null,
+      "dm2_sent": null,
+      "dm3_sent": null,
+      "response_received": null,
+      "response_category": null,
+      "response_date": null,
+      "calendly_sent": null,
+      "demo_scheduled": null
+    },
+    "pricing": {
+      "annual_value": 948,
+      "tier": "Starter (est.)"
+    },
+    "ghl": {
+      "contact_id": null,
+      "opportunity_id": null,
+      "pipeline_stage": null,
+      "last_sync": null,
+      "in_ghl": false,
+      "tags": []
+    },
+    "market": "Philadelphia",
+    "lead_source": "discovery_agent_v1",
+    "enrichment_history": [],
+    "notes": null,
+    "created_at": "2026-04-20T04:45:49.251845+00:00",
+    "updated_at": "2026-04-20T04:45:49.251845+00:00",
+    "stale": false,
+    "days_since_activity": 0
+  },
+  {
+    "id": "lead_phl_001",
+    "company": "Dummy Result for exotic car rental Philadelphia",
+    "contact": {
+      "first_name": null,
+      "last_name": null,
+      "title": null,
+      "email": null,
+      "phone": null,
+      "linkedin": null,
+      "ig_personal": null
+    },
+    "company_data": {
+      "ig_handle": null,
+      "ig_followers": null,
+      "website": "https://dummy-exotic-car-rental-Philadelphia.com",
+      "address": null,
+      "google_rating": null,
+      "google_reviews": null
+    },
+    "fleet": {
+      "size": null,
+      "size_confidence": null,
+      "vehicle_types": [],
+      "vehicle_types_source": null
+    },
+    "scoring": {
+      "score": null,
+      "confidence": null,
+      "rationale": null,
+      "scored_at": null,
+      "previous_score": null
+    },
+    "outreach": {
+      "status": "New",
+      "dm_draft": null,
+      "template_used": null,
+      "client_review": null,
+      "approval_status": null,
+      "do_not_say": [],
+      "dm1_sent": null,
+      "dm2_sent": null,
+      "dm3_sent": null,
+      "response_received": null,
+      "response_category": null,
+      "response_date": null,
+      "calendly_sent": null,
+      "demo_scheduled": null
+    },
+    "pricing": {
+      "annual_value": 948,
+      "tier": "Starter (est.)"
+    },
+    "ghl": {
+      "contact_id": null,
+      "opportunity_id": null,
+      "pipeline_stage": null,
+      "last_sync": null,
+      "in_ghl": false,
+      "tags": []
+    },
+    "market": "Philadelphia",
+    "lead_source": "discovery_agent_v1",
+    "enrichment_history": [],
+    "notes": null,
+    "created_at": "2026-04-20T04:45:49.251840+00:00",
+    "updated_at": "2026-04-20T04:45:49.251840+00:00",
+    "stale": false,
+    "days_since_activity": 0
+  },
+  {
+    "id": "lead_chi_006",
+    "company": "Dummy Result for supercar rental Chicago",
+    "contact": {
+      "first_name": null,
+      "last_name": null,
+      "title": null,
+      "email": null,
+      "phone": null,
+      "linkedin": null,
+      "ig_personal": null
+    },
+    "company_data": {
+      "ig_handle": null,
+      "ig_followers": null,
+      "website": "https://dummy-supercar-rental-Chicago.com",
+      "address": null,
+      "google_rating": null,
+      "google_reviews": null
+    },
+    "fleet": {
+      "size": null,
+      "size_confidence": null,
+      "vehicle_types": [],
+      "vehicle_types_source": null
+    },
+    "scoring": {
+      "score": null,
+      "confidence": null,
+      "rationale": null,
+      "scored_at": null,
+      "previous_score": null
+    },
+    "outreach": {
+      "status": "New",
+      "dm_draft": null,
+      "template_used": null,
+      "client_review": null,
+      "approval_status": null,
+      "do_not_say": [],
+      "dm1_sent": null,
+      "dm2_sent": null,
+      "dm3_sent": null,
+      "response_received": null,
+      "response_category": null,
+      "response_date": null,
+      "calendly_sent": null,
+      "demo_scheduled": null
+    },
+    "pricing": {
+      "annual_value": 948,
+      "tier": "Starter (est.)"
+    },
+    "ghl": {
+      "contact_id": null,
+      "opportunity_id": null,
+      "pipeline_stage": null,
+      "last_sync": null,
+      "in_ghl": false,
+      "tags": []
+    },
+    "market": "Chicago",
+    "lead_source": "discovery_agent_v1",
+    "enrichment_history": [],
+    "notes": null,
+    "created_at": "2026-04-20T04:45:49.251837+00:00",
+    "updated_at": "2026-04-20T04:45:49.251837+00:00",
+    "stale": false,
+    "days_since_activity": 0
+  },
+  {
+    "id": "lead_chi_005",
+    "company": "Dummy Result for ferrari rental Chicago",
+    "contact": {
+      "first_name": null,
+      "last_name": null,
+      "title": null,
+      "email": null,
+      "phone": null,
+      "linkedin": null,
+      "ig_personal": null
+    },
+    "company_data": {
+      "ig_handle": null,
+      "ig_followers": null,
+      "website": "https://dummy-ferrari-rental-Chicago.com",
+      "address": null,
+      "google_rating": null,
+      "google_reviews": null
+    },
+    "fleet": {
+      "size": null,
+      "size_confidence": null,
+      "vehicle_types": [],
+      "vehicle_types_source": null
+    },
+    "scoring": {
+      "score": null,
+      "confidence": null,
+      "rationale": null,
+      "scored_at": null,
+      "previous_score": null
+    },
+    "outreach": {
+      "status": "New",
+      "dm_draft": null,
+      "template_used": null,
+      "client_review": null,
+      "approval_status": null,
+      "do_not_say": [],
+      "dm1_sent": null,
+      "dm2_sent": null,
+      "dm3_sent": null,
+      "response_received": null,
+      "response_category": null,
+      "response_date": null,
+      "calendly_sent": null,
+      "demo_scheduled": null
+    },
+    "pricing": {
+      "annual_value": 948,
+      "tier": "Starter (est.)"
+    },
+    "ghl": {
+      "contact_id": null,
+      "opportunity_id": null,
+      "pipeline_stage": null,
+      "last_sync": null,
+      "in_ghl": false,
+      "tags": []
+    },
+    "market": "Chicago",
+    "lead_source": "discovery_agent_v1",
+    "enrichment_history": [],
+    "notes": null,
+    "created_at": "2026-04-20T04:45:49.251834+00:00",
+    "updated_at": "2026-04-20T04:45:49.251834+00:00",
+    "stale": false,
+    "days_since_activity": 0
+  },
+  {
+    "id": "lead_chi_004",
+    "company": "Dummy Result for lamborghini rental Chicago",
+    "contact": {
+      "first_name": null,
+      "last_name": null,
+      "title": null,
+      "email": null,
+      "phone": null,
+      "linkedin": null,
+      "ig_personal": null
+    },
+    "company_data": {
+      "ig_handle": null,
+      "ig_followers": null,
+      "website": "https://dummy-lamborghini-rental-Chicago.com",
+      "address": null,
+      "google_rating": null,
+      "google_reviews": null
+    },
+    "fleet": {
+      "size": null,
+      "size_confidence": null,
+      "vehicle_types": [],
+      "vehicle_types_source": null
+    },
+    "scoring": {
+      "score": null,
+      "confidence": null,
+      "rationale": null,
+      "scored_at": null,
+      "previous_score": null
+    },
+    "outreach": {
+      "status": "New",
+      "dm_draft": null,
+      "template_used": null,
+      "client_review": null,
+      "approval_status": null,
+      "do_not_say": [],
+      "dm1_sent": null,
+      "dm2_sent": null,
+      "dm3_sent": null,
+      "response_received": null,
+      "response_category": null,
+      "response_date": null,
+      "calendly_sent": null,
+      "demo_scheduled": null
+    },
+    "pricing": {
+      "annual_value": 948,
+      "tier": "Starter (est.)"
+    },
+    "ghl": {
+      "contact_id": null,
+      "opportunity_id": null,
+      "pipeline_stage": null,
+      "last_sync": null,
+      "in_ghl": false,
+      "tags": []
+    },
+    "market": "Chicago",
+    "lead_source": "discovery_agent_v1",
+    "enrichment_history": [],
+    "notes": null,
+    "created_at": "2026-04-20T04:45:49.251831+00:00",
+    "updated_at": "2026-04-20T04:45:49.251831+00:00",
+    "stale": false,
+    "days_since_activity": 0
+  },
+  {
+    "id": "lead_chi_003",
+    "company": "Dummy Result for luxury car rental Chicago",
+    "contact": {
+      "first_name": null,
+      "last_name": null,
+      "title": null,
+      "email": null,
+      "phone": null,
+      "linkedin": null,
+      "ig_personal": null
+    },
+    "company_data": {
+      "ig_handle": null,
+      "ig_followers": null,
+      "website": "https://dummy-luxury-car-rental-Chicago.com",
+      "address": null,
+      "google_rating": null,
+      "google_reviews": null
+    },
+    "fleet": {
+      "size": null,
+      "size_confidence": null,
+      "vehicle_types": [],
+      "vehicle_types_source": null
+    },
+    "scoring": {
+      "score": null,
+      "confidence": null,
+      "rationale": null,
+      "scored_at": null,
+      "previous_score": null
+    },
+    "outreach": {
+      "status": "New",
+      "dm_draft": null,
+      "template_used": null,
+      "client_review": null,
+      "approval_status": null,
+      "do_not_say": [],
+      "dm1_sent": null,
+      "dm2_sent": null,
+      "dm3_sent": null,
+      "response_received": null,
+      "response_category": null,
+      "response_date": null,
+      "calendly_sent": null,
+      "demo_scheduled": null
+    },
+    "pricing": {
+      "annual_value": 948,
+      "tier": "Starter (est.)"
+    },
+    "ghl": {
+      "contact_id": null,
+      "opportunity_id": null,
+      "pipeline_stage": null,
+      "last_sync": null,
+      "in_ghl": false,
+      "tags": []
+    },
+    "market": "Chicago",
+    "lead_source": "discovery_agent_v1",
+    "enrichment_history": [],
+    "notes": null,
+    "created_at": "2026-04-20T04:45:49.251827+00:00",
+    "updated_at": "2026-04-20T04:45:49.251827+00:00",
+    "stale": false,
+    "days_since_activity": 0
+  },
+  {
+    "id": "lead_chi_002",
+    "company": "Dummy Result for exotic car rental Chicago",
+    "contact": {
+      "first_name": null,
+      "last_name": null,
+      "title": null,
+      "email": null,
+      "phone": null,
+      "linkedin": null,
+      "ig_personal": null
+    },
+    "company_data": {
+      "ig_handle": null,
+      "ig_followers": null,
+      "website": "https://dummy-exotic-car-rental-Chicago.com",
+      "address": null,
+      "google_rating": null,
+      "google_reviews": null
+    },
+    "fleet": {
+      "size": null,
+      "size_confidence": null,
+      "vehicle_types": [],
+      "vehicle_types_source": null
+    },
+    "scoring": {
+      "score": null,
+      "confidence": null,
+      "rationale": null,
+      "scored_at": null,
+      "previous_score": null
+    },
+    "outreach": {
+      "status": "New",
+      "dm_draft": null,
+      "template_used": null,
+      "client_review": null,
+      "approval_status": null,
+      "do_not_say": [],
+      "dm1_sent": null,
+      "dm2_sent": null,
+      "dm3_sent": null,
+      "response_received": null,
+      "response_category": null,
+      "response_date": null,
+      "calendly_sent": null,
+      "demo_scheduled": null
+    },
+    "pricing": {
+      "annual_value": 948,
+      "tier": "Starter (est.)"
+    },
+    "ghl": {
+      "contact_id": null,
+      "opportunity_id": null,
+      "pipeline_stage": null,
+      "last_sync": null,
+      "in_ghl": false,
+      "tags": []
+    },
+    "market": "Chicago",
+    "lead_source": "discovery_agent_v1",
+    "enrichment_history": [],
+    "notes": null,
+    "created_at": "2026-04-20T04:45:49.251824+00:00",
+    "updated_at": "2026-04-20T04:45:49.251824+00:00",
+    "stale": false,
+    "days_since_activity": 0
+  },
+  {
+    "id": "lead_dal_005",
+    "company": "Dummy Result for supercar rental Dallas",
+    "contact": {
+      "first_name": null,
+      "last_name": null,
+      "title": null,
+      "email": null,
+      "phone": null,
+      "linkedin": null,
+      "ig_personal": null
+    },
+    "company_data": {
+      "ig_handle": null,
+      "ig_followers": null,
+      "website": "https://dummy-supercar-rental-Dallas.com",
+      "address": null,
+      "google_rating": null,
+      "google_reviews": null
+    },
+    "fleet": {
+      "size": null,
+      "size_confidence": null,
+      "vehicle_types": [],
+      "vehicle_types_source": null
+    },
+    "scoring": {
+      "score": null,
+      "confidence": null,
+      "rationale": null,
+      "scored_at": null,
+      "previous_score": null
+    },
+    "outreach": {
+      "status": "New",
+      "dm_draft": null,
+      "template_used": null,
+      "client_review": null,
+      "approval_status": null,
+      "do_not_say": [],
+      "dm1_sent": null,
+      "dm2_sent": null,
+      "dm3_sent": null,
+      "response_received": null,
+      "response_category": null,
+      "response_date": null,
+      "calendly_sent": null,
+      "demo_scheduled": null
+    },
+    "pricing": {
+      "annual_value": 948,
+      "tier": "Starter (est.)"
+    },
+    "ghl": {
+      "contact_id": null,
+      "opportunity_id": null,
+      "pipeline_stage": null,
+      "last_sync": null,
+      "in_ghl": false,
+      "tags": []
+    },
+    "market": "Dallas",
+    "lead_source": "discovery_agent_v1",
+    "enrichment_history": [],
+    "notes": null,
+    "created_at": "2026-04-20T04:45:49.251821+00:00",
+    "updated_at": "2026-04-20T04:45:49.251821+00:00",
+    "stale": false,
+    "days_since_activity": 0
+  },
+  {
+    "id": "lead_dal_004",
+    "company": "Dummy Result for ferrari rental Dallas",
+    "contact": {
+      "first_name": null,
+      "last_name": null,
+      "title": null,
+      "email": null,
+      "phone": null,
+      "linkedin": null,
+      "ig_personal": null
+    },
+    "company_data": {
+      "ig_handle": null,
+      "ig_followers": null,
+      "website": "https://dummy-ferrari-rental-Dallas.com",
+      "address": null,
+      "google_rating": null,
+      "google_reviews": null
+    },
+    "fleet": {
+      "size": null,
+      "size_confidence": null,
+      "vehicle_types": [],
+      "vehicle_types_source": null
+    },
+    "scoring": {
+      "score": null,
+      "confidence": null,
+      "rationale": null,
+      "scored_at": null,
+      "previous_score": null
+    },
+    "outreach": {
+      "status": "New",
+      "dm_draft": null,
+      "template_used": null,
+      "client_review": null,
+      "approval_status": null,
+      "do_not_say": [],
+      "dm1_sent": null,
+      "dm2_sent": null,
+      "dm3_sent": null,
+      "response_received": null,
+      "response_category": null,
+      "response_date": null,
+      "calendly_sent": null,
+      "demo_scheduled": null
+    },
+    "pricing": {
+      "annual_value": 948,
+      "tier": "Starter (est.)"
+    },
+    "ghl": {
+      "contact_id": null,
+      "opportunity_id": null,
+      "pipeline_stage": null,
+      "last_sync": null,
+      "in_ghl": false,
+      "tags": []
+    },
+    "market": "Dallas",
+    "lead_source": "discovery_agent_v1",
+    "enrichment_history": [],
+    "notes": null,
+    "created_at": "2026-04-20T04:45:49.251818+00:00",
+    "updated_at": "2026-04-20T04:45:49.251818+00:00",
+    "stale": false,
+    "days_since_activity": 0
+  },
+  {
+    "id": "lead_dal_003",
+    "company": "Dummy Result for lamborghini rental Dallas",
+    "contact": {
+      "first_name": null,
+      "last_name": null,
+      "title": null,
+      "email": null,
+      "phone": null,
+      "linkedin": null,
+      "ig_personal": null
+    },
+    "company_data": {
+      "ig_handle": null,
+      "ig_followers": null,
+      "website": "https://dummy-lamborghini-rental-Dallas.com",
+      "address": null,
+      "google_rating": null,
+      "google_reviews": null
+    },
+    "fleet": {
+      "size": null,
+      "size_confidence": null,
+      "vehicle_types": [],
+      "vehicle_types_source": null
+    },
+    "scoring": {
+      "score": null,
+      "confidence": null,
+      "rationale": null,
+      "scored_at": null,
+      "previous_score": null
+    },
+    "outreach": {
+      "status": "New",
+      "dm_draft": null,
+      "template_used": null,
+      "client_review": null,
+      "approval_status": null,
+      "do_not_say": [],
+      "dm1_sent": null,
+      "dm2_sent": null,
+      "dm3_sent": null,
+      "response_received": null,
+      "response_category": null,
+      "response_date": null,
+      "calendly_sent": null,
+      "demo_scheduled": null
+    },
+    "pricing": {
+      "annual_value": 948,
+      "tier": "Starter (est.)"
+    },
+    "ghl": {
+      "contact_id": null,
+      "opportunity_id": null,
+      "pipeline_stage": null,
+      "last_sync": null,
+      "in_ghl": false,
+      "tags": []
+    },
+    "market": "Dallas",
+    "lead_source": "discovery_agent_v1",
+    "enrichment_history": [],
+    "notes": null,
+    "created_at": "2026-04-20T04:45:49.251815+00:00",
+    "updated_at": "2026-04-20T04:45:49.251815+00:00",
+    "stale": false,
+    "days_since_activity": 0
+  },
+  {
+    "id": "lead_dal_002",
+    "company": "Dummy Result for luxury car rental Dallas",
+    "contact": {
+      "first_name": null,
+      "last_name": null,
+      "title": null,
+      "email": null,
+      "phone": null,
+      "linkedin": null,
+      "ig_personal": null
+    },
+    "company_data": {
+      "ig_handle": null,
+      "ig_followers": null,
+      "website": "https://dummy-luxury-car-rental-Dallas.com",
+      "address": null,
+      "google_rating": null,
+      "google_reviews": null
+    },
+    "fleet": {
+      "size": null,
+      "size_confidence": null,
+      "vehicle_types": [],
+      "vehicle_types_source": null
+    },
+    "scoring": {
+      "score": null,
+      "confidence": null,
+      "rationale": null,
+      "scored_at": null,
+      "previous_score": null
+    },
+    "outreach": {
+      "status": "New",
+      "dm_draft": null,
+      "template_used": null,
+      "client_review": null,
+      "approval_status": null,
+      "do_not_say": [],
+      "dm1_sent": null,
+      "dm2_sent": null,
+      "dm3_sent": null,
+      "response_received": null,
+      "response_category": null,
+      "response_date": null,
+      "calendly_sent": null,
+      "demo_scheduled": null
+    },
+    "pricing": {
+      "annual_value": 948,
+      "tier": "Starter (est.)"
+    },
+    "ghl": {
+      "contact_id": null,
+      "opportunity_id": null,
+      "pipeline_stage": null,
+      "last_sync": null,
+      "in_ghl": false,
+      "tags": []
+    },
+    "market": "Dallas",
+    "lead_source": "discovery_agent_v1",
+    "enrichment_history": [],
+    "notes": null,
+    "created_at": "2026-04-20T04:45:49.251811+00:00",
+    "updated_at": "2026-04-20T04:45:49.251811+00:00",
+    "stale": false,
+    "days_since_activity": 0
+  },
+  {
+    "id": "lead_dal_001",
+    "company": "Dummy Result for exotic car rental Dallas",
+    "contact": {
+      "first_name": null,
+      "last_name": null,
+      "title": null,
+      "email": null,
+      "phone": null,
+      "linkedin": null,
+      "ig_personal": null
+    },
+    "company_data": {
+      "ig_handle": null,
+      "ig_followers": null,
+      "website": "https://dummy-exotic-car-rental-Dallas.com",
+      "address": null,
+      "google_rating": null,
+      "google_reviews": null
+    },
+    "fleet": {
+      "size": null,
+      "size_confidence": null,
+      "vehicle_types": [],
+      "vehicle_types_source": null
+    },
+    "scoring": {
+      "score": null,
+      "confidence": null,
+      "rationale": null,
+      "scored_at": null,
+      "previous_score": null
+    },
+    "outreach": {
+      "status": "New",
+      "dm_draft": null,
+      "template_used": null,
+      "client_review": null,
+      "approval_status": null,
+      "do_not_say": [],
+      "dm1_sent": null,
+      "dm2_sent": null,
+      "dm3_sent": null,
+      "response_received": null,
+      "response_category": null,
+      "response_date": null,
+      "calendly_sent": null,
+      "demo_scheduled": null
+    },
+    "pricing": {
+      "annual_value": 948,
+      "tier": "Starter (est.)"
+    },
+    "ghl": {
+      "contact_id": null,
+      "opportunity_id": null,
+      "pipeline_stage": null,
+      "last_sync": null,
+      "in_ghl": false,
+      "tags": []
+    },
+    "market": "Dallas",
+    "lead_source": "discovery_agent_v1",
+    "enrichment_history": [],
+    "notes": null,
+    "created_at": "2026-04-20T04:45:49.251808+00:00",
+    "updated_at": "2026-04-20T04:45:49.251808+00:00",
+    "stale": false,
+    "days_since_activity": 0
+  },
+  {
+    "id": "lead_phx_021",
+    "company": "Dummy Result for supercar rental Phoenix",
+    "contact": {
+      "first_name": null,
+      "last_name": null,
+      "title": null,
+      "email": null,
+      "phone": null,
+      "linkedin": null,
+      "ig_personal": null
+    },
+    "company_data": {
+      "ig_handle": null,
+      "ig_followers": null,
+      "website": "https://dummy-supercar-rental-Phoenix.com",
+      "address": null,
+      "google_rating": null,
+      "google_reviews": null
+    },
+    "fleet": {
+      "size": null,
+      "size_confidence": null,
+      "vehicle_types": [],
+      "vehicle_types_source": null
+    },
+    "scoring": {
+      "score": null,
+      "confidence": null,
+      "rationale": null,
+      "scored_at": null,
+      "previous_score": null
+    },
+    "outreach": {
+      "status": "New",
+      "dm_draft": null,
+      "template_used": null,
+      "client_review": null,
+      "approval_status": null,
+      "do_not_say": [],
+      "dm1_sent": null,
+      "dm2_sent": null,
+      "dm3_sent": null,
+      "response_received": null,
+      "response_category": null,
+      "response_date": null,
+      "calendly_sent": null,
+      "demo_scheduled": null
+    },
+    "pricing": {
+      "annual_value": 948,
+      "tier": "Starter (est.)"
+    },
+    "ghl": {
+      "contact_id": null,
+      "opportunity_id": null,
+      "pipeline_stage": null,
+      "last_sync": null,
+      "in_ghl": false,
+      "tags": []
+    },
+    "market": "Phoenix",
+    "lead_source": "discovery_agent_v1",
+    "enrichment_history": [],
+    "notes": null,
+    "created_at": "2026-04-20T04:45:49.251804+00:00",
+    "updated_at": "2026-04-20T04:45:49.251804+00:00",
+    "stale": false,
+    "days_since_activity": 0
+  },
+  {
+    "id": "lead_phx_020",
+    "company": "Dummy Result for ferrari rental Phoenix",
+    "contact": {
+      "first_name": null,
+      "last_name": null,
+      "title": null,
+      "email": null,
+      "phone": null,
+      "linkedin": null,
+      "ig_personal": null
+    },
+    "company_data": {
+      "ig_handle": null,
+      "ig_followers": null,
+      "website": "https://dummy-ferrari-rental-Phoenix.com",
+      "address": null,
+      "google_rating": null,
+      "google_reviews": null
+    },
+    "fleet": {
+      "size": null,
+      "size_confidence": null,
+      "vehicle_types": [],
+      "vehicle_types_source": null
+    },
+    "scoring": {
+      "score": null,
+      "confidence": null,
+      "rationale": null,
+      "scored_at": null,
+      "previous_score": null
+    },
+    "outreach": {
+      "status": "New",
+      "dm_draft": null,
+      "template_used": null,
+      "client_review": null,
+      "approval_status": null,
+      "do_not_say": [],
+      "dm1_sent": null,
+      "dm2_sent": null,
+      "dm3_sent": null,
+      "response_received": null,
+      "response_category": null,
+      "response_date": null,
+      "calendly_sent": null,
+      "demo_scheduled": null
+    },
+    "pricing": {
+      "annual_value": 948,
+      "tier": "Starter (est.)"
+    },
+    "ghl": {
+      "contact_id": null,
+      "opportunity_id": null,
+      "pipeline_stage": null,
+      "last_sync": null,
+      "in_ghl": false,
+      "tags": []
+    },
+    "market": "Phoenix",
+    "lead_source": "discovery_agent_v1",
+    "enrichment_history": [],
+    "notes": null,
+    "created_at": "2026-04-20T04:45:49.251798+00:00",
+    "updated_at": "2026-04-20T04:45:49.251798+00:00",
+    "stale": false,
+    "days_since_activity": 0
+  },
+  {
+    "id": "lead_phx_019",
+    "company": "Dummy Result for lamborghini rental Phoenix",
+    "contact": {
+      "first_name": null,
+      "last_name": null,
+      "title": null,
+      "email": null,
+      "phone": null,
+      "linkedin": null,
+      "ig_personal": null
+    },
+    "company_data": {
+      "ig_handle": null,
+      "ig_followers": null,
+      "website": "https://dummy-lamborghini-rental-Phoenix.com",
+      "address": null,
+      "google_rating": null,
+      "google_reviews": null
+    },
+    "fleet": {
+      "size": null,
+      "size_confidence": null,
+      "vehicle_types": [],
+      "vehicle_types_source": null
+    },
+    "scoring": {
+      "score": null,
+      "confidence": null,
+      "rationale": null,
+      "scored_at": null,
+      "previous_score": null
+    },
+    "outreach": {
+      "status": "New",
+      "dm_draft": null,
+      "template_used": null,
+      "client_review": null,
+      "approval_status": null,
+      "do_not_say": [],
+      "dm1_sent": null,
+      "dm2_sent": null,
+      "dm3_sent": null,
+      "response_received": null,
+      "response_category": null,
+      "response_date": null,
+      "calendly_sent": null,
+      "demo_scheduled": null
+    },
+    "pricing": {
+      "annual_value": 948,
+      "tier": "Starter (est.)"
+    },
+    "ghl": {
+      "contact_id": null,
+      "opportunity_id": null,
+      "pipeline_stage": null,
+      "last_sync": null,
+      "in_ghl": false,
+      "tags": []
+    },
+    "market": "Phoenix",
+    "lead_source": "discovery_agent_v1",
+    "enrichment_history": [],
+    "notes": null,
+    "created_at": "2026-04-20T04:45:49.251791+00:00",
+    "updated_at": "2026-04-20T04:45:49.251791+00:00",
+    "stale": false,
+    "days_since_activity": 0
+  },
+  {
+    "id": "lead_phx_018",
+    "company": "Dummy Result for luxury car rental Phoenix",
+    "contact": {
+      "first_name": null,
+      "last_name": null,
+      "title": null,
+      "email": null,
+      "phone": null,
+      "linkedin": null,
+      "ig_personal": null
+    },
+    "company_data": {
+      "ig_handle": null,
+      "ig_followers": null,
+      "website": "https://dummy-luxury-car-rental-Phoenix.com",
+      "address": null,
+      "google_rating": null,
+      "google_reviews": null
+    },
+    "fleet": {
+      "size": null,
+      "size_confidence": null,
+      "vehicle_types": [],
+      "vehicle_types_source": null
+    },
+    "scoring": {
+      "score": null,
+      "confidence": null,
+      "rationale": null,
+      "scored_at": null,
+      "previous_score": null
+    },
+    "outreach": {
+      "status": "New",
+      "dm_draft": null,
+      "template_used": null,
+      "client_review": null,
+      "approval_status": null,
+      "do_not_say": [],
+      "dm1_sent": null,
+      "dm2_sent": null,
+      "dm3_sent": null,
+      "response_received": null,
+      "response_category": null,
+      "response_date": null,
+      "calendly_sent": null,
+      "demo_scheduled": null
+    },
+    "pricing": {
+      "annual_value": 948,
+      "tier": "Starter (est.)"
+    },
+    "ghl": {
+      "contact_id": null,
+      "opportunity_id": null,
+      "pipeline_stage": null,
+      "last_sync": null,
+      "in_ghl": false,
+      "tags": []
+    },
+    "market": "Phoenix",
+    "lead_source": "discovery_agent_v1",
+    "enrichment_history": [],
+    "notes": null,
+    "created_at": "2026-04-20T04:45:49.251786+00:00",
+    "updated_at": "2026-04-20T04:45:49.251786+00:00",
+    "stale": false,
+    "days_since_activity": 0
+  },
+  {
+    "id": "lead_phx_017",
+    "company": "Dummy Result for exotic car rental Phoenix",
+    "contact": {
+      "first_name": null,
+      "last_name": null,
+      "title": null,
+      "email": null,
+      "phone": null,
+      "linkedin": null,
+      "ig_personal": null
+    },
+    "company_data": {
+      "ig_handle": null,
+      "ig_followers": null,
+      "website": "https://dummy-exotic-car-rental-Phoenix.com",
+      "address": null,
+      "google_rating": null,
+      "google_reviews": null
+    },
+    "fleet": {
+      "size": null,
+      "size_confidence": null,
+      "vehicle_types": [],
+      "vehicle_types_source": null
+    },
+    "scoring": {
+      "score": null,
+      "confidence": null,
+      "rationale": null,
+      "scored_at": null,
+      "previous_score": null
+    },
+    "outreach": {
+      "status": "New",
+      "dm_draft": null,
+      "template_used": null,
+      "client_review": null,
+      "approval_status": null,
+      "do_not_say": [],
+      "dm1_sent": null,
+      "dm2_sent": null,
+      "dm3_sent": null,
+      "response_received": null,
+      "response_category": null,
+      "response_date": null,
+      "calendly_sent": null,
+      "demo_scheduled": null
+    },
+    "pricing": {
+      "annual_value": 948,
+      "tier": "Starter (est.)"
+    },
+    "ghl": {
+      "contact_id": null,
+      "opportunity_id": null,
+      "pipeline_stage": null,
+      "last_sync": null,
+      "in_ghl": false,
+      "tags": []
+    },
+    "market": "Phoenix",
+    "lead_source": "discovery_agent_v1",
+    "enrichment_history": [],
+    "notes": null,
+    "created_at": "2026-04-20T04:45:49.251491+00:00",
+    "updated_at": "2026-04-20T04:45:49.251491+00:00",
+    "stale": false,
+    "days_since_activity": 0
+  },
+  {
+    "id": "lead_nyc_010",
+    "company": "Cloud 9 Exotics",
+    "contact": {
+      "first_name": "Evan",
+      "last_name": "Bachrach",
+      "title": null,
+      "email": "evanb@c9e.com",
+      "phone": null,
+      "linkedin": null,
+      "ig_personal": null
+    },
+    "company_data": {
+      "ig_handle": null,
+      "ig_followers": null,
+      "website": null,
+      "address": null,
+      "google_rating": null,
+      "google_reviews": null
+    },
+    "fleet": {
+      "size": null,
+      "size_confidence": null,
+      "vehicle_types": [],
+      "vehicle_types_source": null
+    },
+    "scoring": {
+      "score": null,
+      "confidence": null,
+      "rationale": null,
+      "scored_at": null,
+      "previous_score": null
+    },
+    "outreach": {
+      "status": "New",
+      "dm_draft": null,
+      "template_used": null,
+      "client_review": null,
+      "approval_status": null,
+      "do_not_say": [],
+      "dm1_sent": null,
+      "dm2_sent": null,
+      "dm3_sent": null,
+      "response_received": null,
+      "response_category": null,
+      "response_date": null,
+      "calendly_sent": null,
+      "demo_scheduled": null
+    },
+    "pricing": {
+      "annual_value": 948,
+      "tier": "Starter (est.)"
+    },
+    "ghl": {
+      "contact_id": null,
+      "opportunity_id": null,
+      "pipeline_stage": null,
+      "last_sync": null,
+      "in_ghl": false,
+      "tags": []
+    },
+    "market": "New York, NY",
+    "lead_source": "manual_saul",
+    "enrichment_history": [
+      {
+        "action": "apollo_lookup",
+        "timestamp": "2026-04-19T15:45:10.728876+00:00",
+        "fields_updated": [
+          "contact_first_name",
+          "contact_last_name",
+          "contact_email"
+        ],
+        "source": "apollo"
+      },
+      {
+        "action": "web_search",
+        "timestamp": "2026-04-19T15:45:10.728891+00:00",
+        "fields_updated": [],
+        "source": "website"
+      },
+      {
+        "action": "ig_profile_check",
+        "timestamp": "2026-04-19T15:45:10.728894+00:00",
+        "fields_updated": [],
+        "source": "ig_profile"
+      }
+    ],
+    "notes": null,
+    "created_at": "2026-04-19T15:45:09.428113+00:00",
+    "updated_at": "2026-04-19T15:45:10.728920+00:00",
+    "stale": false,
+    "days_since_activity": 0
   },
   {
     "id": "lead_mia_007",
@@ -8602,11 +12498,30 @@
     },
     "market": "NYC",
     "lead_source": "Manual",
-    "enrichment_history": [],
+    "enrichment_history": [
+      {
+        "action": "apollo_lookup",
+        "timestamp": "2026-04-19T13:46:45.436469+00:00",
+        "fields_updated": [],
+        "source": "apollo"
+      },
+      {
+        "action": "web_search",
+        "timestamp": "2026-04-19T13:46:45.436486+00:00",
+        "fields_updated": [],
+        "source": "website"
+      },
+      {
+        "action": "ig_profile_check",
+        "timestamp": "2026-04-19T13:46:45.436489+00:00",
+        "fields_updated": [],
+        "source": "ig_profile"
+      }
+    ],
     "notes": "Move Lead to DC",
     "created_at": "2026-04-07T12:33:41.074494+00:00",
-    "updated_at": "2026-04-07T12:33:41.074494+00:00",
-    "stale": true,
-    "days_since_activity": 11
+    "updated_at": "2026-04-19T13:46:45.436517+00:00",
+    "stale": false,
+    "days_since_activity": 1
   }
 ]

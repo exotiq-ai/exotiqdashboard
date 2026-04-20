@@ -24,6 +24,31 @@ You'll do this by managing the outreach queue, personalizing drafts, and escalat
 
 ---
 
+## Lead Lifecycle (Three Stages)
+
+Every lead in the system moves through three stages. Understanding this is critical.
+
+### Stage 1: Prospect (DM-Only)
+- We only have the company name and an IG handle. No email or phone.
+- These leads live only in our dashboard. They are NOT in GHL yet.
+- You can approve and send DMs to Prospects freely.
+- When you click "Approve DM" for a Prospect, it simply marks the copy as ready for manual sending. No GHL push happens.
+
+### Stage 2: Qualified Lead (GHL-Ready)
+- A Prospect who has responded and given us their email or phone number.
+- Once you have contact info, click the "Promote to GHL" button on their card.
+- This creates the contact in GoHighLevel and officially moves them into the sales pipeline.
+- From this point, they appear in both the dashboard AND GHL.
+
+### Stage 3: GHL Opportunity (Execution)
+- The lead is now a full contact and opportunity in GoHighLevel.
+- The closing team (or Gregory) manages all further communication in GHL.
+- Our dashboard syncs their pipeline stage, but execution happens in GHL.
+
+**Key Rule:** A lead MUST have an email or phone number before it can be promoted to GHL. DMs can go out to anyone with an IG handle.
+
+---
+
 ## Your Daily Workflow (Step-by-Step)
 
 This is your daily playbook. Run it every morning.
@@ -41,14 +66,27 @@ This is your daily playbook. Run it every morning.
 
 - Go to the **Approval Queue** tab in the dashboard.
 - This is your primary workspace. It's a list of all outbound messages (IG DMs, emails, SMS) that Saul has drafted.
-- For each draft, you have four options:
+- For each draft, you will see one of two approve buttons:
 
-  - **Approve:** The draft is good. Click Approve. It will be sent automatically.
-  - **Edit:** The draft is good but needs a personal touch. Click Edit, make your changes, and then Approve.
-  - **Hold:** The draft is good but the timing is wrong. Click Hold to park it.
-  - **Skip:** The touch doesn't make sense for this lead. Click Skip to advance the sequence without sending.
+  - **"Approve DM"** (for Prospects without email/phone): This approves the DM copy for manual sending. It does NOT push to GHL. Copy the message, go to Instagram or Facebook, and send it manually. Then mark it as "Sent" in the dashboard.
+  - **"Approve & Push to GHL"** (for leads with email/phone): This approves the message AND creates the contact in GoHighLevel.
+
+- Other options remain the same:
+  - **Edit:** Tweak the draft, then Approve.
+  - **Hold:** Park it for later.
+  - **Reject:** Kill this touch.
 
 - **Your goal:** Get the queue to zero every day.
+
+### Step 2.5: Promote Warm Prospects (Ongoing)
+
+- When a Prospect responds to a DM and shares their email or phone number:
+  1. Go to the lead's card in the **All Leads** tab.
+  2. Click the **"Promote to GHL"** button.
+  3. Enter their email and/or phone number.
+  4. Click **Confirm**. The system will create their contact in GHL and move them to Stage 2 (Qualified Lead).
+
+- This is a critical step. It's how leads graduate from "DM conversations" to "real sales pipeline."
 
 ### Step 3: Enroll New Leads into Sequences (10:00 AM)
 
@@ -89,9 +127,10 @@ This is your daily playbook. Run it every morning.
 ## What Not to Do
 
 - **Don't go rogue.** Stick to the approved templates and sequences. The messaging is tested.
-- **Don't push leads to GHL manually.** The system does this automatically when you approve the first touch.
+- **Don't try to push a Prospect to GHL without contact info.** Use the "Promote" button only when you have their email or phone.
 - **Don't forget to mark manual DMs as sent.** This is the #1 failure point.
 - **Don't engage in long back-and-forth conversations.** Your job is to book the demo. After 2-3 messages, push for the call.
+- **Don't skip the Promote step.** When a Prospect gives you their contact info, promote them immediately. If they stay as a Prospect, the closing team can't see them in GHL.
 
 ---
 

@@ -1,5 +1,491 @@
 [
   {
+    "id": 66,
+    "timestamp": "2026-04-19T15:49:01.031024+00:00",
+    "type": "dm_draft",
+    "lead_id": "lead_mia_002",
+    "description": "Drafted ig_dm step 1 for sequence seq_new_operator_14",
+    "source": "sequence_engine",
+    "agent": "saul"
+  },
+  {
+    "id": 65,
+    "timestamp": "2026-04-19T15:49:01.024659+00:00",
+    "type": "sequence_enroll",
+    "lead_id": "lead_mia_002",
+    "description": "Enrolled in sequence seq_new_operator_14",
+    "source": "sequence_engine",
+    "agent": "saul"
+  },
+  {
+    "id": 64,
+    "timestamp": "2026-04-19T15:49:01.013515+00:00",
+    "type": "enrichment",
+    "lead_id": "lead_mia_002",
+    "description": "Enriched lead lead_mia_002 -- sources: ['apollo'] -- fields updated: ['contact_first_name', 'contact_last_name', 'contact_title', 'contact_email', 'contact_linkedin']",
+    "source": "apollo",
+    "agent": "lead_enrichment"
+  },
+  {
+    "id": 63,
+    "timestamp": "2026-04-19T15:48:22.732774+00:00",
+    "type": "dm_draft",
+    "lead_id": "lead_mia_032",
+    "description": "Drafted ig_dm step 1 for sequence seq_new_operator_14",
+    "source": "sequence_engine",
+    "agent": "saul"
+  },
+  {
+    "id": 62,
+    "timestamp": "2026-04-19T15:48:22.726970+00:00",
+    "type": "sequence_enroll",
+    "lead_id": "lead_mia_032",
+    "description": "Enrolled in sequence seq_new_operator_14",
+    "source": "sequence_engine",
+    "agent": "saul"
+  },
+  {
+    "id": 61,
+    "timestamp": "2026-04-19T15:48:22.714115+00:00",
+    "type": "enrichment",
+    "lead_id": "lead_mia_032",
+    "description": "Enriched lead lead_mia_032 -- sources: ['apollo'] -- fields updated: ['contact_first_name', 'contact_last_name', 'contact_email']",
+    "source": "apollo",
+    "agent": "lead_enrichment"
+  },
+  {
+    "id": 60,
+    "timestamp": "2026-04-19T15:45:16.192140+00:00",
+    "type": "dashboard_sync",
+    "lead_id": null,
+    "description": "Exported 124 leads and 52 activity entries to public/data",
+    "source": null,
+    "agent": "dashboard_sync"
+  },
+  {
+    "id": 59,
+    "timestamp": "2026-04-19T15:45:10.760159+00:00",
+    "type": "dm_draft",
+    "lead_id": "lead_nyc_010",
+    "description": "Drafted ig_dm step 1 for sequence seq_new_operator_14",
+    "source": "sequence_engine",
+    "agent": "saul"
+  },
+  {
+    "id": 58,
+    "timestamp": "2026-04-19T15:45:10.754242+00:00",
+    "type": "sequence_enroll",
+    "lead_id": "lead_nyc_010",
+    "description": "Enrolled in sequence seq_new_operator_14",
+    "source": "sequence_engine",
+    "agent": "saul"
+  },
+  {
+    "id": 57,
+    "timestamp": "2026-04-19T15:45:10.743154+00:00",
+    "type": "enrichment",
+    "lead_id": "lead_nyc_010",
+    "description": "Enriched lead lead_nyc_010 -- sources: ['apollo'] -- fields updated: ['contact_first_name', 'contact_last_name', 'contact_email']",
+    "source": "apollo",
+    "agent": "lead_enrichment"
+  },
+  {
+    "id": 56,
+    "timestamp": "2026-04-19T15:45:09.443883+00:00",
+    "type": "lead_creation",
+    "lead_id": "lead_nyc_010",
+    "description": "Created new lead for Cloud 9 Exotics",
+    "source": null,
+    "agent": "saul"
+  },
+  {
+    "id": 55,
+    "timestamp": "2026-04-19T15:44:51.983554+00:00",
+    "type": "status_change",
+    "lead_id": "lead_lvs_001",
+    "description": "Lead status changed to Not a Fit because business is closed.",
+    "source": "gregory_input",
+    "agent": "saul"
+  },
+  {
+    "id": 54,
+    "timestamp": "2026-04-19T15:43:34.370643+00:00",
+    "type": "dm_draft",
+    "lead_id": "lead_mia_003",
+    "description": "Drafted ig_dm step 1 for sequence seq_new_operator_14",
+    "source": "sequence_engine",
+    "agent": "saul"
+  },
+  {
+    "id": 53,
+    "timestamp": "2026-04-19T15:43:34.364177+00:00",
+    "type": "sequence_enroll",
+    "lead_id": "lead_mia_003",
+    "description": "Enrolled in sequence seq_new_operator_14",
+    "source": "sequence_engine",
+    "agent": "saul"
+  },
+  {
+    "id": 52,
+    "timestamp": "2026-04-19T15:43:28.547995+00:00",
+    "type": "enrichment",
+    "lead_id": "lead_mia_003",
+    "description": "Enriched lead lead_mia_003 -- sources: ['apollo'] -- fields updated: ['contact_first_name', 'contact_last_name']",
+    "source": "apollo",
+    "agent": "lead_enrichment"
+  },
+  {
+    "id": 51,
+    "timestamp": "2026-04-19T15:43:09.234909+00:00",
+    "type": "enrichment",
+    "lead_id": "lead_mia_003",
+    "description": "Enriched lead lead_mia_003 -- sources: ['none'] -- fields updated: ['none']",
+    "source": null,
+    "agent": "lead_enrichment"
+  },
+  {
+    "id": 50,
+    "timestamp": "2026-04-19T13:47:31.875740+00:00",
+    "type": "enrichment",
+    "lead_id": "lead_mia_028",
+    "description": "Enriched lead lead_mia_028 -- sources: ['none'] -- fields updated: ['none']",
+    "source": null,
+    "agent": "lead_enrichment"
+  },
+  {
+    "id": 49,
+    "timestamp": "2026-04-19T13:47:30.615863+00:00",
+    "type": "enrichment",
+    "lead_id": "lead_mia_028",
+    "description": "Enriched lead lead_mia_028 -- sources: ['none'] -- fields updated: ['none']",
+    "source": null,
+    "agent": "lead_enrichment"
+  },
+  {
+    "id": 48,
+    "timestamp": "2026-04-19T13:47:30.243956+00:00",
+    "type": "enrichment",
+    "lead_id": "lead_mia_027",
+    "description": "Enriched lead lead_mia_027 -- sources: ['none'] -- fields updated: ['none']",
+    "source": null,
+    "agent": "lead_enrichment"
+  },
+  {
+    "id": 47,
+    "timestamp": "2026-04-19T13:47:28.972410+00:00",
+    "type": "enrichment",
+    "lead_id": "lead_mia_027",
+    "description": "Enriched lead lead_mia_027 -- sources: ['none'] -- fields updated: ['none']",
+    "source": null,
+    "agent": "lead_enrichment"
+  },
+  {
+    "id": 46,
+    "timestamp": "2026-04-19T13:47:28.607655+00:00",
+    "type": "enrichment",
+    "lead_id": "lead_mia_026",
+    "description": "Enriched lead lead_mia_026 -- sources: ['none'] -- fields updated: ['none']",
+    "source": null,
+    "agent": "lead_enrichment"
+  },
+  {
+    "id": 45,
+    "timestamp": "2026-04-19T13:47:27.334248+00:00",
+    "type": "enrichment",
+    "lead_id": "lead_mia_026",
+    "description": "Enriched lead lead_mia_026 -- sources: ['none'] -- fields updated: ['none']",
+    "source": null,
+    "agent": "lead_enrichment"
+  },
+  {
+    "id": 44,
+    "timestamp": "2026-04-19T13:47:26.818329+00:00",
+    "type": "enrichment",
+    "lead_id": "lead_mia_025",
+    "description": "Enriched lead lead_mia_025 -- sources: ['none'] -- fields updated: ['none']",
+    "source": null,
+    "agent": "lead_enrichment"
+  },
+  {
+    "id": 43,
+    "timestamp": "2026-04-19T13:47:25.035043+00:00",
+    "type": "enrichment",
+    "lead_id": "lead_mia_024",
+    "description": "Enriched lead lead_mia_024 -- sources: ['none'] -- fields updated: ['none']",
+    "source": null,
+    "agent": "lead_enrichment"
+  },
+  {
+    "id": 42,
+    "timestamp": "2026-04-19T13:47:23.205190+00:00",
+    "type": "enrichment",
+    "lead_id": "lead_mia_023",
+    "description": "Enriched lead lead_mia_023 -- sources: ['none'] -- fields updated: ['none']",
+    "source": null,
+    "agent": "lead_enrichment"
+  },
+  {
+    "id": 41,
+    "timestamp": "2026-04-19T13:47:21.425825+00:00",
+    "type": "enrichment",
+    "lead_id": "lead_mia_022",
+    "description": "Enriched lead lead_mia_022 -- sources: ['none'] -- fields updated: ['none']",
+    "source": null,
+    "agent": "lead_enrichment"
+  },
+  {
+    "id": 40,
+    "timestamp": "2026-04-19T13:47:19.621364+00:00",
+    "type": "enrichment",
+    "lead_id": "lead_mia_021",
+    "description": "Enriched lead lead_mia_021 -- sources: ['none'] -- fields updated: ['none']",
+    "source": null,
+    "agent": "lead_enrichment"
+  },
+  {
+    "id": 39,
+    "timestamp": "2026-04-19T13:47:17.833379+00:00",
+    "type": "enrichment",
+    "lead_id": "lead_mia_020",
+    "description": "Enriched lead lead_mia_020 -- sources: ['none'] -- fields updated: ['none']",
+    "source": null,
+    "agent": "lead_enrichment"
+  },
+  {
+    "id": 38,
+    "timestamp": "2026-04-19T13:47:15.931715+00:00",
+    "type": "enrichment",
+    "lead_id": "lead_mia_019",
+    "description": "Enriched lead lead_mia_019 -- sources: ['none'] -- fields updated: ['none']",
+    "source": null,
+    "agent": "lead_enrichment"
+  },
+  {
+    "id": 37,
+    "timestamp": "2026-04-19T13:47:14.289249+00:00",
+    "type": "enrichment",
+    "lead_id": "lead_mia_018",
+    "description": "Enriched lead lead_mia_018 -- sources: ['none'] -- fields updated: ['none']",
+    "source": null,
+    "agent": "lead_enrichment"
+  },
+  {
+    "id": 36,
+    "timestamp": "2026-04-19T13:47:12.476480+00:00",
+    "type": "enrichment",
+    "lead_id": "lead_mia_017",
+    "description": "Enriched lead lead_mia_017 -- sources: ['none'] -- fields updated: ['none']",
+    "source": null,
+    "agent": "lead_enrichment"
+  },
+  {
+    "id": 35,
+    "timestamp": "2026-04-19T13:47:10.674975+00:00",
+    "type": "enrichment",
+    "lead_id": "lead_mia_016",
+    "description": "Enriched lead lead_mia_016 -- sources: ['none'] -- fields updated: ['none']",
+    "source": null,
+    "agent": "lead_enrichment"
+  },
+  {
+    "id": 34,
+    "timestamp": "2026-04-19T13:47:08.892005+00:00",
+    "type": "enrichment",
+    "lead_id": "lead_mia_015",
+    "description": "Enriched lead lead_mia_015 -- sources: ['none'] -- fields updated: ['none']",
+    "source": null,
+    "agent": "lead_enrichment"
+  },
+  {
+    "id": 33,
+    "timestamp": "2026-04-19T13:47:06.972026+00:00",
+    "type": "enrichment",
+    "lead_id": "lead_mia_014",
+    "description": "Enriched lead lead_mia_014 -- sources: ['none'] -- fields updated: ['none']",
+    "source": null,
+    "agent": "lead_enrichment"
+  },
+  {
+    "id": 32,
+    "timestamp": "2026-04-19T13:47:03.674172+00:00",
+    "type": "enrichment",
+    "lead_id": "lead_mia_013",
+    "description": "Enriched lead lead_mia_013 -- sources: ['none'] -- fields updated: ['none']",
+    "source": null,
+    "agent": "lead_enrichment"
+  },
+  {
+    "id": 31,
+    "timestamp": "2026-04-19T13:47:02.026411+00:00",
+    "type": "enrichment",
+    "lead_id": "lead_mia_012",
+    "description": "Enriched lead lead_mia_012 -- sources: ['none'] -- fields updated: ['none']",
+    "source": null,
+    "agent": "lead_enrichment"
+  },
+  {
+    "id": 30,
+    "timestamp": "2026-04-19T13:47:00.379926+00:00",
+    "type": "enrichment",
+    "lead_id": "lead_mia_011",
+    "description": "Enriched lead lead_mia_011 -- sources: ['none'] -- fields updated: ['none']",
+    "source": null,
+    "agent": "lead_enrichment"
+  },
+  {
+    "id": 29,
+    "timestamp": "2026-04-19T13:46:50.351786+00:00",
+    "type": "enrichment",
+    "lead_id": "lead_mia_010",
+    "description": "Enriched lead lead_mia_010 -- sources: ['none'] -- fields updated: ['none']",
+    "source": null,
+    "agent": "lead_enrichment"
+  },
+  {
+    "id": 28,
+    "timestamp": "2026-04-19T13:46:48.714416+00:00",
+    "type": "enrichment",
+    "lead_id": "lead_mia_009",
+    "description": "Enriched lead lead_mia_009 -- sources: ['none'] -- fields updated: ['none']",
+    "source": null,
+    "agent": "lead_enrichment"
+  },
+  {
+    "id": 27,
+    "timestamp": "2026-04-19T13:46:47.074164+00:00",
+    "type": "enrichment",
+    "lead_id": "lead_mia_008",
+    "description": "Enriched lead lead_mia_008 -- sources: ['none'] -- fields updated: ['none']",
+    "source": null,
+    "agent": "lead_enrichment"
+  },
+  {
+    "id": 26,
+    "timestamp": "2026-04-19T13:46:45.437215+00:00",
+    "type": "enrichment",
+    "lead_id": "lead_mia_007",
+    "description": "Enriched lead lead_mia_007 -- sources: ['none'] -- fields updated: ['none']",
+    "source": null,
+    "agent": "lead_enrichment"
+  },
+  {
+    "id": 25,
+    "timestamp": "2026-04-19T13:46:43.827179+00:00",
+    "type": "enrichment",
+    "lead_id": "lead_mia_006",
+    "description": "Enriched lead lead_mia_006 -- sources: ['none'] -- fields updated: ['none']",
+    "source": null,
+    "agent": "lead_enrichment"
+  },
+  {
+    "id": 24,
+    "timestamp": "2026-04-19T13:46:42.183035+00:00",
+    "type": "enrichment",
+    "lead_id": "lead_mia_005",
+    "description": "Enriched lead lead_mia_005 -- sources: ['none'] -- fields updated: ['none']",
+    "source": null,
+    "agent": "lead_enrichment"
+  },
+  {
+    "id": 23,
+    "timestamp": "2026-04-19T13:46:40.541162+00:00",
+    "type": "enrichment",
+    "lead_id": "lead_mia_004",
+    "description": "Enriched lead lead_mia_004 -- sources: ['none'] -- fields updated: ['none']",
+    "source": null,
+    "agent": "lead_enrichment"
+  },
+  {
+    "id": 22,
+    "timestamp": "2026-04-19T13:46:38.891268+00:00",
+    "type": "enrichment",
+    "lead_id": "lead_mia_003",
+    "description": "Enriched lead lead_mia_003 -- sources: ['none'] -- fields updated: ['none']",
+    "source": null,
+    "agent": "lead_enrichment"
+  },
+  {
+    "id": 21,
+    "timestamp": "2026-04-19T13:46:37.259379+00:00",
+    "type": "enrichment",
+    "lead_id": "lead_mia_002",
+    "description": "Enriched lead lead_mia_002 -- sources: ['none'] -- fields updated: ['none']",
+    "source": null,
+    "agent": "lead_enrichment"
+  },
+  {
+    "id": 20,
+    "timestamp": "2026-04-19T13:46:35.616169+00:00",
+    "type": "enrichment",
+    "lead_id": "lead_mia_001",
+    "description": "Enriched lead lead_mia_001 -- sources: ['none'] -- fields updated: ['none']",
+    "source": null,
+    "agent": "lead_enrichment"
+  },
+  {
+    "id": 19,
+    "timestamp": "2026-04-19T02:42:16.745763+00:00",
+    "type": "outreach_held",
+    "lead_id": "lead_mia_008",
+    "description": "Held: not ready yet",
+    "source": "outreach_queue",
+    "agent": "gregory"
+  },
+  {
+    "id": 18,
+    "timestamp": "2026-04-19T02:42:16.731486+00:00",
+    "type": "outreach_approved",
+    "lead_id": "lead_nyc_009",
+    "description": "Approved ig_dm touch",
+    "source": "outreach_queue",
+    "agent": "gregory"
+  },
+  {
+    "id": 17,
+    "timestamp": "2026-04-19T02:42:16.722053+00:00",
+    "type": "dm_draft",
+    "lead_id": "lead_mia_008",
+    "description": "Drafted ig_dm step 1 for sequence seq_new_operator_14",
+    "source": "sequence_engine",
+    "agent": "saul"
+  },
+  {
+    "id": 16,
+    "timestamp": "2026-04-19T02:42:16.721864+00:00",
+    "type": "dm_draft",
+    "lead_id": "lead_nyc_009",
+    "description": "Drafted ig_dm step 1 for sequence seq_score5_personal",
+    "source": "sequence_engine",
+    "agent": "saul"
+  },
+  {
+    "id": 15,
+    "timestamp": "2026-04-19T02:42:16.715825+00:00",
+    "type": "sequence_enroll",
+    "lead_id": "lead_mia_008",
+    "description": "Enrolled in sequence seq_new_operator_14",
+    "source": "sequence_engine",
+    "agent": "saul"
+  },
+  {
+    "id": 14,
+    "timestamp": "2026-04-19T02:42:16.706349+00:00",
+    "type": "sequence_enroll",
+    "lead_id": "lead_nyc_009",
+    "description": "Enrolled in sequence seq_score5_personal",
+    "source": "sequence_engine",
+    "agent": "saul"
+  },
+  {
+    "id": 13,
+    "timestamp": "2026-04-19T02:33:21.796355+00:00",
+    "type": "dashboard_sync",
+    "lead_id": null,
+    "description": "Exported 123 leads and 5 activity entries to /Users/gbot/Projects/exotiq-dashboard/public/data",
+    "source": null,
+    "agent": "dashboard_sync"
+  },
+  {
     "id": 12,
     "timestamp": "2026-04-08T16:27:16.022462+00:00",
     "type": "dashboard_sync",

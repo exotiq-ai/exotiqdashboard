@@ -1,6 +1,6 @@
 {
   "funnel": {
-    "total_leads": 123,
+    "total_leads": 169,
     "scored": 122,
     "approved_for_outreach": 19,
     "dm1_sent": 20,
@@ -9,7 +9,7 @@
     "demo_completed": 0
   },
   "conversion_rates": {
-    "lead_to_dm": 0.163,
+    "lead_to_dm": 0.118,
     "dm_to_response": 0.2,
     "response_to_demo": 0.0
   },
@@ -35,7 +35,7 @@
       "responded": 0
     },
     "Chicago": {
-      "leads": 1,
+      "leads": 6,
       "dm_sent": 0,
       "responded": 0
     },
@@ -68,11 +68,56 @@
       "leads": 8,
       "dm_sent": 0,
       "responded": 0
+    },
+    "Jacksonville": {
+      "leads": 5,
+      "dm_sent": 0,
+      "responded": 0
+    },
+    "San Jose": {
+      "leads": 5,
+      "dm_sent": 0,
+      "responded": 0
+    },
+    "Austin": {
+      "leads": 5,
+      "dm_sent": 0,
+      "responded": 0
+    },
+    "San Antonio": {
+      "leads": 5,
+      "dm_sent": 0,
+      "responded": 0
+    },
+    "San Diego": {
+      "leads": 5,
+      "dm_sent": 0,
+      "responded": 0
+    },
+    "Philadelphia": {
+      "leads": 5,
+      "dm_sent": 0,
+      "responded": 0
+    },
+    "Dallas": {
+      "leads": 5,
+      "dm_sent": 0,
+      "responded": 0
+    },
+    "Phoenix": {
+      "leads": 5,
+      "dm_sent": 0,
+      "responded": 0
+    },
+    "New York, NY": {
+      "leads": 1,
+      "dm_sent": 0,
+      "responded": 0
     }
   },
   "velocity": {
-    "leads_added_last_7_days": 0,
+    "leads_added_last_7_days": 46,
     "dms_sent_last_7_days": 10
   },
-  "generated_at": "2026-04-19T02:33:21.795038+00:00"
+  "generated_at": "2026-04-20T15:36:28.684438+00:00"
 }

@@ -1,29 +1,39 @@
 {
-  "total_leads": 123,
+  "total_leads": 169,
   "by_score": {
     "1": 5,
     "2": 28,
     "3": 38,
     "4": 34,
     "5": 17,
-    "unscored": 1
+    "unscored": 47
   },
   "by_market": {
     "NYC": 11,
     "DC/DMV": 8,
     "Los Angeles": 10,
     "Las Vegas": 8,
-    "Chicago": 1,
+    "Chicago": 6,
     "Dallas/Fort Worth": 10,
     "Phoenix/Scottsdale": 16,
     "Miami": 43,
     "Multi-Market": 1,
     "SF Bay Area": 7,
-    "Atlanta": 8
+    "Atlanta": 8,
+    "Jacksonville": 5,
+    "San Jose": 5,
+    "Austin": 5,
+    "San Antonio": 5,
+    "San Diego": 5,
+    "Philadelphia": 5,
+    "Dallas": 5,
+    "Phoenix": 5,
+    "New York, NY": 1
   },
   "by_status": {
     "Contacted": 15,
-    "New": 75,
+    "New": 120,
+    "Not a Fit": 1,
     "Needs V3 Redraft": 6,
     "Pending Approval": 11,
     "Hold - Check Notes": 3,
@@ -36,5 +46,5 @@
   "ghl_synced": 0,
   "pending_approval": 20,
   "approved": 19,
-  "generated_at": "2026-04-19T02:33:21.793631+00:00"
+  "generated_at": "2026-04-20T15:36:28.682371+00:00"
 }
