@@ -1,6 +1,6 @@
 # SDR Onboarding -- "How This Works"
 
-This document lives as a new tab in the dashboard. It's a step-by-step guide for a new SDR on how to use the Exotiq Intelligence Pipeline.
+This document lives as a live tab in your dashboard. It's your complete reference guide for working the Exotiq Intelligence Pipeline.
 
 ---
 
@@ -9,146 +9,171 @@ This document lives as a new tab in the dashboard. It's a step-by-step guide for
 **One system, two layers:**
 
 **1. The Intelligence Dashboard (where you work):**
-This React app is your command center. It shows you every lead, their score, their enrichment data, their contact info, and their outreach status. You'll spend most of your day here managing the approval queue and reviewing leads.
+This is your command center. Every lead, their score, enrichment data, contact info, and outreach status lives here. You'll spend most of your day here managing the approval queue.
 
-**2. GoHighLevel (where the team executes):**
-Once a lead is approved and pushed, it lives in GHL. The LEx team manages all conversations, appointments, and pipeline stages there. You won't touch GHL directly, but it's where your approved leads end up.
+**2. GoHighLevel (where the team closes):**
+Once a lead is promoted, it lives in GHL. The closing team manages all conversations, appointments, and pipeline stages there. You won't touch GHL directly -- our dashboard does it for you via the "Promote" button.
 
 ---
 
 ## The Goal
 
-Your job is to get qualified exotic car rental operators on a 15-minute demo call with Gregory.
+**Get qualified exotic car rental operators on a 15-minute demo call with Gregory.**
 
-You'll do this by managing the outreach queue, personalizing drafts, and escalating warm responses.
+You do this by working DM outreach through the Approval Queue, converting warm prospects into GHL contacts, and escalating hot responses immediately.
 
 ---
 
-## Lead Lifecycle (Three Stages)
+## Lead Lifecycle -- Three Stages
 
-Every lead in the system moves through three stages. Understanding this is critical.
+Every lead moves through three stages. This is the most important thing to understand.
+
+```
+┌─────────────────────────────────────────────────────────────────┐
+│                                                                  │
+│   STAGE 1            STAGE 2              STAGE 3               │
+│   Prospect    ─────► Qualified Lead ─────► GHL Opportunity       │
+│   (IG only)         (Has contact info)    (In pipeline)          │
+│                                                                  │
+│   • DMs only         • Email or phone      • Closing team        │
+│   • Not in GHL       • "Promote" button    • Demo booking        │
+│   • Approve DM       • Approve & Push      • Gregory             │
+│                                                                  │
+└─────────────────────────────────────────────────────────────────┘
+```
 
 ### Stage 1: Prospect (DM-Only)
-- We only have the company name and an IG handle. No email or phone.
-- These leads live only in our dashboard. They are NOT in GHL yet.
-- You can approve and send DMs to Prospects freely.
-- When you click "Approve DM" for a Prospect, it simply marks the copy as ready for manual sending. No GHL push happens.
+We only have a company name and an IG or Facebook handle. No email. No phone. These leads are NOT in GHL yet and cannot be pushed. You can send DMs freely. When you click **"Approve DM"**, it simply marks the copy ready for manual sending.
 
 ### Stage 2: Qualified Lead (GHL-Ready)
-- A Prospect who has responded and given us their email or phone number.
-- Once you have contact info, click the "Promote to GHL" button on their card.
-- This creates the contact in GoHighLevel and officially moves them into the sales pipeline.
-- From this point, they appear in both the dashboard AND GHL.
+A Prospect who responded and gave us their email or phone. Once you collect this info, click **"Promote to GHL"** on their card. This creates them as a contact in GoHighLevel and officially opens a sales opportunity.
 
 ### Stage 3: GHL Opportunity (Execution)
-- The lead is now a full contact and opportunity in GoHighLevel.
-- The closing team (or Gregory) manages all further communication in GHL.
-- Our dashboard syncs their pipeline stage, but execution happens in GHL.
-
-**Key Rule:** A lead MUST have an email or phone number before it can be promoted to GHL. DMs can go out to anyone with an IG handle.
+The lead exists in both our dashboard and GoHighLevel. The closing team (or Gregory for Score 5s) takes over in GHL. Our dashboard continues to sync their pipeline stage.
 
 ---
 
 ## Your Daily Workflow (Step-by-Step)
 
-This is your daily playbook. Run it every morning.
-
 ### Step 1: Review the Morning Brief (9:00 AM)
-
-- Check the `#exotiq-outreach-ops` Slack channel for Saul's automated morning briefing.
-- It will tell you:
-  - New leads that were discovered overnight
-  - Warm responses that came in
-  - Follow-ups that are due today
-  - Stale leads that need attention
+Check the `#exotiq-outreach-ops` Slack channel for Saul's automated morning briefing. It will surface:
+- New leads discovered overnight
+- Warm responses that came in
+- Follow-ups due today
+- Stale leads needing attention
 
 ### Step 2: Clear the Approval Queue (9:15 AM)
 
-- Go to the **Approval Queue** tab in the dashboard.
-- This is your primary workspace. It's a list of all outbound messages (IG DMs, emails, SMS) that Saul has drafted.
-- For each draft, you will see one of two approve buttons:
+Go to the **Approval Queue** tab. This is your primary workspace.
 
-  - **"Approve DM"** (for Prospects without email/phone): This approves the DM copy for manual sending. It does NOT push to GHL. Copy the message, go to Instagram or Facebook, and send it manually. Then mark it as "Sent" in the dashboard.
-  - **"Approve & Push to GHL"** (for leads with email/phone): This approves the message AND creates the contact in GoHighLevel.
+For each draft, the system will show one of two approve buttons:
 
-- Other options remain the same:
-  - **Edit:** Tweak the draft, then Approve.
-  - **Hold:** Park it for later.
-  - **Reject:** Kill this touch.
+| Button | When it appears | What it does |
+|--------|----------------|--------------|
+| **Approve DM** | Lead has no email/phone (Prospect) | Marks copy ready. No GHL push. You send manually via IG/FB. |
+| **Approve & Push to GHL** | Lead has email or phone | Approves message AND creates GHL contact. |
 
-- **Your goal:** Get the queue to zero every day.
+Other actions:
+- **Edit** -- Tweak the draft, then Approve.
+- **Hold** -- Park it. Come back later.
+- **Reject** -- Kill this touch entirely.
 
-### Step 2.5: Promote Warm Prospects (Ongoing)
+**Your goal: Queue to zero every day.**
 
-- When a Prospect responds to a DM and shares their email or phone number:
-  1. Go to the lead's card in the **All Leads** tab.
-  2. Click the **"Promote to GHL"** button.
-  3. Enter their email and/or phone number.
-  4. Click **Confirm**. The system will create their contact in GHL and move them to Stage 2 (Qualified Lead).
+### Step 2.5: Promote Warm Prospects (Ongoing Throughout Day)
 
-- This is a critical step. It's how leads graduate from "DM conversations" to "real sales pipeline."
+This is the most important action in the system. When a Prospect responds to a DM and gives you their email or phone:
+
+1. Go to the **All Leads** tab.
+2. Find their card.
+3. Click **"Promote to GHL"**.
+4. Enter their email and/or phone number.
+5. Click **Confirm**.
+
+The system will create their contact in GHL, open an opportunity, and move them to Stage 2. Do this immediately -- don't let warm leads sit as Prospects.
 
 ### Step 3: Enroll New Leads into Sequences (10:00 AM)
 
-- Go to the **All Leads** tab.
-- Filter for leads with `Status = New` and `Score >= 3`.
-- For each new lead:
-  1. Expand the lead card, review the enrichment intel.
-  2. Scroll down to the **Sequences** panel.
-  3. Click "Enroll in Sequence" and choose the best one:
-     - **"New Operator 14-Day"** for Score 3-4 leads.
-     - **"Score 5 Personal"** for Score 5 leads (this queues a call for Gregory).
-     - **Event-specific sequences** (like "F1 Miami") for leads in that market.
-- Once enrolled, Saul will automatically draft the first touch and it will land in your Approval Queue.
+Go to the **All Leads** tab. Filter for `Status = New` and `Score >= 3`.
 
-### Step 4: Handle Warm Responses (as they come in)
+For each new lead:
+1. Expand the card and review the enrichment intel.
+2. Go to the **Sequences** tab and click "Enroll."
+3. Pick the right sequence:
+   - **"New Operator 14-Day"** -- Score 3-4 leads.
+   - **"Score 5 Personal"** -- Score 5 leads (queues a call for Gregory directly).
+   - **Event sequences** -- e.g., "F1 Miami" for Miami leads during F1 week.
 
-- When a lead replies, Saul will classify the response and escalate it to you in Slack.
-- Go to the lead's card in the dashboard.
-- Review the conversation history.
-- Your job is to **book the demo.**
-- Use the provided Calendly link: `https://calendly.com/hello-exotiq`
-- Once booked, move the lead to the "Demo Scheduled" stage in GHL (or flag for Saul to do it).
+Once enrolled, Saul drafts the first touch and drops it in your Approval Queue automatically.
 
-### Step 5: Manual Outreach (IG and Facebook DMs)
+### Step 4: Book the Demo (When Leads Respond)
 
-- Some touches in the Approval Queue will be for IG or FB Messenger.
-- Since Saul can't send these automatically, your workflow is:
-  1. Click Approve on the draft in the queue.
-  2. The dashboard will show you the approved copy.
-  3. Copy the message.
-  4. Go to Instagram or Facebook and send it manually.
-  5. Mark the touch as "Sent" in the dashboard.
+Your job is to **book the 15-minute demo**. That's it. After 2-3 messages, stop going back and forth. Push for the call.
 
-- This is critical. If you don't mark it as sent, the sequence will stall.
+Use Calendly: `https://calendly.com/hello-exotiq`
+
+Once booked, flag it for Saul or move the lead to "Demo Scheduled" in GHL.
+
+---
+
+## FAQ
+
+**Q: Why is the "Approve DM" button showing instead of "Approve & Push to GHL"?**
+A: This lead doesn't have an email or phone number yet. They are a Prospect (Stage 1). You can still approve and send the DM -- just do it manually via Instagram or Facebook. Use the "Promote to GHL" button once they respond and share contact info.
+
+**Q: A lead responded on IG. What do I do?**
+A: Great. Get their email or phone in the DM conversation, then click "Promote to GHL" on their card in the dashboard. That moves them into the sales pipeline.
+
+**Q: What happens in GHL after I promote a lead?**
+A: A new contact and opportunity are created in our "Exotiq Operator Sales" pipeline. Score 3-4 leads land in the "DM Drafted" stage. Score 5 leads go directly to "Gregory -- Personal Outreach." The closing team can see them immediately.
+
+**Q: I see a Score 5 lead. What do I do?**
+A: Do not work Score 5 leads. Flag them for Gregory. They get personal outreach from the founder only. Your job is Score 3-4.
+
+**Q: The Approval Queue is empty. What now?**
+A: Check the Sequences tab for leads with upcoming touches. Enroll any new Score 3-4 leads from the All Leads tab. Check for stale leads (orange warning badges) and follow up.
+
+**Q: Can I edit a DM draft before approving it?**
+A: Yes. Click "Edit", make your changes, then Approve. Keep it under 150 words. Do not add pricing. Do not mention Drive Exotiq.
 
 ---
 
 ## What Not to Do
 
-- **Don't go rogue.** Stick to the approved templates and sequences. The messaging is tested.
-- **Don't try to push a Prospect to GHL without contact info.** Use the "Promote" button only when you have their email or phone.
-- **Don't forget to mark manual DMs as sent.** This is the #1 failure point.
-- **Don't engage in long back-and-forth conversations.** Your job is to book the demo. After 2-3 messages, push for the call.
-- **Don't skip the Promote step.** When a Prospect gives you their contact info, promote them immediately. If they stay as a Prospect, the closing team can't see them in GHL.
+- **Don't go rogue.** Stick to approved templates. The messaging is tested and Gregory-approved.
+- **Don't try to push a Prospect to GHL without contact info.** The system requires an email or phone. Collect it in the DM first.
+- **Don't forget to mark manual DMs as sent.** If you don't, the sequence will stall and the lead will never get a follow-up.
+- **Don't let warm responses sit.** If someone replies, Promote them and notify Gregory same day.
+- **Don't engage in long back-and-forth.** 2-3 messages max. Your job is to book the demo, not build a friendship.
+- **Never mention pricing.** Not in DMs, not in emails, not anywhere. Gregory handles pricing conversations.
+- **Never mention Drive Exotiq.**
 
 ---
 
 ## How Saul Helps You
 
-- **He researches.** You get leads with phone numbers, emails, fleet sizes, and IG handles already filled in.
-- **He scores.** You know who to prioritize (Score 5s go to Gregory, Score 3-4s are your bread and butter).
-- **He drafts.** You're not writing cold outreach from scratch. You're a reviewer and editor.
-- **He orchestrates.** He queues up the right touch on the right day for every lead.
-- **He classifies.** He reads replies and tells you who's warm so you can jump on it.
+- **He researches.** You get leads with fleet sizes, IG handles, and owner names already filled in.
+- **He scores.** You know who to prioritize (Score 5s go to Gregory only).
+- **He drafts.** You review and approve. You don't write from scratch.
+- **He orchestrates.** He queues the right touch on the right day automatically.
+- **He classifies replies.** He reads incoming messages and escalates warm responses to you in Slack.
 
-Your job is the human touch: personalizing the last 10% of a draft, making the final decision to send, and booking the demo when a lead raises their hand.
+Your job is the human touch: personalizing the last 10%, making the final send decision, and booking the demo when a lead raises their hand.
 
 ---
-## Open Questions for the SDR
 
-- How much personalization do you want to do per message? 1 minute, 5 minutes?
-- What's your comfort level with different channels (email, SMS, IG, FB)?
-- How do you want to be notified of warm replies (Slack, email, SMS)?
+## Quick Reference Cheat Sheet
 
-This doc plus 30 minutes with Gregory and the dashboard is the full onboarding.
+| Situation | Action |
+|-----------|--------|
+| New lead, IG only, no contact info | Enroll in sequence, Approve DM touches manually |
+| New lead has email/phone | Enroll in sequence, Approve & Push to GHL |
+| Lead responded to DM | Get contact info, click Promote to GHL, notify Gregory |
+| Score 5 lead | Flag for Gregory. Do not work this yourself. |
+| Queue is full | Clear it. Queue to zero is the daily mission. |
+| Lead went cold after 3+ touches | Mark stale, flag for review |
+| Lead says "not interested" | Reject remaining touches, update status |
+
+---
+
+*This doc plus 30 minutes with Gregory and the dashboard is the full onboarding.*
